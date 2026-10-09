@@ -129,6 +129,6 @@ Write a function in `mirror/providers.py` that takes `(system, message, model_cf
 
 ## Licence
 
-The data and documentation (`scenarios/`, `studies/`, `pilot/`, this README and `PREREGISTRATION.md`) are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt them for any purpose, with attribution. See `LICENSE-DATA` for the scope and full text. The code in `mirror/` is not covered by that licence.
+The data and documentation (`scenarios/`, `studies/`, `pilot/`, this README and `PREREGISTRATION.md`) are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt them for any purpose, with attribution. See `LICENSE-DATA` for the scope and full text. The code (`mirror/` and the `config*.toml` files) is licensed under the [MIT License](LICENSE).
 
 Suggested citation: Eythorsson, D. (2026). *Mirror audit: AI assistants' advice on a sex-discrimination question* [Data set]. https://github.com/DarriEy/mirror
