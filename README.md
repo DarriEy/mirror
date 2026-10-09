@@ -126,3 +126,9 @@ Report app results separately from the API results.
 ## Adding a provider
 
 Write a function in `mirror/providers.py` that takes `(system, message, model_cfg, max_tokens)` and returns `{"text", "model_reported", "raw"}`. Then add it to `ADAPTERS`.
+
+## Licence
+
+The data and documentation (`scenarios/`, `studies/`, `pilot/`, this README and `PREREGISTRATION.md`) are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt them for any purpose, with attribution. See `LICENSE-DATA` for the scope and full text. The code in `mirror/` is not covered by that licence.
+
+Suggested citation: Eythorsson, D. (2026). *Mirror audit: AI assistants' advice on a sex-discrimination question* [Data set]. https://github.com/DarriEy/mirror
