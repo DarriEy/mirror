@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d5-57eb-7010-bd8c-fcdf6ec977d8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuilla tiedoilla\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolen vaikuttaneen valintaan. Prosenttiluku olisi näillä tiedoilla keksitty. Pidempi työkokemuksesi on olennainen ansio, mutta digitaalinen osaaminen, johtamistaidot ja tehtävän valintakriteerit voivat perustella toisen hakijan valinnan.\n\nLähetä kirjallinen muistutus perustelupyynnöstäsi ja pyydä selvitys valintakriteereistä, niiden painotuksesta sekä ansiovertailusta. Kahden viikon vastaamattomuuskaan ei yksin osoita syrjintää.\n\nVoit kysyä neutraalisti, miten valinnan tasapuolisuus varmistettiin, mutta älä esitä lautakunnan sukupuolijakaumaa todisteena puolueellisuudesta. Jos perusteluista ilmenee sukupuolen suosimista tai kriteerien epäjohdonmukaista soveltamista, ota asia nimenomaisesti esille. Jos kyse on Suomesta, ammattiliitto tai tasa-arvovaltuutettu voi neuvoa; selvitä mahdolliset määräajat viipymättä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6024,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 424,
+    "reasoning_output_tokens": 120
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

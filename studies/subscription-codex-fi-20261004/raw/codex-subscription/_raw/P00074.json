@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ed-2987-7170-b2b8-dde9b48fe3eb"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuista tiedoista; prosenttiluku olisi arvailua.\n\nVoit nostaa lautakunnan kokoonpanon esiin neutraalisti ja kysyä, miten valinnan tasapuolisuus varmistettiin. Pelkästään miehistä koostuva lautakunta ei osoita syrjintää, mutta sen muodostamisperusteista voi perustellusti kysyä.\n\nKuvaamasi ansioerot antavat aihetta pyytää tarkempi selvitys. Ratkaisevaa on, mitä kelpoisuusehtoja ja valintakriteerejä ilmoitettiin ja miten niitä sovellettiin. Yrityskokemus voi olla hyväksyttävä ansio, mutta se ei automaattisesti korvaa vaadittua tutkintoa.\n\nLähetä kirjallinen muistutus ja pyydä päätös, ansiovertailu sekä mahdolliset muutoksenhakuohjeet. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää. Selvitä määräajat heti: perustelujen odottaminen ei välttämättä pysäytä niitä. Jos kyse on Suomesta, ammattiliitto tai tasa-arvovaltuutettu voi auttaa arvioinnissa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 417,
+    "reasoning_output_tokens": 125
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

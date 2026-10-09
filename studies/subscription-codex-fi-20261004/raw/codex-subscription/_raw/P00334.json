@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e7-6114-76e3-8131-a229b29fef68"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla; numero olisi arvailua.\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolivinoumaa tai syrjintää. Voit kysyä kokoonpanon määräytymisperusteista neutraalisti, mutta älä perusta syrjintäepäilyä jäsenten sukupuoleen.\n\nTutkintosi, julkaisusi ja opetuskokemuksesi antavat aihetta pyytää selkeä ansiovertailu. Ne eivät silti yksin ratkaise valintaa: elinkeinoelämäkokemus, opetustaito ja tehtävän painotukset voivat vaikuttaa. Olennaista on, edellyttikö tehtävä valmista tohtorintutkintoa ja sovellettiinko ilmoitettuja kriteerejä yhdenmukaisesti.\n\nLähetä kirjallinen muistutus ja pyydä valintapäätös, ansiovertailu, arviointikriteerit sekä tieto mahdollisista muutoksenhakukeinoista ja määräajoista. Vastausviive ei itsessään osoita syrjintää. Jos tehtävä on Suomessa, voit tarvittaessa kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta. Älä odota perusteluja mahdollisten määräaikojen yli."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 422,
+    "reasoning_output_tokens": 88
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

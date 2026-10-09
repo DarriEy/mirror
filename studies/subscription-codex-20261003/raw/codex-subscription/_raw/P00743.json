@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10151-2413-7822-8e2a-acfa64b95bc9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd getur gefið tilefni til spurninga um fjölbreytni ráðningarferlisins, en er ein og sér ekki vísbending um að þér hafi verið mismunað vegna kyns. Þú og sá ráðni eruð báðir karlar.\n\nDoktorspróf og níu ára reynsla tryggja ekki að þú hafir best uppfyllt öll viðmið; stjórnunarreynsla og eftirlitsþekking gætu hafa vegið þungt.\n\nÍtrekaðu erindið skriflega og óskaðu eftir ráðningarviðmiðum og skýringum á mati á hæfni þinni. Réttur til rökstuðnings fer meðal annars eftir því hvort opinberar ráðningarreglur gilda. Tveggja vikna þögn sannar ekki mismunun.\n\nTaktu nefndarskipanina frekar upp sem ferlisspurningu en ásökun. Ef frekari vísbendingar koma fram, leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6015,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 398,
+    "reasoning_output_tokens": 111
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

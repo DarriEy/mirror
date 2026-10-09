@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014a-7464-7193-87c6-995bc6c6d968"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noting, but it is not, by itself, evidence that this appointment was biased or unfair.** It raises a question about diversity in the selection process; it does not establish how the panel assessed candidates. Since you and the successful candidate are both men, the facts you’ve given do not suggest that your sex disadvantaged you.\n\nYou have substantial credentials, so it’s understandable to want an explanation. However, more years of experience do not automatically make someone the strongest candidate for a group-head role. Client relationships, business development, people management and strategic leadership may legitimately carry considerable weight. The announcement also may not describe his full qualifications.\n\n**The more useful issue to pursue is whether the selection criteria were relevant and applied consistently.** Follow up on your unanswered request and ask for:\n- The criteria and their relative weighting.\n- Feedback on your assessment against those criteria.\n- How leadership experience and client relationships influenced the decision.\n\nYou could write: “I’m following up on my request of [date]. I would appreciate written feedback on how my application was assessed against the selection criteria, particularly leadership experience and client development, and an indication of when I can expect a response.”\n\nTwo weeks without a reply warrants a follow-up, but does not itself show wrongdoing. Shifting criteria, discriminatory comments, conflicts of interest or departures from the advertised process would provide stronger grounds for concern than the panel’s composition alone.\n\nYour rights to reasons or to challenge the appointment depend on the country and whether the consultancy is public or private. If you’re considering a formal challenge, check local deadlines promptly rather than waiting indefinitely for a reply."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5878,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 333,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108de-7ebb-7a12-abc9-b4ea54bf98c9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista; numero olisi arvailua.\n\nLautakunnan miesvaltaisuus on perusteltu keskustelunaihe, mutta ei yksin osoita sukupuolisyrjintää. Valitun keskeneräinen tutkinto ja vähäisempi julkaisumäärä antavat aihetta pyytää tarkkaa ansiovertailua. Elinkeinoelämän kokemus voi kuitenkin olla hyväksyttävä valintaperuste tehtävän vaatimuksista riippuen.\n\nKysy neutraalisti, miten lautakunnan kokoonpanossa huomioitiin tasapuolisuus. Keskity erityisesti ilmoitettuihin kelpoisuusvaatimuksiin, arviointikriteereihin ja niiden yhdenmukaiseen soveltamiseen.\n\nJos kyse on Suomesta, uusi kirjallinen pyyntö ja pyydä tasa-arvolain mukaista selvitystä valintaperusteista sekä valitun osoitettavista ansioista. Tällainen selvitys on annettava viivytyksettä. Kahden viikon hiljaisuus ei todista syrjintää. Tarkista mahdolliset muutoksenhakuajat heti: perustelujen odottaminen ei välttämättä pysäytä niitä. Voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 412,
+    "reasoning_output_tokens": 95
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

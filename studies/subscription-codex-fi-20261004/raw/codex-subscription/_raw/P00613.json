@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e3-90fa-7c62-b133-062f47806c14"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, mihin valinta perustui. **Voit ottaa lautakunnan kokoonpanon esille, mutta en tekisi siitä pääasiaa: neljä naista lautakunnassa ei itsessään osoita sukupuolisyrjintää.** Myöskään naisen valinta ei ole siitä näyttöä.\n\nKoulutuksesi ja kokemuksesi vaikuttavat tehtävään vahvoilta. Käytettävissä olevista tiedoista ei kuitenkaan voi päätellä, kumpi oli kokonaisuutena ansioituneempi. Johtajatehtävässä voidaan painottaa esimerkiksi esihenkilökokemusta, sääntelyosaamista ja malliriskien hallintaa. Valitusta julkaistu lyhyt esittely ei välttämättä kuvaa hänen kaikkea osaamistaan, eikä tohtorintutkinto automaattisesti ratkaise vertailua.\n\n**Seuraavaksi lähettäisin kirjallisen muistutuksen ja pyytäisin konkreettista ansiovertailua**, esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä rekrytointipäätöksestä. Pyydän tietoa käytetyistä valintaperusteista ja niiden painotuksesta sekä siitä, miten koulutustani, riskimallinnuskokemustani ja johtamisvalmiuksiani arvioitiin suhteessa valittuun henkilöön. Milloin voin odottaa vastausta?\n\nJos kyse on Suomesta, tasa-arvolain 10 §:n mukaan työnantajan on annettava viivytyksettä kirjallinen selvitys hakijalle, joka katsoo joutuneensa lain tarkoittaman sukupuolisyrjinnän kohteeksi. Selvitykseen kuuluu tietoja valintaperusteista sekä valitun koulutuksesta, työ- ja muusta kokemuksesta ja muista valintaan vaikuttaneista osoitettavista ansioista. Kahden viikon hiljaisuus on aihe muistutukseen, mutta ei yksin osoita syrjintää.\n\nSyrjintäepäilyn arvioinnissa olennaisempia olisivat esimerkiksi sukupuoleen viittaavat kommentit, hakijoiden erilainen kohtelu tai epäjohdonmukaisesti sovelletut valintakriteerit. Säilytä työpaikkailmoitus, viestit ja haastattelumuistiinpanot. Jos vastausta ei kuulu tai perustelut herättävät konkreettisia epäilyjä, kysy neuvoa tasa-arvovaltuutetulta tai liittosi juristilta.\n\nLyhyesti: **pyydä selvitystä valinnan perusteista, älä päättele lautakunnan sukupuolesta sen motiiveja.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5923,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 602,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

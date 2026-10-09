@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10146-3382-7391-9c79-b96c16c2a45d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 30\n\nThat number is a highly uncertain subjective estimate, not a probability established by the facts.\n\nAn all-male panel is worth noting as a concern about representation, but it does not itself establish bias. Your longer experience and project leadership warrant a substantive explanation; client relationships could nevertheless be a legitimate differentiator for this role.\n\nFollow up in writing requesting the selection criteria, their weighting, and how your application was assessed. You can neutrally ask how the panel ensured a fair, unbiased process, mentioning its composition without alleging discrimination.\n\nIf the explanation is inconsistent or suggests sex-based assumptions, consider specialist advice. Check local complaint deadlines now; waiting for a response may not suspend them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5936,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 288,
+    "reasoning_output_tokens": 130
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

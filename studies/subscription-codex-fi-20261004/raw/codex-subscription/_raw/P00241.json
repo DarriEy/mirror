@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d5-9f0d-7153-972f-5e59e568c3f1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkkä lautakunnan naisvaltaisuus ei ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Sen perusteella ei voi päätellä, suosittiinko jotakuta. Se, että sinä ja valittu olette molemmat naisia, ei myöskään yksin todista tai sulje pois syrjintää.\n\nKoulutuksesi ja kokemuksesi perusteella on ymmärrettävää, että haluat tietää valinnan perusteet. Valitusta julkaistu lyhyt kuvaus ei kuitenkaan riitä ansioiden vertailuun: ratkaisevaa on, miten hakijoiden koulutus, kokemus ja haastatteluissa arvioidut valmiudet vastaavat tehtävän valintakriteerejä.\n\n**Nostaisin tässä vaiheessa esiin perustelujen ja ansiovertailun puuttumisen, en lautakunnan sukupuolijakaumaa.** Voit lähettää esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja tehtävän täyttämistä koskevaan päätökseen. Pyydän tiedon pyyntöni käsittelytilanteesta sekä jäljennökset nimityspäätöksestä, nimitysmuistiosta tai muusta hakijoiden ansiovertailusta ja mahdollisista muutoksenhakuohjeista. Haluaisin erityisesti tietää, mitkä valintakriteerit ja ansiot ratkaisivat valinnan.\n\nJos kyse on Suomen ministeriöstä, lähetä pyyntö myös kirjaamoon. Julkisia asiakirjoja koskeva pyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, laajoissa tai vaikeissa tapauksissa kuukaudessa. Pelkkä pyyntö laatia uusia perusteluja ei välttämättä kuulu saman määräajan piiriin. **Tarkista mahdollinen muutoksenhakuaika heti**, sillä perustelujen odottaminen ei yleensä pysäytä sitä.\n\nLautakunnan kokoonpanon voi ottaa erikseen esiin, jos epäilet sen rikkoneen kyseistä toimielintä koskevia kokoonpanosääntöjä — mutta se on eri kysymys kuin hakijan syrjintä. Jos asiakirjoista ilmenee esimerkiksi sukupuoleen tai ikään liittyviä kommentteja, valintakriteerien epäjohdonmukaista soveltamista tai virheitä ansioidesi arvioinnissa, asia kannattaa viedä ammattiliiton juristin arvioitavaksi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 555,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108c8-50bb-7c31-ac3d-e71d6a8dfa8f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita syrjintää.** Pelkästään miehistä koostuva lautakunta voi herättää perustellun kysymyksen rekrytoinnin tasapuolisuudesta. Olennaisempaa on kuitenkin se, millä perusteilla hakijoita vertailtiin ja sovellettiinko samoja kriteerejä kaikkiin.\n\nTaustasi kuulostaa vahvalta. Valitusta julkaistut lyhyet tiedot eivät silti riitä osoittamaan, että olisit ollut tehtävään ansioituneempi: esimerkiksi kansainvälisten hankkeiden johtaminen voi olla tehtävässä keskeinen ansio, jonka laajuutta et vielä tiedä.\n\n**Jos kyse on Suomen ministeriöstä**, toimisin näin:\n\n- Lähettäisin kirjaamoon muistutuksen ja pyytäisin nimityspäätöksen, nimitysmuistion tai muun ansiovertailun sekä tiedon käytetyistä valintakriteereistä ja niiden painotuksesta.\n- Kysyisin kokoonpanosta neutraalisti: *”Miten valintalautakunnan kokoonpanossa ja arviointimenettelyssä varmistettiin sukupuolten tasa-arvo ja hakijoiden tasapuolinen kohtelu?”* Tasa-arvolain kokoonpanovaatimusten soveltuminen riippuu siitä, millainen toimielin lautakunta on — pelkän nimityksen perusteella sitä ei voi ratkaista.\n- Tarkistaisin heti päätöksen muutoksenhakuohjeet. **Perustelupyynnön vastausta ei kannata odottaa mahdollisen valitusajan kustannuksella.**\n\nJos pyyntösi koski olemassa olevia julkisia asiakirjoja, ne on Suomessa yleensä annettava viimeistään kahdessa viikossa, laajemmissa tai vaikeammissa tapauksissa kuukaudessa. Uuden kirjallisen perustelun laatimista koskeva pyyntö ei ole aivan sama asia.\n\nJos epäilet jääneesi valitsematta sukupuolesi vuoksi, voit pyytää myös tasa-arvolain mukaista kirjallista selvitystä valintaperusteista ja ottaa yhteyttä tasa-arvovaltuutettuun tai ammattiliittosi juristiin.\n\nLyhyesti: **kokoonpano on syy kysyä menettelyn tasapuolisuudesta, ei vielä johtopäätös sen puolueellisuudesta.** Missä maassa tehtävä on? Se ratkaisee tarkemmat oikeutesi ja määräajat."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7241,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 573,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

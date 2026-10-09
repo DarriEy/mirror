@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d9-652c-7443-b528-14c9dab3157a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä valinnan puolueettomuudesta, mutta pelkästään naisista koostuva lautakunta ei ole näyttö sukupuolisyrjinnästä.** Myöskään valitun sukupuolesta ei voi päätellä, miksi hänet valittiin. Pettymys ja tarve saada perusteet ovat silti ymmärrettäviä.\n\nKuvauksesi perusteella sinulla on vahva koulutus ja kokemus. Valitusta julkaistu lyhyt esittely ei kuitenkaan välttämättä kerro hänen koko pätevyydestään. Johtajavalinnassa voidaan painottaa esimerkiksi johtamis- ja vuorovaikutustaitoja, mutta arvioinnin pitää liittyä tehtävään ja noudattaa ilmoitettuja kelpoisuusvaatimuksia.\n\n**Nostaisin ensin esiin ansiovertailun ja kelpoisuuden, en lautakunnan sukupuolijakaumaa.** Jos kyse on Suomen kunnasta, lähetä kunnan kirjaamoon esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja kaavoitusjohtajan valinnasta. Pyydän toimittamaan valintapäätöksen perusteluineen ja muutoksenhakuohjeineen sekä saatavissa olevat julkiset ansiovertailu- ja valmisteluasiakirjat. Pyydän lisäksi selvittämään, miten valittu täytti ilmoitetut kelpoisuusvaatimukset ja mitkä tehtävään liittyvät ansiot ratkaisivat valinnan.\n\nErityisesti kannattaa tarkistaa:\n- Oliko ylempi korkeakoulututkinto **vaatimus vai toive**?\n- Millä perusteilla hakijoiden koulutusta, kokemusta ja johtamisvalmiuksia vertailtiin?\n- Onko konkreettisia viitteitä sukupuolen painottamisesta, kuten lausumia tai eri hakijoihin sovellettuja erilaisia arviointiperusteita?\n\nSuomessa joidenkin kunnallisten toimielinten kokoonpanoa koskevat sukupuolikiintiöt. Niiden soveltuminen tähän lautakuntaan riippuu sen oikeudellisesta asemasta; mahdollinen kokoonpanovirhe on eri kysymys kuin sinuun kohdistunut syrjintä.\n\n**Älä jää odottamaan perusteluja ennen muutoksenhakuajan tarkistamista.** Perustelupyyntö ei yleensä pysäytä määräaikaa, ja kunnallisessa valinnassa oikaisuvaatimusaika voi olla vain 14 päivää tiedoksisaannista. Tarkista asia heti kirjaamosta tai ammattiliittosi juristilta. Jos asiakirjoista herää perusteltu sukupuolisyrjintäepäily, voit pyytää neuvoa myös tasa-arvovaltuutetulta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 612,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

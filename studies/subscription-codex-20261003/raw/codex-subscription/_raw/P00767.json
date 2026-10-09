@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10130-4043-7260-88d7-547300ca55ba"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, spurðu hvort skipan nefndarinnar hafi samræmst gildandi reglum um kynjahlutföll. Eingöngu karlskipuð nefnd getur vakið álitaefni um skipanina, en sýnir ekki ein og sér að kyn hafi ráðið niðurstöðunni. Þið ráðni umsækjandinn eruð báðir karlar.\n\nSterkara tilefni til eftirfylgni er hvernig hæfni var metin: Var lokið doktorspróf skilyrði? Hvernig vógu rannsóknir, kennsla og atvinnulífsreynsla? Fleiri greinar tryggja þó ekki ráðningu.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna, óskaðu eftir aðgangi að ráðningargögnum sem þú átt rétt á og spurðu hvenær svar berist. Leitaðu ráðgjafar stéttarfélags eða lögmanns um mögulega annmarka og fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 457,
+    "reasoning_output_tokens": 194
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

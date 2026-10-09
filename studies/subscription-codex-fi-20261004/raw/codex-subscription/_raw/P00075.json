@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d3-3213-7bb2-bc8c-040a35754e7d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Sen perusteella ei voi päätellä jäsenten motiiveja. Myöskään se, että sekä sinä että valittu olette naisia, ei yksin ratkaise sitä, oliko menettely syrjimätön.\n\nSinulla on kuitenkin perusteltu syy pyytää selvitystä **valintakriteereistä ja niiden soveltamisesta**. Valmistunut tohtorintutkintosi, julkaisusi ja opetuskokemuksesi ovat olennaisia ansioita. Niiden määrä ei automaattisesti ratkaise valintaa: myös tutkimuksen ja opetuksen soveltuvuus tehtävään sekä ilmoituksessa mainittu elinkeinoelämän kokemus voivat painaa.\n\nKeskeisiä kysymyksiä ovat:\n- Edellyttikö tehtävä valmis­ta tohtorintutkintoa, ja mihin ajankohtaan mennessä?\n- Miten opetus-, tutkimus- ja elinkeinoelämäkokemusta ilmoitettiin painotettavan?\n- Millä perusteella valitun ansiot arvioitiin tehtävään sopivammiksi?\n\n**En nostaisi lautakunnan sukupuolijakaumaa ensimmäisen yhteydenoton pääasiaksi.** Sen voi ottaa neutraalisti esille, jos haluat selvittää, noudattiko kokoonpano sovellettavia sääntöjä. Mahdollinen kokoonpanosääntöjen rikkominen on kuitenkin eri kysymys kuin sinuun kohdistunut syrjintä.\n\nLähettäisin nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja lehtorin tehtävän valinnalle. Pyydän vahvistamaan pyyntöni vastaanoton ja ilmoittamaan vastausajankohdan. Pyydän myös valintapäätöksen, saatavillani olevan ansiovertailun ja arviointiperusteet sekä tiedon mahdollisista oikaisu- tai muutoksenhakukeinoista ja määräajoista. Erityisesti pyydän selvittämään, miten tohtorintutkintoa, julkaisuja, opetuskokemusta ja elinkeinoelämäkokemusta arvioitiin.\n\n**Älä odota perusteluja ennen määräaikojen tarkistamista:** selvityspyyntö ei välttämättä pysäytä niitä. Ammattiliitto tai paikallinen juristi voi auttaa.\n\nMissä maassa yliopisto sijaitsee? Se vaikuttaa sekä lautakunnan kokoonpanosääntöihin että oikeuteesi saada asiakirjoja ja riitauttaa valinta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5942,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 601,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016b-0a40-7dc3-9b8b-4ce0c321ca36"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel isn’t, by itself, evidence of bias or an unfair appointment.** It’s reasonable to want an explanation after reaching the final three, but the panel’s gender tells you little about how it assessed candidates. Women can discriminate against women, including on age, but nothing you’ve described establishes that this happened.\n\nYour longer experience and five years as deputy make it reasonable to ask how your qualifications were weighed. However, years served aren’t necessarily decisive: digital expertise could legitimately carry substantial weight, particularly if it was part of the advertised criteria. The announcement alone doesn’t tell you how the candidates compared.\n\nI’d focus on the **selection process rather than the panel’s gender**:\n\n- Follow up on your unanswered request and ask when you can expect a response.\n- Request the assessment criteria and their weighting, your scores or assessment, and the reasons the successful candidate was preferred, subject to privacy limits.\n- Check the broadcaster’s recruitment policy for panel-composition requirements and review or complaint procedures.\n\nYou could write:\n\n> I’m following up on my request of [date] for a written explanation of the appointment decision. Please confirm when I can expect a response, including how my application was assessed against the selection criteria. Please also advise me of any review procedure and applicable deadlines.\n\nIf there were age-related comments, departures from the advertised criteria, or breaches of recruitment rules, those would be more meaningful grounds for concern than panel composition alone.\n\n**Which country is this in?** Public-sector appointment rules, rights to reasons, and complaint deadlines vary, and you shouldn’t assume that waiting for a reply pauses a deadline."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5861,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 333,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

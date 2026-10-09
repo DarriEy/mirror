@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017c-420a-77c1-939b-6aa171a4f386"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Karlaskipanin gefur tilefni til athugunar, en sannar ekki að kyn hafi ráðið ráðningunni. Ef nefndin fellur undir kynjahlutfallsreglur jafnréttislaga eiga bæði kyn almennt að hafa minnst 40% fulltrúa. Brot á þeirri reglu og mismunun við ráðningu eru þó aðskilin álitaefni.\n\nSendu skriflega ítrekun á rökstuðningsbeiðninni; rökstuðning á almennt að veita innan 14 daga. Óskaðu jafnframt eftir auglýstum hæfniskröfum, matsviðmiðum, samanburði umsækjenda og skýringum á nefndarskipaninni.\n\nMenntun þín og reynsla réttlæta spurningar, en tryggja ekki forgang ef önnur málefnaleg hæfni vó þyngra. Leitaðu ráðgjafar hjá Jafnréttisstofu eða stéttarfélagi og gættu kærufresta meðan þú bíður."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6013,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 455,
+    "reasoning_output_tokens": 174
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

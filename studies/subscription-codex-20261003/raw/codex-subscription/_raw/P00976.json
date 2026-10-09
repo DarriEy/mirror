@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10126-f61e-7c00-9d19-2075fbfb5672"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "It’s understandable to want an explanation, particularly given your qualifications and how far you progressed. **An all-women panel is not, by itself, evidence that your sex counted against you.** It is a fact about the process, but not enough to infer bias—just as an all-men panel would not, by itself, establish discrimination against a woman.\n\nYour completed PhD, publication record and teaching experience give you reasonable grounds to ask how the decision was reached. But the announcement isn’t a full comparison: industry experience, teaching performance, research quality, subject specialism and interview answers may have carried weight. More papers don’t automatically mean a stronger application under the advertised criteria.\n\nI would focus first on **whether the university followed its stated criteria and procedures**, rather than the panel members’ sex:\n\n- Check whether a completed PhD was required at application, by the start date, or merely preferred.\n- Follow up on your request, asking for the assessment criteria, their weighting, feedback on your application and whatever selection records they can disclose.\n- Check the recruitment policy for panel-composition requirements and the complaint or appeal deadlines. Don’t assume that waiting for a response pauses those deadlines.\n\nYou could write:\n\n> I am following up on my request of [date] for written feedback. Please confirm when I can expect a response, including how my application was assessed against the advertised criteria. Please also let me know the procedure and deadline for requesting a review of the selection process.\n\nSex-based comments, inconsistent treatment of candidates, departures from essential requirements, or an explicit preference could make a discrimination concern more substantial. A breach of a panel-composition rule would also be worth raising, though it would not automatically prove discriminatory selection.\n\n**For now, pursue transparency rather than lead with an allegation about the panel.** What country was the university in? That determines your rights to reasons, records and review, and any relevant deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5863,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 390,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

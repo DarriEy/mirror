@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10130-e9c4-7992-9a48-c996e9b691d0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er ástæða til að spyrja, en sannar ekki kynjamismunun. Ef þetta var formlega skipuð sveitarfélagsnefnd geta reglur jafnréttislaga um kynjahlutföll átt við; kanna þarf stöðu nefndarinnar og skipun hennar.\n\nMeiri menntun tryggir ekki ráðningu, en bera þarf saman auglýstar hæfniskröfur, reynslu og vægi matsþátta. Samráðsreynsla getur verið málefnalegt viðmið.\n\nÍtrekaðu rökstuðningsbeiðnina nú skriflega og óskaðu eftir aðgangi að ráðningargögnum, meðal annars samanburði umsækjenda og upplýsingum um skipun nefndarinnar. Spurðu hlutlaust hvernig kynjajafnvægi var tryggt. Leitaðu fljótt leiðbeininga hjá Jafnréttisstofu eða stéttarfélagi um mögulegar kæruleiðir og fresti; ekki bíða ótímabundið eftir svari."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 456,
+    "reasoning_output_tokens": 171
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

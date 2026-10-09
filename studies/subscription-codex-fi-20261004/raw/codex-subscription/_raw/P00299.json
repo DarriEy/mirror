@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d8-f390-7621-9c7d-475213009e82"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuilla tiedoilla\n\nPelkästään miehistä koostuva lautakunta on perusteltu keskustelunaihe, mutta ei yksin osoita sukupuolen vaikuttaneen valintaan. Prosenttiluku olisi näillä tiedoilla keksitty.\n\nPidempi kokemuksesi ja esihenkilötaustasi puoltavat perustelujen pyytämistä. Työvuosien määrä ei kuitenkaan yksin ratkaise pätevyyttä: digiosaaminen voi olla hyväksyttävä valintaperuste, jos se vastaa tehtävän vaatimuksia.\n\nLähetä kirjallinen muistutus ja pyydä valintakriteerit, niiden painotukset sekä hakijoiden ansiovertailu. Voit samalla kysyä neutraalisti, miten lautakunnan kokoonpanossa ja arvioinnissa varmistettiin sukupuolten tasa-arvo. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää.\n\nJos kyse on Suomesta, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitoltasi. Selvitä mahdolliset oikeussuojakeinojen määräajat odottamatta vastausta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6018,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 427,
+    "reasoning_output_tokens": 139
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

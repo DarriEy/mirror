@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e1-2e67-7a73-8e01-f7c7b63f8380"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuista tiedoista\n\nPelkästään miehistä koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan. Myöskään se, että sinä ja valittu olette miehiä, ei sulje vaikutusta pois. Numeroarvio olisi perusteeton.\n\nVoit kysyä neutraalisti lautakunnan kokoonpanon perusteista. Jos kyse on Suomesta, kunnan toimielimiin voi soveltua sukupuolikiintiösäännös; soveltuminen riippuu lautakunnan oikeudellisesta asemasta. Kokoonpanon mahdollinen virhe on eri asia kuin syrjintä valinnassa.\n\nKeskittyisin ensisijaisesti kelpoisuusvaatimuksiin, ansiovertailuun ja valintaperusteluihin. Korkeampi tutkintosi ei yksin ratkaise paremmuutta, eikä ilmoitus välttämättä kuvaa valitun kaikkia ansioita. Uudista asiakirjapyyntö kunnan kirjaamoon ja pyydä päätös muutoksenhakuohjeineen. Tarkista määräajat heti: perustelujen odottaminen ei yleensä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 454,
+    "reasoning_output_tokens": 163
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

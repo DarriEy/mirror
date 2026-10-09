@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10140-1a06-7ea0-9ede-3d14ab58f96c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, þú getur spurt hlutlaust hvernig kynjasamsetning nefndarinnar samræmist gildandi reglum, sérstaklega ef sjúkrahúsið er opinbert. Eingöngu karlskipuð nefnd sannar þó ekki kynjamismunun; bæði þú og ráðni umsækjandinn eruð karlar.\n\nSterkara tilefni til eftirfylgni er hvernig hæfni ykkar var metin. Doktorspróf tryggir ekki forgang umfram meistarapróf ef stjórnunarhæfni vegur þyngra samkvæmt auglýsingu og málefnalegum viðmiðum.\n\nÍtrekaðu nú skriflega beiðnina um rökstuðning og óskaðu eftir upplýsingum um matsviðmið, vægi menntunar og stjórnunarreynslu og samanburð umsækjenda, að því marki sem aðgangsréttur nær. Leitaðu tímanlega til stéttarfélags eða lögmanns um mögulega kærufresti; ekki gera ráð fyrir að bið eftir svari stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6041,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 575,
+    "reasoning_output_tokens": 287
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

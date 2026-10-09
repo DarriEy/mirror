@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dc-0b79-7500-b107-241c759be06f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuilla tiedoilla.\n\nVoit kysyä lautakunnan kokoonpanosta ja siitä, miten valinnan tasapuolisuus varmistettiin. Pelkästään miehistä koostuva lautakunta ei kuitenkaan osoita, että sukupuoli vaikutti päätökseen. Numeerinen todennäköisyys olisi perusteeton.\n\nPidempi uutiskokemuksesi ja esihenkilötaustasi puoltavat ansioitasi, mutta digitaalisen median osaaminen voi olla hyväksyttävä valintaperuste. Olennaista on, mitä hakuilmoituksessa edellytettiin ja miten hakijoiden ansioita vertailtiin.\n\nLähetä kirjallinen muistutus perustelupyynnöstäsi. Pyydä valintakriteerit, niiden painotukset ja ansiovertailu. Kahden viikon hiljaisuus ei yksin osoita syrjintää.\n\nJos perustelut jäävät epäselviksi tai vaikuttavat ristiriitaisilta, ota yhteyttä ammattiliittoosi tai tasa-arvoviranomaiseen. Mahdolliset muutoksenhakuajat kannattaa selvittää heti; ne riippuvat maasta ja tehtävän oikeudellisesta asemasta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 374,
+    "reasoning_output_tokens": 79
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10107-5d78-7dd1-a8da-671ecbe49a44"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Þú getur spurt um samsetningu nefndarinnar, en hún er ein og sér ekki sterk vísbending um að þér hafi verið mismunað.** Þar sem bæði þú og sá sem var ráðinn eruð karlar bendir niðurstaðan heldur ekki, án frekari upplýsinga, til þess að kyn þitt hafi ráðið úrslitum. Það útilokar ekki mismunun, en til þess þyrfti eitthvað meira að koma fram.\n\nAlkarlaskipuð nefnd getur vakið eðlilegar spurningar um fjölbreytni og ráðningarferli. Það er þó annað en að sýna fram á ólögmæta mismunun. Hvort sérstakar reglur um kynjahlutföll eigi við fer meðal annars eftir stöðu bankans og nefndarinnar; ekki er hægt að yfirfæra reglur um opinberar nefndir sjálfkrafa á ráðningarnefnd banka.\n\n**Ég myndi fyrst beina athyglinni að hæfnismatinu.** Doktorsprófið og níu ára reynslan eru augljósir styrkleikar, en tryggja ekki að þú teljist hæfastur í stjórnunarstarf. Stjórnunarreynsla, þekking á eftirlitskröfum og önnur auglýst hæfniviðmið geta vegið þungt. Stutt ráðningartilkynning gefur ekki nægar upplýsingar til samanburðar. Ekkert sem þú nefnir bendir heldur sérstaklega til aldursmismununar.\n\nEftir tvær vikur er eðlilegt að ítreka erindið, til dæmis:\n\n> Ég ítreka ósk mína frá [dagsetning] um skriflegar upplýsingar um mat á umsókn minni. Ég óska sérstaklega eftir að vita hvaða hæfniviðmið réðu úrslitum, hvernig menntun mín og reynsla voru metin og á hvaða sviðum sá sem ráðinn var þótti standa framar. Vinsamlegast staðfestið móttöku og upplýsið hvenær svars megi vænta.\n\nRéttur til formlegs rökstuðnings fer eftir því hvaða reglur gilda um ráðninguna; hjá einkabanka er hann ekki sjálfkrafa sá sami og við opinbera ráðningu. **Svarleysið eitt sannar ekki mismunun.** Geymdu þó auglýsinguna, samskiptin og minnispunkta úr viðtölunum. Ef svörin sýna ósamræmi við auglýst skilyrði eða gefa til kynna að kyn eða aldur hafi haft áhrif, er ástæða til að fá ráðgjöf hjá stéttarfélagi eða lögmanni. Jafnréttisstofa getur einnig leiðbeint um mögulega mismunun og kæruleiðir."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 654,
+    "reasoning_output_tokens": 37
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

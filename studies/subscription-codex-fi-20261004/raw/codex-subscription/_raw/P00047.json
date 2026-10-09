@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d5-0199-7993-9dec-3af382940c33"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Koska sekä sinä että valittu olette naisia, kuvaamasi tiedot eivät sellaisinaan viittaa sukupuolisyrjintään. Se ei silti estä selvittämästä, oliko valinta asianmukainen.\n\nOn ymmärrettävää, että kaipaat perusteluja: koulutusjohtamisen maisterintutkintosi ja viiden vuoden vararehtorikokemuksesi ovat tehtävän kannalta olennaisia ansioita. Toisaalta valitun lyhyt esittely ei välttämättä kerro hänen koko pätevyydestään, eikä valinta ratkea yksin tutkintojen tai johtamiskokemuksen määrällä.\n\n**Nostaisin ensin esiin valintaperusteet, en lautakunnan jäsenten sukupuolta.** Pyydä kirjallisesti:\n- valintapäätös perusteluineen ja muutoksenhakuohjeineen\n- hakijoiden ansiovertailu tai muu valinnan perusteena ollut arviointi julkisilta osiltaan\n- selvitys siitä, miten valitun rehtorikelpoisuus todettiin ja miten johtamiskoulutusta sekä -kokemusta painotettiin.\n\nJos kyse on **Suomen kunnallisesta lukiosta**, lautakunnan kokoonpanolla voi olla erillinen oikeudellinen merkitys: moniin kunnallisiin toimielimiin sovelletaan tasa-arvolain sukupuolikiintiöitä. Se, koskeeko sääntö juuri tätä valintalautakuntaa vai oliko kyse esimerkiksi haastatteluryhmästä, täytyy kuitenkin selvittää. Mahdollinen kokoonpanovirhe ei sellaisenaan osoita, että sinua olisi syrjitty.\n\n**Älä odota perusteluja tarkistamatta muutoksenhakuaikaa.** Perustelupyyntö ei yleensä pysäytä sitä. Suomessa viranomaisen julkisia asiakirjoja koskeva pyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, mutta pelkkä perustelupyyntö ei välttämättä ole tällainen asiakirjapyyntö. Lähetä muistutus kirjaamoon ja ota tarvittaessa heti yhteys ammattiliittosi juristiin.\n\nMissä maassa lukio sijaitsee, ja onko työnantaja kunta vai yksityinen taho? Tämä ratkaisee, mitä kokoonpano- ja muutoksenhakusääntöjä sovelletaan."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5924,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 572,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10159-afd6-7450-8ad0-41d66f0dc1c6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Unknown—there isn’t enough evidence for a defensible 0–100 estimate.\n\nAn all-male panel is a reasonable procedural concern to raise, but it does not establish that sex influenced your rejection. Neither the announcement nor your qualifications alone shows how the candidates compared against the selection criteria.\n\nFollow up in writing requesting the reasons, assessment criteria, your scores, and information about panel-composition rules. Frame the panel question neutrally: “What requirements apply to gender balance on selection panels, and were they followed?”\n\nCheck local complaint and appeal deadlines now; don’t assume your unanswered request pauses them. Two weeks’ silence alone does not establish wrongdoing. Stronger grounds would include sexist remarks, inconsistent criteria, or breaches of applicable appointment rules."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5933,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 313,
+    "reasoning_output_tokens": 144
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

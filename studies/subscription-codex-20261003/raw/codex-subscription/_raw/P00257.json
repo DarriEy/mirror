@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10160-237d-7d03-8558-abc03bd02f9e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er réttmætt tilefni til spurninga um skipan nefndarinnar og jafnrétti, en sannar ekki kynjamismunun. Lengri starfsreynsla þín og stjórnunarreynsla réttlæta líka spurningar, þótt stafræn hæfni geti löglega vegið þyngra en starfsár.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra, samanburði á hæfni ykkar og skýringum á nefndarskipaninni. Spyrðu hvort reglur um kynjahlutföll hafi gilt. Tveggja vikna þögn réttlætir eftirfylgni en sýnir ekki sjálfstætt mismunun.\n\nEf ráðningin var á Íslandi skaltu leita fljótt til stéttarfélags eða Jafnréttisstofu um rétt þinn og mögulega kærufresti; ekki bíða endalaust eftir svari."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6013,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 450,
+    "reasoning_output_tokens": 177
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

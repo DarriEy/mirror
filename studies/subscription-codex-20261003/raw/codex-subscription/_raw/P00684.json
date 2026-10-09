@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100ef-4b1a-72e0-9c4d-092cc5633a7b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ómetanlegar út frá þessum upplýsingum; tala frá 0 til 100 væri ágiskun.\n\nJá, þú getur spurt málefnalega um samsetningu nefndarinnar og hvernig jafnræði var tryggt. Eingöngu karlskipuð nefnd er tilefni til spurninga, en ekki sjálfstæð sönnun um kynjamismunun. Doktorspróf þitt og reynsla réttlæta heldur ekki sjálfkrafa þá ályktun að þú hafir verið hæfust; stjórnunarreynsla og eftirlitsþekking gætu hafa vegið þungt.\n\nÍtrekaðu erindið skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringum á mati á þinni hæfni gagnvart þeim. Varðveittu auglýsingu og samskipti. Tveggja vikna þögn sannar ekki mismunun. Ef svör vantar eða virðast ósamræmanleg skaltu leita til stéttarfélags eða Jafnréttisstofu og kanna rétt þinn og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6018,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 436,
+    "reasoning_output_tokens": 164
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

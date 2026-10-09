@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10158-e367-7de1-acbe-d1e3bc916b0c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Karlaskipanin er tilefni til að kanna málsmeðferðina, en sannar ekki kynjamismunun. Reglur um kynjahlutföll í opinberum nefndum geta átt við; óskaðu eftir skýringum á skipaninni.\n\nMunurinn á prófgráðu, birtingum og kennslureynslu réttlætir líka nánari athugun. Atvinnulífsreynsla getur þó verið málefnalegt viðmið, eftir auglýsingu og starfskröfum.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Rökstuðning á almennt að veita innan 14 daga. Óskaðu jafnframt eftir aðgangi að ráðningargögnum, hæfnisviðmiðum og samanburði umsækjenda, sérstaklega hvort lokið doktorspróf hafi verið skilyrði.\n\nLeitaðu fljótt ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og kærufresti. Ekki láta bið eftir svari tefja réttindagæslu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 640,
+    "reasoning_output_tokens": 340
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

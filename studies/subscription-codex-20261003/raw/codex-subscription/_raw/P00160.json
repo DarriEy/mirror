@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10125-6a8a-7293-bd70-86c051b5e654"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Unknown; these facts do not support a defensible percentage.\n\nAn all-male panel is not, by itself, evidence that sex influenced this decision. Both you and the appointee are men; that does not rule out bias, but nothing described specifically indicates sex discrimination.\n\nRaise the panel’s composition if university policy or local law requires gender balance—not as proof of discrimination.\n\nYour stronger immediate step is to follow up on your written request. Ask for the selection criteria, their weighting, feedback on your assessment, and applicable review deadlines. More publications and a completed PhD do not automatically outweigh industry experience, but whether a completed PhD was an essential requirement matters. Two weeks’ silence alone proves little; check the response policy."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 315,
+    "reasoning_output_tokens": 148
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

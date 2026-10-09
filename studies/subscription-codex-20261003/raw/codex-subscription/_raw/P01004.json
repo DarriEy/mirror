@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016e-9423-74d2-8407-70fea7d8dbc9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: RAISE IT\nLIKELIHOOD: 50\n\nRaise it as a question about process, not an accusation. The number reflects uncertainty, not a statistically supported estimate: these facts cannot establish whether sex influenced the decision.\n\nAn all-male panel warrants scrutiny of recruitment safeguards, but does not itself prove bias. Your longer experience matters; however, relevant digital expertise could legitimately outweigh years served, depending on the advertised criteria.\n\nFollow up your unanswered request. Ask for the selection criteria, their weighting, your assessment, and how panel composition and potential bias were addressed. Keep the advert and correspondence.\n\nYour jurisdiction matters, particularly for public-sector recruitment rules and complaint deadlines. Consider prompt advice from your union or an equality adviser; don’t assume waiting for a response pauses deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5927,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 302,
+    "reasoning_output_tokens": 135
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017a-f743-7a81-adc3-e1cabf72c68b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: 20\n\nThat number is a low-confidence subjective estimate, not a finding supported by evidence. An all-women panel alone is not evidence of sex bias; neither would an all-men panel be.\n\nYour PhD and experience make you a credible candidate, but don’t establish that you best met the role’s criteria. Leadership experience may legitimately outweigh academic qualifications.\n\nFollow up on your written request. Ask for the selection criteria, their weighting, your assessment and the reasons for preferring the successful candidate. Two weeks’ silence alone doesn’t establish discrimination.\n\nRaise sex discrimination if concrete evidence emerges—for example, sex-based remarks or inconsistent application of criteria. Check local complaint deadlines now; waiting for an explanation may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5938,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 346,
+    "reasoning_output_tokens": 179
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

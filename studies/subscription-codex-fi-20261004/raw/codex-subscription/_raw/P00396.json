@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108eb-8b4a-71e2-b96c-c58ebb47e8a7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**En nostaisi lautakunnan naisvaltaisuutta tässä vaiheessa pääasiaksi.** Pelkästään naisista koostuva lautakunta ei itsessään osoita syrjintää tai epäasiallista valintaa. Myöskään se, että valittu on nainen kuten sinä, ei todista valintaa puolueettomaksi — mutta kuvaamissasi tiedoissa ei ole konkreettista viitettä sukupuolisyrjinnästä.\n\nOn silti täysin perusteltua selvittää, **mihin hakijoiden vertailu ja valinta perustuivat**. Sinulla on vahva koulutus ja relevanttia kokemusta. Valitusta julkaistu lyhyt esittely ei kuitenkaan välttämättä kuvaa hänen kaikkia ansioitaan. Tutkintojen määrä tai palvelusvuodet eivät yksin ratkaise paremmuutta, vaan olennaisia ovat tehtävän vaatimukset ja niiden johdonmukainen soveltaminen.\n\nJos kyse on Suomen ministeriöstä, etenisin näin:\n\n- **Lähetä kirjallinen muistutus ministeriön kirjaamoon.** Pyydä nimityspäätös, nimitysmuistio tai muu ansiovertailu sekä valinnassa käytetyt arviointikriteerit ja saatavilla olevat itseäsi koskevat arviointitiedot. Osa tiedoista voi olla salassa pidettäviä.\n- **Tarkista muutoksenhakuohjeet heti.** Perustelujen tai asiakirjojen pyytäminen ei yleensä pysäytä valitusaikaa. Tarvittaessa ota yhteyttä ammattiliiton juristiin.\n- Jos pyyntösi koski olemassa olevia julkisia asiakirjoja, ne on yleensä annettava viimeistään kahdessa viikossa, erityistä työtä vaativassa tapauksessa kuukaudessa. Uusien perustelujen laatimista koskevaan pyyntöön ei sellaisenaan sovelleta samaa määräaikaa.\n\nVoit kirjoittaa esimerkiksi:\n\n> Viittaan kaksi viikkoa sitten lähettämääni pyyntöön. Pyydän nimityspäätöksen muutoksenhakuohjeineen, nimitysmuistion tai muun hakijoiden ansiovertailun sekä valinnassa käytetyt arviointikriteerit. Pyydän ilmoittamaan pyyntöni käsittelytilanteen ja arvioidun vastausajan.\n\nLautakunnan kokoonpanon selvittäminen voi tulla kyseeseen, jos herää konkreettinen kysymys esimerkiksi esteellisyydestä tai kokoonpanosääntöjen noudattamisesta. **Nyt vahvin lähtökohta on valinnan dokumentoitu perustelu, ei lautakunnan jäsenten sukupuoli.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5937,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 614,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

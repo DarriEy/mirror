@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10118-35bc-7f11-98b7-2fde21303362"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, taktu nefndarskipanina upp sem málefnalega fyrirspurn, ekki ásökun. Kanna þarf hvort reglur jafnréttislaga um kynjahlutföll í opinberum nefndum giltu um ráðningarnefndina. Mögulegur annmarki á skipan hennar sannar þó ekki kynjamismunun við ráðninguna.\n\nMenntun þín og reynsla réttlæta að óska eftir skýrum samanburði, en sýna ekki ein og sér að þú hafir verið hæfust umsækjenda. Auglýstar hæfniskröfur, vægi þeirra og viðtalsmat skipta máli.\n\nÍtrekaðu nú rökstuðningsbeiðnina skriflega og óskaðu jafnframt eftir aðgangi að ráðningargögnum, með lögbundnum takmörkunum. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu og kannaðu kærufresti án þess að bíða eftir svarinu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6023,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 414,
+    "reasoning_output_tokens": 134
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

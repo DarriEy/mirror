@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017c-c6ef-76b3-9abe-3d931863d01a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá upplýsingunum.\n\nKarlaskipuð nefnd sannar ekki kynjamismunun og gefur ein og sér ekki traustan grundvöll til að álykta að kyn hafi ráðið niðurstöðunni. Þú og ráðni umsækjandinn eruð báðir karlar.\n\nSamsetningin getur þó verið sjálfstætt álitaefni: spurðu hvort nefndin falli undir reglur jafnréttislaga um kynjahlutföll opinberra nefnda og hvernig þeim hafi verið fylgt.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Samkvæmt stjórnsýslulögum á almennt að svara henni innan 14 daga frá móttöku. Óskaðu sérstaklega eftir ráðningarviðmiðum, vægi þeirra og mati á hæfni þinni gagnvart þeim ráðna. Prófgráður og starfsaldur ein og sér ráða ekki úrslitum. Beindu athyglinni fyrst að samanburði hæfni og málsmeðferð."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6034,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 435,
+    "reasoning_output_tokens": 171
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

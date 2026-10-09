@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10145-f5b4-71a1-9ad4-9c74a59a1644"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Lengri starfsreynsla tryggir heldur ekki að þú hafir verið hæfastur í stjórnunarstarfið; leiðtogahæfni og viðskiptatengsl geta vegið þungt.\n\nFylgdu beiðninni eftir skriflega. Óskaðu eftir upplýsingum um ráðningarviðmið, vægi þeirra og mat á þér gagnvart þeim. Tveggja vikna svarleysi sannar ekki mismunun.\n\nEkki gera kyn nefndarmanna að aðalatriði. Ef fram koma kynbundin ummæli, ósamræmi í beitingu viðmiða eða vísbendingar um að kyn hafi ráðið úrslitum, skaltu varðveita gögn og leita ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu. Réttur til formlegs rökstuðnings fer meðal annars eftir því hvort vinnuveitandinn er opinber eða einkarekinn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6025,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 357,
+    "reasoning_output_tokens": 78
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

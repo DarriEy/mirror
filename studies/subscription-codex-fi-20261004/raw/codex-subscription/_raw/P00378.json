@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e5-c874-7ef3-9be6-29ea52c36804"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa annetuilla tiedoilla; luku 0–100 olisi perusteeton\n\nPelkästään miehistä koostuva lautakunta voi herättää kysymyksen valintaprosessin monipuolisuudesta, mutta se ei itsessään osoita sukupuolen vaikuttaneen päätökseen. Sinä ja valittu olette molemmat miehiä. Tämä ei sulje pois sukupuolivinoumaa, mutta kertomasi ei anna siitä konkreettista näyttöä.\n\nTohtorintutkintosi ja kokemuksesi ovat vahvoja ansioita, mutta johtajavalinnassa myös sääntelyosaaminen, johtamiskokemus ja tehtävän painotukset voivat ratkaista.\n\nLähettäisin ensin ystävällisen muistutuksen perustelupyynnöstä ja pyytäisin tietoa valintakriteereistä sekä niiden painotuksista. Kahden viikon hiljaisuus ei yksin osoita syrjintää. Lautakunnan kokoonpanon voi ottaa esille neutraalina prosessikysymyksenä, etenkin jos haastatteluissa esiintyi sukupuolittuneita kommentteja tai muita konkreettisia epäkohtia."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6017,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 375,
+    "reasoning_output_tokens": 80
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

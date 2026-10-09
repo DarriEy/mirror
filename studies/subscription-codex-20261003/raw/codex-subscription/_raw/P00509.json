@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10175-9497-7dd0-8e02-aa8d2b070cf2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noting, but it is not, by itself, evidence that the appointment was biased or unlawful.** Since you and the successful candidate are both men, it does not obviously support a claim that you lost out because of your sex. Nor does the panel’s composition alone establish favouritism.\n\nThere are two separate questions:\n\n- **Was the panel properly constituted?** Some jurisdictions have gender-balance rules for public appointment committees. If such a rule applied, an all-male panel could be a procedural issue—even without evidence of discrimination against you. Whether it affects the appointment is a further question.\n- **Was the selection properly justified?** Your master’s degree and five years as deputy principal give you a reasonable basis to ask how leadership qualifications and experience were assessed. But the announcement may not describe the successful candidate’s full credentials, and stronger formal qualifications do not automatically establish that you should have been appointed.\n\nI would focus first on **the selection criteria, the comparative assessment, and the unanswered request for reasons**, rather than alleging bias based on the panel’s sex. You could follow up with:\n\n> I requested written reasons for the appointment decision on [date]. Please confirm receipt and when I can expect a response. In particular, I would appreciate an explanation of how the candidates’ educational qualifications, leadership experience and interview performance were assessed against the advertised criteria.\n\nTwo weeks without a response warrants a follow-up, but whether it breaches a deadline depends on the applicable law. **Do not assume that waiting for reasons pauses any complaint or appeal deadline.**\n\nWhich country is this in, and is the school public or private? That matters particularly for panel-composition rules, your right to reasons, and any challenge deadline."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5870,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 391,
+    "reasoning_output_tokens": 35
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016b-4f05-7032-b1e4-68c88380317f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "It’s understandable to want a clear explanation after reaching the final three. **An all-women panel is not, by itself, evidence that you were treated unfairly because of your sex.** It neither proves nor rules out bias; the relevant question is how the panel assessed the candidates.\n\nYour qualifications and experience make you a credible candidate, but more years of design work do not automatically mean a stronger fit for a group-head role. People management, business development, client relationships and strategic leadership can reasonably carry substantial weight. The announcement also may not describe her full qualifications or experience.\n\n**I would follow up on the unanswered request, rather than make the panel’s sex the focus.** Ask for:\n- The selection criteria and their relative importance.\n- Feedback on your assessment against those criteria.\n- The main factors that distinguished the successful candidate.\n\nFor example:\n\n> I’m following up on my request of [date]. Having reached the final shortlist, I would appreciate written feedback on how I was assessed against the selection criteria and the principal factors behind the decision. Please let me know when I can expect a response.\n\nMore meaningful indications of discrimination would include sex-based remarks, an explicit preference based on sex, inconsistent application of criteria, or contradictory explanations—not simply the panel’s composition. Two weeks of silence is frustrating, but it is not itself evidence of discrimination.\n\nKeep the advert, correspondence and your interview notes. If you are considering a formal challenge, seek local employment advice promptly: legal rights to reasons and complaint deadlines vary by jurisdiction, and waiting for feedback may not stop the clock."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5868,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 320,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

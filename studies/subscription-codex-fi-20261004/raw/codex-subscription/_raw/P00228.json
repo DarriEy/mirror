@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f7-0286-7e32-96d9-c2cf65285ee4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Kyllä, voit ottaa lautakunnan kokoonpanon esille — mutta kysymyksenä menettelyn tasapuolisuudesta, ei yksin todisteena syrjinnästä.** On ymmärrettävää, että asia herättää kysymyksiä, varsinkin kun et ole saanut pyytämiäsi perusteluja.\n\nPelkästään miehistä koostuva lautakunta voi antaa aiheen selvittää, miten tasapuolisuus varmistettiin. Se ei kuitenkaan yksin osoita, että sukupuolesi vaikutti valintaan. Myöskään valitun lyhyt koulutus- ja kokemusesittely ei riitä ansioiden vertailuun: ratkaisevaa on, miten kummankin ansiot vastaavat tehtävän ennalta ilmoitettuja vaatimuksia.\n\n**Pyytäisin nyt kirjallisesti sekä valinnan perusteet että selvityksen lautakunnan kokoonpanosta.** Esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja valintapäätökseen. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan, milloin saan vastauksen. Pyydän myös nimityspäätöksen, nimitysmuistion tai muun ansiovertailun sekä tiedot käytetyistä valintakriteereistä ja niiden painotuksesta siltä osin kuin asiakirjat ovat julkisia.  \n>   \n> Huomasin lisäksi, että valintalautakunnan kaikki neljä jäsentä olivat miehiä. Millä perusteilla lautakunta muodostettiin, ja miten rekrytoinnin sukupuolten tasa-arvo ja arvioinnin tasapuolisuus varmistettiin?\n\nJos kyse on **Suomen ministeriöstä**, huomioi lisäksi:\n\n- Tasa-arvolain perusteella työnantajalta voi pyytää kirjallisen selvityksen valintaperusteista ja valitun ansioista, jos epäilee sukupuolisyrjintää. Selvitys on annettava viivytyksettä.\n- Valtion komiteoihin, neuvottelukuntiin ja muihin vastaaviin toimielimiin sovelletaan yleensä sukupuolikiintiöitä. Niiden soveltuminen juuri tähän rekrytointilautakuntaan riippuu sen asemasta; pelkän nimityksen perusteella sitä ei voi ratkaista.\n- **Tarkista päätöksen muutoksenhakuohjeet heti.** Perustelupyynnön vastausta ei kannata odottaa määräaikojen kustannuksella. Apua saat esimerkiksi ammattiliiton juristilta tai tasa-arvovaltuutetulta.\n\nKeskeinen kysymys on siis kokoonpanon lisäksi se, **vertailtiinko hakijoita samoilla, tehtävään liittyvillä perusteilla**. Sinun ei tarvitse osoittaa syrjintää voidaksesi pyytää tästä selvitystä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5937,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 638,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

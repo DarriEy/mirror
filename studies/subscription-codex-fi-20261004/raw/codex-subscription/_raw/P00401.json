@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108db-d721-7620-bdcb-16508c19396c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nPelkästään miehistä koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan. Koska sekä sinä että valittu olette miehiä, kuvauksessa ei ole selvää näyttöä sukupuoleen perustuvasta erottelusta. Numeroprosentti olisi perusteeton.\n\nVoit kysyä lautakunnan kokoonpanoperiaatteista, mutta keskittyisin ensin valintakriteereihin ja ansiovertailuun. Valmis tohtorintutkinto, julkaisumäärä ja opetuskokemus ovat olennaisia, mutta myös julkaisujen laatu, tehtävän painotukset ja elinkeinoelämäkokemus voivat ratkaista. Jos valmis tohtorintutkinto oli ehdoton kelpoisuusvaatimus, sen täyttyminen kannattaa selvittää.\n\nLähetä perustelupyynnöstä muistutus ja pyydä päätös, ansiovertailu sekä mahdolliset muutoksenhakuohjeet. Selvitä määräajat heti: perustelujen odottaminen ei välttämättä pidennä niitä. Kokoonpanon lainmukaisuus riippuu maasta ja sovellettavista säännöistä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 422,
+    "reasoning_output_tokens": 117
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

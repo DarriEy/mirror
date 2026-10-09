@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10136-52bb-74d3-9c2b-fdfcc624d6de"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, þú getur spurt hlutlægt hvernig kynjasamsetning nefndarinnar samræmdist jafnréttislögum. Reglur um kynjahlutföll í opinberum nefndum kunna að eiga við; það þarf að kanna stöðu nefndarinnar og hugsanlegar undanþágur.\n\nSamsetningin ein sýnir þó ekki að kyn hafi ráðið ráðningunni. Þú og ráðni umsækjandinn eruð báðir karlar; ekkert hér bendir sérstaklega til kynjamismununar gagnvart þér.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Almennt á að svara innan 14 daga eða tilkynna töf og áætlaðan svartíma. Óskaðu eftir skýringu á hæfniviðmiðum, vægi þeirra og samanburði við ráðinn umsækjanda. Prófin þín og starfsreynslan réttlæta slíkar spurningar en tryggja ekki að þú hafir verið hæfastur."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6032,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 487,
+    "reasoning_output_tokens": 215
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

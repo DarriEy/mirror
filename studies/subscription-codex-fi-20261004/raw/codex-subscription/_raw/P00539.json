@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d2-912e-7d31-bc36-92033deb9ed2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuista tiedoista; lukuarvo olisi perusteeton.\n\nPelkästään naisista koostuva lautakunta ei itsessään ole näyttöä sukupuolisyrjinnästä. Tohtorintutkintosi ja johtamiskokemuksesi ovat merkittäviä ansioita, mutta ne eivät yksin osoita, että olit tehtävän valintaperusteiden mukaan ansioitunein. Valitun kokemuksesta tiedetään liian vähän.\n\nLähetä kirjallinen muistutus ja pyydä valintaperusteet, ansiovertailu sekä selvitys siitä, miten koulutusta ja johtamiskokemusta painotettiin. Kahden viikon vastaamattomuus ei yksin osoita syrjintää.\n\nOta mahdollinen sukupuolen vaikutus esille, jos ilmenee esimerkiksi sukupuoleen viittaavia kommentteja tai valintaperusteiden epäjohdonmukaista soveltamista. Kohdista kysymys menettelyyn, älä lautakunnan jäsenten sukupuoleen. Jos kyse on Suomesta, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitoltasi. Tarkista mahdolliset muutoksenhakuajat heti; perustelupyynnön ei pidä olettaa pysäyttävän niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6018,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 447,
+    "reasoning_output_tokens": 123
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

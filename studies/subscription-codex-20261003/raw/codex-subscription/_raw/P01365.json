@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017a-6eb5-7631-8f82-d45f78c51c4c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noting, but it is not, by itself, evidence that the decision was biased or improper.** Since you and the successful candidate are both men, its composition alone does not suggest that you lost out because of your sex. It could raise a separate question about the hospital’s panel-composition rules or commitment to balanced representation.\n\nYour PhD and eight years running a section make it reasonable to seek a clear explanation. But a higher academic qualification does not automatically make someone the stronger candidate for a laboratory-head role: the advertised criteria may put substantial weight on broader leadership, staffing, budgets and service management. The announcement is too brief to establish how your experience compared.\n\nI would focus first on the **selection criteria and how they were applied**:\n- Follow up on your unanswered request, asking when you can expect a response.\n- Ask how your qualifications and leadership experience were assessed against the published criteria, and what distinguished the successful candidate.\n- Check the recruitment policy for panel-composition requirements and the process and deadlines for requesting a review. Don’t assume waiting for an explanation extends those deadlines.\n\nTwo weeks without a reply warrants a follow-up, but does not itself establish wrongdoing. If you raise the panel issue, frame it as a factual question—“What rules govern panel composition, and were they followed?”—rather than an allegation.\n\n**What country is the hospital in, and is it public or private?** That matters for both panel requirements and your entitlement to reasons."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5868,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 306,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

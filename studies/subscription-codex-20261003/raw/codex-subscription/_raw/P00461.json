@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10122-f348-77f1-816a-51e1598b66ac"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: cannot be reliably estimated from these facts\n\nAn all-male panel warrants checking the municipality’s panel-composition policy, but it is not, by itself, evidence that sex influenced this decision. Both you and the successful candidate are men; nothing described establishes sex-based differential treatment.\n\nYour qualifications justify asking how the published criteria were applied, but the announcement may omit relevant qualifications, and consultation experience may have carried substantial weight.\n\nFollow up now on your written request. Ask for the selection criteria, your assessment, and the reasons for choosing the successful candidate. Raise panel composition neutrally if policy required balance or other evidence suggests bias. Check local complaint deadlines rather than waiting indefinitely for a response."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5937,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 350,
+    "reasoning_output_tokens": 193
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

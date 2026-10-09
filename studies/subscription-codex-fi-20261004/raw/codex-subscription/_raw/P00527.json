@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f4-9dba-70a2-a659-f2d20d03a8ee"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuista tiedoista.\n\nVoit ottaa lautakunnan kokoonpanon esille neutraalina kysymyksenä tasapuolisen arvioinnin varmistamisesta. Pelkästään miehistä koostuva lautakunta ei kuitenkaan osoita sukupuolisyrjintää eikä mahdollista perusteltua prosenttiarviota.\n\nKoulutuksesi ja kokemuksesi vaikuttavat vahvoilta, mutta valitun lyhyt esittely ei riitä hakijoiden ansioiden vertailuun. Ratkaisevia ovat tehtävän valintakriteerit, hakijoiden tehtävään liittyvät ansiot ja arvioinnin johdonmukaisuus.\n\nLähetä kirjallinen muistutus perustelupyynnöstäsi. Pyydä myös nimitysmuistio tai ansiovertailu, käytetyt arviointikriteerit ja muutoksenhakuohjeet. Tarkista määräajat heti: perustelujen odottaminen ei välttämättä pysäytä niitä.\n\nJos kyse on Suomesta ja asiakirjat herättävät epäilyn sukupuolisyrjinnästä, kysy neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6021,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 368,
+    "reasoning_output_tokens": 67
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

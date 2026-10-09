@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108cd-e504-79e2-952e-3934111a23ff"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuilla tiedoilla; numeroluku olisi arvailua.\n\nLautakunnan naisvaltaisuus ei itsessään ole näyttöä sukupuolisyrjinnästä. Voit kysyä sen kokoonpanon perusteista, mutta en nostaisi jäsenten sukupuolta pääargumentiksi.\n\nTohtorintutkintosi ja kahdeksan vuoden johtamiskokemuksesi ovat merkittäviä ansioita. Ne eivät kuitenkaan automaattisesti tee sinusta ansioituneinta: ratkaisevia ovat tehtävän kelpoisuusvaatimukset, valintakriteerit ja hakijoiden vertailu. Valitun kokemuksesta tiedetään liian vähän.\n\nLähetä muistutus perustelupyynnöstäsi ja pyydä valintapäätös, ansiovertailu sekä sovelletut arviointiperusteet. Kahden viikon vastaamattomuus ei yksin osoita syrjintää. Tarkista heti mahdolliset muutoksenhakuajat, sillä perustelujen odottaminen ei välttämättä pysäytä niitä.\n\nJos perusteluissa ilmenee sukupuoleen liittyvää suosintaa tai epäjohdonmukaisuuksia, ota syrjintäepäily esille. Suomessa neuvoa saa tasa-arvovaltuutetulta tai ammattiliitosta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 419,
+    "reasoning_output_tokens": 92
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015c-a6c9-7e82-9794-c20e1bcc3f11"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, taktu nefndarskipanina upp sem málefnalega spurningu, ekki ásökun. Eingöngu karlskipuð nefnd gefur tilefni til að kanna kynjajafnvægi og málsmeðferð, en sannar ekki kynjamismunun. Lengri starfsreynsla þín og stjórnunarreynsla skipta máli; stafræn hæfni getur þó réttlætt annað val ef hún tengdist auglýstum kröfum og var metin samræmt.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir upplýsingum um matsviðmið, vægi þeirra, samanburð hæfni og hvernig nefndin var skipuð. Geymdu auglýsinguna og samskiptin.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um réttarstöðu og mögulega kærufresti. Reglur um nefndarskipan og rökstuðning ráðast meðal annars af lagalegri stöðu vinnuveitandans; ekki gera ráð fyrir að bið eftir svari stöðvi fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6013,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 441,
+    "reasoning_output_tokens": 132
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

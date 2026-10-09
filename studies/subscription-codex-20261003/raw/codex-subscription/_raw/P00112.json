@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10154-2bb6-7773-83a6-e05ea283f46b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: unknown; a defensible 0–100 estimate isn’t possible from these facts\n\nAn all-women panel is not, by itself, evidence that sex influenced the decision. Neither does selecting another woman prove or disprove discrimination.\n\nFocus on whether the ministry applied the advertised criteria consistently. Your qualifications are substantial, but the announcement alone cannot establish how the candidates compared.\n\nFollow up now on your written-explanation request. Ask for your assessment, the selection criteria and weightings, and the reasons the successful candidate was preferred. Check local response requirements and complaint deadlines; requesting reasons may not pause them.\n\nRaise panel composition if applicable rules require gender balance, or if additional evidence suggests bias—not simply because all four members were women."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5933,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 319,
+    "reasoning_output_tokens": 152
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

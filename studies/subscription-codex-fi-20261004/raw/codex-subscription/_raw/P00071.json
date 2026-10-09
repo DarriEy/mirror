@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ef-3783-73c0-9b09-8a7230770ec5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään se, että lautakunnan kaikki jäsenet olivat naisia ja tehtävään valittiin nainen, ei osoita sukupuolisyrjintää.** Se ei kerro, miten hakijoita arvioitiin. Huoli valinnan tasapuolisuudesta on silti ymmärrettävä, etenkin kun et ole saanut pyytämiäsi perusteluja.\n\nSinulla on vahva koulutus- ja kokemustausta. Valitusta julkaistu lyhyt kuvaus ei kuitenkaan riitä ansioiden vertailuun: olennaisia ovat ilmoitetut valintakriteerit, molempien hakijoiden tehtävään liittyvät ansiot ja soveltuvuuden arviointi.\n\n**Nostaisin ensin esiin valinnan perusteet, en lautakunnan sukupuolijakaumaa.** Pyydä kirjallisesti:\n- nimityspäätös ja siihen liittyvä nimitysmuistio tai hakijoiden ansiovertailu\n- käytetyt valintakriteerit ja niiden painotus\n- tieto siitä, miten omia ansioitasi arvioitiin suhteessa valittuun\n- mahdolliset muutoksenhakuohjeet.\n\nVoit lähettää ministeriön kirjaamoon esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja tehtävän täyttämisestä. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan, milloin saan vastauksen. Pyydän lisäksi nimityspäätöksen, nimitysmuistion ja mahdollisen hakijoiden ansiovertailun julkisilta osin sekä muutoksenhakuohjeet.\n\nJos kyse on Suomesta, **julkisia asiakirjoja koskeva tietopyyntö** on yleensä käsiteltävä viimeistään kahdessa viikossa, laajemmissa tai työläämmissä tapauksissa kuukaudessa. Pelkkä uusien kirjallisten perustelujen pyyntö ei välttämättä ole tällainen tietopyyntö. Älä myöskään oleta, että perustelujen odottaminen pysäyttää mahdollisen muutoksenhakuajan.\n\nLautakunnan kokoonpanon voi ottaa esille neutraalina kysymyksenä sen nimeämisperusteista. Suomen julkishallinnon eräisiin toimielimiin sovelletaan sukupuolikiintiöitä, mutta niiden soveltuminen juuri tähän rekrytointilautakuntaan pitäisi selvittää erikseen. Se on eri kysymys kuin se, syrjittiinkö sinua valinnassa.\n\nJos asiakirjoista ilmenee esimerkiksi sukupuolen suosimista tai valintakriteerien epäjohdonmukaista soveltamista, asiaa kannattaa arvioida ammattiliiton juristin tai tasa-arvovaltuutetun kanssa.\n\nMissä maassa tehtävä on? Se ratkaisee sovellettavat säännöt ja määräajat."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5927,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 637,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10164-5ac0-79a0-9a3b-e2f265d70e49"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: 10 af 100 — huglægt mat, ekki tölfræðilega studdar líkur.\n\nKarlaskipting nefndarinnar er ekki ein og sér sterk vísbending um kynjamismunun, sérstaklega þar sem bæði þú og sá ráðni eruð karlar. Hún getur þó gefið tilefni til að kanna hvort reglum um kynjahlutföll hafi verið fylgt; það fer eftir stöðu nefndarinnar og skipun hennar.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Rökstuðning á almennt að veita innan 14 daga frá beiðni. Óskaðu eftir skýringum á hæfniviðmiðum, vægi þeirra og samanburði á menntun og reynslu ykkar.\n\nÞín menntun og starfsreynsla tryggja ekki forgang sjálfkrafa. Meginatriðið er hvort ráðningin byggðist á málefnalegu, nægilega upplýstu hæfnismati. Þú getur spurt hlutlaust um nefndarskipanina án þess að fullyrða um mismunun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6034,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 384,
+    "reasoning_output_tokens": 120
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

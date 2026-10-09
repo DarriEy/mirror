@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014c-92e2-71a3-a925-0f3d49fb80f8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKyn nefndarmanna eitt og sér er ekki traust vísbending um kynjamismunun. Hins vegar getur verið rétt að kanna hvort reglur um kynjahlutföll í opinberum nefndum giltu um ráðningarnefndina og hvort þeim hafi verið fylgt. Það er aðskilið frá mati á ráðningunni sjálfri.\n\nÍtrekaðu nú beiðnina um rökstuðning. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og samanburði á hæfni ykkar. Meistarapróf þitt og stjórnunarreynsla kalla á skýringar, en fréttatilkynning sýnir ekki endilega alla hæfni hennar eða niðurstöður viðtala.\n\nBerðu kynjasamsetninguna upp sem hlutlausa fyrirspurn um málsmeðferð, ekki ásökun. Leitaðu fljótt til stéttarfélags eða lögfræðings um gögn og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 435,
+    "reasoning_output_tokens": 171
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

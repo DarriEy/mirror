@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10131-aed1-77a2-8f1f-888889c5e9e1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd sannar ekki kynjamismunun, en gefur tilefni til að kanna hvort reglum um kynjahlutföll í nefndum sveitarfélaga hafi verið fylgt. Það er aðskilið frá því hvort ráðningin sjálf hafi verið mismunandi eftir kyni.\n\nMeiri menntun þín og reynsla réttlæta spurningar, en ráða ekki ein úrslitum; samráðshæfni getur verið málefnalegt viðmið.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Óskaðu eftir auglýstum hæfniskröfum, matsviðmiðum, samanburði umsækjenda og upplýsingum um skipun nefndarinnar. Spyrðu sérstaklega hvernig menntun, starfsleyfi og reynsla voru metin.\n\nLeitaðu fljótt ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um gögnin og mögulega kærufresti. Þú þarft ekki að fullyrða mismunun til að óska skýringa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 438,
+    "reasoning_output_tokens": 154
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

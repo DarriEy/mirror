@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016e-1820-7382-97ea-7fbcff79b3a8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably estimable from these facts\n\nAn all-male panel is worth noting, but it does not establish that sex influenced this decision. Assigning a percentage would imply evidence we don’t have.\n\nYour qualifications justify asking how the criteria were applied. Industry experience, interview performance and departmental needs might legitimately outweigh publication counts—unless, for example, a completed PhD was mandatory.\n\nFollow up now for the written explanation, advertised criteria and any available scoring or panel-composition policy. You can raise the panel’s composition neutrally as a procedural concern, rather than an accusation. If the explanation reveals inconsistent criteria, unequal treatment or policy breaches, consider formal review. Check local complaint deadlines while awaiting a response."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 263,
+    "reasoning_output_tokens": 101
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

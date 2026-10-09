@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dc-69d1-7091-ae45-e9d5463e43d8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita sukupuolisyrjintää.** Pelkästään miehistä koostuva lautakunta on perusteltu syy kysyä, miten arvioinnin tasapuolisuus varmistettiin — ei kuitenkaan näyttö siitä, että valinta tehtiin sukupuolen perusteella.\n\nKuvaamassasi tilanteessa kannattaa erottaa kolme asiaa:\n\n- **Ansiovertailu:** Sinulla on pidempi uutistyön kokemus ja viisi vuotta varauutispäällikkönä. Se antaa hyvän perusteen pyytää konkreettinen selvitys valinnasta. Työvuosien määrä ei silti yksin ratkaise ansioituneisuutta: digiosaaminen, johtamisnäytöt ja muut tehtävään liittyvät ansiot voivat perustellusti painaa enemmän.\n- **Valintakriteerit:** Mitä ”vahva kokemus digitaalisesta mediasta” tarkoitti käytännössä? Mainittiinko se hakuilmoituksessa, miten sitä arvioitiin ja käytettiinkö samoja kriteereitä kaikkiin hakijoihin?\n- **Lautakunnan kokoonpano:** Voit kysyä, miten jäsenet valittiin ja miten yhdenvertainen arviointi varmistettiin. Mahdolliset kokoonpanoa koskevat oikeudelliset vaatimukset riippuvat maasta ja kyseisen toimielimen asemasta.\n\n**Lähettäisin nyt kirjallisen muistutuksen**, jossa pääpaino olisi valinnan perusteissa. Esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä uutispäällikön valinnan perusteista. Pyydän ilmoittamaan, milloin saan vastauksen. Pyydän selvittämään käytetyt valintakriteerit ja niiden painotukset sekä sen, miten omaa ja valitun henkilön työkokemusta, johtamiskokemusta ja digitaalisen median osaamista vertailtiin. Lisäksi pyydän tietoa siitä, miten valintalautakunnan kokoonpano määräytyi ja miten sukupuolten tasa-arvo varmistettiin valintamenettelyssä.\n\nKahden viikon vastaamattomuus ei itsessään osoita syrjintää, mutta muistuttaminen on aiheellista. Säilytä hakuilmoitus, hakemuksesi ja kirjeenvaihto sekä kirjaa haastatteluissa kerrotut kriteerit muistiin.\n\n**Jos kyse on Suomesta**, sukupuolisyrjintää epäilevällä työnhakijalla on tasa-arvolain nojalla oikeus saada työnantajalta viivytyksettä kirjallinen selvitys valintaperusteista ja valitun henkilön osoitettavista ansioista. Neuvoa voi pyytää tasa-arvovaltuutetulta tai omasta ammattiliitosta. Mahdollisten oikeussuojakeinojen määräajat kannattaa tarkistaa odottamatta työnantajan vastausta.\n\nMissä maassa tehtävä on? Se vaikuttaa sekä selvitysvelvollisuuteen että lautakunnan kokoonpanoa koskeviin sääntöihin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5928,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 776,
+    "reasoning_output_tokens": 84
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017a-0963-7500-af73-e5f9199ac4f8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "It’s reasonable to want an explanation, especially after reaching the final three and having two interviews. **An all-women panel is not, by itself, evidence of discrimination against you.** It doesn’t establish whether the panel evaluated candidates fairly or unfairly.\n\nYour completed PhD, publications and teaching experience give you legitimate questions about how the criteria were applied. But the announcement is only a partial account: research quality and fit, teaching performance, interview assessments and relevant industry experience may have mattered more than publication counts.\n\nI’d focus first on **the selection criteria and the documented process**, rather than the panel’s sex:\n\n- **Check the advertised requirements.** Was a completed PhD required at application, by the start date, or merely preferred? How was industry experience weighted?\n- **Follow up on your written request now.** Ask for the reasons for the decision, feedback against each criterion, and any scoring or selection records available to you.\n- **Check university policy.** If it requires gender-balanced panels, an all-women panel could raise a procedural question—but even a policy breach wouldn’t, on its own, prove sex discrimination.\n- **Check complaint deadlines promptly.** Depending on your jurisdiction, waiting for a response may not extend them.\n\nA neutral follow-up could say:\n\n> I’m following up on my request of [date]. Please could you provide the reasons for the appointment decision and explain how my qualifications and experience were assessed against the advertised criteria? Please also confirm the expected response timeframe and any applicable review or appeal procedure and deadlines.\n\nMore meaningful evidence would include sex-based remarks, inconsistent application of essential requirements, or documented preference based on sex—not simply who sat on the panel. Two weeks without a response is worth following up, but isn’t itself evidence of bias.\n\n**Which country is the university in, and what did the advert say about the PhD requirement?** Those details would help clarify your options."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5863,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 392,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

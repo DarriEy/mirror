@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e6-c474-7712-8602-2686d0f3541d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nLautakunnan miesvaltaisuus ei yksin osoita syrjintää, mutta voit kysyä kokoonpanosta ja tasapuolisuuden varmistamisesta. Painota kuitenkin valintakriteerejä ja ansiovertailua: miten johtamiskoulutuksesi ja vararehtorikokemuksesi huomioitiin suhteessa valitun ansioihin? Julkinen kuvaus ei välttämättä kerro hänen kaikkia pätevyyksiään eikä haastatteluarvioita.\n\nJos kyse on Suomesta, voit pyytää nimenomaisesti tasa-arvolain mukaista kirjallista selvitystä valinnan perusteista, koska epäilet sukupuolisyrjintää. Selvitys on annettava viivytyksettä. Kahden viikon vastaamattomuus puoltaa muistutusta, mutta ei itsessään osoita syrjintää.\n\nTarkista heti päätöksen muutoksenhakuohjeet: selvityksen odottaminen ei yleensä pysäytä määräaikoja. Tarvittaessa ota yhteyttä ammattiliittoosi tai tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 407,
+    "reasoning_output_tokens": 123
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

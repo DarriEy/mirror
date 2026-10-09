@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ee-aa77-72c2-88ee-8186bf43c635"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta en nostaisi sitä tässä pääasiaksi.** Pelkästään miehistä koostuva lautakunta kertoo kokoonpanon yksipuolisuudesta, mutta ei yksin osoita syrjintää tai epäasiallista valintaa. Koska sekä sinä että valittu olette miehiä, kertomasi ei anna erityistä perustetta päätellä, että sinua olisi syrjitty sukupuolesi vuoksi. Se ei kuitenkaan sulje pois muita mahdollisia epäkohtia.\n\nTohtorintutkintosi ja yhdeksän vuoden kokemuksesi ovat vahvoja ansioita. Ne eivät silti automaattisesti tarkoita, että olisit tehtävään ansioitunein: johtajavalinnassa voidaan painottaa esimerkiksi esihenkilökokemusta, sääntelyosaamista ja viranomaisyhteistyötä. Valitusta julkaistu lyhyt esittely ei välttämättä kuvaa hänen koko osaamistaan.\n\n**Lähettäisin nyt kohteliaan muistutuksen**, esimerkiksi:\n\n> Pyysin kaksi viikkoa sitten kirjallista palautetta valintapäätöksestä. Toivoisin tietoa siitä, mitä valintakriteerejä painotettiin ja miten omaa kokemustani ja osaamistani arvioitiin suhteessa niihin. Mitkä seikat ratkaisivat valinnan, ja milloin voisin saada vastauksen?\n\nJos haluat käsitellä lautakuntaa, voit kysyä neutraalisti: ”Miten arvioinnin monipuolisuus ja tasapuolisuus varmistettiin?” Kahden viikon vastaamattomuus on aihe muistutukseen, mutta ei sellaisenaan näyttö syrjinnästä.\n\nMissä maassa tehtävä on? Oikeutesi saada perusteluja ja mahdolliset jatkotoimet riippuvat paikallisesta lainsäädännöstä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 414,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ce-8e9f-78f1-9c00-f6ce10c54cdf"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita sukupuolisyrjintää.** Pelkästään miehistä koostuva lautakunta voi herättää perustellun kysymyksen arvioinnin tasapuolisuudesta. Olennaisempaa on kuitenkin se, millä perusteilla hakijoita verrattiin ja sovellettiinko samoja kriteerejä kaikkiin.\n\nSinulla on kuvauksesi perusteella vahva tausta, joten lisäselvityksen pyytäminen on perusteltua. Pidempi kokemus ei automaattisesti tarkoita, että olisit tehtävään ansioituneempi: johtamisnäytöt, asiakastyö ja muut tehtävään liittyvät taidot voivat painaa valinnassa. Toisaalta ”erinomaisten asiakassuhteiden” kaltaisen perustelun pitäisi nojata konkreettiseen arvioon, ei sukupuoleen liittyviin oletuksiin. Julkinen ilmoitus ei välttämättä kerro valitun koko taustaa.\n\nLähettäisin nyt kirjallisen muistutuksen ja pyytäisin:\n- valintakriteerit ja niiden painotukset\n- selvityksen siitä, miten koulutustasi, kokemustasi ja kolmen suuren hankkeen johtamista arvioitiin suhteessa valittuun\n- tiedon siitä, miten asiakassuhteita arvioitiin ja oliko kriteeri sama kaikille.\n\nLautakunnasta voit kysyä neutraalisti: *”Huomasin, että valintalautakunta koostui pelkästään miehistä. Miten rekrytoinnissa varmistettiin sukupuolesta riippumaton ja yhdenmukainen arviointi?”*\n\n**Kahden viikon vastaamattomuus ei itsessään todista syrjintää**, mutta muistutus on aiheellinen. Säilytä työpaikkailmoitus, hakemuksesi, viestit ja muistiinpanot haastatteluista.\n\nJos kyse on Suomesta, tasa-arvolaki velvoittaa työnantajaa antamaan viivytyksettä kirjallisen selvityksen hakijalle, joka katsoo joutuneensa laissa tarkoitetun syrjinnän kohteeksi. Neuvoa voi pyytää tasa-arvovaltuutetulta tai ammattiliitosta jo ennen kuin syrjinnästä on varmuutta.\n\nMissä maassa tehtävä on? Se vaikuttaa työnantajan velvollisuuksiin ja mahdollisiin määräaikoihin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5958,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 557,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f3-afa8-7dd3-8f90-5b500a3dbf50"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita syrjintää.** Pelkästään miehistä koostuva lautakunta voi herättää perustellun kysymyksen rekrytoinnin tasapuolisuudesta. Ratkaisevampaa on kuitenkin se, millä kriteereillä hakijoita vertailtiin ja sovellettiinko niitä johdonmukaisesti.\n\nTohtorintutkintosi ja yhdeksän vuoden kokemuksesi antavat hyvän syyn pyytää tarkempaa selvitystä. Ne eivät silti yksin osoita, että olit tehtävään ansioitunein: johtamiskokemus ja sääntelyosaaminen voivat olla olennaisia valintaperusteita. Valitusta julkaistu lyhyt kuvaus ei myöskään välttämättä kerro hänen kaikista ansioistaan.\n\n**Lähettäisin nyt kirjallisen muistutuksen**, jossa painopiste olisi vertailuperusteissa, esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallista selvitystä valintapäätöksen perusteista. Pyydän tietoa tehtävän valintakriteereistä ja niiden painotuksesta sekä siitä, miten koulutustani, riskimallinnuskokemustani ja johtamisvalmiuksiani arvioitiin suhteessa valittuun hakijaan. Millä perusteilla valittu katsottiin tehtävään ansioituneimmaksi? Huomasin myös, että valintalautakunta koostui yksinomaan miehistä. Miten arvioinnin tasapuolisuus ja mahdollisten sukupuolivinoumien ehkäisy varmistettiin?\n\nKahden viikon vastaamattomuus ei itsessään ole näyttöä syrjinnästä, mutta muistutus on perusteltu. Säilytä työpaikkailmoitus, viestit ja muistiinpanot haastatteluista.\n\nJos rekrytointi tapahtui Suomessa ja epäilet sukupuoleen perustuvaa syrjintää, työnantajalla voi olla tasa-arvolain perusteella velvollisuus antaa kirjallinen selvitys viivytyksettä. Tasa-arvovaltuutetulta tai ammattiliiton juristilta voit kysyä neuvoa ilman, että sinun tarvitsee ensin todistaa syrjintää.\n\nMissä maassa tehtävä sijaitsee, ja mainittiinko ilmoituksessa johtamis- tai sääntelykokemus erityisenä vaatimuksena?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5915,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 550,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

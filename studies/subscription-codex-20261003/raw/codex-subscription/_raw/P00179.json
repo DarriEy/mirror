@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10156-24eb-7e53-b0a7-7018d49f3eaa"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, taktu samsetningu nefndarinnar upp sem spurningu um ráðningarferlið, ekki sem sönnun um kynjamismunun. Eingöngu karlskipuð nefnd er ástæða til að kanna málið, en segir ein og sér ekki hvort kyn hafi ráðið niðurstöðunni.\n\nDoktorspróf þitt og reynsla skipta máli, en stjórnunarreynsla, eftirlitsþekking og önnur auglýst hæfniviðmið geta einnig vegið þungt. Tilkynningin nægir ekki til samanburðar.\n\nÍtrekaðu beiðnina skriflega. Óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og mat á umsókn þinni. Tveggja vikna þögn sannar ekki mismunun; réttur til rökstuðnings fer meðal annars eftir lagalegri stöðu bankans.\n\nVarðveittu gögn og leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6018,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 361,
+    "reasoning_output_tokens": 74
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

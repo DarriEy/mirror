@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e1-e4af-7d01-958c-03000b064d4c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa annetuilla tiedoilla; numero olisi perusteeton.\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolen vaikuttaneen valintaan. Johtamiskoulutuksesi ja vararehtorikokemuksesi antavat kuitenkin perustellun aiheen pyytää tarkempaa ansiovertailua. Julkinen esittely ei välttämättä kerro valitun kaikista ansioista.\n\nLähetä kirjallinen muistutus ja pyydä valintapäätös, ansiovertailu, arviointiperusteet sekä muutoksenhakuohjeet. Älä odota vastausta ennen määräaikojen tarkistamista.\n\nLautakunnan kokoonpanon voit nostaa esiin neutraalina kysymyksenä, jos epäilet sen muodostamisen sääntöjenmukaisuutta; älä esitä sitä syrjinnän todisteena. Jos perusteluissa ilmenee sukupuoleen liittyviä oletuksia tai ansiovertailu jää epäselväksi, ota yhteyttä ammattiliittosi juristiin tai tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6018,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 396,
+    "reasoning_output_tokens": 113
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

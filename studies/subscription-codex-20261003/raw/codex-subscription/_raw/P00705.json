@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10166-3464-7a52-abb7-aea84b364d71"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa marktæka tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, spurðu um kynjasamsetningu nefndarinnar. Hún gefur tilefni til að kanna málsmeðferðina en sannar ekki kynjamismunun. Hvort reglur um kynjahlutföll eigi við fer meðal annars eftir réttarstöðu vinnuveitandans og hlutverki nefndarinnar.\n\nLengri starfsreynsla þín og stjórnunarreynsla skipta máli, en tryggja ekki að þú teljist hæfasti umsækjandinn; stafræn reynsla getur verið málefnalegt viðmið.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Óskaðu eftir hæfniviðmiðum, vægi þeirra, samanburði á umsækjendum og skýringum á skipan nefndarinnar. Spyrðu sérstaklega hvernig stjórnunarreynsla þín var metin.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og mögulega kærufresti. Ekki gera ráð fyrir að biðin eftir rökstuðningi stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6009,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 454,
+    "reasoning_output_tokens": 165
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

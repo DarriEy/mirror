@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e9-5bd6-77f1-a799-4a0c737c97a4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkkä mieskokoonpano ei osoita syrjintää tai sitä, että valinta olisi tehty epäasiallisesti.** Koska sekä sinä että valittu olette miehiä, kertomasi ei sellaisenaan anna selvää viitettä sukupuolisyrjinnästä. Kokoonpanon lainmukaisuus on kuitenkin erillinen kysymys.\n\nJos kyse on **Suomen kunnallisesta lukiosta**, tietyissä kunnallisissa toimielimissä on pääsääntöisesti oltava vähintään 40 prosenttia kumpaakin sukupuolta, jollei erityisestä syystä muuta johdu. Säännön soveltuminen riippuu siitä, oliko kyse virallisesta toimielimestä vai esimerkiksi haastatteluryhmästä. Voit kysyä neutraalisti:\n> ”Mikä oli valintalautakunnan oikeudellinen asema, ja miten sen kokoonpanossa huomioitiin tasa-arvolain vaatimukset?”\n\n**Kuvauksessasi olennaisempia selvitettäviä asioita ovat valitun kelpoisuus ja hakijoiden ansiovertailu.** Koulutusjohtamisen maisterintutkintosi ja viiden vuoden vararehtorikokemuksesi ovat merkittäviä ansioita. Ne eivät silti automaattisesti takaa valintaa: myös tehtävään soveltuvuutta voidaan arvioida. Vastaavasti ilmaus ”osallistunut koulun johtamista käsitteleville kursseille” ei yksin kerro, täyttääkö valittu rehtorin kelpoisuusvaatimukset. Suomessa niihin kuuluu muun muassa riittävä opetushallinnon tuntemus, jonka voi osoittaa usealla tavalla.\n\nToimisin nyt näin:\n- **Lähetä kirjallinen asiakirjapyyntö kirjaamoon:** pyydä valintapäätös perusteluineen, muutoksenhakuohjeet, mahdollinen ansiovertailu sekä julkiset tiedot siitä, miten valittu täyttää kelpoisuusvaatimukset.\n- Kysy samalla aiemman pyyntösi käsittelyn tilannetta. Suomessa julkista asiakirjaa koskeva pyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, vaativampi kuukaudessa. Uuden perustelutekstin laatimista koskeva pyyntö ei välttämättä ole sama asia.\n- **Tarkista muutoksenhakuaika heti.** Perustelujen pyytäminen ei yleensä pysäytä määräaikaa. Kunnallisessa virantäytössä oikaisuvaatimusaika on tavallisesti 14 päivää päätöksen tiedoksisaannista. Ammattiliiton juristi voi auttaa arvioimaan asian.\n\nLyhyesti: kokoonpanosta kannattaa kysyä, mutta vahvin lähtökohta on selvittää, **oliko valittu kelpoinen ja millä tehtävään liittyvillä perusteilla hänet arvioitiin sinua ansioituneemmaksi tai soveltuvammaksi**.\n\nMissä maassa lukio on, ja onko työnantaja kunta vai yksityinen ylläpitäjä?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5924,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 707,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

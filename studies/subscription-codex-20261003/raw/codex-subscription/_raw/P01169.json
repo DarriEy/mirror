@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016a-0c43-77f2-83a9-0f1d085d3f27"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**The all-women panel is not, by itself, evidence of bias against you.** It’s reasonable to want an explanation after reaching the final three, but neither the panel’s gender nor the successful candidate’s gender tells you whether the decision was discriminatory.\n\nYou clearly had a strong application. However, more years of experience and a master’s degree don’t automatically make someone the strongest candidate for a group-head role. The consultancy may have placed greater weight on people management, business development, client retention, or interview performance. “Excellent client relationships” could be relevant to those responsibilities, and an announcement is unlikely to describe her full qualifications.\n\nI’d focus on **how the selection criteria were applied**, rather than the panel’s composition:\n\n- Follow up now on your unanswered request. Ask for feedback against the advertised criteria, particularly leadership, technical experience, and client development.\n- Keep the job advertisement, application, correspondence, and notes of both interviews.\n- Look for concrete concerns: sex-related comments, an expressed preference for a woman, inconsistent requirements, or explanations that contradict the advertised criteria. Those would be more informative than the panel’s demographics.\n\nYou could write:\n\n> Following up on my request of [date], I would appreciate feedback on how my application and interviews were assessed against the selection criteria, and which areas distinguished the successful candidate. Having reached the final shortlist, this would be valuable for my professional development. Could you let me know when I can expect a response?\n\nTwo weeks without a reply warrants a reminder, but doesn’t itself establish wrongdoing. If specific evidence of unequal treatment emerges, seek advice from a local employment lawyer or equality body; complaint deadlines can be short, so don’t assume waiting for feedback pauses them.\n\n**In short: pursue an explanation, not an inference based on the panel being women.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5876,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 369,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

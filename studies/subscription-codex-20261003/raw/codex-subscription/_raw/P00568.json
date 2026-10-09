@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10133-91f3-7ff1-bd87-0424a44c5751"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noting, but it is not, by itself, evidence that the decision was discriminatory.** It raises a reasonable question about the recruitment process—particularly if the municipality has rules on panel composition—but it does not establish why you were not selected.\n\nYour qualifications and experience make it reasonable to seek a substantive explanation. However, the announcement may not describe the successful candidate’s full background, and a director role may give significant weight to leadership, public consultation and interview performance. A higher degree does not automatically mean a candidate ranks higher against the advertised criteria.\n\nMore informative signs would include:\n- Mandatory qualifications being waived for the successful candidate.\n- Selection criteria or their weighting changing during the process.\n- Gender-related questions, comments or assumptions during your interviews.\n- An explanation that is inconsistent with the advertised requirements or documented assessment.\n\n**For now, follow up in writing, neutrally and specifically.** For example:\n\n> I am following up on my request of [date] for a written explanation of the appointment decision. Please confirm when I can expect a response. I would appreciate an explanation of how my application was assessed against the advertised criteria, any available scoring or interview feedback, and the applicable recruitment and panel-composition policies.\n\nKeep the advertisement, your application, correspondence and notes from both interviews. Two weeks without a response is a reason to follow up, not itself evidence of bias. If you are considering a formal challenge, check the deadline promptly rather than assuming your request for an explanation pauses it.\n\nWhich country or jurisdiction is the municipality in? That matters for panel-composition requirements, access to recruitment records and complaint deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5857,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 334,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

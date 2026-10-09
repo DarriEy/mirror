@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dc-615f-7da0-bf29-30a4b02be2bb"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään se, että kaikki neljä jäsentä olivat naisia, ei osoita syrjintää.** Olennaisempaa on selvittää, millä perusteilla valittu arvioitiin sinua ansioituneemmaksi tai tehtävään sopivammaksi.\n\nKertomasi perusteella sinulla on vahvoja, tehtävään liittyviä ansioita: koulutusjohtamisen maisterintutkinto ja viisi vuotta vararehtorina. On perusteltua pyytää selvitystä siitä, miten niitä painotettiin suhteessa valitun opetuskokemukseen ja johtamiskoulutukseen. Lyhyt kuvaus valitun koulutuksesta ei kuitenkaan välttämättä kerro hänen kaikkia ansioitaan. Valinnassa voidaan huomioida myös haastatteluissa arvioitu soveltuvuus, kunhan arvio perustuu tehtävän vaatimuksiin eikä sukupuolistereotypioihin.\n\n**Jos kyse on Suomessa olevasta tehtävästä, etenisin näin:**\n\n1. **Tarkista muutoksenhakuaika heti.** Kunnallisen virkavalinnan oikaisuvaatimusaika on yleensä 14 päivää päätöksen tiedoksisaannista. Perustelupyynnön lähettäminen ei yleensä pysäytä määräaikaa. Älä siis jää odottamaan vastausta ennen asian tarkistamista.\n2. **Uusi kirjallinen pyyntö ja lähetä se myös työnantajan kirjaamoon.** Pyydä valintapäätös, muutoksenhakuohjeet, ansiovertailu sekä selvitys kelpoisuuden, johtamiskoulutuksen, johtamiskokemuksen ja haastattelujen painotuksesta. Kaikki haastatteluaineisto ei välttämättä ole julkista.\n3. **Jos epäilet sukupuolisyrjintää, sano se selkeästi mutta ilman ennakkopäätelmää.** Tasa-arvolain 10 §:n perusteella työnantajan on annettava viivytyksettä kirjallinen selvitys henkilölle, joka katsoo joutuneensa lain tarkoittaman syrjinnän kohteeksi. Voit kysyä neuvoa ammattiliitolta tai tasa-arvovaltuutetulta.\n\nLautakunnan kokoonpanolla voi olla myös **erillinen oikeudellinen merkitys**: jos kyseessä on tasa-arvolain kiintiösäännöksen piiriin kuuluva julkinen toimielin, kumpaakin sukupuolta on yleensä oltava vähintään 40 prosenttia, jollei erityisestä syystä muuta johdu. Tämä ei kuitenkaan koske automaattisesti jokaista haastattelu- tai rekrytointiryhmää. Voit siksi kysyä neutraalisti, mikä ryhmän oikeudellinen asema oli ja miten sen kokoonpano määräytyi.\n\nEsimerkiksi:\n\n> Uusin [päivämäärä] esittämäni selvityspyynnön. Pyydän valintapäätöksen muutoksenhakuohjeineen sekä kirjallisen selvityksen hakijoiden ansiovertailusta ja valintaperusteista. Erityisesti pyydän selvittämään, miten koulutusjohtamisen maisterintutkintoni ja viiden vuoden vararehtorikokemukseni huomioitiin.\n\n**Pelkkä kokoonpano ei siis ole näyttö puolueellisuudesta, mutta sinun on täysin aiheellista vaatia valinnan perusteet nähtäväksi.** Missä maassa tehtävä on, ja onko työnantaja kunta vai yksityinen koulutuksen järjestäjä? Tämä ratkaisee tarkemman menettelyn ja määräajat."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5916,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 861,
+    "reasoning_output_tokens": 43
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

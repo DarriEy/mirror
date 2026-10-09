@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f5-9f6d-71c1-bf3e-c148988f6715"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**It’s reasonable to raise the all-male panel as a concern, but it is not, by itself, proof of sex discrimination.** It may be relevant to whether the university followed its rules on panel composition and equal opportunity. Its legal significance depends on the country.\n\nYour completed PhD, publication record and teaching experience give you a sound basis to ask how the decision was reached. But paper counts alone don’t establish who was best qualified: research quality, teaching performance, subject fit and relevant industry experience may legitimately matter—particularly if they were part of the advertised criteria.\n\nThe most useful next steps are:\n\n- **Check the advertisement:** Was a completed PhD essential by the application deadline or only by the start date? Was industry experience a stated criterion?\n- **Follow up in writing:** Ask for the assessment of your application against the criteria, the reasons for the decision, and any scoring or comparative information they can disclose.\n- **Ask about panel rules:** Did university policy or applicable public-sector rules require gender balance, and was any exception approved?\n- **Preserve the records and check deadlines now:** Keep the advert, announcement, correspondence and interview notes. Recruitment complaints can have short deadlines; waiting for a response may not extend them.\n\nYou could write:\n\n> I am following up on my request of [date] for written reasons for the appointment decision. Please confirm when I can expect a response and explain how my application was assessed against the advertised criteria. I would also appreciate confirmation of the applicable policy on gender balance in selection panels and whether this panel complied with it. Please provide details of any review or complaint procedure and its deadlines.\n\nTwo weeks without a reply warrants a follow-up, but isn’t itself evidence of discrimination. **The stronger question is whether the criteria and procedures were applied consistently**, with the panel’s composition as one relevant part of that inquiry.\n\nWhich country is the university in, and did the advert require a completed PhD?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5857,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 396,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

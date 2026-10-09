@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10107-d286-7fc3-a4d2-720ecee62931"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Lengri starfsreynsla þýðir heldur ekki sjálfkrafa meiri hæfni; stafræn reynsla getur vegið þungt, sérstaklega samkvæmt auglýstum hæfniskröfum.\n\nFylgdu rökstuðningsbeiðninni eftir skriflega núna. Óskaðu eftir upplýsingum um matsviðmið, vægi stjórnunarreynslu og stafrænnar hæfni og samanburð á hæfni umsækjenda.\n\nTaktu kynjasjónarmið sérstaklega upp ef fram koma kynbundin ummæli, ósamræmi í mati eða gögn sem benda til að kyn hafi ráðið niðurstöðu. Byggðu ekki ásökun á kyni nefndarmanna. Leitaðu fljótt til stéttarfélags eða lögfræðings um rétt þinn og mögulega kærufresti; ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6010,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 351,
+    "reasoning_output_tokens": 76
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

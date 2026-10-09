@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f2-8541-7162-899b-b52324d9d82b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, nefndarskipanin er málefnalegt umræðuefni og getur verið hluti af heildarmati, en sannar ekki kynjamismunun. Lengri reynsla þín og verkefnastjórnun réttlæta spurningar um samanburðinn; viðskiptatengsl geta þó verið lögmætt ráðningarviðmið.\n\nÍtrekaðu erindið skriflega. Óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og hvernig reynsla, stjórnunarhæfni og viðskiptatengsl voru metin. Spurðu jafnframt hvernig jafnræðis var gætt með eingöngu karlskipaðri nefnd.\n\nVarðveittu auglýsingu, umsókn, samskipti og viðtalsminnisatriði. Tveggja vikna þögn sannar ekki mismunun. Ef svörin eru ófullnægjandi skaltu leita ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu, meðal annars um mögulega kæru og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6034,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 424,
+    "reasoning_output_tokens": 140
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d4-4f6d-7483-abd4-c818368b4fd8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuilla tiedoilla\n\nPelkästään miehistä koostuva lautakunta antaa aihetta kysyä valintamenettelyn tasapuolisuudesta, mutta ei itsessään osoita sukupuolisyrjintää. Numeerinen todennäköisyys olisi näillä tiedoilla arvailua.\n\nPidempi työkokemuksesi ja johtamiskokemuksesi ovat olennaisia ansioita. Digitaalinen osaaminen voi silti perustella valinnan, jos se vastasi tehtävän todellisia valintakriteerejä.\n\nLähetä kirjallinen muistutus perustelupyynnöstäsi. Pyydä valintakriteerit, niiden painotukset ja hakijoiden ansiovertailu. Voit kysyä neutraalisti: ”Miten arvioinnin tasapuolisuus ja mahdollisten sukupuolivinoumien ehkäiseminen varmistettiin?”\n\nKahden viikon vastaamattomuus ei yksin osoita syrjintää. Jos asia koskee Suomea, ammattiliitto tai tasa-arvovaltuutettu voi neuvoa. Selvitä mahdolliset muutoksenhakuajat viipymättä: perustelujen odottaminen ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 461,
+    "reasoning_output_tokens": 150
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

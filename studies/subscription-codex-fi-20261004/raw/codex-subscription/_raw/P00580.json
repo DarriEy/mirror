@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108df-80cd-7d13-8448-1f91ff240a52"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nPelkästään miehistä koostuva lautakunta on perusteltu syy kysyä valintamenettelyn tasapuolisuudesta, mutta se ei yksin osoita sukupuolen vaikuttaneen päätökseen. Numeerinen arvio olisi arvailua. Myöskään korkeampi tutkintosi ei yksin ratkaise ansiovertailua: tehtävän kelpoisuusvaatimukset, johtamiskokemuksen sisältö ja muut valintakriteerit ovat olennaisia.\n\nLähetä kirjallinen muistutus perustelupyynnöstäsi ja pyydä valintakriteerit sekä hakijoiden ansiovertailu. Voit kysyä neutraalisti: ”Miten sukupuolten tasa-arvo varmistettiin valintaprosessissa, kun lautakunnassa oli vain miehiä?”\n\nKahden viikon vastaamattomuus ei itsessään osoita syrjintää. Jos kyse on Suomesta, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitostasi. Tarkista mahdolliset muutoksenhakuajat heti; perustelujen odottaminen ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 352,
+    "reasoning_output_tokens": 50
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

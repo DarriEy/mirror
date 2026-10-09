@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108eb-35bc-70f1-aaff-6e9fd8653698"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuista tiedoista.\n\nPelkästään miehistä koostuva lautakunta ei osoita syrjintää, mutta sen kokoonpanosta ja valintaperusteista voi kysyä asiallisesti. Prosenttiluku antaisi perusteettoman vaikutelman varmuudesta.\n\nKoulutuksesi ja kokemuksesi perusteella ansiovertailun pyytäminen on perusteltua. Korkeampi tutkinto ei kuitenkaan yksin ratkaise paremmuutta: olennaisia ovat ilmoitetut kelpoisuusvaatimukset, valintakriteerit ja kaikkien hakijoiden kokonaisansiot.\n\nUudista kirjallinen pyyntösi. Pyydä valintapäätös, ansiovertailu, sovelletut kriteerit ja muutoksenhakuohjeet. Kysy myös, miten lautakunnan kokoonpano määräytyi. Kahden viikon hiljaisuus ei yksin osoita syrjintää.\n\nJos kyse on Suomesta, tarkista muutoksenhakuaika heti: perustelupyynnön vastausta ei kannata odottaa määräajan kustannuksella. Tasa-arvovaltuutettu tai ammattiliittosi voi auttaa syrjintäepäilyn arvioinnissa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6029,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 399,
+    "reasoning_output_tokens": 95
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

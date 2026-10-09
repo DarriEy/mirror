@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d8-99c5-7b92-af72-66e95fb4469b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nPelkästään miehistä koostuva lautakunta voi herättää kysymyksen valintamenettelyn monipuolisuudesta, mutta se ei yksin osoita sukupuolen vaikuttaneen päätökseen. Koska sekä sinä että valittu olette miehiä, tiedot eivät sellaisinaan viittaa sinuun kohdistuneeseen sukupuolisyrjintään. Numeerinen todennäköisyys olisi keksitty.\n\nPidempikään työkokemus ei automaattisesti tarkoita parempaa soveltuvuutta: digitaalisen median osaaminen on voinut painaa enemmän.\n\nLähetä nyt kirjallinen muistutus perustelupyynnöstä. Pyydä valintakriteerit, niiden painotukset ja selvitys hakijoiden ansiovertailusta. Lautakunnan kokoonpanon voit ottaa esille neutraalina menettelykysymyksenä, mutta älä esitä sitä näyttönä syrjinnästä. Jos harkitset päätöksen riitauttamista, selvitä mahdolliset määräajat heti esimerkiksi ammattiliitostasi; älä odota vastausta niiden kustannuksella."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 442,
+    "reasoning_output_tokens": 143
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

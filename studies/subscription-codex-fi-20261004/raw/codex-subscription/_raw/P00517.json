@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e2-0d34-7833-802e-24cc9d79920d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään miehistä koostuva valintalautakunta ei yksin ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Sen voi ottaa esille kysymyksenä valintaprosessin monipuolisuudesta, mutta näillä tiedoilla en tekisi siitä pääasiaa. Sekä sinä että valittu olette miehiä, eikä kertomassasi ole konkreettista viitettä sukupuoleen perustuvaan erilaiseen kohteluun.\n\nSinulla on vahva kokemus, ja on ymmärrettävää haluta tietää, miksi valinta ei osunut sinuun. **Pidempi työkokemus ei kuitenkaan automaattisesti tarkoita parempaa soveltuvuutta johtajan tehtävään.** Työnantaja voi painottaa esimerkiksi henkilöstöjohtamista, asiakashankintaa ja yhteistyötaitoja. Valitusta julkaistu lyhyt esittely ei myöskään välttämättä kuvaa kaikkia hänen ansioitaan. ”Erinomaiset asiakassuhteet” voi olla tehtävään liittyvä hyväksyttävä peruste, mutta sen painotuksesta kannattaa kysyä.\n\nLähettäisin nyt ystävällisen muistutuksen:\n> Pyysin kaksi viikkoa sitten palautetta rekrytointipäätöksestä. Toivoisin tarkennusta siihen, mitä valintakriteerejä painotettiin ja miten kokemukseni sekä johtamisnäyttöni arvioitiin suhteessa tehtävän vaatimuksiin. Mihin osa-alueisiin valitun hakijan vahvuudet erityisesti liittyivät? Milloin voisin saada vastauksen?\n\nKahden viikon vastaamattomuus ei sellaisenaan osoita väärinkäytöstä. Oikeus kirjallisiin perusteluihin ja työnantajan vastaamisvelvollisuus riippuvat muun muassa maasta ja siitä, onko kyse yksityisestä vai julkisesta työnantajasta.\n\nMissä maassa tehtävä on, ja onko insinööritoimisto yksityinen yritys? Näillä tiedoilla voi arvioida tarkemmin oikeuksiasi ja jatkotoimia."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5960,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 471,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

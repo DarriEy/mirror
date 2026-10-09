@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f7-a2d0-7810-b76f-9cfad18dd4c9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä mieskokoonpano ei osoita syrjintää tai epäasiallista valintaa.** Koska sekä sinä että valittu olette miehiä, kertomasi ei sellaisenaan viittaa siihen, että sinua olisi kohdeltu epäedullisesti sukupuolesi vuoksi. Kokoonpanon mahdollinen sääntöjenvastaisuus on erillinen kysymys: se riippuu maasta, yliopiston asemasta ja lautakuntaa koskevista säännöistä.\n\nYmmärrän silti, miksi valinta herättää kysymyksiä. Sinulla on kuvauksesi perusteella pidemmälle edennyt akateeminen pätevyys. **Ratkaisevaa on, mitä hakuilmoituksessa edellytettiin ja miten ansioita vertailtiin** — ei yksin tutkinto tai julkaisujen lukumäärä. Elinkeinoelämän kokemus, opetustaito ja julkaisujen laatu voivat olla perusteltuja valintatekijöitä. Jos valmis tohtorintutkinto oli ehdoton kelpoisuusvaatimus, kannattaa selvittää, milloin sen piti olla suoritettu ja täyttikö valittu vaatimuksen.\n\nEtenisin näin:\n- Lähetä kirjallinen muistutus, tarvittaessa yliopiston kirjaamoon. Pyydä valintapäätös perusteluineen, saatavilla oleva ansiovertailu, käytetyt arviointiperusteet sekä tieto mahdollisesta oikaisu- tai muutoksenhakumenettelystä ja määräajoista.\n- Kysy kokoonpanosta neutraalisti: ”Mitä sääntöjä tai tasa-arvoperiaatteita valintalautakunnan kokoonpanoon sovelletaan, ja miten ne huomioitiin?”\n- Säilytä hakuilmoitus ja kirjeenvaihto. Kysy tarvittaessa ammattiliitosta tai juristilta neuvoa nopeasti: **perustelupyynnön vastausta odottamalla ei välttämättä pysäytetä muutoksenhakuaikaa.**\n\nKahden viikon hiljaisuus ei yksin osoita väärinkäytöstä, mutta muistutus on aiheellinen. Missä maassa yliopisto sijaitsee? Se ratkaisee, mitä tiedonsaanti-, kokoonpano- ja muutoksenhakusääntöjä sovelletaan."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5942,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 536,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10136-5111-7271-9af9-509363688f8a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki unnt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er ekki ein og sér vísbending um að kyn hafi ráðið niðurstöðunni. Þú og ráðni umsækjandinn eruð báðir karlar. Samsetningin getur þó sjálfstætt vakið spurningar um reglur um kynjajafnvægi, sérstaklega hjá opinberu sjúkrahúsi.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir samanburði á hæfni ykkar, vægi menntunar og stjórnunarreynslu og upplýsingum um skipun nefndarinnar. Doktorspróf tryggir ekki forgang, en meta þarf hæfnina samkvæmt auglýstum kröfum.\n\nBerðu samsetninguna upp sem hlutlausa fyrirspurn, ekki ásökun um mismunun. Leitaðu fljótt til stéttarfélags eða lögmanns um málsmeðferð og mögulega kærufresti; ekki gera ráð fyrir að biðin eftir rökstuðningi stöðvi alla fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6047,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 426,
+    "reasoning_output_tokens": 141
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

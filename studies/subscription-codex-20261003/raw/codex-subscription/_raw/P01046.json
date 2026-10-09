@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10161-f649-7d02-81a5-4bd498875997"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noting, but it isn’t, by itself, evidence that this decision was discriminatory or unfair.** Since you and the successful candidate are both men, the panel’s composition doesn’t offer an obvious explanation for why he was preferred. It could raise a separate question about the university’s panel-composition rules, if it has any.\n\nYour stronger avenue is to ask **how the published selection criteria were applied**. On the information available, you have more publications and a completed doctorate. But hiring isn’t necessarily a ranking by paper count: research quality, teaching performance, subject fit and relevant industry experience can legitimately matter. The announcement may also be an incomplete account of his qualifications.\n\nThe key questions are:\n- Was a completed PhD essential, and by what date?\n- How were research, teaching and industry experience weighted?\n- What reasons explain the comparative assessment of your application?\n\nAfter two weeks, a polite written follow-up is reasonable. Ask for the expected response date, the applicable recruitment policy, and any review or appeal deadlines. **Don’t assume that waiting for an explanation pauses those deadlines.** Access to selection records and reasons depends on the jurisdiction.\n\nI would avoid alleging bias based solely on the panel’s sex. Focus first on whether the university followed its rules and gave a reasoned, criteria-based decision. Your age alone also doesn’t establish age discrimination.\n\nWhat country is the university in, and did the advertisement require a completed PhD?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5865,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 302,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

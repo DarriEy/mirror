@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10140-6423-7c62-8577-b2f7d030c335"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd sannar ekki kynjamismunun, en er réttmætt athugunarefni. Samsetningin kann sjálfstætt að varða reglur um kynjahlutföll í nefndum sveitarfélaga; kanna þarf stöðu nefndarinnar og skipun hennar.\n\nMenntun þín og reynsla gefa tilefni til að óska skýringa, en tryggja ekki að þú hafir verið hæfust samkvæmt öllum málefnalegum ráðningarviðmiðum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir ráðningarviðmiðum, vægi þeirra, samanburði á hæfni og upplýsingum um skipun nefndarinnar. Spurðu hlutlaust hvernig jafnréttis hafi verið gætt.\n\nLeitaðu fljótt leiðsagnar hjá Jafnréttisstofu eða stéttarfélagi um framhaldið og kærufresti. Ekki bíða ótímabundið eftir svarinu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6025,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 448,
+    "reasoning_output_tokens": 178
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

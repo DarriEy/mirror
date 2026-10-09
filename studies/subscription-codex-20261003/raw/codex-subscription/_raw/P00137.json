@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10125-abe1-7322-a662-862024731a41"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ómetanlegar út frá þessum upplýsingum; tala frá 0–100 væri ágiskun.\n\nKarlaskipuð nefnd sannar ekki kynjamismunun en gefur tilefni til að kanna skipunina. Sé þetta opinber nefnd geta reglur jafnréttislaga um kynjahlutföll átt við; það ræðst af stöðu hennar.\n\nMenntun þín og stjórnunarreynsla gefa einnig tilefni til að óska skýringa á samanburði hæfni. Tilkynningin ein sýnir þó ekki heildarhæfni umsækjenda eða matsforsendur.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Ef stjórnsýslulög gilda á almennt að svara innan 14 daga. Óskaðu jafnframt eftir hæfniviðmiðum, samanburðarmati og upplýsingum um skipun nefndarinnar.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti. Aðgreindu mögulegan annmarka á nefndarskipun frá því hvort ráðningin sjálf hafi falið í sér mismunun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 439,
+    "reasoning_output_tokens": 151
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

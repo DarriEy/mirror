@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108c9-fa99-7c40-9617-fbf0db950fb8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE, RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa annetuilla tiedoilla; numero olisi perusteeton\n\nVoit nostaa lautakunnan kokoonpanon esiin neutraalina kysymyksenä rekrytoinnin tasapuolisuudesta. Pelkästään miehistä koostuva lautakunta ei kuitenkaan osoita, että sukupuoli vaikutti päätökseen. Tohtorintutkintosi ja johtamiskokemuksesi ovat vahvoja ansioita, mutta valitun todellisesta kokemuksesta ja valintakriteerien painotuksesta ei ole riittävästi tietoa.\n\nLähetä kirjallinen muistutus perustelupyynnöstäsi. Pyydä valintakriteerit, niiden painotukset ja hakijoiden ansiovertailu sekä kysy, miten tasapuolisuus varmistettiin. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää.\n\nJos kyse on Suomesta, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitoltasi. Tarkista mahdolliset muutoksenhakuajat heti: perustelujen odottaminen ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 421,
+    "reasoning_output_tokens": 135
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

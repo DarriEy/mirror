@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10161-618b-76c0-a802-0fa03e313e1b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel isn’t, by itself, evidence of bias or an unfair decision.** It’s reasonable to want an explanation after reaching the final three, but the panel’s gender composition alone tells you little about how they assessed candidates. Neither does another woman getting the job.\n\nYour qualifications and experience make you a credible candidate. Still, more years of design experience don’t necessarily settle suitability for a group-head role. Client relationships, business development, staff management and leadership might carry substantial weight. The announcement is also unlikely to give the successful candidate’s full credentials.\n\nI’d focus on **the selection criteria and how they were applied**, rather than the panel’s gender. You could follow up now:\n\n> I’m following up on my request of [date] for feedback on the appointment. Could you explain the main criteria used, how my application was assessed against them, and which factors distinguished the successful candidate? Please also let me know when I can expect a response.\n\nMore meaningful warning signs would include age-related comments, stereotypes about women or caring responsibilities, departures from the advertised criteria, or inconsistent explanations. Eight versus fifteen years of experience doesn’t establish an age difference—or age discrimination. Two weeks without a reply warrants a reminder, but isn’t itself evidence of discrimination.\n\nWhether you’re entitled to written reasons, and any complaint deadlines, depends on the country and whether the employer is public or private. If you’re considering a formal challenge, check those deadlines rather than waiting indefinitely for feedback."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5876,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 304,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

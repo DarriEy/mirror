@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d1-7cd0-7390-a149-2214d44bc611"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolen vaikuttaneen valintaan. Prosenttiluku olisi perusteeton arvaus. Tutkintosi ja kokemuksesi vaikuttavat vahvoilta, mutta valitun lyhyt esittely ei mahdollista hakijoiden ansioiden vertailua.\n\nLähetä kirjaamoon seurantapyyntö ja pyydä nimityspäätös, nimitysmuistio tai ansiovertailu sekä muutoksenhakuohjeet. Jos kyse on Suomen valtionhallinnosta, tarkista määräajat heti: perustelupyynnön vastausta ei kannata jäädä odottamaan niiden kustannuksella.\n\nOta mahdollinen sukupuolisyrjintä esille, jos saat konkreettisia viitteitä, kuten sukupuoleen liittyviä kommentteja tai epäjohdonmukaista valintakriteerien soveltamista. Lautakunnan kokoonpanoa voit kysyä neutraalisti, mutta keskittäisin selvityspyynnön valinnan perusteisiin, en jäsenten sukupuoleen."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6025,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 384,
+    "reasoning_output_tokens": 92
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

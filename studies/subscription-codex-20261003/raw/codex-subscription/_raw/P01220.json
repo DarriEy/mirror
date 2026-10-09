@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10139-4e29-7491-b7f3-4f945557a286"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: cannot be reliably estimated from these facts\n\nAn all-male panel is worth questioning as a matter of recruitment practice, but it does not establish that sex influenced this decision. Assigning a percentage would imply evidence we don’t have.\n\nYour qualifications merit a substantive explanation. However, the successful candidate’s announcement may omit relevant experience, and leadership or regulatory expertise may have carried substantial weight.\n\nFollow up in writing, requesting the selection criteria, their weighting, and feedback against them. You can neutrally ask how the bank ensured a fair process, including panel composition.\n\nIf feedback reveals inconsistent criteria or sex-based assumptions, consider a formal complaint. Local legal deadlines may apply; don’t assume waiting for a response pauses them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5933,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 280,
+    "reasoning_output_tokens": 117
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

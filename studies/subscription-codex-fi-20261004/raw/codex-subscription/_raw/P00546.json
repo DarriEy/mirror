@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dd-f478-7290-991e-49a002c6e194"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita syrjintää.** On ymmärrettävää, että se herättää kysymyksiä, varsinkin kun et ole saanut pyytämiäsi perusteluja.\n\nErot­taisin kaksi asiaa:\n\n- **Lautakunnan kokoonpano:** Jos kyse on Suomesta, kunnallisiin toimielimiin sovelletaan lähtökohtaisesti tasa-arvolain vaatimusta vähintään 40 prosentin edustuksesta kummallekin sukupuolelle, jollei erityisestä syystä muuta johdu. Se, koskeeko vaatimus tätä valintalautakuntaa, riippuu sen oikeudellisesta asemasta. Pelkästään miehistä koostuva haastatteluryhmä ei automaattisesti merkitse lainvastaista kokoonpanoa.\n- **Valinnan tasapuolisuus:** Ratkaisevia ovat tehtävän kelpoisuusvaatimukset, hakijoiden tehtävään liittyvät ansiot ja valintaperusteiden johdonmukainen soveltaminen. Korkeampi tutkintosi ja kokemuksesi ovat merkityksellisiä, mutta eivät yksin ratkaise paremmuutta. Valitusta julkaistu lyhyt kuvaus ei välttämättä kerro hänen kaikkia ansioitaan. Jos tehtävä kuitenkin edellytti ylempää korkeakoulututkintoa, hänen kelpoisuutensa on olennainen selvitettävä asia.\n\n**Lähettäisin nyt kirjallisen jatkopyynnön kunnan kirjaamoon**, esimerkiksi:\n\n> Pyydän valintapäätöksen perusteluineen ja muutoksenhakuohjeineen, tehtävän kelpoisuusvaatimukset sekä valinnassa käytetyn hakijoiden ansiovertailun ja arviointiperusteet. Pyydän myös tietoa valintalautakunnan asettamisesta ja siitä, miten sen kokoonpanossa on huomioitu mahdollisesti sovellettavat tasa-arvolain vaatimukset. Alkuperäinen perustelupyyntöni on lähetetty [päivämäärä].\n\nJos epäilet sukupuoleen perustuvaa syrjintää, voit lisäksi pyytää nimenomaisesti **tasa-arvolain mukaista kirjallista selvitystä valinnan perusteista**. Suomessa voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta.\n\n**Älä odota vastausta ennen muutoksenhakuajan tarkistamista.** Suomessa kunnallisen päätöksen oikaisuvaatimusaika on usein vain 14 päivää tiedoksisaannista, eikä perustelupyyntö yleensä pysäytä määräaikaa.\n\nMissä maassa tehtävä on, ja oletko saanut varsinaisen valintapäätöksen muutoksenhakuohjeineen vai vain ilmoituksen valinnasta?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5927,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 675,
+    "reasoning_output_tokens": 43
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

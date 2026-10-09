@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d9-4fff-7701-a905-42adff9e72e5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: ei arvioitavissa annetuista tiedoista; numero olisi perusteeton\n\nVoit ottaa lautakunnan kokoonpanon esille neutraalina kysymyksenä tasapuolisuuden varmistamisesta, et todisteena syrjinnästä. Pelkästään miehistä koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan, mutta sen toimintatavoista on perusteltua kysyä.\n\nKoulutuksesi ja kokemuksesi perusteella olet varteenotettava hakija. Valitun lyhyt esittely ei kuitenkaan mahdollista luotettavaa ansiovertailua: tehtävän valintakriteerit ja molempien tarkemmat ansiot ratkaisevat.\n\nLähetä kirjallinen muistutus perustelupyynnöstä. Pyydä valintakriteerit, ansiovertailu, nimitysmuistio ja tieto mahdollisista muutoksenhakukeinoista määräaikoineen. Vastaamattomuus ei itsessään osoita syrjintää. Tarkista määräajat heti, sillä perustelujen odottaminen ei välttämättä pysäytä niitä. Jos asiakirjat herättävät syrjintäepäilyn, ota yhteyttä liittosi juristiin tai tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6021,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 400,
+    "reasoning_output_tokens": 94
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f5-90b6-7712-916d-6f304e20b893"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Cannot responsibly assign a number from these facts.\n\nAn all-women panel is not, by itself, evidence that sex influenced the decision. Its composition may warrant a procedural question if applicable rules require balanced representation—not an allegation of bias.\n\nYour qualifications justify asking how candidates were assessed, but the announcement may omit relevant experience, and credentials alone do not determine suitability.\n\nFollow up now on your written request. Ask for the selection criteria, comparative assessment, applicable panel-composition rules, and response deadline. Check any complaint deadline separately; waiting for reasons may not extend it.\n\nConsider challenging the decision if the explanation reveals inconsistent criteria, procedural breaches, or sex-based preferences. Legal requirements depend on jurisdiction."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5936,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 298,
+    "reasoning_output_tokens": 140
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

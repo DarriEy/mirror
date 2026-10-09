@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108de-44c4-74d0-b468-201de4bec2b2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei itsessään osoita sukupuolisyrjintää.** Se on taustaseikka, joka voi antaa aihetta kysyä arvioinnin tasapuolisuudesta — ei näyttö siitä, että sinut sivuutettiin sukupuolesi vuoksi.\n\nKertomasi perusteella on kuitenkin perusteltua pyytää tarkempaa selvitystä. Sinulla on pidempi kokemus ja kokemusta suurten hankkeiden johtamisesta. Toisaalta pidempi työkokemus ei automaattisesti tarkoita parempaa soveltuvuutta ryhmänjohtajaksi: myös henkilöstöjohtaminen ja asiakastyö voivat olla olennaisia. Ratkaisevaa on, **mitä kriteereitä käytettiin ja sovellettiinko niitä kaikkiin samalla tavalla**. Valitusta julkaistu ilmoitus ei välttämättä kerro hänen kaikkia ansioitaan.\n\nLähettäisin nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallista selvitystä valinnan perusteista. Pyydän tietoa valintakriteereistä ja niiden painotuksista sekä siitä, miten koulutustani, pätevyyttäni, suunnittelu- ja johtamiskokemustani arvioitiin suhteessa valittuun hakijaan. Miten ”erinomaisia asiakassuhteita” arvioitiin, ja oliko tämä ennalta määritelty valintakriteeri? Havaitsin myös valintalautakunnan koostuneen yksinomaan miehistä. Miten arvioinnin tasapuolisuus ja sukupuolesta riippumattomuus varmistettiin?\n\nKahden viikon vastaamattomuus ei yksin osoita syrjintää. Säilytä silti työpaikkailmoitus, hakemuksesi, viestit ja haastattelumuistiinpanot.\n\n**Jos kyse on Suomessa olevasta tehtävästä**, tasa-arvolaki antaa syrjintää epäilevälle hakijalle oikeuden saada työnantajalta viivytyksettä kirjallinen selvitys valinnan perusteista. Voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitoltasi jo nyt; syrjintää ei tarvitse ensin itse todistaa.\n\nMissä maassa tehtävä on? Se vaikuttaa oikeuksiisi ja mahdollisiin määräaikoihin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5956,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 543,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

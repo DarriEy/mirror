@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ef-491f-74b2-8eb9-1906ab087f83"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, miksi sinua ei valittu, etenkin kun sinulla on vahva koulutus ja pitkä johtamiskokemus.\n\n**Pelkästään naisista koostunut valintalautakunta ei itsessään ole merkki sukupuolisyrjinnästä.** Myöskään valitun hakijan sukupuoli ei osoita sitä. Voit kysyä lautakunnan kokoonpanon määräytymisestä, mutta en nostaisi sitä yhteydenoton pääasiaksi ilman muuta näyttöä menettelyn puolueellisuudesta.\n\nOlennaisempaa on selvittää, **miten hakijoita vertailtiin suhteessa ilmoitettuihin valintakriteereihin**. Tohtorintutkintosi ja kahdeksan vuoden johtamiskokemuksesi ovat merkittäviä ansioita, mutta korkeampi tutkinto ei automaattisesti ratkaise valintaa. Valitun hakijan ”laaja johtamiskokemus” voi sisältää olennaista kokemusta, jota lyhyt ilmoitus ei kuvaa.\n\nLähettäisin nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja laboratorion johtajan valintapäätökselle. Pyydän tietoa siitä, milloin saan vastauksen. Haluaisin erityisesti selvityksen käytetyistä valintakriteereistä, niiden painotuksesta sekä siitä, miten koulutusta, johtamiskokemusta ja haastatteluissa arvioitua soveltuvuutta vertailtiin. Pyydän myös mahdollisen ansiovertailun sekä tiedon käytettävissä olevista oikaisu- tai muutoksenhakukeinoista ja niiden määräajoista.\n\nKahden viikon vastaamattomuus on syy muistuttaa pyynnöstä, mutta ei yksin osoita syrjintää. **Älä kuitenkaan oleta, että perustelujen odottaminen pysäyttää mahdollisen muutoksenhakuajan.**\n\nMissä maassa sairaala sijaitsee, ja onko työnantaja julkinen vai yksityinen? Se vaikuttaa siihen, mitä tietoja voit saada ja miten päätöksen voi riitauttaa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5924,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 490,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

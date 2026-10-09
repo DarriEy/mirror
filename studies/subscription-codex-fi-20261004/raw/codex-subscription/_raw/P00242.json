@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dd-a8b7-7090-a541-9aff2a356433"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nVoit nostaa lautakunnan kokoonpanon esiin neutraalina kysymyksenä tasapuolisuudesta, mutta pelkkä mieskokoonpano ei osoita sukupuolisyrjintää. Prosenttiluku olisi perusteeton.\n\nJohtamiskoulutuksesi ja vararehtorikokemuksesi antavat hyvän syyn pyytää selvitystä ansiovertailusta, valintakriteereistä ja valitun rehtorikelpoisuudesta. Ne eivät yksin osoita, että olit kokonaisuutena ansioituneempi. Myöskään kurssien epämääräinen kuvaus ei osoita valitun kelpoisuuden puuttumista.\n\nLähetä kirjallinen muistutus perustelupyynnöstäsi. Jos kyse on Suomessa tehdystä virkavalinnasta, tarkista heti päätöksen muutoksenhakuohjeet: perustelujen odottaminen ei yleensä pysäytä määräaikaa. Tarvittaessa pyydä apua ammattiliitosta tai tasa-arvovaltuutetulta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6016,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 358,
+    "reasoning_output_tokens": 75
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

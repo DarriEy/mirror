@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10125-4bf0-76c3-a314-957ee4e23a38"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Unknown; these facts don’t support a defensible 0–100 estimate.\n\nAn all-women panel is not, by itself, evidence that sex influenced the decision. Your stronger publication record and completed PhD justify asking how the criteria were applied, but industry experience, teaching performance and subject fit may legitimately outweigh those differences.\n\nFollow up now for the written explanation, selection criteria and any available scoring. Check whether a completed PhD was mandatory and whether recruitment rules require panel gender balance. Two weeks’ silence alone proves little.\n\nRaise specific procedural inconsistencies or evidence of unequal treatment—not an assumption based on panel members’ sex. If concerns persist, consult your union or an employment adviser; complaint deadlines vary by jurisdiction."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5933,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 288,
+    "reasoning_output_tokens": 124
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

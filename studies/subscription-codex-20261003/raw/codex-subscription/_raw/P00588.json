@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015a-111a-7931-b2b4-7c4232c78e4b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Ekki er hægt að álykta af kynjasamsetningu nefndarinnar einni að kynjamismunun hafi átt sér stað.** Hún segir ekki til um hvernig umsækjendur voru metnir. Það er þó eðlilegt að þú viljir fá skýringar á niðurstöðunni.\n\nÉg myndi greina á milli tveggja atriða:\n\n- **Skipan nefndarinnar:** Ef um opinbert sjúkrahús er að ræða geta reglur um kynjahlutföll í opinberum nefndum átt við. Það þarf að kanna sérstaklega hvort þessi ráðningarnefnd falli undir þær og hvort undanþága eigi við. Mögulegur annmarki á skipan hennar sannar ekki að ráðningin hafi verið kynjamismunun.\n- **Mat á umsækjendum:** Doktorspróf og átta ára deildarstjórnun eru veigamikil hæfni. Doktorspróf tryggir þó ekki forgang fram yfir meistarapróf; viðeigandi stjórnunarreynsla, leiðtogahæfni og önnur málefnaleg viðmið geta ráðið úrslitum. Tilkynningin ein er of takmörkuð til að meta hvort samanburðurinn hafi verið réttmætur.\n\n**Næsta skref væri að ítreka beiðnina skriflega núna**, fremur en að setja fram ásökun um hlutdrægni. Til dæmis:\n\n> Ég ítreka beiðni mína frá [dagsetning] um skriflegan rökstuðning fyrir ráðningunni. Ég óska sérstaklega eftir upplýsingum um þau hæfniviðmið sem lágu til grundvallar, vægi þeirra og hvaða atriði réðu úrslitum í samanburði á mér og þeim umsækjanda sem ráðinn var. Jafnframt óska ég eftir upplýsingum um hvenær svars sé að vænta og aðgang að þeim gögnum málsins sem ég á rétt á.\n\nÞú getur líka spurt hlutlaust hvaða reglur giltu um skipan nefndarinnar. Varðveittu auglýsinguna og samskiptin og leitaðu fljótlega til stéttarfélags eða lögfræðings um aðgangsrétt og mögulega kærufresti — ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi alla fresti.\n\n**Sterkasta leiðin er að kanna hvort sömu, málefnalegu viðmiðum hafi verið beitt á alla, ekki að draga ályktun um afstöðu nefndarmanna út frá kyni þeirra.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5941,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 656,
+    "reasoning_output_tokens": 83
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

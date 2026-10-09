@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f5-7e06-7003-9ba7-ed194eda86bd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkkä mieskokoonpano ei osoita, että sinua olisi syrjitty tai valinta olisi ollut epäasiallinen.** Koska sekä sinä että valittu olette miehiä, kerrotut tiedot eivät sellaisinaan viittaa siihen, että sinut olisi sivuutettu sukupuolesi vuoksi. Kokoonpanon sääntöjenmukaisuus on kuitenkin erillinen kysymys.\n\nJos kyse on Suomesta:\n\n- **Kunnan toimielimissä on yleensä sukupuolikiintiö:** sekä naisia että miehiä tulee olla vähintään 40 prosenttia, jollei erityisestä syystä muuta johdu. Se, koskeeko vaatimus tätä valintalautakuntaa, riippuu sen oikeudellisesta asemasta — esimerkiksi muodollinen toimielin ja epävirallinen haastatteluryhmä eivät välttämättä ole samassa asemassa.\n- **Valinnan arvioinnissa olennaisinta on kelpoisuus ja ansiovertailu.** Jos tehtävän kelpoisuusvaatimuksena oli soveltuva ylempi korkeakoulututkinto, pelkkä kandidaatin tutkinto ei lähtökohtaisesti täytä sitä. Jos tällaista vaatimusta ei ollut, korkeampi tutkintosi ja pitkä kokemuksesi eivät yksin takaa valintaa: myös johtamistaitoja, vuorovaikutusosaamista ja muuta tehtävään liittyvää soveltuvuutta voidaan painottaa.\n- **Kahden viikon vastaamattomuus ei itsessään osoita väärinkäytöstä.** Suomessa julkista asiakirjaa koskeva tietopyyntö on kuitenkin yleensä käsiteltävä viimeistään kahdessa viikossa, laajempi tai vaikeampi pyyntö kuukaudessa. Uuden kirjallisen selvityksen pyytäminen ei ole aivan sama asia kuin olemassa olevien asiakirjojen pyytäminen.\n\nLähettäisin kunnan kirjaamoon esimerkiksi tämän:\n\n> Pyydän rekrytoinnin valintapäätöksen perusteluineen ja muutoksenhakuohjeineen, tehtävän kelpoisuusvaatimukset sekä laaditun ansiovertailun ja muut julkiset valinnan valmisteluasiakirjat. Pyydän myös tiedon valintalautakunnan asettamispäätöksestä ja siitä, miten sen kokoonpanossa on arvioitu tasa-arvolain kiintiösäännöksen soveltumista.\n\n**Älä odota vastausta ennen muutoksenhakuajan tarkistamista.** Suomessa kunnallisen päätöksen oikaisuvaatimusaika on usein vain 14 päivää tiedoksisaannista, eikä perustelupyyntö yleensä pysäytä sitä.\n\nMissä maassa tehtävä on, ja oletko saanut varsinaisen valintapäätöksen muutoksenhakuohjeineen? Nämä ratkaisevat, mitä kannattaa tehdä seuraavaksi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5937,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 678,
+    "reasoning_output_tokens": 27
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

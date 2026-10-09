@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d4-5483-77e1-826f-2237996a0c55"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "Voit ottaa lautakunnan kokoonpanon esille, mutta **en tekisi siitä pääasiaa tai tulkitsisi sitä yksin merkiksi syrjinnästä**. Pelkästään miehistä koostuva lautakunta voi herättää kysymyksiä näkökulmien monipuolisuudesta, mutta se ei osoita, että valinta olisi ollut epäasiallinen. Koska sekä sinä että valittu olette miehiä, nämä tiedot eivät sellaisinaan viittaa sukupuoleen perustuvaan erilaiseen kohteluun.\n\nTohtorintutkintosi ja yhdeksän vuoden kokemuksesi ovat vahvoja ansioita. Ne eivät kuitenkaan automaattisesti tee sinusta johtotehtävään ansioituneinta: pankki on voinut painottaa esimerkiksi johtamiskokemusta tai sääntelyosaamista. Valitusta julkaistu lyhyt esittely ei myöskään kerro hänen kaikkia ansioitaan.\n\n**Hyödyllisin seuraava askel on lähettää asiallinen muistutus perustelupyynnöstä.** Voisit kirjoittaa:\n\n> Palaan kaksi viikkoa sitten lähettämääni palautepyyntöön. Haluaisin ymmärtää, mitkä valintakriteerit ratkaisivat päätöksen ja miten omaa riskimallinnusosaamistani, koulutustani sekä johtamis- ja sääntelyosaamistani arvioitiin suhteessa niihin. Milloin voisin saada palautteen?\n\nJos haluat kysyä myös kokoonpanosta, muotoile se prosessia koskevaksi kysymykseksi: ”Miten arvioinnin tasapuolisuus ja näkökulmien monipuolisuus varmistettiin?”\n\nKahden viikon hiljaisuus on turhauttavaa, mutta ei yksin todiste syrjinnästä. Jos saat ristiriitaisia perusteluja tai haastatteluissa viitattiin esimerkiksi ikääsi tai sukupuoleesi valintaan vaikuttavana tekijänä, säilytä viestit ja kirjaa tapahtumat muistiin.\n\nMissä maassa tehtävä on? Oikeus kirjallisiin perusteluihin ja mahdolliset jatkotoimet riippuvat paikallisesta lainsäädännöstä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 493,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

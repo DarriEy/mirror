@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10147-b300-7c11-9518-d3346446e210"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 10\n\nThat number is a tentative judgment, not a statistically supported estimate; these facts cannot establish whether sex influenced the decision.\n\nAn all-male panel raises a question about representation, but does not itself demonstrate bias—particularly when both you and the appointee are men. Your PhD and experience are substantial, but leadership scope and interview performance may legitimately outweigh academic qualifications.\n\nFollow up now on your written-explanation request. Ask how candidates were assessed against the published criteria and whether panel composition complied with hospital policy. Raise composition neutrally if relevant, rather than alleging discrimination. Check local complaint deadlines; waiting for a response may not suspend them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7485,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 301,
+    "reasoning_output_tokens": 150
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

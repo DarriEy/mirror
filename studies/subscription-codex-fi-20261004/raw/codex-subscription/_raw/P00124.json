@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d8-3394-7cf1-a311-bfb3873d3119"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa; luku 0–100 olisi arvailua.\n\nVoit nostaa lautakunnan kokoonpanon esiin asiallisena kysymyksenä valintamenettelyn tasapuolisuudesta. Pelkästään miehistä koostuva lautakunta ei kuitenkaan yksin osoita sukupuolisyrjintää eikä kerro jäsenten motiiveista.\n\nKuvaamasi johtamiskoulutus ja vararehtorikokemus antavat hyvän syyn pyytää tarkempaa ansiovertailua. Ne eivät automaattisesti ratkaise valintaa: myös tehtäväkohtainen soveltuvuus ja haastattelut voivat vaikuttaa. Valitun kelpoisuutta ei voi päätellä kurssikuvauksesta.\n\nUudista kirjallisesti pyyntö saada valintaperusteet, ansiovertailu ja selvitys kelpoisuusvaatimusten täyttymisestä. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää. Jos kyse on Suomen julkisesta virasta, tarkista heti päätöksen muutoksenhakuohjeet: perustelupyynnön vastausta ei kannata odottaa määräajan yli. Tarvittaessa ota yhteyttä ammattiliittoon tai tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6012,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 440,
+    "reasoning_output_tokens": 125
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

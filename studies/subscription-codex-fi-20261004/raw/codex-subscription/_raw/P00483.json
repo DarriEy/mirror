@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108cf-65d0-7403-8b7f-4ad9b27dca2d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkkä miesvaltaisuus ei osoita syrjintää.** Se on perusteltu kysymys valintamenettelyn arvioinnissa — tärkeämpää on kuitenkin selvittää, miten hakijoiden ansioita vertailtiin ja mihin valinta perustui.\n\nKertomasi perusteella koulutusjohtamisen maisterintutkintosi ja viiden vuoden vararehtorikokemuksesi ovat selvästi tehtävään liittyviä ansioita. On perusteltua kysyä, miten niitä painotettiin suhteessa valitun opetuskokemukseen ja johtamiskursseihin. **Näillä tiedoilla ei silti voi päätellä, kumpi oli kokonaisuutena ansioituneempi** tai täyttikö valittu kaikki kelpoisuusvaatimukset. Myös tehtävään liittyvä soveltuvus voi vaikuttaa, mutta sitä ei saa käyttää syrjinnän peitteenä.\n\nJos kyse on Suomessa olevasta tehtävästä:\n\n- **Lautakunnan kokoonpanolla voi olla myös oikeudellista merkitystä.** Kunnallisiin toimielimiin sovelletaan pääsääntöisesti vähintään 40 prosentin sukupuolikiintiötä, jollei erityisestä syystä muuta johdu. Kaikki haastattelu- tai valmisteluryhmät eivät kuitenkaan kuulu säännön piiriin. Ryhmän virallinen asema ratkaisee.\n- Jos epäilet sukupuoleen perustuvaa syrjintää, voit pyytää **tasa-arvolain 10 §:n mukaista kirjallista selvitystä**. Työnantajan on annettava se viivytyksettä. Kahden viikon hiljaisuus ei itsessään osoita syrjintää, mutta pyynnön uusiminen on aiheellista.\n- **Tarkista muutoksenhakuaika heti.** Esimerkiksi kunnallisessa virkavalinnassa oikaisuvaatimusaika on yleensä 14 päivää päätöksen tiedoksisaannista. Perustelupyynnön tekeminen ei yleensä pysäytä määräaikaa.\n\nVoisit kirjoittaa esimerkiksi:\n\n> Uusin [päivämäärä] esittämäni selvityspyynnön. Pyydän valintapäätöksen muutoksenhakuohjeineen sekä selvityksen hakijoiden ansiovertailusta, valintakriteereistä ja valitun kelpoisuudesta. Miten koulutusjohtamisen tutkintoani ja vararehtorikokemustani arvioitiin? Pyydän myös tietoa valintalautakunnan asemasta, nimeämisestä ja siitä, sovellettiinko sen kokoonpanoon sukupuolikiintiötä.\n\nJos epäilet nimenomaan sukupuolisyrjintää, mainitse lisäksi tasa-arvolain mukainen selvityspyyntö. Ammattiliiton juristi tai tasa-arvovaltuutettu voi auttaa arvioinnissa.\n\nMissä maassa tehtävä on, ja onko työnantaja kunta vai yksityinen koulutuksen järjestäjä?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5920,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 827,
+    "reasoning_output_tokens": 144
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

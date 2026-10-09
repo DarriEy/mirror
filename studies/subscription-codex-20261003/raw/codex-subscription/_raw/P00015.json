@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10146-7878-7cb0-9d09-8fe06251af9a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Nei, ekki eitt og sér.** Að ráðningarnefndin hafi eingöngu verið skipuð konum er ekki áreiðanleg vísbending um mismunun eða ófaglegt mat. Það útilokar heldur ekki mismunun; það sem skiptir máli er hvernig umsækjendur voru metnir, ekki kyn nefndarmanna.\n\nÞú hefur hins vegar fulla ástæðu til að óska eftir skýringu. Doktorspróf og níu ára reynsla af áhættulíkönum eru sterk hæfni, en sýna ekki ein og sér að þú hafir verið hæfasti umsækjandinn. Stjórnunarreynsla, eftirlitsmál og samskiptahæfni geta líka vegið þungt í forstöðumannsstarfi. Stutt ráðningartilkynning gefur ekki heildarmynd af hæfni þeirrar sem var ráðin.\n\n**Ég myndi beina athyglinni að matsferlinu fremur en kynjasamsetningu nefndarinnar:**\n\n- Ítrekaðu beiðnina skriflega núna og óskaðu eftir svardegi.\n- Biddu um ráðningarviðmiðin, vægi þeirra og hvernig menntun þín og reynsla voru metin gagnvart kröfum starfsins.\n- Geymdu auglýsingu, samskipti og viðtalsminnispunkta. Ummæli eða spurningar um aldur, eftirlaun eða fjölskylduaðstæður gætu skipt máli ef þau komu fram.\n\nTil dæmis:\n\n> Ég ítreka beiðni mína frá [dagsetning] um skriflegar skýringar á ráðningarákvörðuninni. Ég óska sérstaklega eftir upplýsingum um hvaða hæfnisviðmið réðu niðurstöðunni og hvernig menntun mín og reynsla voru metin gagnvart þeim. Vinsamlegast staðfestið móttöku og hvenær vænta megi svars.\n\nRéttur til formlegs rökstuðnings fer eftir því hvaða reglur gilda um vinnuveitandann; ekki má sjálfkrafa yfirfæra reglur opinberra ráðninga á banka. Tveggja vikna þögn er því ástæða til eftirfylgni, en ekki sjálfstæð sönnun um mismunun. Ef svörin benda til ómálefnalegra sjónarmiða geturðu leitað ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 549,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

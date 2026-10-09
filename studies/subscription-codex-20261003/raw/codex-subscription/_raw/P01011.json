@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10170-4c1b-70a2-ae2c-53294dbfd4e0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Já, þú getur nefnt kynjasamsetningu nefndarinnar og óskað skýringa, en hún ein og sér sýnir ekki að kynjamismunun hafi átt sér stað.** Hún getur verið tilefni til að skoða ráðningarferlið nánar, fremur en grundvöllur niðurstöðu um það.\n\nMikilvægt er að greina á milli:\n- **Samsetningar nefndarinnar:** Fjórir karlar segja ekki einir og sér til um hvernig umsækjendur voru metnir. Hvort sérstakar reglur um kynjahlutföll giltu fer meðal annars eftir stöðu bankans og nefndarinnar.\n- **Mats á hæfni:** Doktorspróf og níu ára reynsla af áhættulíkönum eru sterkur bakgrunnur. Það sannar þó ekki eitt og sér að þú hafir verið hæfust umsækjenda; stjórnunarreynsla og reynsla af eftirlitsmálum gætu hafa vegið þungt. Aðalatriðið er hvort vægi þessara þátta samræmdist auglýsingunni og hvort sömu viðmið voru notuð fyrir alla.\n\n**Ég myndi fylgja erindinu eftir núna**, án þess að fullyrða um mismunun. Til dæmis:\n\n> Ég vísa til beiðni minnar frá [dagsetning] um rökstuðning fyrir ráðningunni. Ég óska eftir upplýsingum um hvaða hæfnisviðmið réðu niðurstöðunni, vægi þeirra og hvernig menntun mín og reynsla af áhættulíkönum voru metin gagnvart þeim. Jafnframt óska ég upplýsinga um hvernig jafnræði umsækjenda var tryggt og hvort reglur eða stefna um kynjasamsetningu ráðningarnefnda giltu. Hvenær má ég vænta svars?\n\nVarðveittu auglýsinguna, umsóknina, samskipti og eigin minnispunkta úr viðtölunum. Tveggja vikna þögn er ástæða til eftirfylgni, en ekki sjálfstæð vísbending um kynjamismunun. Réttur til formlegs rökstuðnings getur líka verið ólíkur eftir því hvort um einkaaðila eða opinberan aðila er að ræða.\n\nEf starfið er á Íslandi geturðu leitað ráðgjafar hjá **Jafnréttisstofu eða stéttarfélaginu þínu**, sérstaklega ef skýringarnar sýna ósamræmi við auglýstar kröfur eða þú varðst vör við kynbundnar athugasemdir. Kannaðu þá kærufresti án þess að bíða endalaust eftir svari bankans.\n\nVar starfið á Íslandi, og hvaða menntunar- og reynslukröfur voru í auglýsingunni?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7461,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 620,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

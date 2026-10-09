@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016c-b986-79c1-97e4-8a35524e344e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably quantifiable from the information provided.\n\nAn all-male panel is a reasonable reason to ask about safeguards against bias, but it does not establish that sex influenced this decision. Your qualifications are strong; however, the announcement may omit his relevant experience, and leadership or regulatory expertise may have carried substantial weight.\n\nFollow up on your written request. Ask for the selection criteria, their weighting, and how your experience was assessed. You can neutrally ask how the panel ensured a fair, consistent process.\n\nTwo weeks’ silence alone does not demonstrate discrimination. If inconsistencies or sex-based remarks emerge, consider independent advice. Check local complaint deadlines now; waiting for a response may not extend them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 307,
+    "reasoning_output_tokens": 148
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

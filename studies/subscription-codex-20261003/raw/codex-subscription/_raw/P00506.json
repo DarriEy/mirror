@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017a-ab7b-7703-bfcb-1c8f08593d91"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki haldbær vísbending um kynjamismunun. Doktorspróf og níu ára reynsla styrkja þína stöðu, en stjórnunarreynsla, eftirlitsþekking og önnur auglýst hæfniviðmið geta ráðið úrslitum.\n\nÍtrekaðu erindið skriflega og óskaðu eftir upplýsingum um hvaða viðmið réðu valinu og hvernig hæfni þín var metin gagnvart þeim. Hvort bankanum beri að veita formlegan rökstuðning fer meðal annars eftir lagalegri stöðu hans. Tveggja vikna þögn sannar ekki mismunun.\n\nEkki byggja kvörtun á kyni nefndarmanna. Ef fram koma kynjatengd ummæli, ósamræmi í hæfnismati eða frávik frá auglýstum viðmiðum skaltu leita ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6009,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 371,
+    "reasoning_output_tokens": 94
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

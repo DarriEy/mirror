@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10145-ac18-7a51-94e9-cc61e87e1be0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er ástæða til að spyrja, en sannar ekki að kyn hafi ráðið niðurstöðunni. Sé þetta opinber nefnd gilda almennt reglur um að hlutur hvors kyns sé að minnsta kosti 40% þegar nefndarmenn eru fleiri en þrír, með tilteknum undantekningum.\n\nMenntun þín og stjórnunarreynsla kalla einnig á skýran samanburð við ráðningarskilyrðin; tilkynningin ein sýnir þó ekki heildarhæfni umsækjenda.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Óskaðu eftir hæfnismati, vægi viðmiða, aðgangi að gögnum málsins og skýringum á kynjasamsetningu nefndarinnar. Leitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 464,
+    "reasoning_output_tokens": 200
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

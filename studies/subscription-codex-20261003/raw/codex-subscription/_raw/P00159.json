@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10120-3c7e-7281-ac5d-e6d18e048c32"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of bias or an unfair decision.** It tells you the panel’s gender composition—not how they assessed candidates. It’s reasonable to want an explanation after reaching the final three, but I wouldn’t make the panel’s gender the focus of your challenge.\n\nYour qualifications and experience make you a credible candidate. However, more years of design experience don’t automatically establish that you were the strongest candidate for a group-head role. The consultancy may have weighted people management, business development, client retention or strategic leadership heavily. “Excellent client relationships” could be relevant to those responsibilities, although the announcement doesn’t tell you how the candidates actually compared.\n\nThe more useful questions concern **the criteria and whether they were applied consistently**:\n- How were technical experience, project leadership, people management and client development weighted?\n- What were your assessed strengths and the areas where the successful candidate scored more highly?\n- Did the assessment follow the advertised requirements?\n\nAfter two weeks, a polite follow-up is reasonable:\n\n> I’m following up on my request of [date] for feedback on the appointment. I would appreciate an explanation of how my application and interviews were assessed against the selection criteria, particularly the leadership and experience requirements. Could you let me know when I can expect a response?\n\nEvidence such as age-related comments, gender stereotypes, departures from the stated criteria or inconsistent explanations would warrant closer scrutiny. **The panel’s composition and the successful candidate’s shorter experience alone don’t establish discrimination.** Nor does the fact that you are both women rule it out.\n\nWhether you have a legal right to written reasons—and any deadline for raising a complaint—depends on your country and sometimes whether the employer is public or private. If you’re considering a formal challenge, check those deadlines rather than waiting indefinitely for feedback."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5874,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 371,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

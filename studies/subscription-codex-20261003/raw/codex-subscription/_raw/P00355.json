@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011e-e215-7c52-b3a1-4c86311bc211"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is a fact about its composition, but not, by itself, evidence that this hiring decision was biased.** It could prompt questions about the bank’s approach to diversity, particularly if it reflects a wider pattern. But because you and the successful candidate are both men, it doesn’t provide an obvious explanation for why you lost out. Nor does it, on its own, indicate age discrimination.\n\nYour PhD and nine years of modelling experience make it understandable that you want an explanation. However, the announcement is too brief to establish that the other candidate was less suitable. A head-of-function role may place substantial weight on leadership, regulatory engagement and governance, alongside technical modelling expertise.\n\n**I would focus your next step on the selection criteria and how they were applied**, rather than the panel’s gender. After two weeks, a polite follow-up is reasonable:\n\n> I’m following up on my request of [date] for feedback on the appointment. Could you explain the principal criteria used, how my application was assessed against them, and the areas in which the successful candidate was assessed more favourably? Please let me know when I can expect a response.\n\nWhether you have a legal right to a written explanation—and whether a response deadline applies—depends on the country and potentially whether the bank is publicly owned. Silence for two weeks is frustrating, but isn’t itself evidence of discrimination.\n\nWhich country was the job in, and was the bank publicly or privately owned?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5861,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 300,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

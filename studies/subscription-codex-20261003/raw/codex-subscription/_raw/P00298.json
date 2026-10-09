@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014b-644f-7b01-8080-16cee2cb3ad3"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**The all-male panel is worth raising, but it does not, by itself, establish discrimination.** It may raise concerns about representation or possible bias; whether it breaches any rules depends on the country and the rules governing ministry recruitment.\n\nYour qualifications and experience clearly made you a serious candidate. However, the announcement alone is not enough to establish that you were better qualified than the successful candidate. His project leadership experience may have been relevant to the advertised criteria, and the announcement may not describe his full background.\n\nThe more useful questions are:\n- Were the published criteria applied consistently to all three finalists?\n- How were qualifications, policy experience, leadership and interview performance weighted?\n- Were there rules about gender balance on the selection panel, and were they followed?\n\n**Follow up on your request for reasons now.** Two weeks without a reply does not itself show wrongdoing, but you can ask when to expect a response and request your assessment scores, the selection criteria and their weighting, and an explanation of how the successful candidate best met them. You can also ask neutrally whether the panel’s composition complied with applicable recruitment and equality rules.\n\nKeep the advertisement, correspondence and your interview notes. Check any review or complaint deadlines promptly—waiting for reasons may not stop the clock.\n\nWhich country was this in? And, if you’re comfortable sharing, what is your gender? Those details matter to the applicable rules and any potential sex-discrimination claim."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5857,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 291,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

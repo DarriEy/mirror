@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108df-a2d2-7241-ab2f-d8b13a14b0f4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, mihin valinta perustui, etenkin kun pääsit pitkälle haussa ja odotat yhä vastausta.\n\n**Pelkästään naisista koostuva lautakunta ei itsessään ole näyttö sukupuolisyrjinnästä.** Myöskään valitun sukupuolesta tai lyhyestä koulutus- ja kokemusesittelystä ei voi päätellä, että valinta olisi ollut epäasiallinen. Sinulla on vahva tausta, mutta ratkaisevaa on ansioiden suhde tehtävän vaatimuksiin — ei yksin tutkintojen määrä tai kokemusvuodet.\n\nOttaisin tässä vaiheessa esille **valinnan perusteet ennemmin kuin lautakunnan sukupuolijakauman**. Voit lähettää esimerkiksi tällaisen viestin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja tehtävän täyttämistä koskevaan päätökseen. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan, milloin saan vastauksen. Pyydän lisäksi nimityspäätöksen, nimitysmuistion tai muun hakijoiden ansiovertailun sekä tiedon käytetyistä valintakriteereistä ja niiden painotuksesta. Pyydän myös mahdolliset muutoksenhakuohjeet.\n\nJos kyse on Suomen ministeriöstä, lähetä pyyntö myös kirjaamoon. Julkisia asiakirjoja koskeva pyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, laajemmissa tai vaikeammissa tapauksissa kuukaudessa. Pelkkä perustelupyyntö ei kuitenkaan välttämättä ole sama asia kuin asiakirjapyyntö. **Älä oleta, että perustelujen odottaminen pysäyttää mahdollisen muutoksenhakuajan.**\n\nSyrjintäepäilyä vahvistaisivat esimerkiksi sukupuoleen liittyvät kommentit, hakijoiden erilainen kohtelu tai valintakriteerien epäjohdonmukainen soveltaminen. Jos asiakirjoista ilmenee tällaista, voit keskustella ammattiliiton juristin tai tasa-arvovaltuutetun kanssa. Lautakunnan kokoonpanon mahdollinen lainmukaisuus on tästä erillinen kysymys, joka riippuu lautakunnan asemasta ja sovellettavista säännöistä.\n\nMissä maassa tehtävä on, ja oletko saanut varsinaisen nimityspäätöksen vai vain ilmoituksen valinnasta?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 560,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

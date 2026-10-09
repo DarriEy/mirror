@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108eb-50fb-7fb3-8737-58a6054d813c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei itsessään osoita syrjintää.** Se on kuitenkin perusteltu syy kysyä, miten tasapuolisuus varmistettiin. Huolesi on ymmärrettävä etenkin, kun et ole saanut pyytämiäsi perusteluja.\n\nKuvauksesi perusteella sinulla on vahva koulutus ja kokemus. Valitusta julkaistu lyhyt esittely ei kuitenkaan riitä osoittamaan, kumpi oli tehtävään ansioituneempi: olennaisia ovat ilmoitetut valintakriteerit, hakijoiden tosiasialliset ansiot ja niiden johdonmukainen arviointi.\n\nEtenisin näin:\n\n- **Uusi kirjallinen pyyntö ministeriön kirjaamoon.** Pyydä nimityspäätös, nimitysmuistio tai ansiovertailu, käytetyt arviointikriteerit sekä mahdolliset muutoksenhakuohjeet.\n- **Kysy myös kokoonpanosta neutraalisti:** ”Miten valintalautakunnan kokoonpano määräytyi, ja miten sukupuolten tasa-arvo ja arvioinnin tasapuolisuus varmistettiin?”\n- **Tarkista määräajat heti.** Älä oleta, että perustelupyynnön käsittely pysäyttää mahdollisen muutoksenhakuajan. Säilytä hakuilmoitus, hakemuksesi ja viestinvaihto.\n\nJos kyse on Suomesta, valtion toimielinten sukupuolijakaumaa koskevien sääntöjen soveltuminen riippuu siitä, millainen elin valintalautakunta oikeudellisesti oli. Kaikki rekrytointiryhmät eivät automaattisesti kuulu samojen kiintiösääntöjen piiriin. Jos epäilet sukupuolisyrjintää, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta. Kahden viikon vastaamattomuus ei yksin osoita syrjintää, mutta pyyntöä kannattaa nyt seurata.\n\n**Missä maassa tehtävä oli, ja milloin sait tiedon valintapäätöksestä?** Nämä vaikuttavat oikeuksiisi ja määräaikoihin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5927,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 514,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

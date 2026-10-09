@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d4-223f-74a0-94e9-e06ac7ab4ae6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: ei arvioitavissa annetuilla tiedoilla\n\nPelkästään naisista koostuva lautakunta ei ole näyttö sukupuolen vaikutuksesta päätökseen. Sinä ja valittu olette molemmat naisia; annetuista tiedoista ei ilmene sukupuoleen liittyvää erilaista kohtelua. Numeerinen todennäköisyys olisi keksitty.\n\nOta sen sijaan esille valinnan perusteet. Tutkintosi, julkaisusi ja opetuskokemuksesi antavat aihetta pyytää selvitystä ansiovertailusta, mutta eivät yksin osoita valintaa virheelliseksi. Elinkeinoelämän kokemus voi olla perusteltu valintakriteeri, jos se liittyy tehtävään.\n\nLähetä kirjallinen muistutus ja pyydä hakuilmoituksen kelpoisuusvaatimukset, arviointikriteerit, ansiovertailu, valintapäätös sekä mahdolliset muutoksenhakuohjeet. Erityisesti kannattaa selvittää, edellytettiinkö valmista tohtorintutkintoa. Tarkista määräajat heti: perustelupyynnön vastausta ei välttämättä voi odottaa menettämättä muutoksenhakumahdollisuutta. Tarvittaessa ota yhteyttä ammattiliittosi juristiin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 437,
+    "reasoning_output_tokens": 113
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

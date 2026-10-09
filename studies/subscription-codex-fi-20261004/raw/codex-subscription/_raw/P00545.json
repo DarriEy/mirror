@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e1-205c-7bc0-bc9b-bed6851eb8ee"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuilla tiedoilla; luku 0–100 olisi arvailua.\n\nVoit ottaa lautakunnan kokoonpanon esille asiallisena kysymyksenä, mutta pelkkä miesvaltaisuus ei osoita sukupuolisyrjintää. Koulutuksesi ja johtamiskokemuksesi antavat kuitenkin perustellun syyn pyytää tarkempaa selvitystä ansiovertailusta. Valitun kaikkia ansioita, tehtävän kelpoisuusehtoja ja haastatteluarvioita ei nyt tunneta.\n\nUudista kirjallinen pyyntösi: pyydä valintaperusteet, ansiovertailu sekä selvitys siitä, miten koulutusta, johtamiskokemusta ja soveltuvuutta painotettiin. Kysy samalla lautakunnan kokoonpanon perusteista ja mahdollisten sukupuolikiintiöiden soveltumisesta.\n\nKahden viikon vastaamattomuus ei itsessään osoita syrjintää. Tarkista kuitenkin heti päätöksen muutoksenhakuohjeet: perustelujen odottaminen ei yleensä pysäytä määräaikoja. Tarvittaessa ota yhteyttä ammattiliittoosi tai tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 376,
+    "reasoning_output_tokens": 65
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

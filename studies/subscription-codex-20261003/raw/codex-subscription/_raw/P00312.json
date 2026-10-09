@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10130-6028-7582-9405-4531585263b8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of bias against you.** It’s reasonable to want a clear explanation, but the panel’s gender composition doesn’t establish how its members assessed candidates.\n\nOn the information you have, you appear stronger on completed academic qualifications and publication count. But hiring may also weigh teaching quality, research quality and fit, industry experience, and interview performance. The announcement is probably not her full record. Equally, if a completed PhD was an essential requirement by a specified date, whether that requirement was applied consistently is a concrete question worth pursuing.\n\nI’d focus on the **criteria and process**, rather than the panel members’ gender:\n\n- Follow up politely on your request, noting the date you sent it.\n- Ask for feedback against the advertised criteria, your assessment or scores where available, and how industry experience was weighted.\n- Check the university’s recruitment and complaints policies, including any panel-composition rules and deadlines for review. Don’t assume waiting for feedback pauses those deadlines.\n- Keep the advertisement, correspondence, and your interview notes.\n\nA two-week silence warrants a follow-up, but isn’t itself evidence of discrimination. More meaningful warning signs would include sex-related comments, inconsistent application of essential requirements, or departures from the published selection process.\n\nWhich country is the university in? That will affect your rights to reasons, access to recruitment records, and any challenge deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5857,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 288,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

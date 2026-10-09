@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108c9-99b0-7072-ab98-c7a34b73f77d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla; luku 0–100 olisi perusteeton.\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolen vaikuttaneen valintaan. Tutkintosi ja kokemuksesi antavat kuitenkin aihetta pyytää selvitys ansiovertailusta, kelpoisuusvaatimuksista ja valintaperusteista. Julkinen kuvaus valitusta ei välttämättä kerro hänen kaikista ansioistaan, eikä korkein tutkinto yksin ratkaise valintaa.\n\nUusi kirjallinen pyyntö kunnan kirjaamoon ja pyydä päätös, perustelut sekä muutoksenhakuohjeet. Jos kyse on Suomesta, tarkista määräajat heti: perustelupyynnön vastausta ei kannata jäädä odottamaan muutoksenhakuajan kustannuksella.\n\nOta mahdollinen sukupuolisyrjintä esille, jos ilmenee konkreettista näyttöä, kuten sukupuoleen viittaavia kommentteja tai epäjohdonmukaista hakijoiden kohtelua. Lautakunnan kokoonpanon mahdollinen lainmukaisuus on tästä erillinen kysymys."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6019,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 373,
+    "reasoning_output_tokens": 75
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108de-8f3d-7702-95b7-01d387c3b45c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "Voit ottaa asian esille, mutta **pelkästään miehistä koostuva lautakunta ei itsessään osoita syrjintää tai valinnan epäasiallisuutta**. Koska sekä sinä että valittu olette miehiä, kertomasi ei myöskään sellaisenaan viittaa siihen, että sinua olisi kohdeltu epäedullisesti sukupuolesi vuoksi. Lautakunnan kokoonpano voi silti olla erillinen kysymys yliopiston tasa-arvo- ja nimittämissääntöjen kannalta.\n\n**Vahvempi lähtökohta on pyytää selvitys kelpoisuudesta ja ansiovertailusta.** Sinulla näyttää olevan enemmän kuvaamiasi akateemisia ansioita, mutta tutkinto ja julkaisumäärä eivät yksin ratkaise valintaa. Opetustaito, tutkimuksen laatu ja soveltuvuus sekä tehtävän kannalta olennainen elinkeinoelämän kokemus voivat vaikuttaa. Ratkaisevaa on, mitä hakuilmoituksessa edellytettiin ja miten arviointiperusteita sovellettiin.\n\nLähettäisin nyt kirjallisen muistutuksen yliopiston kirjaamoon ja pyytäisin:\n- valintapäätöksen perusteluineen sekä saatavilla olevan ansiovertailun ja arviointiasiakirjat;\n- selvityksen siitä, edellyttikö tehtävä valmista tohtorintutkintoa ja täyttikö valittu kelpoisuusehdot vaadittuna ajankohtana;\n- tiedon käytettävissä olevista muutoksenhaku- tai muista oikeussuojakeinoista ja niiden määräajoista.\n\nLautakunnasta voit kysyä neutraalisti: *”Mitä sääntöjä lautakunnan asettamiseen ja sukupuolijakaumaan sovellettiin, ja miten niiden toteutuminen varmistettiin?”* Näin nostat asian esiin väittämättä syrjintää ilman näyttöä.\n\n**Missä maassa yliopisto sijaitsee?** Kokoonpanoa, asiakirjapyyntöihin vastaamista ja valinnan riitauttamista koskevat säännöt riippuvat siitä. Älä odota perusteluvastausta ennen määräaikojen selvittämistä: perustelupyyntö ei välttämättä pysäytä niiden kulumista."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5944,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 520,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

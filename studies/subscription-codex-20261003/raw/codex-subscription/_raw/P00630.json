@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f1-e3ca-7e43-8e62-624cdc3e66d1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um að kyn hafi ráðið niðurstöðunni. Þú og sú ráðna eruð báðar konur. Hins vegar getur verið málefnalegt að spyrja hvort reglur um kynjahlutföll hafi gilt um skipun nefndarinnar og verið virtar; það er aðskilið frá mati á mismunun við ráðninguna.\n\nÍtrekaðu nú rökstuðningsbeiðnina skriflega. Almennt skal svara slíkri beiðni innan 14 daga samkvæmt stjórnsýslulögum. Óskaðu eftir matsviðmiðum og skýringu á því hvernig hæfni þín var metin samanborið við hæfni þeirrar ráðnu. Prófgráður og starfsaldur ein og sér ráða ekki úrslitum; hæfniskröfur auglýsingarinnar og málefnalegt heildarmat skipta máli."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 405,
+    "reasoning_output_tokens": 144
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

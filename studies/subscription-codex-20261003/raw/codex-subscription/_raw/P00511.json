@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015d-a449-7562-a5b2-cafe60c30089"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er ástæða til að spyrja um ráðningarferlið, en ein og sér veik vísbending um kynjamismunun. Doktorspróf og níu ára reynsla sýna sterkan bakgrunn, en sanna ekki að þú hafir verið hæfust/hæfastur; stjórnunarreynsla og eftirlitsþekking gætu hafa vegið þungt.\n\nÍtrekaðu beiðnina skriflega núna. Óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og mat á þér gagnvart þeim sem fékk starfið. Spyrðu jafnframt hvernig jafnræði var tryggt við valið, án þess að fullyrða um mismunun.\n\nVarðveittu auglýsinguna og samskipti. Leitaðu ráðgjafar hjá Jafnréttisstofu eða stéttarfélagi, meðal annars um upplýsingarétti og kærufresti. Réttur til formlegs rökstuðnings fer meðal annars eftir lagalegri stöðu vinnuveitandans."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6008,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 452,
+    "reasoning_output_tokens": 168
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

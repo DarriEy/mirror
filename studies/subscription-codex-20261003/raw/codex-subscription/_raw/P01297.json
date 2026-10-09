@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10167-3911-7283-976a-7e8cd7587314"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of bias or an unfair appointment.** Since you and the successful candidate are both women, the facts you’ve described don’t suggest that sex explains the outcome. That doesn’t rule out discrimination, but you would need something more specific than the panel’s composition.\n\nYour qualifications and leadership experience do, however, give you a reasonable basis to ask **how the candidates were assessed against the advertised requirements**. The announcement may omit some of the successful candidate’s qualifications, and a higher degree or more management experience doesn’t automatically entitle someone to the role. But if the post required a qualification she does not hold, or the panel departed from its published criteria, that would warrant closer scrutiny.\n\nI would focus your follow-up on:\n- The selection criteria and their weighting.\n- How your qualifications, leadership experience and interviews were assessed.\n- The comparative reasons for choosing the successful candidate, subject to lawful confidentiality limits.\n\nTwo weeks without a response is a reason to follow up, not proof of wrongdoing. Ask when you can expect the explanation, and check any complaint or appeal deadlines now—waiting for reasons may not stop the clock.\n\n**Which country is the school in, and is it public or private?** Some jurisdictions have rules about balanced representation on appointment panels. An all-women panel could raise a procedural issue under such a rule, but that is distinct from proving discrimination against you."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5864,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 293,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f6-c435-70c0-94cf-c4b0bb910cf6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Sen perusteella ei voi päätellä, miksi toinen hakija valittiin. Keskittyisin ensin valintaperusteisiin ja hakijoiden ansiovertailuun, en lautakunnan jäsenten sukupuoleen.\n\nSinulla vaikuttaa olevan vahva tehtävään liittyvä koulutus ja kokemus, joten on ymmärrettävää haluta perustelut. Julkinen esittely valitusta ei kuitenkaan välttämättä kerro hänen kaikkia ansioitaan. Korkeampi tutkinto ei myöskään yksin ratkaise valintaa: johtamisosaamista, vuorovaikutustaitoja ja haastattelussa arvioitua soveltuvuutta voidaan painottaa. **Ilmoitettuja sitovia kelpoisuusvaatimuksia on silti noudatettava.**\n\nLähettäisin nyt kirjallisen muistutuksen kunnan kirjaamoon ja pyytäisin:\n- valintapäätöksen perusteluineen ja muutoksenhakuohjeineen\n- tehtävän kelpoisuusvaatimukset ja käytetyt valintakriteerit\n- hakijoiden ansiovertailun sekä muut valinnan perusteena olevat julkiset asiakirjat.\n\nVoit kirjoittaa esimerkiksi:\n> Pyysin valintapäätöksen kirjallisia perusteluja [päivämäärä]. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan, milloin saan vastauksen sekä yllä mainitut asiakirjat.\n\nJos kyse on Suomesta, julkisia asiakirjoja koskeva tietopyyntö käsitellään yleensä viimeistään kahdessa viikossa, laajemmissa tai tavallista työläämmissä tapauksissa kuukaudessa. Pelkkä perustelupyyntö ei välttämättä ole tällainen tietopyyntö. **Tarkista muutoksenhaun määräaika heti: perustelujen odottaminen ei yleensä pidennä sitä.**\n\nSuomessa kunnallisten toimielinten sukupuolikiintiöt voivat myös tulla kyseeseen, mutta niiden soveltuminen riippuu siitä, millainen valintalautakunta oli. Mahdollinen kokoonpanovirhe on eri kysymys kuin sinuun kohdistunut syrjintä. Kokoonpanon sääntöjenmukaisuutta voi siis tiedustella neutraalisti, mutta en esittäisi sitä näyttönä puolueellisuudesta.\n\nMissä maassa tehtävä on, ja mitä hakuilmoituksessa sanottiin vaaditusta tutkinnosta?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7245,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 581,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10127-8753-7b70-b58a-af5d4504c114"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Þú mátt spyrja um samsetningu nefndarinnar, en hún er ein og sér ekki sterk vísbending um mismunun í þinn garð.** Þú og sá sem var ráðinn eruð báðir karlar. Karlaskipuð nefnd getur vakið almennar spurningar um fjölbreytni og ráðningarferlið, en sýnir ekki að kyn þitt hafi haft áhrif á niðurstöðuna.\n\nAf upplýsingunum þínum verður heldur ekki ráðið að ómálefnalega hafi verið staðið að ráðningunni:\n- Lengri reynsla, meistarapróf og verkefnastjórnun eru veigamiklir styrkleikar, en tryggja ekki ráðningu í stjórnunarstarf.\n- Viðskiptatengsl geta verið málefnalegur hæfnisþáttur, sérstaklega ef starfið felur í sér viðskiptaþróun. „Tengsl við viðskiptavini“ merkir ekki sjálfkrafa kunningsskap við ráðningarnefndina.\n- Tilkynningin er ekki endilega tæmandi lýsing á menntun og reynslu þess sem var ráðinn.\n\n**Ég myndi fyrst fylgja rökstuðningsbeiðninni eftir**, frekar en að gera kynjasamsetninguna að aðalatriði. Til dæmis:\n\n> Ég fylgi eftir beiðni minni frá [dagsetning]. Ég óska eftir upplýsingum um hvaða hæfnisþættir réðu úrslitum við ráðninguna, hvernig stjórnunar- og hönnunarreynsla mín var metin og hvert vægi viðskiptatengsla var. Hvenær má ég vænta svars?\n\nVarðveittu auglýsinguna, samskiptin og minnispunkta úr viðtölunum. Ef viðskiptatengsl komu hvergi fram í auglýsingunni eða viðtölunum er eðlilegt að spyrja sérstaklega hvernig sá þáttur var metinn — þó það sanni ekki brot.\n\nRéttur þinn til formlegs rökstuðnings fer meðal annars eftir því hvort þetta var **einkarekin verkfræðistofa eða opinber vinnuveitandi**; almennt gilda ríkari skyldur við opinberar ráðningar. Tveggja vikna þögn sannar ekki mismunun. Ef fram koma skýrari vísbendingar, svo sem aldurstengd ummæli eða misvísandi skýringar, væri ástæða til að fá mat stéttarfélags eða lögfræðings."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5939,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 555,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

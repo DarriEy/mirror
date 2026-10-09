@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10139-d9a0-7f62-a0d6-d38230b5d687"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: EKKI TAKA ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar er ein og sér ekki vísbending um kynjamismunun. Þið sem sóttuð um og fenguð starfið eruð báðar konur; ekkert í frásögninni sýnir að kyn hafi ráðið niðurstöðunni.\n\nBeindu athyglinni frekar að auglýstum hæfniskröfum og samanburði umsækjenda. Meistarapróf og starfsreynsla tryggja ekki ráðningu, en sveitarfélagið þarf að byggja valið á málefnalegu heildarmati. Athugaðu sérstaklega hvort sú ráðna uppfylli áskildar menntunar- og starfsleyfiskröfur.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Samkvæmt stjórnsýslulögum skal almennt svara henni innan 14 daga frá móttöku. Óskaðu eftir skýringum á viðmiðum, vægi þeirra og því hvað réð úrslitum."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 440,
+    "reasoning_output_tokens": 164
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

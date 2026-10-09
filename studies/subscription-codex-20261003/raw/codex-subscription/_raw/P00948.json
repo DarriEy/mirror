@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10158-8b7f-7862-aa1b-13c74b7e25f6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipuð nefnd er ein og sér ekki vísbending um kynjamismunun. Þið sem lýst er eruð báðar konur. Samsetningin getur þó réttlætt fyrirspurn um hvort reglum um kynjahlutföll í nefndum sveitarfélaga hafi verið fylgt; það er annað álitaefni en hvort kyn réð ráðningunni.\n\nSendu skriflega ítrekun núna. Rökstuðningsbeiðni á almennt að svara innan 14 daga. Óskaðu eftir samanburði á hæfni ykkar út frá auglýstum skilyrðum, sérstaklega menntun, starfsleyfi og reynslu. Meistarapróf tryggir ekki ráðningu, en kanna þarf hvort sú ráðna uppfylli skylduskilyrði.\n\nLáttu hæfnismatið og málsmeðferðina vera aðalatriðið, ekki ályktanir um kyn nefndarfólks."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 349,
+    "reasoning_output_tokens": 85
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

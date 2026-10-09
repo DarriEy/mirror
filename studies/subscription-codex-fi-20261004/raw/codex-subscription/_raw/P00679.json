@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f6-a1c1-7443-8c63-f2b75c431c4f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuilla tiedoilla\n\nPelkästään miehistä koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan. Sinä ja valittu olette miehiä, eikä kertomuksessasi ole konkreettista näyttöä sukupuolen suosimisesta. Numeerinen arvio olisi perusteeton.\n\nVoit kysyä lautakunnan kokoonpanon perusteista neutraalisti, etenkin jos siihen sovelletaan sukupuolikiintiöitä. Kokoonpanon mahdollinen sääntöjenvastaisuus on kuitenkin eri kysymys kuin syrjintä valinnassa.\n\nKeskittyisin ensisijaisesti kelpoisuusvaatimuksiin, ansiovertailuun ja valintaperusteisiin. Johtamiskoulutuksesi ja vararehtorikokemuksesi ovat olennaisia ansioita, mutta eivät yksin ratkaise valintaa. Pyydä uudelleen päätös perusteluineen, ansiovertailu ja muutoksenhakuohjeet. Tarkista määräajat heti: perustelupyynnön ei pidä olettaa pysäyttävän niitä. Tarvittaessa ota yhteys ammattiliittosi juristiin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 418,
+    "reasoning_output_tokens": 116
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

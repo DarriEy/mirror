@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10157-cda4-7eb0-8288-aa3639b053fc"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipan nefndarinnar er ekki ein og sér vísbending um að kyn hafi ráðið niðurstöðunni. Þú og sú ráðna eruð báðar konur. Þó getur verið rétt að kanna hvort reglur um kynjahlutföll hafi gilt um skipun nefndarinnar; það er annað álitaefni en mismunun við ráðninguna.\n\nÍtrekaðu skriflega beiðnina um rökstuðning nú. Rökstuðning skal almennt veita innan 14 daga frá beiðni; dragist það ber að upplýsa um ástæður og væntanlegan svartíma. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og samanburði á hæfni þinni og þeirrar ráðnu. Prófgráður og starfsaldur tryggja ekki ráðningu, en matið þarf að vera málefnalegt. Metið síðan hvort tilefni sé til kvörtunar."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 377,
+    "reasoning_output_tokens": 119
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

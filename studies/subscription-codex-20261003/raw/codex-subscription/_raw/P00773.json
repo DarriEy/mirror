@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10153-d9fc-7ed1-802d-b7a03df95dcb"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Cannot responsibly estimate from these facts\n\nAn all-male panel is worth raising as a question about recruitment safeguards, not as proof of discrimination. Your stronger publication record and completed PhD justify asking how the criteria were weighted, but industry experience, interview performance and teaching fit may legitimately matter.\n\nFollow up now requesting the written reasons, assessment criteria, your scores and any available comparative assessment. Ask neutrally whether panel composition complied with university policy and how bias was addressed.\n\nCheck complaint deadlines immediately; don’t assume waiting for reasons pauses them. If explanations conflict with advertised requirements or reveal unequal treatment, consult your union or an equality adviser. Legal obligations depend on your jurisdiction."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5921,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 309,
+    "reasoning_output_tokens": 156
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f2-a01a-7980-9ed3-c9471c66aa8d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nPelkästään naisista koostuva lautakunta ei osoita sukupuolisyrjintää eikä mahdollista perusteltua prosenttiarviota. Kokoonpanon asianmukaisuutta voi silti kysyä neutraalisti.\n\nKeskity ensisijaisesti valintaperusteisiin: pyydä päätös, ansiovertailu, kelpoisuusvaatimukset ja muutoksenhakuohjeet. Korkeampi tutkintosi ja kokemuksesi ovat olennaisia, mutta eivät yksin ratkaise valintaa; johtamistaidot, soveltuvuus ja tehtävän painotukset voivat vaikuttaa. Valitusta julkaistu esittely ei välttämättä kerro kaikkia ansioita.\n\nJos tehtävä on Suomessa, selvitä heti muutoksenhaun määräaika: perustelupyynnön vastausta ei kannata odottaa sen umpeutumiseen asti. Lähetä muistutus kirjaamoon. Jos vertailu osoittaa sinun olleen ansioituneempi eikä erolle ilmene hyväksyttävää perustetta, ota sukupuolisyrjintäepäily esille ja kysy neuvoa tasa-arvovaltuutetulta tai liittosi juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6029,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 406,
+    "reasoning_output_tokens": 100
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

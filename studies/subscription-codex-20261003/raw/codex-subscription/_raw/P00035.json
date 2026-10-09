@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10168-a00d-7183-9e0b-b9820d9c20c1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: 10\n\nThat number is a speculative estimate, not a statistically grounded probability; the available facts cannot establish whether sex influenced the decision.\n\nAn all-male panel may warrant a general question about recruitment diversity, but it is not, by itself, evidence of bias in your rejection—particularly since you and the successful candidate are both men.\n\nYour stronger academic qualification does not necessarily outweigh regulatory knowledge, leadership experience, or interview performance.\n\nFollow up now on your unanswered request. Ask for the selection criteria, how your application was assessed, and the reasons for preferring the successful candidate. Consider raising discrimination concerns if the explanation or other evidence suggests sex-based treatment, rather than relying on panel composition alone."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 248,
+    "reasoning_output_tokens": 87
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014e-6600-7323-bcc8-3b75ceb1f2d5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Cannot responsibly estimate from these facts\n\nAn all-male panel is worth raising as a question about the selection process, but it does not establish that sex influenced this decision. Your qualifications are strong; however, leadership experience, regulatory expertise and interview performance may also matter. The announcement may not describe the successful candidate’s full qualifications.\n\nFollow up now on your written request. Ask for the selection criteria, their weighting, your assessment and how fairness was safeguarded, including panel composition. Frame this as seeking transparency rather than alleging discrimination.\n\nIf the explanation reveals inconsistent criteria or sex-based assumptions, consider formal advice. Legal rights, response deadlines and complaint time limits depend on jurisdiction."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5921,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 292,
+    "reasoning_output_tokens": 138
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

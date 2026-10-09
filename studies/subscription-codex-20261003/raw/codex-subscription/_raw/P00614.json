@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016b-6097-7593-b32c-82935755fa00"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nÞú getur tekið nefndarskipanina upp sem sérstakt álitaefni: ef þetta er opinber nefnd geta reglur um kynjahlutföll átt við. Karlaskipanin ein sýnir þó ekki að kyn hafi ráðið niðurstöðunni, sérstaklega þar sem bæði þú og ráðni umsækjandinn eruð karlar.\n\nSterkara tilefni til eftirfylgni er hvernig menntun og stjórnunarreynsla voru metin. Námskeið jafngilda ekki meistaraprófi, en prófgráðan tryggir ekki ráðningu; meta þarf heildarhæfni samkvæmt auglýsingu.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Við opinbera ráðningu á almennt að svara henni innan 14 daga. Óskaðu eftir hæfnisviðmiðum, samanburðarmati og upplýsingum um skipun nefndarinnar. Stutt ráðningartilkynning segir ekki alla söguna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 477,
+    "reasoning_output_tokens": 208
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

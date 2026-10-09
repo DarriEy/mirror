@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014a-baca-72a1-846f-c890a2cafb99"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er ástæða til að spyrja um skipun hennar, en sannar ekki kynjamismunun. Sé þetta opinber nefnd geta reglur um kynjahlutföll átt við; brot á þeim jafngildir þó ekki sönnun um mismunun við ráðninguna.\n\nMenntun þín og stjórnunarreynsla kalla á skýran samanburð við hæfni þess ráðna. Tilkynningin lýsir þó ekki endilega allri hæfni hans.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Óskaðu jafnframt eftir hæfniviðmiðum, vægi þeirra, samanburðarmati og upplýsingum um skipun nefndarinnar. Haltu nefndarskipun og ráðningarmati aðskildum í erindinu.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti; ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi alla fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 465,
+    "reasoning_output_tokens": 184
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

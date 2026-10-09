@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108c9-2faf-71c1-8398-a6f020e727d2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei yksin osoita sukupuolisyrjintää.** Se on perusteltu kysymys menettelyn arvioinnissa, ei vielä näyttö siitä, miksi mies valittiin sinun sijastasi.\n\nKuvaamasi koulutus ja kokemus antavat hyvän syyn pyytää tarkempaa selvitystä ansiovertailusta. Valitun henkilön lyhyt esittely ei kuitenkaan välttämättä kerro hänen kaikkia ansioitaan. Ylempi tutkinto ei myöskään automaattisesti ratkaise valintaa: olennaisia ovat tehtävän kelpoisuusvaatimukset, ilmoitetut valintaperusteet sekä hakijoiden kokemus ja tehtävään soveltuvuus.\n\n**Jos kyse on suomalaisesta kunnasta:**\n\n- **Kokoonpanolla voi olla myös oikeudellista merkitystä.** Tasa-arvolain 40 prosentin sukupuolikiintiö koskee monia kunnallisia toimielimiä. Sen soveltuminen riippuu siitä, oliko kyse virallisesta toimielimestä vai esimerkiksi haastatteluryhmästä. Pelkkä nimitys ”valintalautakunta” ei ratkaise asiaa.\n- **Voit pyytää tasa-arvolain mukaista kirjallista selvitystä valinnasta**, jos epäilet sukupuolisyrjintää. Työnantajan on annettava se viivytyksettä. Selvityksessä pitää käsitellä muun muassa valintaperusteita ja valitun osoitettavia ansioita. Jos osoittautuisit tehtävään ansioituneemmaksi kuin valittu mies, voisi syntyä syrjintäolettama, jolloin työnantajan pitäisi osoittaa valinnalle hyväksyttävä, muu kuin sukupuoleen perustuva syy.\n\nVoisit lähettää esimerkiksi tämän:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja kaavoitusjohtajan valinnalle. Uudistan pyyntöni ja pyydän tasa-arvolain 10 §:n mukaista kirjallista selvitystä valintaperusteista ja valitun henkilön ansioista sekä hakijoiden ansiovertailua ja valintapäätöstä muutoksenhakuohjeineen. Pyydän lisäksi selvittämään valintalautakunnan oikeudellisen aseman ja sen, soveltuvatko siihen tasa-arvolain sukupuolikiintiöt ja miten ne on huomioitu.\n\n**Tarkista muutoksenhakuaika heti — älä odota selvitystä.** Suomessa kunnallisen päätöksen oikaisuvaatimusaika on yleensä 14 päivää tiedoksisaannista. Perustelupyyntö ei tavallisesti pysäytä määräaikaa. Ammattiliiton juristi voi auttaa määräajan ja päätöksen arvioinnissa; tasa-arvovaltuutetulta saat neuvoja syrjintäepäilyyn.\n\nTiivistettynä: kokoonpanosta kannattaa kysyä asiallisesti, mutta asian vahvin lähtökohta on **kelpoisuusvaatimusten, ansiovertailun ja todellisten valintaperusteiden selvittäminen**."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 778,
+    "reasoning_output_tokens": 54
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f0-01b3-7d23-a31c-8129a0cc4c27"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa annetuilla tiedoilla; luku olisi perusteeton.\n\nLautakunnan naisvaltaisuus ei itsessään osoita sukupuolivinoumaa. Sekään, että sinä ja valittu olette naisia, ei sulje syrjintää pois, mutta kertomasi ei anna konkreettista näyttöä siitä.\n\nNosta sen sijaan esiin valintakriteerit ja ansiovertailu: oliko valmis tohtorintutkinto kelpoisuusvaatimus, miten julkaisuja ja opetuskokemusta arvioitiin ja millä perusteella elinkeinoelämän kokemus painoi valinnassa? Pelkät julkaisumäärät eivät ratkaise kokonaisarviota.\n\nLähetä kirjallinen muistutus perustelupyynnöstä ja pyydä päätös, saatavilla olevat valinta-asiakirjat sekä tieto mahdollisista muutoksenhakukeinoista ja määräajoista. Älä oleta perustelujen odottamisen pysäyttävän määräaikoja. Tarkat oikeutesi riippuvat maasta ja tehtävän oikeudellisesta asemasta. Tarvittaessa kysy neuvoa ammattiliitosta tai juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 368,
+    "reasoning_output_tokens": 73
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011a-801a-7bb1-a8e8-18ab65d72eed"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 10\n\nThat number is a tentative judgment, not a statistically grounded estimate. An all-male panel alone is weak evidence that sex affected this decision, particularly since both you and the appointee are men. It may nevertheless raise a procedural question if university rules require balanced panels.\n\nYour stronger next step is to follow up on your written request, asking for the selection criteria, their weighting, and how your qualifications were assessed. More papers and a completed PhD do not automatically outweigh industry experience, interview performance, or teaching fit. Check whether a completed PhD was mandatory and whether panel-composition rules were followed. Check complaint deadlines now; don’t assume your unanswered request pauses them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5933,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 248,
+    "reasoning_output_tokens": 89
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

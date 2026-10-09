@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10143-ba16-76c3-b1ed-6c4cb3a86b6d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: 10\n\nThat number is a rough, low-confidence judgment, not a statistical estimate. An all-male panel can raise questions about representation, but it does not itself indicate sex influenced this decision—particularly when both you and the successful candidate are men.\n\nYour longer experience and project leadership warrant substantive feedback, but do not automatically establish stronger suitability. Client relationships, business development and staff management may legitimately matter for this role.\n\nFollow up on your unanswered request. Ask for the selection criteria, their weighting, and how your experience compared with the successful candidate’s. Focus on the process and evidence rather than panel composition. Sex-related comments or inconsistent treatment would give you stronger grounds to raise concerns."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5946,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 283,
+    "reasoning_output_tokens": 123
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10168-e088-7411-9a9e-33d14de90d5b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er ekki ein og sér vísbending um kynjamismunun í þessari ráðningu. Bæði þú og sá ráðni eruð karlar; ekkert sem þú lýsir tengir niðurstöðuna sérstaklega við kyn.\n\nLengri reynsla tryggir ekki ráðningu í stjórnunarstarf. Viðskiptatengsl og leiðtogahæfni geta verið málefnaleg viðmið, en eðlilegt er að óska skýringa á vægi þeirra.\n\nFylgdu erindinu eftir skriflega og óskaðu eftir ráðningarviðmiðum og skýringum á mati á þinni hæfni. Réttur til rökstuðnings fer meðal annars eftir því hvort vinnuveitandinn er opinber eða einkarekinn. Tveggja vikna þögn sannar ekki mismunun.\n\nRæddu fremur gagnsæi ferlisins en kyn nefndarmanna, nema frekari vísbendingar komi fram."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 418,
+    "reasoning_output_tokens": 154
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

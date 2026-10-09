@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011c-a6ce-77f3-9099-76916246d4a6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er ástæða til að spyrja um framkvæmd jafnréttisreglna, en sannar ekki að kyn hafi ráðið ráðningunni. Skoða þarf hlutverk nefndarinnar og hvaða reglur giltu um skipan hennar.\n\nMeistarapróf þitt, starfsleyfi og reynsla réttlæta spurningar um samanburð hæfni, en tryggja ekki sjálfkrafa að þú hafir verið hæfasti umsækjandinn. Auglýstar kröfur, vægi samráðshæfni og viðtalsmat skipta máli.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu einnig eftir aðgangi að ráðningargögnum, hæfnismati og upplýsingum um skipan nefndarinnar. Tvær vikur án svars sanna ekki mismunun.\n\nLeitaðu ráðgjafar hjá Jafnréttisstofu eða stéttarfélagi um næstu skref og kærufresti; ekki bíða endalaust eftir svari sveitarfélagsins."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 538,
+    "reasoning_output_tokens": 252
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015a-ff6f-77b3-a808-f37958855566"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er málefnalegt tilefni til fyrirspurnar en sannar ekki kynjamismunun. Reglur um kynjahlutföll í opinberum nefndum kunna að eiga við; það ræðst meðal annars af stöðu og skipun ráðningarnefndarinnar.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu jafnframt eftir upplýsingum um skipun nefndarinnar, hæfniskröfur, vægi matsþátta og aðgangi að samanburðarmati umsækjenda, innan lögbundinna marka.\n\nMenntun þín og reynsla gefa tilefni til að óska skýringa, en sýna ekki einar að þú hafir verið hæfust. Alþjóðleg verkefnareynsla gæti verið málefnalegt viðmið ef hún tengist starfinu.\n\nLeitaðu ráðgjafar hjá Jafnréttisstofu eða stéttarfélagi um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 470,
+    "reasoning_output_tokens": 196
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012b-7b5c-7ac3-a65c-1116d2de0b17"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence that you were treated unfairly because you’re a man.** It is reasonable to want an explanation after reaching the final three, but the panel’s gender composition doesn’t tell you how they assessed candidates.\n\nYour PhD and nine years of modelling experience sound highly relevant. Still, a head-of-function role may put substantial weight on leadership, regulatory judgement, governance and communication—not just technical qualifications. The announcement is too brief to establish whether the successful candidate was less qualified overall.\n\nI would focus first on **the selection criteria and how they were applied**, rather than the panel’s gender. Follow up now, for example:\n\n> I’m following up on my request of [date] for feedback on the appointment. I would appreciate a written explanation of how my application and interviews were assessed against the selection criteria, and which areas distinguished the successful candidate. Please let me know when I can expect a response.\n\nMore meaningful warning signs would include sex-related comments or stereotypes, departures from the advertised criteria, inconsistent explanations, or evidence that candidates were assessed differently because of their sex. The two-week silence is frustrating, but doesn’t itself establish discrimination.\n\nKeep the advert, correspondence and your interview notes. If you’re considering a formal challenge, check local deadlines promptly rather than waiting indefinitely for feedback; your rights to reasons and review depend on the jurisdiction and sometimes on whether the bank is publicly owned.\n\n**Bottom line:** seek a clear account of the decision, but don’t make the panel’s sex the centre of a complaint without additional evidence. What country is the bank in?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5859,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 329,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

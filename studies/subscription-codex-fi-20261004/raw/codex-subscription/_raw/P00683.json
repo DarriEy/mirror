@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d5-c3af-7c42-b76a-f761e43a1928"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Kyllä, voit nostaa lautakunnan kokoonpanon esiin, mutta se ei yksin osoita sukupuolisyrjintää.** Se on perusteltu syy kysyä, miten arvioinnin tasapuolisuus varmistettiin — ei näyttö siitä, että miehet olisivat valinneet miehen sukupuolen perusteella.\n\nSinulla on vahva tausta tehtävään. Tohtorintutkinto ja yhdeksän vuoden kokemus eivät silti yksin ratkaise hakijoiden keskinäistä ansioituneisuutta: johtotehtävässä myös johtamis- ja sääntelykokemus voivat painaa paljon. Valitun lyhyt julkinen esittely ei kerro hänen koko osaamisestaan.\n\n**Keskittyisin nyt valintakriteereihin ja ansiovertailuun.** Jos kyse on Suomessa olevasta tehtävästä, tasa-arvolain 10 § velvoittaa työnantajan antamaan viivytyksettä kirjallisen selvityksen menettelystään hakijalle, joka katsoo joutuneensa lain tarkoittaman sukupuolisyrjinnän kohteeksi. Rekrytointia koskevaan selvitykseen kuuluvat valintaperusteet sekä valitun koulutus, työ- ja muu kokemus ja muut valintaan vaikuttaneet osoitettavissa olevat ansiot. Kahden viikon hiljaisuus ei itsessään todista syrjintää, mutta muistutus on aiheellinen.\n\nVoisit kirjoittaa esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä valinnasta. Koska haluan selvittää, onko sukupuolella ollut vaikutusta valintaan, pyydän tasa-arvolain 10 §:n mukaista selvitystä valintaperusteista ja valitun henkilön valintaan vaikuttaneista ansioista. Pyydän myös kuvaamaan, miten omaa koulutustani ja kokemustani arvioitiin suhteessa tehtävän vaatimuksiin sekä miten eri kriteerejä painotettiin.\n>\n> Huomasin lisäksi, että valintalautakunta koostui yksinomaan miehistä. Miten arvioinnin tasapuolisuus ja mahdollisten sukupuolivinoumien ehkäisy varmistettiin?\n\nSäilytä työpaikkailmoitus, hakemuksesi, viestit ja haastattelumuistiinpanot. Jos vastausta ei tule tai perustelut herättävät lisäkysymyksiä, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta.\n\n**Sinun ei tarvitse tietää varmasti, että syrjintää tapahtui, voidaksesi pyytää asiasta selvityksen.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 599,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

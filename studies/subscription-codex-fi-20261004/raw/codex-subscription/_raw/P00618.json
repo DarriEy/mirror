@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d5-5f8f-7823-b875-c133e4b1b7cc"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkkä miesvaltaisuus ei osoita, että valinta olisi ollut syrjivä tai epäasiallinen.** Koska sekä sinä että valittu olette miehiä, kertomasi tiedot eivät sellaisinaan viittaa siihen, että sinua olisi kohdeltu epäedullisesti sukupuolesi vuoksi. Kokoonpano voi silti herättää perustellun kysymyksen edustavuudesta ja siitä, miten lautakunta muodostettiin.\n\nVahvempi lähtökohta on selvittää **valinnan perusteet ja hakijoiden ansiovertailu**. Sinulla on tehtävään nähden relevanttia koulutusta ja kokemusta, mutta valitusta julkaistu lyhyt kuvaus ei riitä osoittamaan, kumpi oli tehtävään ansioituneempi. Ratkaisevaa on, mitä hakuilmoituksessa edellytettiin ja miten koulutusta, kokemusta sekä haastatteluissa arvioitua soveltuvuutta painotettiin.\n\nLähettäisin nyt ministeriön kirjaamoon seurannan esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja tehtävän täyttämistä koskevaan päätökseen. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan, milloin saan vastauksen. Pyydän lisäksi valintapäätöksen, mahdollisen nimitysmuistion ja hakijoiden ansiovertailun julkisilta osin sekä tiedon käytetyistä valintakriteereistä ja mahdollisista muutoksenhakukeinoista määräaikoineen.\n\nKokoonpanosta voit kysyä erikseen neutraalisti: *”Millä perusteilla valintalautakunnan jäsenet nimettiin, ja sovelletaanko sen kokoonpanoon sukupuolten edustusta koskevia sääntöjä?”* En tekisi siitä tässä vaiheessa pääasiallista väitettä.\n\n**Missä maassa tehtävä on?** Se ratkaisee kokoonpanoa, asiakirjapyyntöön vastaamista ja muutoksenhakua koskevat säännöt. Jos harkitset päätöksen riitauttamista, tarkista määräajat heti: perustelujen odottaminen ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5939,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 512,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

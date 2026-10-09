@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e2-82a9-7791-83c1-f76e289ca60e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nPelkästään miehistä koostuva lautakunta voi herättää kysymyksiä edustavuudesta, mutta se ei yksin osoita sukupuolen vaikuttaneen valintaan. Sinun ja valitun sama sukupuoli ei myöskään sulje vaikutusta pois. Numeerinen arvio olisi perusteeton.\n\nNosta ensisijaisesti esiin hakuilmoituksen kelpoisuusvaatimukset, arviointikriteerit ja ansiovertailu. Tohtorintutkintosi, julkaisusi ja opetuskokemuksesi ovat olennaisia, mutta julkaisumäärä ei yksin ratkaise paremmuutta; elinkeinoelämäkokemuksen painoarvollekin voi olla hyväksyttävä peruste.\n\nLähetä kirjallinen muistutus perustelupyynnöstä ja pyydä tieto muutoksenhakukeinoista sekä määräajoista. Älä oleta perustelujen odottamisen pysäyttävän määräaikoja. Lautakunnan kokoonpanosta voit kysyä neutraalisti, etenkin jos yliopiston säännöt edellyttävät tasapuolista edustusta. Tarkat oikeutesi riippuvat maasta ja tehtävän oikeudellisesta luonteesta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 408,
+    "reasoning_output_tokens": 97
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

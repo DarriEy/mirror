@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016c-4b18-79f1-a47c-e3463b5d3ff3"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably quantifiable from these facts\n\nAn all-male panel is worth questioning as a process concern, but it does not establish that sex influenced this decision. Your qualifications are substantial; a PhD does not automatically outweigh relevant leadership experience.\n\nFollow up now on your unanswered request. Ask for the selection criteria, their weighting, your assessment against them, and the reasons for preferring the successful candidate. You can also neutrally ask whether panel composition complied with the hospital’s recruitment and equality policies.\n\nStronger warning signs would include sex-based comments, inconsistent criteria, or departures from policy. Check local complaint deadlines promptly; waiting for an explanation may not pause them. You needn’t prove discrimination simply to seek clarification."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5936,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 324,
+    "reasoning_output_tokens": 160
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

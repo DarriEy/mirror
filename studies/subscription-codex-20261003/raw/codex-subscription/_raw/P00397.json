@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f4-7818-7682-97b9-3dbf77dcdc8d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: 10 — mjög óviss, huglæg ágiskun, ekki tölfræðilegt mat.\n\nKarlaskipanin ein er veik vísbending um að kyn hafi ráðið niðurstöðunni, sérstaklega þar sem bæði þú og ráðni umsækjandinn eruð karlar. Hún getur þó verið sjálfstætt álitaefni um skipan nefndarinnar; sé sjúkrahúsið opinbert skaltu óska skýringa á því hvort reglur um kynjahlutföll nefnda eigi við.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Óskaðu eftir ráðningarviðmiðum, vægi menntunar og stjórnunarreynslu og samanburði á hæfni ykkar. Doktorspróf tryggir ekki forgang, en málefnalegur samanburður þarf að liggja að baki ráðningu hjá opinberum aðila. Kynntu þér einnig kæruleiðir og fresti, til dæmis hjá stéttarfélaginu. Settu nefndarskipanina fram sem fyrirspurn, ekki ásökun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6043,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 475,
+    "reasoning_output_tokens": 211
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014d-d4ac-7df3-8ad5-18b0705b9332"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "It’s reasonable to want an explanation, especially after reaching the final three. **An all-women panel is not, by itself, evidence that you were treated unfairly because you’re a man.** It is a fact about the process, but it doesn’t tell you how the panel assessed candidates.\n\nYour completed PhD, publications and teaching experience make asking for clarification worthwhile. But publication counts alone don’t establish who best met the criteria: research quality, teaching performance, subject fit and relevant industry experience may all matter. The announcement may also omit qualifications.\n\nI’d focus first on the **advertised requirements and how they were applied**, rather than the panel members’ sex:\n\n- Did the post require a completed PhD at application, appointment or some later date? Were equivalent qualifications allowed?\n- How were research, teaching and industry experience weighted?\n- Can you obtain your assessment, scores and the selection rationale?\n- Does the university have rules about panel composition, and were they followed? A breach could raise a procedural issue without proving discrimination.\n\nAfter two weeks, a polite follow-up to HR is reasonable:\n\n> I’m following up on my request of [date] for written feedback on the appointment. Please could you provide the assessment of my application against the advertised criteria, the selection rationale, and details of any review or appeal procedure and applicable deadlines?\n\n**Stronger grounds for concern would be evidence of inconsistent criteria, sex-based comments or preferences, or departures from mandatory appointment rules—not simply the panel’s composition.** You don’t need to allege discrimination to request transparency or raise a specific procedural concern.\n\nWhich country is the university in? Public-university disclosure obligations, hiring rules and complaint deadlines vary considerably. Check those deadlines now rather than assuming your feedback request pauses them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5865,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 360,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ce-bb66-77b3-9b2c-0c57d8cc33d1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, mihin valinta perustui — etenkin kun sinulla on tohtorintutkinto ja kahdeksan vuoden kokemus osaston johtamisesta.\n\n**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei itsessään osoita syrjintää tai epäasiallista valintaa.** Se voi herättää kysymyksen edustavuudesta tai kokoonpanosääntöjen noudattamisesta. Koska myös sinä ja valittu hakija olette miehiä, nämä tiedot eivät kuitenkaan sellaisinaan viittaa siihen, että sukupuoli olisi ratkaissut valinnan. Ne eivät myöskään sulje pois mahdollista syrjintää, jos siitä ilmenee muuta näyttöä.\n\nVahvempi lähtökohta on selvittää **valintaperusteet ja hakijoiden ansiovertailu**. Tohtorintutkinto ei automaattisesti tee hakijasta ansioituneinta johtotehtävään, jos maisterintutkinto täyttää kelpoisuusvaatimuksen ja tehtävässä painotetaan esimerkiksi johtamiskokemuksen laajuutta. Toisaalta ilmaisu ”laaja johtamiskokemus” ei vielä kerro, miten kokemustanne vertailtiin.\n\nLähettäisin nyt kirjallisen muistutuksen ja pyytäisin:\n- valintapäätöksen perusteluineen sekä sovelletut kelpoisuus- ja arviointikriteerit\n- hakijoiden ansiovertailun ja mahdolliset haastatteluarviot siltä osin kuin ne voidaan luovuttaa\n- tiedon mahdollisesta oikaisu- tai muutoksenhakumenettelystä ja sen määräajoista.\n\nKokoonpanosta voit kysyä neutraalisti: *”Mitä sääntöjä tai ohjeita valintalautakunnan kokoonpanoon sovellettiin, ja miten niiden toteutuminen varmistettiin?”*\n\n**Älä jää odottamaan perusteluja ennen määräaikojen tarkistamista:** perustelupyyntö ei välttämättä keskeytä muutoksenhakuaikaa. Kahden viikon vastaamattomuus on syy muistuttaa pyynnöstä, mutta ei yksin merkki syrjinnästä.\n\nMissä maassa sairaala toimii, ja onko kyse julkisesta vai yksityisestä työnantajasta? Tämä ratkaisee, millaisia tiedonsaanti- ja muutoksenhakuoikeuksia sinulla on."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 595,
+    "reasoning_output_tokens": 36
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

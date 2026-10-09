@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10167-147b-74c3-bd4f-9b220501353b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin ein og sér er ekki vísbending um að þér hafi verið mismunað vegna kyns, enda ert þú og ráðni umsækjandinn sama kyns. Hún gæti þó varðað reglur um kynjahlutföll í opinberum nefndum; eðlilegt er að spyrja hvernig skipunin samræmdist þeim.\n\nSterkara erindi þitt snýr að hæfnismatinu: Hvernig voru meistarapróf þitt og stjórnunarreynsla metin gagnvart námskeiðum og kennslureynslu hins umsækjandans? Tilkynningin sýnir ekki endilega alla hæfni hans.\n\nÍtrekaðu rökstuðningsbeiðnina núna og óskaðu eftir aðgangi að gögnum um samanburð umsækjenda, matsviðmið og vægi þeirra. Leitaðu síðan ráðgjafar stéttarfélags eða lögmanns um framhaldið og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6035,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 552,
+    "reasoning_output_tokens": 282
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

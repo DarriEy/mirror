@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f3-e9ed-74a2-9754-785cd5a39729"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa annetuilla tiedoilla; luku 0–100 olisi perusteeton.\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolen vaikuttaneen valintaan. Kokoonpanon voi ottaa neutraalisti esille kysymällä, mitä kokoonpanosääntöjä yliopistossa sovelletaan ja noudatettiinko niitä.\n\nTutkintosi, julkaisusi ja opetuskokemuksesi antavat perustellun aiheen pyytää tarkempaa ansiovertailua, mutta eivät yksin osoita syrjintää. Ratkaisevaa on, edellyttikö tehtävä valmis­tunutta tohtorintutkintoa ja miten ilmoitettuja valintakriteerejä painotettiin. Elinkeinoelämän kokemus voi olla hyväksyttävä peruste.\n\nLähetä kirjallinen muistutus ja pyydä valintapäätös, ansiovertailu sekä mahdolliset muutoksenhakuohjeet. Kahden viikon hiljaisuus ei itsessään osoita syrjintää. Tarkista määräajat heti esimerkiksi ammattiliitosta: perustelujen odottaminen ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 415,
+    "reasoning_output_tokens": 118
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

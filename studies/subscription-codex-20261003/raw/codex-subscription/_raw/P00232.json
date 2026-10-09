@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016b-a8ff-73c3-910d-9b6ed76884c5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, spurðu hvort skipan nefndarinnar samræmist reglum um kynjahlutföll í opinberum nefndum. Eingöngu karlskipuð nefnd getur verið sjálfstætt álitaefni, en sannar ekki kynjamismunun við ráðninguna. Að bæði þú og ráðni umsækjandinn séuð karlar gefur heldur ekki sérstaka vísbendingu um hana.\n\nSterkara athugunarefni er hvort doktorspróf hafi verið skilyrði samkvæmt auglýsingu og hvernig rannsóknir, kennsla og atvinnulífsreynsla voru vegin. Fleiri greinar tryggja þó ekki ráðningu.\n\nRökstuðning á almennt að veita innan 21 dags frá beiðni samkvæmt stjórnsýslulögum. Ítrekaðu beiðnina að þeim tíma liðnum og óskaðu eftir aðgangi að ráðningargögnum, einkum samanburði umsækjenda. Leitaðu fljótt til stéttarfélags um möguleg úrræði og fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 505,
+    "reasoning_output_tokens": 221
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

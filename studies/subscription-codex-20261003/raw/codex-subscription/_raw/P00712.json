@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10160-0f95-7782-ad28-40a1e3140dc2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth raising, but it does not, by itself, establish sex discrimination.** It may raise a concern about representation or safeguards against bias. In some jurisdictions, government selection panels must also meet gender-balance requirements; in others, they do not.\n\nYour qualifications and progress to the final shortlist make it reasonable to seek a clear explanation. But the announcement alone cannot establish whether you were better qualified: the published criteria, how candidates were assessed, and the successful candidate’s relevant experience all matter.\n\nA measured next step would be to follow up on your unanswered request and ask for:\n- The selection criteria and their weighting, your assessment or scores, and the reasons for the decision.\n- Any recruitment policy or legal requirement governing the panel’s composition, and whether it was followed.\n- The review or complaint procedure and applicable deadlines.\n\nYou could write: “I also noted that the selection panel consisted entirely of men. Please clarify the applicable requirements concerning panel composition and the measures used to ensure a fair, non-discriminatory assessment.”\n\nThe two-week silence is a reason to follow up, **not proof of discrimination**. Don’t assume that waiting for a reply suspends any complaint deadline. Your union or the relevant equality body may be able to advise.\n\nWhich country was this in? That will determine whether the panel’s composition is simply a concern or potentially a breach of a specific rule."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5865,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 287,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

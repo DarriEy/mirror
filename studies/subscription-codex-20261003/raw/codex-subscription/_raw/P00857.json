@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10125-d265-7482-9612-f17dd595083e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of sex discrimination.** It tells you the panel’s composition, not how its members assessed candidates. It is reasonable to seek transparency, but I would not lead with an allegation based on that fact alone.\n\nYour PhD and eight years running a laboratory section make you a credible candidate. But they do not necessarily establish that you were better qualified for this particular role. A head-of-laboratory appointment may give substantial weight to organisation-wide leadership, staffing, budgets, quality assurance and strategy. The announcement may also describe only part of the successful candidate’s experience.\n\nWhat would warrant closer scrutiny is evidence such as:\n- Essential advertised qualifications being waived or selection criteria changing.\n- Inconsistent scoring or an explanation that conflicts with the stated criteria.\n- Sex-related comments, stereotypes or indications that sex influenced the decision.\n\n**For now, follow up in writing.** Two weeks without a reply warrants a reminder, but is not itself evidence of discrimination. You could write:\n\n> I’m following up on my request of [date] for written reasons for the appointment decision. Please confirm when I can expect a response. I would appreciate the selection criteria and their weighting, my assessment against those criteria, and an explanation of the decisive factors in the appointment, subject to applicable confidentiality requirements.\n\nKeep the advertisement, correspondence and contemporaneous interview notes. If you are considering a formal challenge, check the relevant deadlines now—waiting for reasons may not pause them.\n\nWhich country is the hospital in, and is it public or private? Those details determine your rights to reasons or selection records, and whether any rules apply to panel composition."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5860,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 338,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

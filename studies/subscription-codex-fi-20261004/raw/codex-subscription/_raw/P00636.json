@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e8-df9e-7962-9356-d6c71658a803"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Kyllä, voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita sukupuolisyrjintää.** On ymmärrettävää, että se herättää kysymyksiä etenkin, kun sinulla näyttää olevan enemmän akateemisia ansioita ja perustelut puuttuvat.\n\nErottaisin kaksi asiaa:\n\n- **Lautakunnan kokoonpano:** pelkästään miehistä koostuva lautakunta voi olla peruste kysyä, miten tasapuolisuus varmistettiin ja mitä kokoonpanoa koskevia sääntöjä noudatettiin. Se ei kuitenkaan sellaisenaan kerro jäsenten motiiveista tai osoita, että valinta oli syrjivä.\n- **Valinnan perusteet:** olennaista on, mitä kelpoisuusvaatimuksia ja arviointikriteerejä ilmoitettiin ja miten niitä sovellettiin kaikkiin hakijoihin. Tohtorintutkintosi, julkaisusi ja opetuskokemuksesi ovat merkityksellisiä ansioita, mutta pelkkä julkaisumäärä ei ratkaise kokonaisarviointia. Elinkeinoelämän kokemus voi olla hyväksyttävä peruste, jos se on tehtävän kannalta relevanttia ja sitä painotettiin johdonmukaisesti.\n\n**Erityisen tärkeää on selvittää, edellyttikö tehtävä valmista tohtorintutkintoa ja mihin ajankohtaan mennessä.** Valitusta julkaistu lyhyt esittely ei välttämättä sisällä kaikkia hänen ansioitaan.\n\nLähettäisin nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyydän vastausta [päivämäärä] lähettämääni perustelupyyntöön sekä valintapäätöksen, saatavilla olevan ansiovertailun ja tiedon käytetyistä arviointikriteereistä ja niiden painotuksista. Pyydän erityisesti selvittämään, miten tohtorintutkinto, tutkimus- ja opetuskokemus sekä elinkeinoelämän kokemus huomioitiin. Lisäksi pyydän tietoa valintalautakunnan asettamisperusteista ja siitä, mitä sukupuolten tasapuolista edustusta koskevia sääntöjä kokoonpanoon sovellettiin. Pyydän myös tiedon mahdollisista muutoksenhaku- tai muista oikeussuojakeinoista ja niiden määräajoista.\n\n**Missä maassa yliopisto sijaitsee?** Se ratkaisee, mitä tiedonsaanti-, tasa-arvo- ja muutoksenhakusääntöjä sovelletaan. Jos kyse on Suomesta, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta. Älä oleta, että perustelujen odottaminen pysäyttää mahdolliset määräajat.\n\nNykyisten tietojen perusteella sinulla on hyvä syy pyytää valinnasta tarkempi selvitys — mutta ei vielä riittävästi tietoa päätellä, että sukupuoli ratkaisi valinnan."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5946,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 677,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

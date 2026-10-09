@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108eb-e854-7d01-b3c0-e25336621f28"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä naisvaltainen kokoonpano ei ole näyttö sukupuolisyrjinnästä.** Se ei itsessään kerro, että sukupuolesi olisi vaikuttanut valintaan. On silti ymmärrettävää, että haluat selvittää, millä perusteilla ratkaisu tehtiin.\n\nVahvempi lähtökohta on selvittää **kelpoisuusvaatimukset ja hakijoiden ansiovertailu**. Koulutuksesi ja kokemuksesi vaikuttavat merkittäviltä, mutta niiden perusteella ei yksin voi päätellä, että olit tehtävään ansioitunein: johtamistaidot, soveltuvuus ja tehtävän muut vaatimukset voivat myös painaa. Toisaalta haastatteluarvio ei voi korvata puuttuvaa pakollista kelpoisuutta. Valitusta julkaistu lyhyt esittely ei välttämättä kerro hänen kaikkia ansioitaan.\n\nJos kyse on Suomen kunnasta:\n\n- **Pyydä kunnan kirjaamosta** valintapäätös perusteluineen, muutoksenhakuohjeet, alkuperäiset kelpoisuusvaatimukset sekä olemassa oleva ansiovertailu ja muut julkiset valinta-asiakirjat. Kaikki henkilöarviointitiedot eivät ole julkisia.\n- **Tarkista muutoksenhakuaika heti.** Kunnallisen päätöksen oikaisuvaatimusaika on tavallisesti 14 päivää tiedoksisaannista. Perustelupyynnön tekeminen ei yleensä keskeytä määräaikaa.\n- Jos epäilet sukupuolisyrjintää, voit pyytää työnantajalta **tasa-arvolain 10 §:n mukaista kirjallista selvitystä** valintaperusteista ja valitun ansioista. Selvitys on annettava viivytyksettä. Tasa-arvovaltuutetulta tai ammattiliitostasi voit saada neuvontaa.\n- Jos aiempi pyyntösi koski julkisia asiakirjoja, ne on yleensä annettava viimeistään kahdessa viikossa; laaja tai vaikea pyyntö voi viedä kuukauden.\n\nVoisit kirjoittaa neutraalisti:\n\n> Pyydän vahvistamaan aiemman pyyntöni vastaanottamisen ja toimittamaan valintapäätöksen perusteluineen, muutoksenhakuohjeet sekä julkiset asiakirjat, joista ilmenevät kelpoisuusvaatimukset ja hakijoiden ansiovertailu. Pyydän erityisesti täsmentämään, miten koulutusta, kaavoituskokemusta ja johtamisvalmiuksia painotettiin.\n\n**Keskittyisin siis ensin päätöksen perusteisiin, en lautakunnan jäsenten sukupuoleen.** Missä maassa kunta sijaitsee, ja oletko saanut varsinaisen valintapäätöksen muutoksenhakuohjeineen?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5927,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 665,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

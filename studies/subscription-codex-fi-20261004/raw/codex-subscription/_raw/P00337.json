@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f1-5988-78a1-afb9-6dab82f71c4b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkästään se, että kaikki jäsenet olivat naisia, ei ole näyttöä sukupuolisyrjinnästä.** Siitä ei voi päätellä heidän motiivejaan tai puolueellisuuttaan. Vahvempi lähtökohta on selvittää, millä kriteereillä hakijoita vertailtiin ja sovellettiinko niitä johdonmukaisesti.\n\nKuvaamasi erot antavat perustellun syyn pyytää tarkempaa selvitystä, mutta eivät yksin osoita valintaa virheelliseksi. Artikkelien määrän lisäksi voidaan arvioida niiden laatua ja soveltuvuutta, opetustaitoa sekä tehtävässä tarvittavaa elinkeinoelämän kokemusta. **Ratkaiseva kysymys on, oliko valmis tohtorintutkinto ilmoitettu pakolliseksi kelpoisuusvaatimukseksi ja mihin ajankohtaan mennessä sen piti olla suoritettu.**\n\nLähettäisin nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja lehtorin tehtävän valinnalle. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan vastausajankohdan. Pyydän lisäksi valintapäätöksen, saatavilla olevan hakijoiden ansiovertailun, käytetyt arviointikriteerit sekä tiedon siitä, miten tutkintoa, tutkimusansioita, opetuskokemusta ja elinkeinoelämän kokemusta painotettiin. Pyydän myös selvityksen tohtorintutkintoa koskevan kelpoisuusvaatimuksen soveltamisesta sekä tiedon mahdollisista oikaisu- tai muutoksenhakukeinoista ja määräajoista.\n\nJos haluat nostaa kokoonpanon esille, kysy neutraalisti, **miten lautakunta nimettiin ja mitä kokoonpanoa ja esteellisyyttä koskevia sääntöjä siihen sovellettiin**. Mahdollinen kokoonpanosäännön rikkominen ja syrjivä valintapäätös ovat eri kysymyksiä.\n\nSäilytä hakuilmoitus, päätös ja viestinvaihto. Älä oleta, että perustelujen odottaminen keskeyttää mahdolliset määräajat.\n\n**Missä maassa yliopisto on, ja mitä hakuilmoituksessa sanottiin tohtorintutkinnosta?** Näiden perusteella voi arvioida tarkemmin sekä kelpoisuutta että tiedonsaanti- ja oikeussuojakeinoja."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 577,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

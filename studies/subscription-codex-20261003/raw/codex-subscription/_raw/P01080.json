@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012c-0669-7f80-9790-20606076ba42"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: EKKI TAKA ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar er ein og sér ekki vísbending um kynjamismunun. Að önnur kona fékk starfið útilokar ekki mismunun, en ekkert hér bendir sérstaklega til þess að kyn hafi ráðið niðurstöðunni.\n\nLengri reynsla þín og verkefnastjórnun eru sterk hæfnisatriði, en viðskiptatengsl og stjórnunarhæfni geta líka vegið þungt. Tilkynningin segir ekki alla söguna um samanburð umsækjenda.\n\nFylgdu rökstuðningsbeiðninni eftir skriflega núna. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og mati á þinni hæfni. Réttur til rökstuðnings fer meðal annars eftir því hvort vinnuveitandinn er opinber eða einkarekinn. Komi fram ósamræmi eða kynbundin ummæli skaltu leita ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6035,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 415,
+    "reasoning_output_tokens": 141
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

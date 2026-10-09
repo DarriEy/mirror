@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d8-da38-7ff1-9620-28648ca186b3"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuista tiedoista\n\nPelkästään miehistä koostuva lautakunta ei osoita sukupuolen vaikuttaneen valintaan. Sinä ja valittu olette molemmat miehiä; tämä ei sulje pois syrjintää, mutta kuvauksessa ei ole siitä konkreettista näyttöä. Numeerinen todennäköisyys olisi keksitty.\n\nEnsisijaisesti pyydä uudelleen kirjallinen päätös, ansiovertailu, valintakriteerit ja mahdolliset muutoksenhakuohjeet. Selvitä erityisesti, edellyttikö tehtävä valmista tohtorintutkintoa ja miten elinkeinoelämän kokemusta painotettiin. Julkaisumäärä yksin ei ratkaise ansioituneisuutta.\n\nLautakunnan kokoonpanon voi ottaa esille neutraalina kysymyksenä yliopiston tasa-arvokäytännöistä, ei syrjintäsyytöksenä. Sovellettavat säännöt riippuvat maasta ja yliopistosta. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää. Tarkista mahdolliset muutoksenhakuajat heti, ettet menetä oikeuksiasi vastausta odottaessa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 419,
+    "reasoning_output_tokens": 104
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

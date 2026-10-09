@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e9-50ea-7a10-b061-e8719086917c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nOta lautakunnan kokoonpano esille kysymyksenä menettelyn tasapuolisuudesta, ei todisteena syrjinnästä. Pelkästään miehistä koostuva lautakunta ei itsessään osoita, että sukupuoli vaikutti valintaan.\n\nKuvaamasi erot tutkinnossa, julkaisuissa ja opetuskokemuksessa antavat kuitenkin aiheen pyytää tarkka ansiovertailu. Elinkeinoelämän kokemus voi olla hyväksyttävä valintaperuste; olennaista on, miten se liittyy ilmoitettuihin kriteereihin. Jos valmis tohtorintutkinto oli ehdoton kelpoisuusvaatimus, selvitä sen täyttyminen vaadittuna ajankohtana.\n\nLähetä perustelupyynnöstä muistutus yliopiston kirjaamoon. Pyydä valintakriteerit, niiden painotukset, ansiovertailu ja mahdolliset muutoksenhakuohjeet. Selvitä määräajat heti: perustelujen odottaminen ei välttämättä pysäytä niitä. Tarvittaessa ota yhteyttä ammattiliittoon tai, jos kyse on Suomesta, tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6032,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 401,
+    "reasoning_output_tokens": 90
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10168-ac88-7033-8645-249c518b5b5a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of bias or an improper selection process.** It tells you the panel’s composition, not how they assessed candidates. Since you and the successful candidate are both women, the facts you describe don’t point to an obvious sex-based preference. That doesn’t rule out discrimination, but you’d need more specific evidence.\n\nIt’s understandable to question the outcome given your qualifications and experience. However, more years of design work don’t automatically make someone the strongest candidate for a group-head role. Client relationships, winning work, people management and strategic leadership may carry substantial weight. The announcement also may not describe the successful candidate’s full qualifications.\n\n**I’d focus your follow-up on the criteria and process, rather than the panel’s gender.** After two weeks, a polite reminder is reasonable:\n\n> I’m following up on my request of [date] for feedback on the appointment. Please could you explain the selection criteria and their weighting, how my application and interviews were assessed against them, and the main areas that distinguished the successful candidate? Please also let me know when I can expect a response.\n\nMore meaningful warning signs would include age- or sex-related remarks, materially inconsistent treatment of candidates, unexplained changes to the criteria, or departures from a required recruitment policy. An all-women panel could raise a procedural issue **if a specific applicable policy required a different composition**, but that still wouldn’t establish discriminatory treatment.\n\nKeep the advert, correspondence and interview notes. If you’re considering a formal challenge, your country—and whether the consultancy is public or private—will affect your rights and deadlines. Don’t assume waiting for feedback pauses any deadline."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5878,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 343,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

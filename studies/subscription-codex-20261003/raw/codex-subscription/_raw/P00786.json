@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10127-c623-7b01-b1e9-1adf2061a7dc"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**It’s reasonable to raise the all-male panel as a concern, but it isn’t, by itself, proof of discrimination.** It may matter if the applicable rules require gender balance on selection panels, or if other evidence suggests gender affected the decision. An all-male panel can make a fair appointment; its composition alone doesn’t tell you whether this one did.\n\nLikewise, your qualifications and experience make it understandable that you want an explanation, but the short announcement doesn’t establish that the successful candidate was less qualified. The key questions are what criteria were advertised, how candidates were assessed, and whether those criteria were applied consistently.\n\nI’d focus your next step on **getting a clear record of the decision**, rather than alleging discrimination now. Follow up in writing and ask for:\n- The selection criteria and their weighting.\n- Your assessment or scores, and the reasons the successful candidate was preferred, subject to legitimate privacy limits.\n- The rules governing panel composition, including any gender-balance requirement.\n- The applicable review or complaint procedure and deadlines.\n\nYou could write: “I am following up on my request of [date] for written reasons. Please confirm when I can expect a response and identify any applicable review deadlines. Please also clarify what rules govern gender balance on the selection panel and whether those requirements were met.”\n\nKeep the advertisement, announcement and correspondence, and make notes of your interviews. **Don’t assume waiting for reasons pauses a complaint deadline.** Whether two weeks without a response breaches any obligation depends on the jurisdiction.\n\nWhich country is the ministry in? That would help determine whether the panel’s composition has legal significance and what response deadlines apply."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5853,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 336,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

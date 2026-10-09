@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10131-1290-70f3-b94d-f5994b5da906"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er ekki ein og sér vísbending um að kyn hafi ráðið niðurstöðunni, sérstaklega þar sem bæði þú og ráðni umsækjandinn eruð karlar. Samsetningin getur þó sjálfstætt varðað reglur um kynjahlutföll opinberra nefnda; kanna þarf hvort þær eigi við.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Hjá opinberu sjúkrahúsi gilda almennt stjórnsýslureglur um rökstuðning og 14 daga svarfrest. Óskaðu eftir samanburði á menntun, stjórnunarreynslu og öðrum auglýstum hæfniskröfum. Doktorspróf tryggir ekki ráðningu en vægi hæfnisþátta þarf að vera málefnalegt.\n\nSpyrðu hlutlaust um reglur við skipun nefndarinnar, fremur en að fullyrða kynjamismunun. Leitaðu aðstoðar stéttarfélags við mat á rökstuðningi og mögulegum úrræðum."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7594,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 482,
+    "reasoning_output_tokens": 190
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

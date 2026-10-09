@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016e-e52d-7670-b18f-b2932b431399"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipuð nefnd er ekki ein og sér vísbending um að kyn hafi ráðið niðurstöðunni. Samsetningin getur þó verið sérstakt álitaefni samkvæmt reglum um kynjahlutföll, einkum hjá opinberu sjúkrahúsi.\n\nFylgdu rökstuðningsbeiðninni eftir skriflega núna. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og samanburði á hæfni umsækjenda. Doktorspróf og átta ára stjórnunarreynsla tryggja ekki sjálfkrafa að þú teljist hæfastur; önnur viðeigandi reynsla getur vegið þyngra.\n\nSpyrðu hlutlaust hvaða reglur giltu um skipan nefndarinnar, fremur en að saka hana um hlutdrægni. Ef rökstuðningur sýnir ósamræmi eða kynbundin sjónarmið skaltu leita til stéttarfélags eða lögmanns og kanna kærufresti án tafar."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6046,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 413,
+    "reasoning_output_tokens": 135
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

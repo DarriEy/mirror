@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f8-67e3-7cf1-9ad9-2c056b938d9a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "An all-male panel is worth noting, but **it is not, by itself, evidence that the appointment was biased or unlawful**. Since you and the successful candidate are both men, the panel’s composition does not suggest an obvious sex-discrimination explanation for why he was selected over you. It also tells you nothing reliable about the panel members’ individual attitudes.\n\nThere are two separate questions:\n\n- **Was the panel properly constituted?** Some jurisdictions or ministries have gender-balance requirements for selection panels. If one applied, an all-male panel might be a procedural issue, regardless of your sex. That would not automatically invalidate the appointment.\n- **Was the selection properly justified?** Your qualifications and experience make it reasonable to seek a substantive explanation, but the announcement alone cannot establish that you were better qualified. The role’s criteria, how candidates were assessed, and the successful candidate’s relevant experience matter more than degree titles alone.\n\nFor now, I would follow up neutrally on your unanswered request. Ask for the selection criteria, the assessment of your application against them, the reasons for preferring the successful candidate, and any applicable panel-composition rules. You can raise the all-male panel as a compliance question rather than an accusation.\n\n**Check review or appeal deadlines now**—do not assume that waiting for an explanation pauses them. Whether two weeks without a reply breaches any duty depends on the applicable rules.\n\nWhich country is the ministry in? That would help establish whether panel gender balance and response deadlines have specific legal significance."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7412,
+    "cached_input_tokens": 7296,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 311,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

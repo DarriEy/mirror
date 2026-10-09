@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10142-ae2c-77b2-bf76-09c1e568bfd0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Ekki sem vísbendingu um að þér hafi verið mismunað.** Sú staðreynd ein að fjórar konur sátu í nefndinni og kona fékk starfið segir ekki að kyn hafi ráðið niðurstöðunni. Hún útilokar heldur ekki annmarka á ráðningunni — en þá þarf að skoða önnur gögn.\n\nÉg myndi greina á milli tveggja atriða:\n\n- **Skipunar nefndarinnar:** Ef þetta er opinbert sjúkrahús á Íslandi geta reglur um kynjahlutföll í opinberum nefndum átt við. Það þarf þó að kanna stöðu þessarar tilteknu ráðningarnefndar áður en hægt er að segja hvort skipunin hafi samræmst þeim. Annmarki á nefndarskipan sannar ekki sjálfkrafa mismunun við ráðninguna.\n- **Mats á umsækjendum:** Doktorspróf þitt og átta ára deildarstjórnun eru veigamikil hæfni. Hærri prófgráða tryggir þó ekki ráðningu; viðeigandi stjórnunarreynsla og önnur málefnaleg hæfni geta vegið þyngra, eftir starfslýsingu og auglýstum kröfum. Orðalagið „víðtæk stjórnunarreynsla“ er eitt og sér of almennt til að þú getir metið samanburðinn.\n\n**Næsta skref væri að ítreka beiðnina um rökstuðning skriflega**, frekar en að setja nefndarskipanina í forgrunn. Til dæmis:\n\n> Ég ítreka beiðni mína frá [dagsetning] um skriflegan rökstuðning fyrir ráðningunni. Ég óska sérstaklega eftir upplýsingum um hvaða hæfnissjónarmið réðu niðurstöðu, vægi þeirra og hvernig menntun mín og stjórnunarreynsla voru metin í samanburði við hæfni þess umsækjanda sem ráðinn var. Vinsamlegast staðfestið móttöku og upplýsið hvenær rökstuðnings er að vænta.\n\nEf um opinbera ráðningu er að ræða geturðu einnig óskað eftir aðgangi að gögnum málsins, með þeim takmörkunum sem eiga við um upplýsingar um aðra umsækjendur. Leitaðu gjarnan strax til stéttarfélagsins um aðstoð og mögulega fresti; ekki gera ráð fyrir að biðin eftir svari stöðvi þá.\n\nÍ stuttu máli: **Þú hefur góða ástæðu til að óska eftir skýrum hæfnissamanburði, en ekki nægar upplýsingar til að álykta um mismunun út frá kynjasamsetningu nefndarinnar.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5947,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 705,
+    "reasoning_output_tokens": 96
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

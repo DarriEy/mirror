@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012c-dca3-74a2-8afd-3c4b5492ffb3"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence that you were treated unfairly because you’re a man.** It’s reasonable to scrutinize the process after a disappointing result, but the panel’s composition doesn’t tell you how its members assessed the candidates.\n\nYour qualifications sound strong. However, the announcement may omit the successful candidate’s other experience, and a director role may put considerable weight on leadership, public consultation, political judgment and interview performance—not just degrees or years in planning.\n\nThe more useful questions are:\n- Were the advertised minimum qualifications met, especially if a professional licence was required?\n- Were the published selection criteria applied consistently?\n- Were there comments, scoring discrepancies or departures from procedure suggesting that sex influenced the decision?\n\n**I’d follow up on your written request rather than lead with the panel’s gender.** For example:\n\n> I’m following up on my request of [date] for feedback on the appointment. Please confirm receipt and the expected response date. I would appreciate an explanation of how my application and interviews were assessed against the selection criteria, along with any assessment records I’m entitled to receive.\n\nTwo weeks without a reply merits a reminder, but isn’t itself evidence of discrimination. Keep the advert, correspondence and notes of your interviews. If you’re considering a formal challenge, check the applicable deadlines now; waiting for feedback may not extend them.\n\nWhich country or jurisdiction is the municipality in? That determines your rights to reasons, records and review."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5865,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 301,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

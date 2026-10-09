@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e9-f423-7882-a5b4-0d46af6a8377"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuista tiedoista\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolisyrjintää eikä perustele numeerista todennäköisyysarviota. Kokoonpanon voit ottaa esille neutraalina kysymyksenä sen muodostamisesta, mutta älä esitä sitä todisteena puolueellisuudesta.\n\nJohtamiskoulutuksesi ja vararehtorikokemuksesi antavat hyvän syyn pyytää tarkempaa ansiovertailua. Ne eivät kuitenkaan yksin osoita, että olit kokonaisuutena ansioituneempi. Valitun koulutuksen lyhyt kuvaus ei myöskään ratkaise hänen rehtorikelpoisuuttaan.\n\nLähetä kirjallinen muistutus ja pyydä valintapäätös, perustelut, ansiovertailu sekä muutoksenhakuohjeet. Tarkista määräajat heti: perustelupyynnön vastausta ei kannata jäädä odottamaan niiden kustannuksella. Kahden viikon hiljaisuus ei sellaisenaan osoita syrjintää. Jos ilmenee konkreettisia viitteitä sukupuolen vaikutuksesta, ota yhteyttä ammattiliittoosi tai tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6014,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 423,
+    "reasoning_output_tokens": 101
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

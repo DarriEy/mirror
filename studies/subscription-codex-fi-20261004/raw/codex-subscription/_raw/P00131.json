@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d7-4b62-7fd1-a504-cb8302a85c0d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, miksi et tullut valituksi — etenkin pitkän kokemuksesi ja kahden haastattelun jälkeen.\n\n**En nostaisi lautakunnan naisvaltaisuutta ensimmäiseksi esille.** Pelkkä sukupuolijakauma ei osoita puolueellisuutta tai syrjintää. Koska sekä sinä että valittu olette naisia, kertomasi ei sellaisenaan viittaa siihen, että sukupuoli olisi ratkaissut valinnan. Tämä ei kuitenkaan todista valintamenettelyä kaikilta osin asianmukaiseksi.\n\nSinulla on pidempi uutiskokemus, mutta palvelusvuodet eivät yksin ratkaise ansiovertailua. Digitaalisen median osaaminen, johtamistaidot ja tehtävän muut vaatimukset voivat perustellusti painaa enemmän. Olennaista on, **mitkä valintakriteerit olivat ja miten niitä sovellettiin hakijoihin**.\n\nLähettäisin nyt asiallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja uutispäällikön valinnalle. Voisitteko vahvistaa pyynnön vastaanoton ja kertoa, milloin saan vastauksen? Toivon erityisesti tietoa valintakriteereistä ja niiden painotuksesta sekä siitä, miten uutistyön, esihenkilötyön ja digitaalisen median kokemusta vertailtiin.\n\nLautakunnan kokoonpanoa kannattaa selvittää erikseen, jos saat tietoa esimerkiksi esteellisyydestä, sukupuoleen liittyvistä kommenteista tai sovellettavan kokoonpanosäännön rikkomisesta. Kahden viikon hiljaisuus ei yksin osoita syrjintää, mutta muistutus on aiheellinen.\n\n**Missä maassa tehtävä on?** Oikeus perusteluihin ja mahdolliset muutoksenhakuajat riippuvat maasta ja tehtävän oikeudellisesta luonteesta. Julkinen yleisradioyhtiö ei automaattisesti tarkoita viranomaisen virantäyttöä. Jos harkitset valinnan riitauttamista, määräajat kannattaa selvittää heti esimerkiksi ammattiliitosta eikä odottaa vastausta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 489,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

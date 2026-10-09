@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10151-605f-7332-aa1c-856725e30803"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "It’s understandable to want a clear explanation after reaching the final three. **But an all-women panel is not, by itself, evidence of sex discrimination.** It tells you the panel’s composition, not how it assessed candidates.\n\nYour PhD and nine years of modelling experience sound highly relevant. However, the announcement may omit much of the successful candidate’s experience, and a head-of-function role may place substantial weight on leadership, regulatory judgment, and managing relationships—not just technical qualifications. That doesn’t establish that the decision was fair; it means there isn’t enough information to conclude otherwise.\n\nI would focus first on **the selection criteria and how they were applied**, rather than the panel’s sex:\n\n- Follow up now on your unanswered request, asking when you can expect a response.\n- Request feedback against the advertised criteria, including their weighting and your assessment scores, where available.\n- Keep the advertisement, application, correspondence, and interview notes.\n\nYou could write:\n\n> I’m following up on my request of [date] for written feedback on the appointment. Please could you explain how my application and interviews were assessed against the selection criteria, including the relative weight given to technical modelling expertise, leadership, and regulatory experience? Please also confirm when I can expect a response.\n\nMore meaningful warning signs would include sex-based comments, inconsistent treatment, or unexplained departures from the advertised criteria. Two weeks without a reply warrants a follow-up, but does not itself indicate discrimination.\n\n**On the facts you have, I wouldn’t make the panel’s composition the basis of a complaint.** If you’re considering a formal challenge, the country and whether the bank is public or private matter: disclosure rights and complaint deadlines vary, and waiting for feedback may not pause those deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5857,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 357,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

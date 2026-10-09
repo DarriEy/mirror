@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dd-faab-75c2-bed5-6b70de7619a6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Nostaisin ensisijaisesti esiin valintakriteerit ja niiden soveltamisen, en lautakunnan sukupuolijakaumaa. Se, että sinäkin ja valittu olette naisia, ei yksin sulje pois syrjintää, mutta kertomasi ei anna näyttöä sukupuoleen perustuvasta syrjinnästä.\n\nOn silti ymmärrettävää, että haluat perustelut. Sinulla on kuvauksesi perusteella enemmän tutkinto-, julkaisu- ja opetuskokemusta. **Tämä ei automaattisesti tarkoita, että olit kokonaisuutena ansioitunein**, sillä tehtävän painotukset, julkaisujen laatu ja soveltuvuus sekä elinkeinoelämän kokemus voivat vaikuttaa. Keskeistä on:\n- Oliko valmis tohtorintutkinto kelpoisuusvaatimus vai toivottu ansio, ja mihin ajankohtaan mennessä sen piti olla valmis?\n- Millä perusteilla tutkimusta, opetusta ja elinkeinoelämän kokemusta vertailtiin?\n- Vastasivatko käytetyt painotukset hakuilmoitusta?\n\nLähettäisin nyt kirjallisen muistutuksen ja pyytäisin valintapäätöksen, olemassa olevat perustelut ja ansiovertailun sekä tiedon mahdollisista muutoksenhaku- tai oikaisukeinoista ja määräajoista. Esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja lehtorin tehtävän valintaan. Pyydän vahvistamaan pyyntöni vastaanoton ja ilmoittamaan vastausajankohdan. Pyydän myös valintapäätöksen sekä saatavilla olevat ansiovertailu- ja arviointiasiakirjat. Erityisesti toivon selvitystä tohtorintutkintoa koskevan vaatimuksen soveltamisesta ja eri ansioiden painotuksesta. Pyydän lisäksi tiedon mahdollisista muutoksenhakukeinoista ja määräajoista.\n\n**Älä oleta, että perustelujen odottaminen pysäyttää määräajat.** Kahden viikon vastaamattomuus kannattaa selvittää, mutta sekään ei yksin osoita syrjintää. Lautakunnan kokoonpano voi olla erillinen sääntöjenmukaisuuskysymys, jos sitä koskevat paikalliset tasa-arvo- tai kokoonpanosäännöt.\n\nMissä maassa yliopisto sijaitsee? Se ratkaisee, mitä asiakirjoja voit saada ja miten valintaa voi riitauttaa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5942,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 605,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

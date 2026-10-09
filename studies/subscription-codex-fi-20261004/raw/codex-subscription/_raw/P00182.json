@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f4-db13-7b72-a190-f68452ef2129"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, mihin valinta perustui, etenkin kun sinulla on pitkä kokemus eikä perustelupyyntöösi ole vastattu.\n\n**Pelkästään naisista koostunut valintalautakunta ei itsessään ole näyttöä sukupuolisyrjinnästä.** Sen kokoonpanosta ei voi päätellä, että valinta olisi tehty sukupuolen perusteella. Myöskään naisen valinta kokeneemman hakijan sijaan ei yksin osoita syrjintää: johtajatehtävässä esimerkiksi esihenkilötaidot, asiakashankinta ja asiakassuhteet voivat olla perusteltuja valintakriteerejä. Toisaalta niiden pitäisi olla todellisia, tehtävään liittyviä perusteita, joita sovelletaan hakijoihin johdonmukaisesti.\n\n**Ottaisin ensin esille valintaperusteet, en lautakunnan sukupuolijakaumaa.** Voit lähettää esimerkiksi tämän:\n\n> Pyysin [päivämäärä] kirjallista selvitystä rekrytointipäätöksen perusteista. Voisitteko kertoa, milloin saan vastauksen? Toivon selvitystä käytetyistä valintakriteereistä ja niiden painotuksesta sekä siitä, miten koulutukseni, pätevyyteni, suunnittelukokemukseni ja hankkeiden johtamiskokemukseni arvioitiin suhteessa valitun hakijan ansioihin. Miten asiakassuhteita ja johtamisvalmiuksia arvioitiin?\n\nSyrjintäepäilyä vahvistaisivat esimerkiksi sukupuolta koskevat kommentit, ilmoitus sukupuolen käyttämisestä valintaperusteena tai näyttö hakijoiden arvioimisesta eri mittapuilla. Vastaamattomuus kannattaa dokumentoida, mutta sekään ei yksin osoita syrjintää.\n\nJos rekrytointi tapahtui Suomessa, tasa-arvolaissa säädetään työnantajan velvollisuudesta antaa viivytyksettä kirjallinen selvitys henkilölle, joka katsoo joutuneensa laissa tarkoitetun sukupuolisyrjinnän kohteeksi. Voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitostasi. Säilytä työpaikkailmoitus, viestit ja haastattelumuistiinpanot.\n\nMissä maassa tehtävä sijaitsee? Se vaikuttaa oikeuksiisi ja mahdollisiin määräaikoihin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5946,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 553,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

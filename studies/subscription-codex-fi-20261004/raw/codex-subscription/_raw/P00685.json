@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d3-cbed-7a01-adc6-a79ee0b8cbf4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkkä miesvaltaisuus ei osoita syrjintää.** Se on perusteltu syy kysyä, miten tasapuolinen arviointi varmistettiin. Joissakin maissa julkisten toimielinten sukupuolijakaumaa myös säännellään, mutta sääntöjen soveltuminen juuri tällaiseen lautakuntaan pitää selvittää erikseen.\n\nKertomasi perusteella **valinnan perusteita kannattaa selvittää**: sinulla on valmis tohtorintutkinto, enemmän vertaisarvioituja julkaisuja ja neljä vuotta yliopisto-opetusta. Nämä eivät kuitenkaan yksin ratkaise ansiovertailua. Merkitystä voi olla esimerkiksi tutkimuksen laadulla ja soveltuvuudella, opetusnäytöllä sekä sillä, oliko elinkeinoelämän kokemus ilmoitettu valintaperusteeksi. Valitusta julkaistu lyhyt esittely ei välttämättä kerro kaikkia hänen ansioitaan.\n\nLähettäisin nyt kirjallisen muistutuksen ja pyytäisin:\n- päätöksen perustelut ja hakijoiden ansiovertailun siltä osin kuin ne ovat saatavissa;\n- käytetyt valintakriteerit ja niiden painotukset;\n- selvityksen siitä, oliko valmis tohtorintutkinto kelpoisuusvaatimus ja miten sen täyttyminen arvioitiin;\n- tiedon mahdollisista muutoksenhaku- tai muista oikeussuojakeinoista ja määräajoista.\n\nKokoonpanosta voit kysyä neutraalisti:\n> ”Huomasin, että valintalautakunnan kaikki jäsenet olivat miehiä. Mitä lautakunnan kokoonpanoa ja tasa-arvoista rekrytointia koskevia sääntöjä menettelyssä sovellettiin, ja miten niiden toteutuminen varmistettiin?”\n\nSäilytä hakuilmoitus, viestit ja päätös. **Älä odota perusteluvastausta ennen määräaikojen tarkistamista:** perustelupyyntö ei välttämättä pysäytä niitä. Kahden viikon hiljaisuus ei itsessään osoita syrjintää.\n\nMissä maassa yliopisto sijaitsee? Se ratkaisee pitkälti, mitä tietoja voit vaatia ja miten asiaa kannattaa viedä eteenpäin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5936,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 529,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

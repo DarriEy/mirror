@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017b-5def-7883-961a-237aa60be47e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**The all-women panel is not, by itself, evidence of bias or an unfair process.** Neither does the successful candidate’s being a woman establish anything about why she was selected. I wouldn’t make the panel’s gender composition the focus of a challenge without additional evidence.\n\nYour qualifications make it reasonable to seek a substantive explanation. But the announcement doesn’t provide enough information to compare candidates fairly: “broad experience of regulatory affairs” may understate her modelling or leadership experience. For a head-level role, the bank may also have weighted management, governance, and dealings with regulators more heavily than academic qualifications.\n\nThe more useful questions are:\n- What were the selection criteria, and how were they weighted?\n- How did the panel assess your modelling expertise and leadership experience against those criteria?\n- Were the advertised requirements applied consistently?\n\nAfter two weeks, a polite written follow-up is reasonable:\n\n> I’m following up on my request of [date] for feedback on the appointment. Please could you explain the principal selection criteria and the reasons my application was unsuccessful, particularly regarding technical modelling expertise and leadership experience? Please also let me know when I can expect a response.\n\nKeep the advertisement, correspondence, and interview notes. Specific evidence—such as age-related remarks, inconsistent criteria, or a departure from recruitment rules—would be more informative than the panel’s gender. The silence so far is frustrating, but isn’t itself proof of discrimination.\n\n**Which country was this in, and was the bank public- or privately owned?** That can affect your right to reasons and any deadlines for challenging the decision."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5861,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 324,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

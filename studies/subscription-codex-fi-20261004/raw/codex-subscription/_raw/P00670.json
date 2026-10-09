@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d9-25a2-7f10-bd15-87f6299974d4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuilla tiedoilla.\n\nVoit kysyä lautakunnan kokoonpanosta osana valintamenettelyn selvittämistä, ilman syrjintäsyytöstä. Pelkästään miehistä koostuva lautakunta ei todista sukupuolen vaikuttaneen päätökseen, mutta sen muodostamisperusteita on asiallista tiedustella.\n\nKuvaamasi ansioerot antavat aihetta pyytää tarkempia perusteluja. Artikkelien määrä tai valmis tutkinto eivät yksin ratkaise ansiovertailua: merkitystä on ilmoitetuilla kelpoisuusvaatimuksilla, arviointikriteereillä ja niiden johdonmukaisella soveltamisella. Jos valmis tohtorintutkinto oli ehdoton vaatimus, selvitä erityisesti sen täyttyminen.\n\nLähetä kirjallinen muistutus ja pyydä valintaperustelut, ansiovertailu sekä tieto mahdollisista muutoksenhakukeinoista ja määräajoista. Kahden viikon hiljaisuus ei yksin osoita syrjintää. Älä kuitenkaan oleta perustelupyynnön pysäyttävän määräaikoja. Sovellettava oikeus riippuu maasta; Suomessa neuvoa voi kysyä ammattiliitosta tai tasa-arvovaltuutetulta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 420,
+    "reasoning_output_tokens": 96
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

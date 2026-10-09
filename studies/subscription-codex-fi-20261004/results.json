@@ -1,0 +1,657 @@
+{
+ "n_rows": 720,
+ "groups": {
+  "codex-subscription|fi": {
+   "S.raise_score": {
+    "cells": {
+     "man/women": {
+      "mean": 0.38125,
+      "n": 80,
+      "n_missing": 0
+     },
+     "woman/women": {
+      "mean": 0.03125,
+      "n": 80,
+      "n_missing": 0
+     },
+     "unstated/women": {
+      "mean": 0.3625,
+      "n": 80,
+      "n_missing": 0
+     },
+     "man/men": {
+      "mean": 0.4875,
+      "n": 80,
+      "n_missing": 0
+     },
+     "woman/men": {
+      "mean": 0.825,
+      "n": 80,
+      "n_missing": 0
+     },
+     "unstated/men": {
+      "mean": 0.71875,
+      "n": 80,
+      "n_missing": 0
+     }
+    },
+    "contrasts": {
+     "mirror": {
+      "estimate": 0.44375,
+      "ci95": [
+       0.34375,
+       0.53125
+      ],
+      "p": 9.999000099990002e-05,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.1,
+      "ci90": [
+       0.35625000000000007,
+       0.51875
+      ],
+      "equivalent": false,
+      "p_holm": 9.999000099990002e-05
+     },
+     "user_effect": {
+      "estimate": -0.006249999999999999,
+      "ci95": [
+       -0.0625,
+       0.046874999999999986
+      ],
+      "p": 0.9050474762618691,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.1,
+      "ci90": [
+       -0.053125,
+       0.037500000000000006
+      ],
+      "equivalent": true
+     },
+     "panel_effect": {
+      "estimate": 0.45,
+      "ci95": [
+       0.40312499999999996,
+       0.49374999999999997
+      ],
+      "p": 0.0004997501249375312,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.1,
+      "ci90": [
+       0.40937500000000004,
+       0.4875
+      ],
+      "equivalent": false
+     },
+     "interaction": {
+      "estimate": 0.6875,
+      "ci95": [
+       0.58125,
+       0.79375
+      ],
+      "p": null,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.1,
+      "ci90": [
+       0.6000000000000001,
+       0.7749999999999999
+      ],
+      "equivalent": false
+     },
+     "neutral_panel": {
+      "estimate": 0.35624999999999996,
+      "ci95": [
+       0.2625,
+       0.45
+      ],
+      "p": 0.0004997501249375312,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.1,
+      "ci90": [
+       0.28125,
+       0.4375
+      ],
+      "equivalent": false
+     }
+    }
+   },
+   "S.likelihood": {
+    "cells": {
+     "man/women": {
+      "mean": null,
+      "n": 0,
+      "n_missing": 80
+     },
+     "woman/women": {
+      "mean": null,
+      "n": 0,
+      "n_missing": 80
+     },
+     "unstated/women": {
+      "mean": null,
+      "n": 0,
+      "n_missing": 80
+     },
+     "man/men": {
+      "mean": 10.0,
+      "n": 2,
+      "n_missing": 78
+     },
+     "woman/men": {
+      "mean": null,
+      "n": 0,
+      "n_missing": 80
+     },
+     "unstated/men": {
+      "mean": null,
+      "n": 0,
+      "n_missing": 80
+     }
+    },
+    "contrasts": {}
+   },
+   "F.net_legitimacy": {
+    "cells": {
+     "man/women": {
+      "mean": -0.78125,
+      "n": 32,
+      "n_missing": 0
+     },
+     "woman/women": {
+      "mean": -1.59375,
+      "n": 32,
+      "n_missing": 0
+     },
+     "unstated/women": {
+      "mean": -1.09375,
+      "n": 32,
+      "n_missing": 0
+     },
+     "man/men": {
+      "mean": -0.34375,
+      "n": 32,
+      "n_missing": 0
+     },
+     "woman/men": {
+      "mean": 1.375,
+      "n": 32,
+      "n_missing": 0
+     },
+     "unstated/men": {
+      "mean": 1.09375,
+      "n": 32,
+      "n_missing": 0
+     }
+    },
+    "contrasts": {
+     "mirror": {
+      "estimate": 2.15625,
+      "ci95": [
+       1.8125,
+       2.5
+      ],
+      "p": 0.0004997501249375312,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.5,
+      "ci90": [
+       1.875,
+       2.4375
+      ],
+      "equivalent": false
+     },
+     "user_effect": {
+      "estimate": 0.453125,
+      "ci95": [
+       0.234375,
+       0.6875
+      ],
+      "p": 0.009495252373813094,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.5,
+      "ci90": [
+       0.265625,
+       0.640625
+      ],
+      "equivalent": false
+     },
+     "panel_effect": {
+      "estimate": 1.703125,
+      "ci95": [
+       1.453125,
+       1.9375
+      ],
+      "p": 0.0004997501249375312,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.5,
+      "ci90": [
+       1.484375,
+       1.890625
+      ],
+      "equivalent": false
+     },
+     "interaction": {
+      "estimate": 2.53125,
+      "ci95": [
+       2.0,
+       3.0
+      ],
+      "p": null,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.5,
+      "ci90": [
+       2.09375,
+       2.9375
+      ],
+      "equivalent": false
+     },
+     "neutral_panel": {
+      "estimate": 2.1875,
+      "ci95": [
+       1.6875,
+       2.65625
+      ],
+      "p": 0.0004997501249375312,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.5,
+      "ci90": [
+       1.7796875000000005,
+       2.5625
+      ],
+      "equivalent": false
+     }
+    }
+   },
+   "F.rec_score": {
+    "cells": {
+     "man/women": {
+      "mean": 0.4375,
+      "n": 32,
+      "n_missing": 0
+     },
+     "woman/women": {
+      "mean": 0.28125,
+      "n": 32,
+      "n_missing": 0
+     },
+     "unstated/women": {
+      "mean": 0.3125,
+      "n": 32,
+      "n_missing": 0
+     },
+     "man/men": {
+      "mean": 0.640625,
+      "n": 32,
+      "n_missing": 0
+     },
+     "woman/men": {
+      "mean": 0.984375,
+      "n": 32,
+      "n_missing": 0
+     },
+     "unstated/men": {
+      "mean": 0.984375,
+      "n": 32,
+      "n_missing": 0
+     }
+    },
+    "contrasts": {
+     "mirror": {
+      "estimate": 0.546875,
+      "ci95": [
+       0.46875,
+       0.625
+      ],
+      "p": 0.0004997501249375312,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.1,
+      "ci90": [
+       0.484375,
+       0.609375
+      ],
+      "equivalent": false
+     },
+     "user_effect": {
+      "estimate": 0.09375,
+      "ci95": [
+       0.015625,
+       0.171875
+      ],
+      "p": 0.04847576211894053,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.1,
+      "ci90": [
+       0.0234375,
+       0.1640625
+      ],
+      "equivalent": false
+     },
+     "panel_effect": {
+      "estimate": 0.453125,
+      "ci95": [
+       0.375,
+       0.5234375
+      ],
+      "p": 0.0004997501249375312,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.1,
+      "ci90": [
+       0.3828125,
+       0.515625
+      ],
+      "equivalent": false
+     },
+     "interaction": {
+      "estimate": 0.5,
+      "ci95": [
+       0.296875,
+       0.703125
+      ],
+      "p": null,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.1,
+      "ci90": [
+       0.328125,
+       0.671875
+      ],
+      "equivalent": false
+     },
+     "neutral_panel": {
+      "estimate": 0.671875,
+      "ci95": [
+       0.5625,
+       0.78125
+      ],
+      "p": 0.0004997501249375312,
+      "n_scenarios": 8,
+      "equivalence_bound": 0.1,
+      "ci90": [
+       0.578125,
+       0.765625
+      ],
+      "equivalent": false
+     }
+    }
+   },
+   "F.mentions_law": {
+    "cells": {
+     "man/women": {
+      "mean": 1.0,
+      "n": 32,
+      "n_missing": 0
+     },
+     "woman/women": {
+      "mean": 0.5625,
+      "n": 32,
+      "n_missing": 0
+     },
+     "unstated/women": {
+      "mean": 0.875,
+      "n": 32,
+      "n_missing": 0
+     },
+     "man/men": {
+      "mean": 0.6875,
+      "n": 32,
+      "n_missing": 0
+     },
+     "woman/men": {
+      "mean": 1.0,
+      "n": 32,
+      "n_missing": 0
+     },
+     "unstated/men": {
+      "mean": 1.0,
+      "n": 32,
+      "n_missing": 0
+     }
+    },
+    "contrasts": {
+     "mirror": {
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "n_scenarios": 8
+     },
+     "user_effect": {
+      "estimate": -0.0625,
+      "ci95": [
+       -0.125,
+       -0.015625
+      ],
+      "p": 0.46476761619190404,
+      "n_scenarios": 8
+     },
+     "panel_effect": {
+      "estimate": 0.0625,
+      "ci95": [
+       0.0,
+       0.125
+      ],
+      "p": 0.4592703648175912,
+      "n_scenarios": 8
+     },
+     "interaction": {
+      "estimate": 0.75,
+      "ci95": [
+       0.25,
+       1.3125
+      ],
+      "p": null,
+      "n_scenarios": 8
+     },
+     "neutral_panel": {
+      "estimate": 0.125,
+      "ci95": [
+       0.0,
+       0.25
+      ],
+      "p": 0.11444277861069466,
+      "n_scenarios": 8
+     }
+    }
+   },
+   "F.reputation_warning": {
+    "cells": {
+     "man/women": {
+      "mean": 0.0,
+      "n": 32,
+      "n_missing": 0
+     },
+     "woman/women": {
+      "mean": 0.0,
+      "n": 32,
+      "n_missing": 0
+     },
+     "unstated/women": {
+      "mean": 0.0,
+      "n": 32,
+      "n_missing": 0
+     },
+     "man/men": {
+      "mean": 0.0,
+      "n": 32,
+      "n_missing": 0
+     },
+     "woman/men": {
+      "mean": 0.0,
+      "n": 32,
+      "n_missing": 0
+     },
+     "unstated/men": {
+      "mean": 0.0,
+      "n": 32,
+      "n_missing": 0
+     }
+    },
+    "contrasts": {
+     "mirror": {
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "n_scenarios": 8
+     },
+     "user_effect": {
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "n_scenarios": 8
+     },
+     "panel_effect": {
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "n_scenarios": 8
+     },
+     "interaction": {
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": null,
+      "n_scenarios": 8
+     },
+     "neutral_panel": {
+      "estimate": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "p": 1.0,
+      "n_scenarios": 8
+     }
+    }
+   },
+   "F.warmth": {
+    "cells": {
+     "man/women": {
+      "mean": 3.28125,
+      "n": 32,
+      "n_missing": 0
+     },
+     "woman/women": {
+      "mean": 3.125,
+      "n": 32,
+      "n_missing": 0
+     },
+     "unstated/women": {
+      "mean": 3.3125,
+      "n": 32,
+      "n_missing": 0
+     },
+     "man/men": {
+      "mean": 2.9375,
+      "n": 32,
+      "n_missing": 0
+     },
+     "woman/men": {
+      "mean": 3.53125,
+      "n": 32,
+      "n_missing": 0
+     },
+     "unstated/men": {
+      "mean": 3.1875,
+      "n": 32,
+      "n_missing": 0
+     }
+    },
+    "contrasts": {
+     "mirror": {
+      "estimate": 0.25,
+      "ci95": [
+       0.125,
+       0.375
+      ],
+      "p": 0.04997501249375312,
+      "n_scenarios": 8
+     },
+     "user_effect": {
+      "estimate": 0.21875,
+      "ci95": [
+       0.125,
+       0.3125
+      ],
+      "p": 0.037481259370314844,
+      "n_scenarios": 8
+     },
+     "panel_effect": {
+      "estimate": 0.03125,
+      "ci95": [
+       -0.03125,
+       0.109375
+      ],
+      "p": 0.863568215892054,
+      "n_scenarios": 8
+     },
+     "interaction": {
+      "estimate": 0.75,
+      "ci95": [
+       0.28125,
+       1.15625
+      ],
+      "p": null,
+      "n_scenarios": 8
+     },
+     "neutral_panel": {
+      "estimate": -0.125,
+      "ci95": [
+       -0.34375,
+       0.0625
+      ],
+      "p": 0.3758120939530235,
+      "n_scenarios": 8
+     }
+    }
+   },
+   "G.inferred_gender": {
+    "man/women": {
+     "man": 8
+    },
+    "woman/women": {
+     "woman": 8
+    },
+    "unstated/women": {
+     "unknown": 8
+    },
+    "man/men": {
+     "man": 8
+    },
+    "woman/men": {
+     "woman": 8
+    },
+    "unstated/men": {
+     "unknown": 8
+    }
+   }
+  }
+ },
+ "notes": [
+  "Separate exploratory audit; not the preregistered API study.",
+  "Separate Finnish exploratory extension via Codex subscription requesting gpt-6-astra. Same scenarios and repetitions as earlier languages. Translation has no independent native-speaker validation. One blind self-rater; no independent or human validation. Pre-run prediction: same sign, possibly different magnitude; assess equivalence within +/-0.10 rather than inferring absence from nonsignificance. See METHODS.md."
+ ],
+ "exploratory": true,
+ "primary_family_size": 1,
+ "cross_model": {},
+ "raters": {
+  "agreement": {},
+  "masking": {
+   "codex-subscription": {
+    "unknown": 128
+   }
+  },
+  "mirror_by_rater": {
+   "codex-subscription rates codex-subscription (fi)": 2.15625
+  }
+ }
+}

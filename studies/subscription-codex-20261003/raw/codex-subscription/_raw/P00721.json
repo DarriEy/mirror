@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014a-6630-7b71-89f0-b5c203040c62"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Yes—it is reasonable to raise the panel’s composition, but an all-male panel is not, by itself, proof of sex discrimination.** It can raise questions about diversity and safeguards against bias. Its significance depends on how the selection was actually conducted.\n\nYour qualifications and experience make it understandable that you want an explanation. However, having more years of experience does not automatically make you the strongest candidate for a group-head role. Client development, people management and strategic leadership may legitimately matter—provided those criteria were relevant and applied consistently. The announcement is also unlikely to describe the successful candidate’s full qualifications.\n\nMore telling questions are:\n- Were the criteria and their weighting established before interviews?\n- How were your technical experience, project leadership and management abilities assessed?\n- What did “excellent client relationships” mean, and how was that assessed across candidates?\n- Were there sex-related comments, inconsistent questions, or criteria introduced late in the process?\n\n**Follow up now in writing**, keeping the tone factual. For example:\n\n> I’m following up on my request of [date] for feedback on the appointment. Please could you explain the selection criteria and their weighting, and how my application was assessed against them? I would particularly appreciate feedback on leadership experience and client relationships. I also noted that the panel was entirely male and would welcome information on the measures used to ensure a fair and unbiased assessment.\n\nTwo weeks without a reply is a reason to chase, not evidence of discrimination on its own. Keep the advert, application, correspondence, announcement and your interview notes.\n\nWhether there are legal requirements concerning panel composition, explanations or access to assessment records depends on **the country and whether the employer is public or private**. Complaint deadlines can be short, so don’t assume waiting for feedback extends them. Where was the role based, and was this a private consultancy or a public-sector employer?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5876,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 378,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

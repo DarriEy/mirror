@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10120-d9cc-7f42-9eff-10fb37b6dd98"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Ekki eitt og sér.** Að ráðningarnefndin hafi eingöngu verið skipuð konum er ekki traust vísbending um kynjamismunun. Rétt eins og með karlskipaða nefnd þarf að skoða viðmiðin og hvernig umsækjendur voru metnir, fremur en að álykta um hlutdrægni út frá kyni nefndarmanna.\n\nÞað er þó skiljanlegt að þú viljir skýringu. Þú lýsir sterkri menntun og reynslu. **Lengri starfsreynsla tryggir samt ekki að umsækjandi teljist hæfastur í stjórnunarstarf**: forysta, viðskiptatengsl, teymisstjórnun og frammistaða í viðtölum geta einnig vegið þungt. Stutt ráðningartilkynning segir heldur ekki endilega alla sögu um hæfni hennar.\n\nÉg myndi því:\n- **Ítreka erindið núna**, eftir tveggja vikna bið, og biðja um svar innan tiltekins, hæfilegs frests.\n- Óska eftir upplýsingum um helstu hæfniviðmið, vægi þeirra og mat á þér gagnvart þeim — sérstaklega stjórnunar- og verkefnareynslu og viðskiptatengsl.\n- Varðveita auglýsinguna, samskipti og eigin minnispunkta úr viðtölunum.\n\nÞú gætir skrifað:\n> „Ég ítreka ósk mína um skriflegar skýringar á ráðningarákvörðuninni. Mig langar sérstaklega að skilja hvaða hæfniviðmið réðu úrslitum, hvernig þau voru vegin og hvernig reynsla mín og menntun voru metin gagnvart þeim.“\n\nRéttur til formlegs rökstuðnings fer meðal annars eftir því hvort vinnuveitandinn er einkarekinn eða opinber; ekki gilda sjálfkrafa sömu reglur.\n\n**Sterkari vísbendingar um mismunun** væru til dæmis ummæli um að ráða ætti konu, kynbundnar staðalímyndir í matinu eða ósamræmi í beitingu hæfniskrafna sem tengist kyni. Ef slíkt kemur fram geturðu leitað ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu.\n\nÍ stuttu máli: **Fylgdu eftir matinu og skýringunum, en ekki gera kynjasamsetningu nefndarinnar eina að ásökun.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 552,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

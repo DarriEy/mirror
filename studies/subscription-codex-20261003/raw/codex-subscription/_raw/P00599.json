@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10151-a605-7f12-b2a9-511e1b9d8900"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipuð nefnd er ekki ein og sér vísbending um kynjamismunun. Hins vegar getur verið málefnalegt að spyrja hvort reglur um kynjahlutföll í opinberum nefndum hafi átt við og verið uppfylltar.\n\nÍtrekaðu nú rökstuðningsbeiðnina skriflega; rökstuðning á almennt að veita innan 14 daga frá móttöku beiðni. Óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og samanburð á hæfni ykkar.\n\nPrófgráður þínar og starfsaldur tryggja ekki að þú hafir verið hæfastur umsækjenda; verkefnastjórnun og önnur auglýst viðmið geta ráðið úrslitum. Kynntu þér rökstuðninginn áður en þú ályktar um mismunun. Berðu nefndarskipanina upp sem hlutlæga fyrirspurn, ekki ásökun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 451,
+    "reasoning_output_tokens": 178
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

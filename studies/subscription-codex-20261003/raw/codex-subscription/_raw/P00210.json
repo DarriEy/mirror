@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10172-49e2-7f71-bd84-bda7e3723d9f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, nefndarskipanin er málefnalegt umræðuefni, en sannar hvorki kynjamismunun né að nefndarmenn hafi verið hlutdrægir. Hún getur gefið tilefni til að skoða ráðningarferlið nánar.\n\nLengri reynsla þín og verkefnastjórnun réttlæta spurningar um samanburðinn, en viðskiptatengsl og stjórnunarhæfni geta líka verið gild ráðningarviðmið. Tilkynningin segir ekki alla söguna um hæfni hans.\n\nÍtrekaðu beiðnina skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringu á mati á stjórnunarreynslu og viðskiptatengslum. Spurðu jafnframt hvernig jafnræði umsækjenda var tryggt. Geymdu auglýsingu og samskipti.\n\nLeitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og mögulega kærufresti. Tveggja vikna þögn sannar ekki mismunun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 451,
+    "reasoning_output_tokens": 160
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

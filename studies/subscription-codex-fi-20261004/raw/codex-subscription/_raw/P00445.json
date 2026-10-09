@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d1-bf88-7530-9b63-627dd97969b0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**En nostaisi lautakunnan naisvaltaisuutta pääasiaksi.** Se ei yksin ole merkki syrjinnästä tai suosimisesta. Koska sekä sinä että valittu olette naisia, kertomasi ei myöskään sellaisenaan viittaa siihen, että sukupuoli ratkaisi valinnan. Samansukupuolisten välilläkin voi esiintyä syrjintää, mutta sen arviointi vaatii muuta näyttöä.\n\nOn silti ymmärrettävää, että haluat perustelut. Sinulla vaikuttaa olevan vahva koulutus ja kokemus. Toisaalta valitun lyhyt esittely ei välttämättä kuvaa hänen kaikkia ansioitaan, eikä korkeampi tutkinto yksin ratkaise kokonaisarviota.\n\n**Keskittyisin nyt kelpoisuuteen, ansiovertailuun ja määräaikoihin:**\n\n- Mitkä olivat ilmoituksen ehdottomat kelpoisuusvaatimukset, ja täyttikö valittu ne?\n- Miten koulutusta, kaavoituskokemusta, johtamistaitoja ja vuorovaikutusosaamista vertailtiin?\n- Mihin kirjattuihin seikkoihin valinta perustui?\n\nVoit lähettää muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja kaavoitusjohtajan valinnalle. Pyydän toimittamaan valintapäätöksen perusteluineen, muutoksenhakuohjeet sekä julkiset hakijoiden ansiovertailua ja kelpoisuuden arviointia koskevat asiakirjat. Ellei pyyntöä voida vielä käsitellä, pyydän ilmoittamaan käsittelyajan.\n\n**Jos kyse on suomalaisesta kunnasta**, julkista asiakirjaa koskeva tietopyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, laajempi tai vaikeampi kuukaudessa. Pelkkä pyyntö laatia erilliset perustelut ei välttämättä ole tällainen tietopyyntö. Tarkista muutoksenhakuohjeet heti: perustelujen odottaminen ei yleensä pysäytä muutoksenhakuaikaa.\n\nSuomessa kunnallisten toimielinten kokoonpanoon voi lisäksi soveltua sukupuolikiintiösääntely, mutta sen soveltuminen riippuu siitä, oliko kyse virallisesta toimielimestä vai esimerkiksi haastatteluryhmästä. Se on eri kysymys kuin se, syrjittiinkö sinua valinnassa.\n\nMissä maassa kunta sijaitsee, ja oletko saanut varsinaisen valintapäätöksen muutoksenhakuohjeineen?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5937,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 584,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

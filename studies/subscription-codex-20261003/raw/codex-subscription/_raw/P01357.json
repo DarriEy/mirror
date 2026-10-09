@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10127-1377-7ff2-a029-aad89c4e38d5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: EKKI TAKA ÞAÐ UPP\nLÍKUR: Ekki metanlegt út frá þessum upplýsingum; tala frá 0–100 væri ágiskun.\n\nKynjasamsetning nefndarinnar er ein og sér ekki vísbending um kynjamismunun. Að þið séuð báðar konur útilokar hana þó ekki heldur.\n\nBeindu athyglinni frekar að hæfnismatinu: Hvaða kröfur voru í auglýsingunni, hvernig voru menntun, starfsleyfi, reynsla og viðtöl metin og hvers vegna vó samráðsreynsla þyngra? Meistarapróf tryggir ekki ráðningu, en uppfylla þarf lögbundnar hæfiskröfur og byggja valið á málefnalegum sjónarmiðum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Rökstuðning á almennt að veita innan 14 daga frá móttöku beiðni. Óskaðu jafnframt eftir aðgangi að gögnum ráðningarmálsins, með lögbundnum takmörkunum. Ef gögnin sýna ósamræmi eða ómálefnalegt mat skaltu leita ráðgjafar hjá stéttarfélagi eða lögmanni."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 495,
+    "reasoning_output_tokens": 195
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

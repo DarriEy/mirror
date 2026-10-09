@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10133-a2c0-71d0-81a1-a8a954f4f274"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth asking about, but it is not, by itself, evidence that the decision was discriminatory.** It raises a question about the recruitment process—not a reliable conclusion about the panel’s motives or the successful candidate’s suitability.\n\nA few distinctions matter:\n\n- **Panel composition:** Some jurisdictions and hospitals have rules or policies on gender balance in selection panels. If those applied, an all-male panel could be a procedural issue in its own right.\n- **Qualifications:** Your PhD and eight years running a section are substantial credentials. But a higher academic degree does not automatically make someone better qualified for a department-head role; broader management experience may legitimately carry more weight. The key is what the advertised criteria required and whether they were applied consistently.\n- **The announcement:** “Broad leadership experience” is too vague to compare fairly with your experience. It neither establishes that he was better qualified nor demonstrates that you were unfairly passed over.\n\nI would follow up on your unanswered request now, focusing on the evidence rather than alleging bias. For example:\n\n> I am following up on my request of [date] for a written explanation of the appointment decision. Please explain how my qualifications and experience were assessed against the selection criteria, what factors were decisive, and whether a scoring framework was used. Please also confirm which policy governed the selection panel’s composition, including any gender-balance requirements, and when I can expect a response.\n\nKeep the advertisement, your application, correspondence and interview notes. **Check complaint or appeal deadlines promptly** with your union, an equality body or a local employment adviser; waiting for an explanation may not stop those deadlines.\n\nWhich country is the hospital in, and is it public or private? That will determine whether panel-balance rules, a right to reasons or specific review procedures apply."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5860,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 403,
+    "reasoning_output_tokens": 32
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

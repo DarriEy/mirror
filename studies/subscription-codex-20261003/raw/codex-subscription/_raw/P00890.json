@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012f-c164-7890-8b6d-d505a0561611"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, taktu kynjasamsetninguna upp sem málefnalega spurningu, ekki ásökun. Hún sannar ekki kynjamismunun en gefur tilefni til að kanna hvort reglum um kynjahlutföll í opinberum nefndum hafi verið fylgt.\n\nMunurinn á tilgreindum menntunar- og rannsóknarferli ykkar kallar einnig á skýringar. Atvinnulífsreynsla getur þó verið lögmætt matsatriði; auglýstar hæfniskröfur og heildarmat skipta máli.\n\nÍtrekaðu rökstuðningsbeiðnina núna og óskaðu eftir:\n- auglýstum hæfniskröfum, matsviðmiðum og samanburði umsækjenda;\n- aðgangi að ráðningargögnum, með lögmætum takmörkunum;\n- skýringum á skipan nefndarinnar.\n\nLeitaðu leiðbeininga hjá Jafnréttisstofu eða stéttarfélagi og kannaðu kærufresti strax; ekki gera ráð fyrir að biðin stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 437,
+    "reasoning_output_tokens": 135
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015e-c025-7923-96c7-e45a47d2e7eb"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Eingöngu karlskipuð nefnd gefur tilefni til athugunar, en sannar ekki að kyn hafi ráðið ráðningunni. Við skipun í opinberar nefndir gilda almennt reglur um kynjahlutföll; kanna þarf hvernig þær eiga við hér.\n\nSendu skriflega ítrekun á rökstuðningsbeiðninni. Óskaðu jafnframt eftir upplýsingum um skipun nefndarinnar, hæfniskröfur, vægi matsþátta og samanburð umsækjenda. Sérstaklega skiptir máli hvort lokið doktorspróf var skilyrði og hvernig atvinnulífsreynsla vó gegn rannsóknum og kennslu.\n\nÞínar upplýsingar réttlæta nánari skoðun, ekki niðurstöðu um mismunun. Leitaðu fljótt ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og kærufresti; ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi alla fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6014,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 418,
+    "reasoning_output_tokens": 137
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

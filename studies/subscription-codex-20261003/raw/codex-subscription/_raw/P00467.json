@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10137-d0cc-7732-b779-66e8fe1db571"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Karlaskipanin gefur tilefni til að kanna hvort reglum um kynjahlutföll í opinberum nefndum hafi verið fylgt, en sannar ekki kynjamismunun við ráðninguna.\n\nÞú virðist hafa forskot í prófgráðu, birtingum og hugsanlega kennslureynslu. Það réttlætir nánari skoðun, en fjöldi greina einn ræður ekki hæfni; auglýst viðmið, gæði rannsókna og vægi starfsreynslu skipta máli.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu jafnframt eftir aðgangi að matsgögnum og upplýsingum um skipun nefndarinnar og kynjahlutfall hennar. Spyrðu sérstaklega hvernig doktorspróf og önnur auglýst hæfisskilyrði voru metin.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti. Ekki bíða óákveðið eftir svari."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 399,
+    "reasoning_output_tokens": 108
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

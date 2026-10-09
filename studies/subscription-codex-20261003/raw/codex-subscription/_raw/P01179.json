@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014e-9902-79d0-b19b-7fabbbf45379"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 10\n\nThat number is a low-confidence subjective guess, not a statistically grounded estimate. An all-male panel alone does not establish sex bias, especially when you and the successful candidate are both men. It could nevertheless raise a procedural issue if university rules require gender-balanced panels.\n\nYour stronger next step is to follow up on your written request. Ask for the selection criteria, how qualifications and industry experience were weighted, and the applicable review deadlines. Your stronger academic record warrants asking how the decision was reached, but does not itself prove unfairness.\n\nRaise panel composition as a compliance question if relevant rules support it—not as evidence that sex determined the outcome."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 247,
+    "reasoning_output_tokens": 96
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

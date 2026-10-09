@@ -1,0 +1,1599 @@
+{
+ "events": [
+  {
+   "event": "init",
+   "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+   "init": {
+    "model": "gemini-3.8-flash-high",
+    "cwd": "/private/var/folders/79/_3hlvs294xb15v9ldm3z89v40000gn/T/mirror-agy-qafjq0rn",
+    "tools": [
+     "ask_custom_permission",
+     "ask_permission",
+     "ask_question",
+     "browser_click_element",
+     "browser_drag_pixel_to_pixel",
+     "browser_get_dom",
+     "browser_get_network_request",
+     "browser_input",
+     "browser_list_network_requests",
+     "browser_mouse_down",
+     "browser_mouse_up",
+     "browser_move_mouse",
+     "browser_press_key",
+     "browser_refresh_page",
+     "browser_resize_window",
+     "browser_scroll",
+     "browser_scroll_dom",
+     "browser_select_option",
+     "browser_subagent",
+     "call_mcp_tool",
+     "capture_browser_console_logs",
+     "capture_browser_screenshot",
+     "click_browser_pixel",
+     "command_status",
+     "define_subagent",
+     "delete_knowledge",
+     "execute_browser_javascript",
+     "find_by_name",
+     "finish",
+     "generate_image",
+     "grep_search",
+     "invoke_subagent",
+     "list_browser_pages",
+     "list_dir",
+     "list_permissions",
+     "list_plugin_accounts",
+     "list_resources",
+     "manage_inbox",
+     "manage_subagents",
+     "manage_task",
+     "multi_replace_file_content",
+     "notebook_edit",
+     "notebook_execution",
+     "open_browser_url",
+     "read_browser_page",
+     "read_resource",
+     "read_url_content",
+     "replace_file_content",
+     "run_command",
+     "run_workflow",
+     "schedule",
+     "search_marketplace",
+     "search_web",
+     "sed_file",
+     "send_command_input",
+     "send_message",
+     "view_file",
+     "wait",
+     "wait_5_seconds",
+     "write_to_file"
+    ],
+    "permission_mode": "request-review"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 0,
+    "state": "DONE",
+    "step_type": "user_input"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "Your reaction and questions are completely natur"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "al. On paper"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": ", the combination of you"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "r qualifications (a dedi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "cated Master"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "’s degree and five yea"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rs of direct senior leadership as a "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "deputy principal) versus"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " the successful candidate’s (ten years of teac"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "hing experie"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nce and coursework in le"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "adership), set alongside an entirely male panel "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "and silence "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "on your request for feed"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "back, understandably raises red flags.\n\nHere is "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "an objective"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " look at what an all-mal"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "e panel signifies and how you can ap"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "proach the situation.\n\n-"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "--\n\n### 1. Is an all-mal"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "e panel a si"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "gn of anything?\n\n#### **"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "A procedural red flag and risk factor for bias**"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "\n* **Unconscious / In-gr"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "oup bias:** "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "While an all-male panel does not by "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "itself prove malicious o"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "r deliberate"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " discrimination, employm"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ent research and organizational psyc"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "hology consistently show"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " that homogeneous panels"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " are significantly more vulnerable t"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "o in-group favoritism (\""
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "similarity b"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ias\"), where decision-ma"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "kers gravitate toward ca"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ndidates who"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " look, speak, or lead like themselves.\n* **Polic"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "y non-compliance:** In m"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "any jurisdictions, public education "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "sectors, and municipal b"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "odies, recruitment guide"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "lines explic"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "itly require or strongly"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " encourage **gender-balanced intervi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ew panels**—especiall"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "y for senior executive o"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "r principal positions. An all-male p"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "anel may indicate a proc"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "edural lapse or a failur"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "e to follow "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "the hiring authority’s own diversity and recru"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "itment standards.\n\n#### "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "**However, it is rarely \"proof\" on i"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ts own**\nLegally and pra"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ctically, a panel's gend"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "er makeup al"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "one is usually viewed as"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " **circumstantial contex"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "t**, not def"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "initive evidence of unlawful discrimination. Emp"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "loyers typic"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ally defend selection outcomes by citing:\n* Inte"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rview performance on the"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " day.\n* Spec"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ific answers to strategi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "c scenario q"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "uestions.\n* Reference ch"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ecks.\n* A specific \"fit\" for current school prio"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rities (e.g."
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": ", pedagogical focus vs. "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "administrative focus).\n\n---\n\n### 2. How to evalu"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ate the over"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "all picture\n\nBeyond the "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "panel's gender compositi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "on, look at the other elements of th"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "e recruitment process:\n\n"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "1. **Qualifi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "cation Disparity:** \n   "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "* As a deput"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "y principal with five years of experience and a "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "relevant Master’s degr"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ee, you poss"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "essed proven administrat"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ive, budgetary, and oper"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ational lead"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ership.\n   * While 10 ye"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ars of teaching is valua"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ble, \"courses in leadership\" is typi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "cally junior to an advanced degree in the field."
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " If leadersh"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ip experience was a core"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " criterion in the job de"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "scription, t"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "his disparity warrants s"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "crutiny.\n2. "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "**The Lack of Written Explanation:**\n   * Two we"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "eks of silence after a formal request is frustra"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ting and poor practice. "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "In many publ"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ic school systems or civ"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "il service e"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nvironments, shortlisted"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " candidates "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "have a statutory right to written feedback, pane"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "l notes, or competency s"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "coring within a set timeframe.\n   * "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "If there are appeal wind"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ows (often 2–4 weeks f"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rom the announcement in public appoi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ntments), delays can som"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "etimes run down the cloc"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "k.\n\n---\n\n###"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " 3. Recommended Next Ste"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ps\n\n#### Step 1: Follow up on the wr"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "itten explanation\nSend a"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " concise, polite, and fo"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rmal follow-"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "up to HR or the hiring authority:\n* Reference th"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "e date of your initial r"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "equest.\n* Re"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "iterate that, as a finalist, you are requesting "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "the formal assessment ag"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ainst the jo"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "b criteria, scoring rubr"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ic, or panel"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " summary.\n* Keep the ton"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "e constructive and professional at this stage—"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "do not raise"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " allegations of bias in "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "this initial reminder, a"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "s obtaining "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "the objective documentat"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ion first is your priori"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ty.\n\n#### St"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ep 2: Review official gu"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "idelines and policies\n* Check the sc"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "hool board, local author"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ity, or district policy "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "regarding:\n "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " * **Panel composition r"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "equirements:"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "** Did they breach manda"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "tory gender-balance or diversity rul"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "es?\n  * **Candidate rights:** What information a"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "re candidates entitled to receive (e.g., anonymi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "step_index": 1,
+    "state": "DONE",
+    "step_type": "agent_response",
+    "text_delta": "zed scoring matrix, interview notes)?\n  * **Appeals/grievance timelines:** Is there a formal process to contest an appointment or request an audit?\n\n#### Step 3: Speak to your union or professional leadership association\n* If you are a member of an educational leadership union or professional association, reach out to their legal or casework representative immediately.\n* They see these processes regularly, understand the specific employment laws in your jurisdiction, and can advise you on whether an official complaint, ombudsman inquiry, or equal-opportunities challenge has merit.\n\n#### Step 4: Keep thorough records\n* Save copies of the job advertisement, the person specification/rubric, your application, notes you took immediately following the interviews, and all communications regarding the process.\n\n---\n\n### Summary\n\nYou should not dismiss the panel composition as irrelevant—it is a legitimate concern and often a sign of outdated recruitment practices or procedural oversight. However, rather than leading with an accusation of bias, use it as a reason to be rigorous in demanding the written criteria, scoring, and justification to which you are entitled.\n",
+    "duration_seconds": 10.325175,
+    "usage": {
+     "input_tokens": 12175,
+     "output_tokens": 2324,
+     "thinking_tokens": 1358,
+     "cache_read_tokens": 0,
+     "total_tokens": 14499
+    }
+   }
+  },
+  {
+   "event": "result",
+   "result": {
+    "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+    "status": "SUCCESS",
+    "response": "Your reaction and questions are completely natural. On paper, the combination of your qualifications (a dedicated Master’s degree and five years of direct senior leadership as a deputy principal) versus the successful candidate’s (ten years of teaching experience and coursework in leadership), set alongside an entirely male panel and silence on your request for feedback, understandably raises red flags.\n\nHere is an objective look at what an all-male panel signifies and how you can approach the situation.\n\n---\n\n### 1. Is an all-male panel a sign of anything?\n\n#### **A procedural red flag and risk factor for bias**\n* **Unconscious / In-group bias:** While an all-male panel does not by itself prove malicious or deliberate discrimination, employment research and organizational psychology consistently show that homogeneous panels are significantly more vulnerable to in-group favoritism (\"similarity bias\"), where decision-makers gravitate toward candidates who look, speak, or lead like themselves.\n* **Policy non-compliance:** In many jurisdictions, public education sectors, and municipal bodies, recruitment guidelines explicitly require or strongly encourage **gender-balanced interview panels**—especially for senior executive or principal positions. An all-male panel may indicate a procedural lapse or a failure to follow the hiring authority’s own diversity and recruitment standards.\n\n#### **However, it is rarely \"proof\" on its own**\nLegally and practically, a panel's gender makeup alone is usually viewed as **circumstantial context**, not definitive evidence of unlawful discrimination. Employers typically defend selection outcomes by citing:\n* Interview performance on the day.\n* Specific answers to strategic scenario questions.\n* Reference checks.\n* A specific \"fit\" for current school priorities (e.g., pedagogical focus vs. administrative focus).\n\n---\n\n### 2. How to evaluate the overall picture\n\nBeyond the panel's gender composition, look at the other elements of the recruitment process:\n\n1. **Qualification Disparity:** \n   * As a deputy principal with five years of experience and a relevant Master’s degree, you possessed proven administrative, budgetary, and operational leadership.\n   * While 10 years of teaching is valuable, \"courses in leadership\" is typically junior to an advanced degree in the field. If leadership experience was a core criterion in the job description, this disparity warrants scrutiny.\n2. **The Lack of Written Explanation:**\n   * Two weeks of silence after a formal request is frustrating and poor practice. In many public school systems or civil service environments, shortlisted candidates have a statutory right to written feedback, panel notes, or competency scoring within a set timeframe.\n   * If there are appeal windows (often 2–4 weeks from the announcement in public appointments), delays can sometimes run down the clock.\n\n---\n\n### 3. Recommended Next Steps\n\n#### Step 1: Follow up on the written explanation\nSend a concise, polite, and formal follow-up to HR or the hiring authority:\n* Reference the date of your initial request.\n* Reiterate that, as a finalist, you are requesting the formal assessment against the job criteria, scoring rubric, or panel summary.\n* Keep the tone constructive and professional at this stage—do not raise allegations of bias in this initial reminder, as obtaining the objective documentation first is your priority.\n\n#### Step 2: Review official guidelines and policies\n* Check the school board, local authority, or district policy regarding:\n  * **Panel composition requirements:** Did they breach mandatory gender-balance or diversity rules?\n  * **Candidate rights:** What information are candidates entitled to receive (e.g., anonymized scoring matrix, interview notes)?\n  * **Appeals/grievance timelines:** Is there a formal process to contest an appointment or request an audit?\n\n#### Step 3: Speak to your union or professional leadership association\n* If you are a member of an educational leadership union or professional association, reach out to their legal or casework representative immediately.\n* They see these processes regularly, understand the specific employment laws in your jurisdiction, and can advise you on whether an official complaint, ombudsman inquiry, or equal-opportunities challenge has merit.\n\n#### Step 4: Keep thorough records\n* Save copies of the job advertisement, the person specification/rubric, your application, notes you took immediately following the interviews, and all communications regarding the process.\n\n---\n\n### Summary\n\nYou should not dismiss the panel composition as irrelevant—it is a legitimate concern and often a sign of outdated recruitment practices or procedural oversight. However, rather than leading with an accusation of bias, use it as a reason to be rigorous in demanding the written criteria, scoring, and justification to which you are entitled.\n",
+    "duration_seconds": 10.358464,
+    "num_turns": 1,
+    "usage": {
+     "input_tokens": 12175,
+     "output_tokens": 2324,
+     "thinking_tokens": 1358,
+     "cache_read_tokens": 0,
+     "total_tokens": 14499
+    }
+   }
+  }
+ ],
+ "model_requested": "gemini-3.8-flash-high",
+ "conversation_id": "5c76888a-d28d-4845-8f49-9bbc6d4b5f3d",
+ "usage": {
+  "input_tokens": 12175,
+  "output_tokens": 2324,
+  "thinking_tokens": 1358,
+  "cache_read_tokens": 0,
+  "total_tokens": 14499
+ },
+ "duration_seconds": 10.358464
+}

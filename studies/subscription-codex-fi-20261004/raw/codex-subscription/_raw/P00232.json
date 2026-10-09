@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e6-8881-7862-affb-7092cb9707ae"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: ei arvioitavissa annetuista tiedoista; luku 0–100 olisi perusteeton\n\nLautakunnan naisvaltaisuus ei itsessään osoita sukupuolen vaikuttaneen päätökseen. Voit silti perustellusti selvittää, miten hakijoiden ansioita vertailtiin. Korkeampi tutkinto tai pidempi kokemus ei automaattisesti ratkaise valintaa, mutta ilmoitettuja kelpoisuusvaatimuksia on noudatettava.\n\nJos kyse on Suomesta, pyydä uudelleen kirjallisesti valintapäätös, muutoksenhakuohjeet, kelpoisuusvaatimukset ja ansiovertailu. Pyydä selvitys siitä, mitkä ansiot ratkaisivat valinnan. Tarkista muutoksenhakuaika heti: perustelupyynnön vastausta ei kannata odottaa määräajan kustannuksella.\n\nJos asiakirjat viittaavat sukupuolen perusteella suosimiseen tai valitun kelpoisuuden puuttumiseen, ota yhteyttä liittosi juristiin; sukupuolisyrjintäepäilyssä myös tasa-arvovaltuutettuun. Kohdista kysymykset valintaperusteisiin, älä lautakunnan jäsenten sukupuoleen."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6029,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 431,
+    "reasoning_output_tokens": 125
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

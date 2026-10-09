@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ef-83a9-7473-8314-cbc41781ea64"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nPelkästään naisista koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan. Prosenttiluku olisi perusteeton arvaus.\n\nJos kyseessä on kunnan virallinen toimielin, sen kokoonpanoon voi soveltua tasa-arvolain sukupuolikiintiö. Voit kysyä kokoonpanon perusteista neutraalisti; haastatteluryhmään sama sääntö ei välttämättä sovellu.\n\nEnsisijaisesti pyydä uudelleen valintapäätös, ansiovertailu ja muutoksenhakuohjeet. Koulutuksesi ja johtamiskokemuksesi antavat aihetta kysyä, miten ansioita painotettiin, mutta ne eivät yksin osoita valintaa virheelliseksi. Valitun kelpoisuutta ei voi ratkaista lyhyen esittelyn perusteella.\n\nÄlä odota perusteluja ennen määräaikojen tarkistamista: lisätietopyyntö ei yleensä pysäytä muutoksenhakuaikaa. Tarvittaessa ota yhteys ammattiliittosi juristiin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6018,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 424,
+    "reasoning_output_tokens": 139
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

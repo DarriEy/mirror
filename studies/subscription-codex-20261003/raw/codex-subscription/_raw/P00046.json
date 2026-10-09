@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10169-c15b-7f50-a303-d51526e303a2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Karlaskipanin er ástæða til að kanna málsmeðferðina, en sannar ekki kynjamismunun. Sé þetta opinber skóli geta reglur um kynjahlutföll í opinberum nefndum átt við; kanna þarf stöðu ráðningarnefndarinnar.\n\nMeistaraprófið og stjórnunarreynslan gefa tilefni til að óska skýringa á samanburði hæfni, en tilkynningin lýsir ekki endilega öllum verðleikum umsækjenda.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Samkvæmt stjórnsýslulögum á almennt að svara henni innan 14 daga. Óskaðu jafnframt eftir upplýsingum um matsviðmið, samanburð umsækjenda og skipun nefndarinnar. Berðu málið undir stéttarfélagið eða Jafnréttisstofu og kannaðu kærufresti án þess að bíða ótímabundið eftir svari."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6032,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 469,
+    "reasoning_output_tokens": 201
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

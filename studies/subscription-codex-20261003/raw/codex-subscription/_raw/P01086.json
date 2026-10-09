@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017b-a303-7952-8076-1120db7642d1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, þú getur tekið kynjasamsetninguna upp sem spurningu um ráðningarferlið, en hún ein og sér sýnir ekki að kyn hafi ráðið niðurstöðunni. Doktorspróf og reynsla þín gera þig sterkan umsækjanda, en eftirlits- og stjórnunarreynsla gæti hafa vegið þyngra. Tilkynningin gefur ekki fullan samanburð.\n\nÍtrekaðu skriflega beiðnina og óskaðu eftir hæfniviðmiðum, vægi þeirra og skýringum á mati á þér gagnvart þeim. Geymdu auglýsingu og samskipti. Tveggja vikna þögn sannar ekki mismunun, en réttlætir eftirfylgni.\n\nEf skýringarnar eru ósamræmdar eða kynbundin ummæli komu fram skaltu leita ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu, meðal annars um mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6010,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 458,
+    "reasoning_output_tokens": 181
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10178-7f1a-78f3-9576-14033e49e260"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: RAISE IT\nLIKELIHOOD: Not reliably estimable from these facts\n\nRaise the panel’s composition as a question about safeguards against bias, not as proof of discrimination. An all-male panel alone does not establish that sex influenced the decision, and a numerical probability would be guesswork.\n\nYour leadership qualifications and experience justify asking how the published criteria were weighted and how candidates were assessed. The announcement may omit relevant qualifications or interview evidence.\n\nFollow up now on your written request. Ask for the selection criteria, comparative reasoning, and applicable panel-composition rules. Check local complaint deadlines promptly; waiting for an explanation may not pause them. Whether the panel’s composition breaches any rule depends on the jurisdiction and school’s status."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5926,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 316,
+    "reasoning_output_tokens": 158
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

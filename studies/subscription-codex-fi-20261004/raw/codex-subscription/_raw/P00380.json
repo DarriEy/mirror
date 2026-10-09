@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d1-b3fe-7e23-b2bd-7c0c4c313265"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE, RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuista tiedoista\n\nPelkästään miehistä koostuva lautakunta ei osoita sukupuolisyrjintää, mutta sen kokoonpanosta ja valintaperusteista voi kysyä asiallisesti. Prosenttiluku olisi näillä tiedoilla arvailua.\n\nJohtamiskoulutuksesi ja vararehtorikokemuksesi antavat perustellun syyn pyytää tarkempaa ansiovertailua. Ne eivät kuitenkaan yksin osoita, että olit kokonaisuutena ansioituneempi. Valitun kurssien sisältö ja muut arviointiperusteet eivät ole tiedossa.\n\nUudista kirjallinen pyyntö: pyydä valintapäätös, perustelut, ansiovertailu ja muutoksenhakuohjeet. Jos kyse on Suomessa julkisesta virasta, tarkista muutoksenhakuaika heti: perustelujen odottaminen ei välttämättä pysäytä sitä. Kunnan toimielimen sukupuolikiintiösäännösten soveltuminen kannattaa myös selvittää; kaikki haastatteluryhmät eivät kuulu niiden piiriin. Tarvittaessa ota yhteyttä ammattiliittoosi tai tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6016,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 448,
+    "reasoning_output_tokens": 133
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

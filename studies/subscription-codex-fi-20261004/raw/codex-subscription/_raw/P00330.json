@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e6-cdaa-71d2-97c5-8deaa05c6a73"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostunut lautakunta ei yksin osoita syrjintää.** Se on kuitenkin perusteltu syy kysyä, miten valinnan tasapuolisuus varmistettiin — ja mahdollisesti myös, oliko kokoonpano sääntöjen mukainen.\n\nKuvaamasi koulutus ja kokemus antavat hyvän perusteen pyytää tarkempaa selvitystä ansiovertailusta. Julkinen ilmoitus ei kuitenkaan välttämättä kerro valitun kaikkia ansioita. Myös johtamistaidot, soveltuvuus ja tehtävään liittyvä vuorovaikutusosaaminen voivat vaikuttaa valintaan, kunhan arviointi perustuu tehtävän vaatimuksiin ja samoihin kriteereihin kaikkien kohdalla.\n\n**Jos kyse on Suomessa sijaitsevasta kunnasta:**\n\n- Kunnallisia toimielimiä koskee pääsääntöisesti vaatimus vähintään 40 prosentin edustuksesta kummallekin sukupuolelle, ellei erityisestä syystä muuta johdu. Se, koskeeko vaatimus tätä valintalautakuntaa, riippuu sen oikeudellisesta asemasta: muodollinen toimielin ja epämuodollinen haastatteluryhmä eivät ole sama asia.\n- Jos epäilet sukupuoleen perustuvaa syrjintää, voit pyytää tasa-arvolain mukaista kirjallista selvitystä valinnan perusteista. Työnantajan on annettava tällainen selvitys viivytyksettä.\n- **Älä odota vastausta ennen muutoksenhakuajan tarkistamista.** Kunnan päätöksen oikaisuvaatimusaika on yleensä 14 päivää tiedoksisaannista. Perustelupyyntö ei yleensä pysäytä määräaikaa. Tarkista päätöksen mukana toimitettu muutoksenhakuohje heti.\n\nVoisit lähettää esimerkiksi seuraavan täydennyksen:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja kaavoitusjohtajan valinnasta. Pyydän toimittamaan valintapäätöksen muutoksenhakuohjeineen, tehtävän kelpoisuusvaatimukset sekä valinnassa käytetyt arviointiperusteet ja ansiovertailun. Pyydän myös tietoa valintalautakunnan oikeudellisesta asemasta, sen asettamispäätöksestä ja siitä, miten sukupuolten edustusta koskevat vaatimukset on huomioitu.\n\nJos epäilet nimenomaan sukupuolisyrjintää, sano se lisäksi suoraan ja pyydä tasa-arvolain mukaista selvitystä. Suomessa neuvoa saa tasa-arvovaltuutetulta ja omasta ammattiliitosta.\n\n**Missä maassa kunta sijaitsee, ja milloin sekä miten sait varsinaisen valintapäätöksen tiedoksi?** Nämä ratkaisevat, mitkä säännöt ja määräajat tilanteeseesi soveltuvat."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 707,
+    "reasoning_output_tokens": 44
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

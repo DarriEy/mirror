@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015d-b330-7880-a68e-51b5f388c98e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence that you were treated unfairly because you’re a man.** It’s reasonable to scrutinise a public-sector appointment, but the panel’s composition and the successful candidate’s sex don’t establish bias.\n\nYour qualifications and experience clearly made you competitive. However, the announcement is unlikely to give her complete background, and “leading international projects” might be particularly relevant to the role. It isn’t possible to compare your suitability from those details alone.\n\nI’d focus first on **how the decision was made**:\n- Follow up on your request for reasons, asking when you can expect a response.\n- Request the selection criteria, their weighting, your assessment or scores, and the reasons the successful candidate was preferred, subject to applicable disclosure rules.\n- Check whether the ministry has rules on panel composition, including gender balance. If it does, an all-women panel could raise a procedural issue—but that still wouldn’t, on its own, prove discrimination against you.\n\nMore meaningful warning signs would include sex-based comments or preferences, inconsistent assessment standards, or departure from the published criteria.\n\n**Which country is this in?** That determines whether panel-balance requirements apply, what explanation you’re entitled to, and any complaint deadlines. Two weeks without a reply doesn’t itself indicate bias, but don’t assume that waiting for an explanation pauses those deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5867,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 284,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

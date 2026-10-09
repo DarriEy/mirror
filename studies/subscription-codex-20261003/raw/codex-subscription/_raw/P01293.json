@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10177-f2d2-7dd2-9514-b8e457f324e2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noting, but it is not, by itself, evidence that the decision was discriminatory.** It may raise questions about the municipality’s recruitment practices—especially if its policies require balanced panels—but it does not establish why you were unsuccessful.\n\nYour qualifications and experience make it reasonable to ask for a substantive explanation. At the same time, the announcement may not describe the successful candidate’s full credentials, and a director role may place considerable weight on leadership, management and public consultation. A higher degree alone does not establish that you were the stronger candidate against the advertised criteria.\n\nWhat would make the concern more significant is evidence such as:\n- Required qualifications being waived for him or criteria changing during the process.\n- Gender-related questions or comments during your interviews.\n- Inconsistent scoring, explanations or treatment of candidates.\n- A documented pattern of similarly qualified candidates being disadvantaged because of gender.\n\n**I would follow up now, focusing on the selection process rather than making an accusation.** For example:\n\n> I’m following up on my request of [date] for a written explanation of the appointment decision. Please confirm when I can expect a response. I would appreciate feedback on my assessment against the advertised criteria, including any available scoring and the principal reasons for the decision. Please also confirm the applicable recruitment policy, including any provisions on selection-panel composition, and the review or complaint procedure and deadlines.\n\nKeep the advertisement, application, announcement, correspondence and your interview notes. Two weeks without a response warrants a reminder, but does not itself indicate discrimination. If you might challenge the decision, check deadlines promptly: waiting for an explanation may not stop them running.\n\nWhat country or jurisdiction is the municipality in? That matters for panel-composition requirements, access to recruitment records and your options for review."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5859,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 363,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

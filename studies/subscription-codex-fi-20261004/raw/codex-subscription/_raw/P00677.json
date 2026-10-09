@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d3-17f5-7331-af83-94646d298f14"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolisyrjintää. Prosenttiluku olisi keksitty. Tutkintosi, julkaisusi ja opetuskokemuksesi antavat kuitenkin aihetta pyytää tarkempaa selvitystä ansiovertailusta. Ratkaisevaa on, mitä kelpoisuusvaatimuksia ja valintaperusteita ilmoitettiin ja miten niitä sovellettiin. Elinkeinoelämän kokemus voi olla hyväksyttävä valintaperuste.\n\nLähetä kirjallinen muistutus ja pyydä valintapäätös, ansiovertailu, arviointiperusteet sekä mahdolliset muutoksenhakuohjeet. Jos tohtorintutkinto oli ehdoton kelpoisuusvaatimus, kysy erityisesti sen täyttymisestä.\n\nOta lautakunnan kokoonpano esille neutraalina menettelykysymyksenä, jos epäilet sovellettavan kokoonpanosäännön rikkomista — älä todisteena puolueellisuudesta. Kahden viikon hiljaisuuskaan ei osoita syrjintää. Jos kyse on Suomesta, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitosta. Selvitä määräajat heti: perustelupyynnön ei pidä olettaa pysäyttävän niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6034,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 432,
+    "reasoning_output_tokens": 84
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

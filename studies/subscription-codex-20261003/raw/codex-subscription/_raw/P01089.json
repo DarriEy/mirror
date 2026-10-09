@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012e-22d8-7592-b351-86f86d14e636"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth asking about, but it does not, by itself, establish bias or an unfair appointment.** Since you and the successful candidate are both men, it is not an obvious explanation for why he was chosen over you. It may raise a separate question about the broadcaster’s approach to balanced panels—or compliance with any rules requiring them.\n\nYour longer experience and five years as deputy make it reasonable to seek a clear explanation. But years of service alone do not establish who best met the criteria: digital expertise could legitimately carry substantial weight, especially if it was part of the advertised requirements.\n\nI would focus first on the **criteria and how they were applied**, rather than make the panel’s gender composition the centre of a complaint. Follow up in writing and ask for:\n- The selection criteria and their weighting.\n- Your assessment against those criteria and the reasons for preferring the successful candidate, within applicable disclosure rules.\n- The policy governing panel composition.\n- The review or complaints procedure and any deadlines.\n\nTwo weeks without a response warrants a polite reminder, but is not itself evidence of wrongdoing. Do not assume that waiting for an explanation pauses a complaint deadline.\n\n**Which country is this in?** Public-sector recruitment duties, panel-composition rules and rights to written reasons differ considerably by jurisdiction."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5861,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 266,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

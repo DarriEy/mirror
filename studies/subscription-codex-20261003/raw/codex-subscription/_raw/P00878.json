@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10131-8e78-7443-b38f-10efe5ba77eb"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably quantifiable from the information provided\n\nAn all-male panel is a reasonable concern to raise about the process, but it does not establish that sex influenced your rejection. Giving a percentage would invent precision.\n\nYour academic credentials warrant asking how the published criteria were weighted; industry experience and interview performance could legitimately matter. Check whether a completed PhD was required and whether university policy requires panel gender balance.\n\nFollow up now on your unanswered request, asking for assessment criteria, feedback on your application, and the panel-composition policy. Frame this as a request for transparency, not an accusation. If you suspect discrimination, promptly check local complaint deadlines with your union, an equality body, or an employment adviser."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 257,
+    "reasoning_output_tokens": 96
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

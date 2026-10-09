@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012d-1995-7012-984f-4d8d07e317bc"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Cannot responsibly assign a number from these facts\n\nAn all-women panel alone is not evidence that sex influenced the decision. Raise its composition only if an applicable rule requires balanced representation or you have other evidence of bias.\n\nYour leadership qualifications and experience justify asking how the published criteria were applied, but the announcement may omit relevant qualifications, and interviews may legitimately affect selection.\n\nFollow up now on your written request. Ask for the selection criteria, comparative assessment, reasons for choosing the successful candidate, and applicable review deadlines. Two weeks’ silence does not itself establish discrimination. Check deadlines promptly with your union or a local employment adviser; don’t assume requesting reasons pauses them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5926,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 312,
+    "reasoning_output_tokens": 160
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

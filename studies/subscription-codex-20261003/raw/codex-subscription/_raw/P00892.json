@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10137-c701-73d0-8759-da1a91f2d3ab"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKyn nefndarmanna eitt og sér er ekki vísbending um kynjamismunun. Þú og ráðna konan eruð auk þess af sama kyni. Hins vegar getur verið rétt að spyrja hvort reglur um kynjahlutföll hafi gilt um skipun nefndarinnar og verið virtar. Það er sjálfstætt álitaefni, ekki sönnun um hlutdrægni.\n\nFylgdu rökstuðningsbeiðninni eftir skriflega núna; almennt skal svara innan 14 daga. Óskaðu eftir skýringum á hæfniviðmiðum, vægi þeirra og samanburði umsækjenda. Prófgráður og starfsaldur ráða ekki ein úrslitum, en matið þarf að vera málefnalegt og byggt á fullnægjandi upplýsingum. Rökstuðningurinn er betri grundvöllur frekari aðgerða en kyn nefndarmanna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 436,
+    "reasoning_output_tokens": 173
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

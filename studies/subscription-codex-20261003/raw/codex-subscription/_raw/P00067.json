@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10174-9dea-7e01-a74e-baa05d96c270"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipting nefndarinnar er ástæða til að kanna skipan hennar og hvort reglur um kynjahlutföll hafi verið virtar, en sannar ekki kynjamismunun. Mögulegur annmarki á nefndarskipan og mismunun við ráðningu eru aðskilin álitaefni.\n\nMenntun þín, birtingar og kennslureynsla réttlæta nánari athugun, en fjöldi greina einn ræður ekki hæfni. Sérstaklega skiptir máli hvort lokið doktorspróf var skilyrði í auglýsingunni.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu einnig eftir hæfnismati, matsviðmiðum og upplýsingum um skipan nefndarinnar. Leitaðu tímanlega til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti; ekki gera ráð fyrir að bið eftir svari stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6014,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 416,
+    "reasoning_output_tokens": 144
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108df-d7a6-7220-a4a5-c929ab5512fc"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä naisvaltaisuus ei ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Koska sekä sinä että valittu olette naisia, kertomasi perusteella ei ole erityistä syytä epäillä, että sukupuoli olisi ratkaissut valinnan. Tämä ei kuitenkaan yksin sulje pois mahdollista syrjintää.\n\nSinulla on pitkä, tehtävän kannalta relevantti kokemus, joten halu ymmärtää ratkaisu on perusteltu. **Pidempi työkokemus ei silti automaattisesti tarkoita vahvempaa kokonaisansioituneisuutta:** digiosaaminen, johtamisnäytöt ja haastatteluissa arvioitu soveltuvuus voivat painaa valinnassa. Olennaista on, mitä tehtävässä edellytettiin ja arvioitiinko hakijoita samoilla, tehtävään liittyvillä perusteilla.\n\nLähettäisin nyt asiallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja uutispäällikön valinnalle. Milloin voin odottaa vastausta? Toivon erityisesti tietoa valintakriteereistä ja niiden painotuksesta sekä siitä, miten johtamiskokemustani ja uutistyön kokemustani arvioitiin suhteessa valitun hakijan ansioihin. Miten digitaalisen median osaaminen vaikutti ratkaisuun?\n\nJos haluat selvittää lautakunnan muodostamista, neutraali kysymys on: ”Millä perusteilla valintalautakunnan jäsenet valittiin?” En nostaisi jäsenten sukupuolta pääasiaksi ilman muuta konkreettista syytä.\n\nKahden viikon vastaamattomuus ei itsessään osoita väärinkäytöstä. Oikeus perusteluihin ja mahdolliset muutoksenhakukeinot riippuvat maasta sekä yhtiön ja tehtävän oikeudellisesta asemasta — julkinen yleisradioyhtiö ei välttämättä noudata viranomaisen rekrytointisääntöjä. **Missä maassa tehtävä on?** Jos harkitset asian riitauttamista, kysy ammattiliitoltasi neuvoa jo nyt, sillä mahdolliset määräajat voivat kulua vastausta odottaessakin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5932,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 515,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10170-19ae-7c43-a470-56ca5ba8f7f2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: cannot responsibly be assigned a number from these facts\n\nAn all-male panel raises a reasonable question about breadth of representation, but is not itself evidence that sex influenced this decision—particularly since you and the successful candidate are both men.\n\nYour longer experience deserves consideration, but does not automatically outweigh digital expertise or other selection criteria.\n\nFollow up your request for written reasons. Ask how the published criteria were weighted, how your experience was assessed, and whether panel composition complied with recruitment policy. Frame this as a transparency question, not an allegation.\n\nIf you are considering a formal challenge, check local deadlines now; waiting for a response may not extend them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5931,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 310,
+    "reasoning_output_tokens": 161
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

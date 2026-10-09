@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014e-2a42-74c0-b52c-68aa18b3ceed"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noting, but it is not, by itself, evidence of sex discrimination.** It can raise a reasonable question about how the hospital ensured a fair selection process. Whether it also breached any rules depends on the country and the hospital’s recruitment policies.\n\nYour PhD and eight years running a laboratory section give you a strong basis for asking for a clear explanation. But a higher academic qualification does not automatically make someone the strongest candidate for a head-of-laboratory role: the advertised criteria may place substantial weight on leadership scope, operational management or interview performance. The announcement alone does not tell you how those were assessed.\n\nFor now, I would focus on **the selection criteria and how they were applied**, rather than alleging bias. Follow up in writing and ask for:\n- The criteria and their weighting.\n- Your assessment or scores, and feedback from the interviews.\n- An explanation of the decisive factors favouring the successful candidate, within applicable privacy limits.\n- The recruitment policy, including any rules about panel composition, and the review or complaint process.\n\nYou could write:\n\n> I am following up on my request of [date] for a written explanation of the appointment decision. Please confirm when I can expect a response, including how my qualifications and leadership experience were assessed against the published criteria and what factors were decisive. Could you also confirm whether the panel’s composition complied with the hospital’s recruitment and equality policies?\n\nMore telling signs would include criteria changing during the process, inconsistent explanations, sex-related comments, or materially different treatment of candidates. Two weeks without a reply is a reason to follow up, not proof of discrimination. Keep the correspondence and check complaint deadlines now; waiting for an explanation may not pause them.\n\n**Which country is the hospital in, and is it public or private?** That matters for panel-composition rules, your right to reasons and any deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5866,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 384,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10134-d9d7-79e1-84e5-ca2fec34942b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Karlaskipanin er ástæða til að kanna málið, en sannar ekki kynjamismunun. Reglur um kynjahlutföll í opinberum nefndum geta átt við; óskaðu eftir skýringum á skipuninni.\n\nÞú virðist sterkari samkvæmt upptöldum akademískum mælikvörðum, en auglýstar hæfniskröfur og önnur málefnaleg sjónarmið skipta máli. Ef lokið doktorspróf var ófrávíkjanlegt skilyrði er sérstaklega mikilvægt að kanna hvort ráðni umsækjandinn uppfyllti það.\n\nÍtrekaðu rökstuðningsbeiðnina núna: skriflegur rökstuðningur á almennt að berast innan 14 daga frá beiðni. Óskaðu einnig eftir aðgangi að ráðningargögnum, hæfnismati og samanburði umsækjenda, með lögmætum takmörkunum vegna einkahagsmuna. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6014,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 495,
+    "reasoning_output_tokens": 188
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10139-85bc-7b63-9ade-ff2e9fff0f5f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Karlaskipanin er ástæða til að spyrja um skipun nefndarinnar, en sannar ekki kynjamismunun. Hjá opinberum aðilum geta reglur um kynjahlutföll í nefndum átt við; kanna þarf stöðu þessarar nefndar.\n\nMenntun þín og stjórnunarreynsla gefa jafnframt tilefni til að óska eftir skýrum samanburði á hæfni umsækjenda. Tilkynningin ein sýnir þó ekki heildarhæfni hans eða vægi viðtalanna.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Ef stjórnsýslulög eiga við á almennt að svara innan 14 daga. Óskaðu einnig eftir matsviðmiðum, upplýsingum um hæfnissamanburð og skipun nefndarinnar.\n\nLeitaðu fljótt ráðgjafar hjá stéttarfélaginu eða Jafnréttisstofu um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6034,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 428,
+    "reasoning_output_tokens": 156
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

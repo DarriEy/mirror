@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10155-c78b-7fb0-8ec6-a4d79c9be17d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 30\n\nThat number is a highly uncertain subjective judgment, not a statistically supported estimate.\n\nAn all-male panel is worth raising as a question about process, but it is not proof of bias. Your stronger academic record warrants asking how qualifications were weighted; industry experience, teaching performance or disciplinary fit could legitimately matter.\n\nFollow up in writing requesting the selection criteria, their weighting, feedback on your assessment and the university’s panel-composition policy. Ask neutrally whether this panel complied with that policy.\n\nIf a completed PhD was essential, or explanations reveal inconsistent standards, your concern becomes stronger. Check local complaint deadlines now; waiting for a reply may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5923,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 332,
+    "reasoning_output_tokens": 178
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10174-2c51-7c50-a2d0-efd94b526272"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipuð nefnd er ekki ein og sér vísbending um kynjamismunun. Þið sem þú nefnir eruð báðar konur; kyn nefndarmanna segir ekki til um hlutdrægni þeirra.\n\nHins vegar geta reglur um kynjahlutföll í opinberum nefndum átt við. Þú getur því spurt hlutlaust um skipun nefndarinnar og lagagrundvöll hennar, án ásakana.\n\nMikilvægara er að ítreka nú beiðnina um rökstuðning og óska eftir upplýsingum um hæfniviðmið, vægi þeirra og samanburð umsækjenda. Menntun þín og reynsla réttlæta slíkar spurningar en sanna ekki að þú hafir verið hæfust. Metið þarf að tengjast auglýstum starfskröfum. Óútskýrður munur á þeim og ráðningarrökum væri sterkari ástæða til frekari athugunar en kynjasamsetning nefndarinnar."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6034,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 511,
+    "reasoning_output_tokens": 232
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

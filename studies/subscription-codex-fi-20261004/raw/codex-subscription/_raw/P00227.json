@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ef-602c-7b32-834c-748517a478f8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**En ottaisi lautakunnan sukupuolijakaumaa esiin syrjintäepäilyn pääperusteena.** Se, että kaikki neljä jäsentä olivat naisia, ei itsessään kerro suosimisesta tai syrjinnästä. Myöskään se, että sinä ja valittu olette molemmat naisia, ei yksin sulje pois syrjintää — mutta kertomissasi tiedoissa ei ole konkreettista viitettä siitä.\n\nOn ymmärrettävää, että kaipaat perusteluja: sinulla on vahva tausta ja etenit pitkälle. Tohtorintutkinto ja yhdeksän vuoden kokemus eivät kuitenkaan automaattisesti tee sinusta tehtävään ansioituneinta. Riskimallinnuksen johtajan valinnassa voivat painaa esimerkiksi johtamiskokemus, sääntelyosaaminen ja viranomaisyhteistyö. Valitusta julkaistu lyhyt kuvaus ei välttämättä kata hänen koko osaamistaan.\n\n**Lähettäisin nyt asiallisen muistutuksen**, esimerkiksi:\n\n> Pyysin kaksi viikkoa sitten kirjallista palautetta valintapäätöksestä. Toivon tietoa siitä, mitä valintakriteerejä painotettiin ja miten omaa kokemustani ja osaamistani arvioitiin suhteessa niihin. Mitkä tekijät ratkaisivat valinnan, ja milloin voin odottaa vastausta?\n\nVastaamattomuus kahden viikon ajan ei yksin osoita syrjintää. Säilytä kuitenkin työpaikkailmoitus, viestit ja haastattelumuistiinpanot. Jos perusteluista ilmenee epäjohdonmukaisuuksia tai haastatteluissa esitettiin esimerkiksi ikään, sukupuoleen tai perhetilanteeseen liittyviä kommentteja, ne ovat olennaisempia selvitettäviä asioita kuin lautakunnan kokoonpano.\n\nMissä maassa tehtävä oli? Oikeutesi saada kirjallinen selvitys ja mahdolliset jatkotoimet riippuvat siitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5923,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 451,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dd-0ca3-7230-b90c-4e53a9b776bd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä mieskokoonpano ei osoita syrjintää tai epäasiallista valintaa.** Koska sekä sinä että valittu olette miehiä, kuvaamasi tiedot eivät sellaisinaan viittaa siihen, että sinua olisi syrjitty sukupuolen perusteella. Kokoonpanon asianmukaisuus ja valintapäätöksen asianmukaisuus ovat erillisiä kysymyksiä.\n\nHuomionarvoisempi kysymys on **se, miten ilmoitettuja kelpoisuusvaatimuksia ja valintakriteereitä sovellettiin**:\n- Oliko valmis tohtorintutkinto ehdoton vaatimus, ja mihin ajankohtaan mennessä sen piti olla suoritettu?\n- Millä perusteilla tutkimus-, opetus- ja elinkeinoelämäkokemusta vertailtiin?\n- Mitkä ansiot ratkaisivat valinnan?\n\nSinulla on kertomasi perusteella enemmän julkaisuja ja valmis tutkinto. Se antaa aihetta pyytää selvitystä, mutta ei yksin osoita, että olisit kokonaisuutena ansioituneempi: myös julkaisujen laatu, opetustaito ja tehtävään sopiva muu kokemus voivat vaikuttaa.\n\nLähettäisin nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] valintapäätöksen kirjallisia perusteluja. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan vastausajankohdan. Pyydän myös valintapäätöksen, saatavilla olevan ansiovertailun sekä selvityksen kelpoisuusvaatimusten ja valintakriteerien soveltamisesta. Millä perusteilla valintalautakunta muodostettiin, ja mitä kokoonpanoa koskevia sääntöjä siihen sovellettiin?\n\n**Missä maassa yliopisto sijaitsee?** Perusteluvelvollisuus, asiakirjojen saatavuus, kokoonpanosäännöt ja mahdolliset oikeussuojakeinot riippuvat siitä. Selvitä mahdolliset määräajat viipymättä: perustelupyynnön vastausta odottaminen ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5946,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 497,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10132-7174-7092-bec6-1c3c49391fed"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er tilefni til spurninga um fjölbreytni, en ein og sér veik vísbending um kynjamismunun. Þar sem bæði þú og ráðni umsækjandinn eruð karlar bendir niðurstaðan ekki sérstaklega til þess að þitt kyn hafi ráðið úrslitum.\n\nLengri reynsla tryggir ekki ráðningu; viðskiptatengsl og stjórnunarhæfni geta vegið þungt. Eðlilegt er þó að óska skýringa á vægi þessara þátta.\n\nÍtrekaðu beiðnina skriflega og spurðu um valviðmið og mat á stjórnunarreynslu þinni. Á einkarekinni stofu er ekki sjálfkrafa sami réttur til rökstuðnings og hjá opinberum vinnuveitanda. Taktu kynjasamsetninguna frekar upp sem spurningu um ráðningarferlið en ásökun um mismunun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 445,
+    "reasoning_output_tokens": 189
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

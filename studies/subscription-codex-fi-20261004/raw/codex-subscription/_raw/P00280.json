@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e8-94ae-7840-81ca-28ada2fb1a3c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei itsessään osoita sukupuolisyrjintää.** Se on perusteltu kysymys menettelyn arvioinnissa, ei vielä todiste siitä, miksi sinua ei valittu.\n\nSinulla on vahva koulutus ja pitkä, suoraan tehtävään liittyvä johtamiskokemus. On ymmärrettävää, että valinta herättää kysymyksiä. Toisaalta tohtorintutkinto ei automaattisesti tee hakijasta ansioituneempaa kaikkiin johtajantehtäviin: ratkaisevia ovat ilmoitetut valintakriteerit, kokemuksen sisältö ja arvioitu soveltuvuus. Ilmaisu ”laaja johtamiskokemus” ei vielä mahdollista kunnollista vertailua.\n\n**Painottaisin nyt kirjallisen selvityksen saamista.** Lähetä aiemmasta pyynnöstäsi muistutus ja pyydä:\n- tehtävän kelpoisuusvaatimukset ja valintakriteerit sekä niiden painotukset;\n- hakijoiden ansiovertailu ja valinnan ratkaisseet perusteet;\n- miten koulutuksesi ja kahdeksan vuoden johtamiskokemuksesi arvioitiin.\n\nKokoonpanosta voit kysyä neutraalisti esimerkiksi näin:\n\n> ”Pyydän lisäksi selvitystä siitä, miten valintalautakunnan kokoonpano määräytyi ja miten valintamenettelyn tasapuolisuus ja sukupuolten tasa-arvo varmistettiin.”\n\n**Jos kyse on Suomesta**, tasa-arvolaki antaa syrjintää epäilevälle hakijalle oikeuden saada työnantajalta viivytyksettä kirjallinen selvitys valinnan perusteista. Jos osoittautuu, että olit tehtävään ansioituneempi kuin valittu vastakkaista sukupuolta oleva henkilö, voi syntyä syrjintäolettama, johon työnantajan pitää vastata hyväksyttävillä, muilla kuin sukupuoleen liittyvillä perusteilla. Lautakunnan mahdolliset sukupuolikiintiövaatimukset taas riippuvat siitä, millaisesta toimielimestä on kyse — ne eivät koske automaattisesti jokaista haastatteluryhmää.\n\nKahden viikon vastaamattomuus ei todista syrjintää, mutta muistutus on aiheellinen. Säilytä ilmoitus, päätös ja viestit. **Älä odota selvitystä mahdollisten muutoksenhakuaikojen yli**; ammattiliitto tai tasa-arvovaltuutettu voi neuvoa.\n\nMissä maassa sairaala sijaitsee, ja onko työnantaja julkinen vai yksityinen? Se ratkaisee tarkemmat oikeudet ja menettelyt."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5936,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 621,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

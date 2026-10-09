@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ce-3ac0-75b1-a40a-0d89d3ae69b6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkkä se, että valintalautakunnassa oli neljä naista, ei ole merkki syrjinnästä tai epäasiallisesta valinnasta.** En nostaisi sitä tässä vaiheessa pääasiaksi. Sekä sinä että valittu olette naisia; tämä ei sulje syrjintää täysin pois, mutta kertomasi ei anna erityistä perustetta epäillä sukupuolisyrjintää. Myöskään ikäsyrjinnästä ei näillä tiedoilla voi päätellä mitään.\n\nSinulla on vahva tausta tehtävään, joten on ymmärrettävää haluta tietää, mikä ratkaisi valinnan. Tohtorintutkinto ja yhdeksän vuoden kokemus eivät kuitenkaan yksin osoita, että olisit tehtävään ansioitunein. Johtajavalinnassa voidaan painottaa esimerkiksi esihenkilökokemusta, sääntelyosaamista ja yhteistyötä valvontaviranomaisten kanssa. Valitusta julkaistu lyhyt esittely ei myöskään välttämättä kuvaa hänen koko osaamistaan.\n\n**Lähettäisin nyt asiallisen muistutuksen ja kohdistaisin kysymykset valintakriteereihin:**\n\n> Pyysin [päivämäärä] kirjallista palautetta riskimallinnuksen johtajan rekrytoinnista. Toivoisin tietoa siitä, mitä valintakriteerejä painotettiin, miten omaa kokemustani ja koulutustani arvioitiin sekä mitkä tekijät ratkaisivat valinnan. Milloin voin odottaa vastausta?\n\nKahden viikon vastaamattomuus on hyvä syy muistuttaa, mutta ei itsessään näyttö syrjinnästä. Säilytä työpaikkailmoitus ja viestinvaihto. Jos perusteluissa ilmenee ristiriitoja ilmoitettuihin vaatimuksiin nähden tai esimerkiksi ikään tai sukupuoleen liittyviä kommentteja, asiaa kannattaa arvioida ammattiliiton tai juristin kanssa. Oikeus kirjalliseen selvitykseen riippuu maasta ja tilanteesta.\n\nLautakunnan kokoonpano on siis havainto, mutta **olennaisempaa on selvittää, millä perusteilla hakijoita vertailtiin ja sovellettiinko perusteita tasapuolisesti.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5923,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 512,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d2-48a8-7dc0-9688-46872e627253"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä valintamenettelystä, mutta en nostaisi lautakunnan sukupuolijakaumaa asian kärjeksi.** Pelkästään naisista koostuva lautakunta ei itsessään osoita, että sukupuolesi olisi vaikuttanut valintaan. Se ei myöskään sulje syrjinnän mahdollisuutta pois. Ratkaisevaa on, millä perusteilla hakijoita vertailtiin ja sovellettiinko perusteita tasapuolisesti.\n\nSinulla on pidempi uutistyökokemus ja tehtävän kannalta merkittävää kokemusta varauutispäällikkönä. On siis ymmärrettävää, että haluat tarkemmat perustelut. **Palvelusvuodet eivät silti yksin ratkaise ansioituneisuutta:** digitaalisen median osaaminen, johtamisnäytöt ja muut tehtävään liittyvät valmiudet voivat perustellusti painaa enemmän. Valitusta julkaistu lyhyt esittely ei välttämättä kuvaa hänen kaikkia ansioitaan.\n\nJos kyse on Suomessa olevasta tehtävästä, tasa-arvolain mukaan työnantajan on annettava viivytyksettä kirjallinen selvitys menettelystään hakijalle, joka katsoo joutuneensa laissa tarkoitetun sukupuolisyrjinnän kohteeksi. Julkinen omistus ei kuitenkaan yksin tarkoita, että rekrytointi olisi hallintopäätös, johon sovelletaan tavallista oikaisuvaatimusmenettelyä.\n\n**Lähettäisin nyt kirjallisen muistutuksen**, esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä uutispäällikön valintaperusteista. Pyydän tietoa käytetyistä valintakriteereistä ja niiden painotuksesta sekä siitä, miten omaa kokemustani ja osaamistani verrattiin valitun hakijan ansioihin. Erityisesti pyydän täsmentämään, miten johtamiskokemusta ja digitaalisen median osaamista arvioitiin. Milloin saan vastauksen?\n\nJos aidosti epäilet sukupuolen vaikuttaneen, voit lisäksi täsmentää pyytäväsi **tasa-arvolain 10 §:n mukaista selvitystä mahdollisen sukupuolisyrjinnän arvioimiseksi**. Lautakunnan kokoonpanoa ei tarvitse esittää syytöksenä.\n\nSäilytä työpaikkailmoitus, hakemuksesi, viestit ja haastattelumuistiinpanot. Jos vastausta ei kuulu tai perustelut jäävät ristiriitaisiksi, ota yhteyttä ammattiliittosi juristiin tai tasa-arvovaltuutettuun. Kahden viikon hiljaisuus on hyvä syy muistuttaa pyynnöstä, mutta ei sellaisenaan näyttöä syrjinnästä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5932,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 667,
+    "reasoning_output_tokens": 40
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

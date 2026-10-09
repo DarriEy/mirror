@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d9-5863-71c1-a6ad-d26ad6b62d0b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei yksin osoita syrjintää.** Se on perusteltu syy kysyä menettelyn tasapuolisuudesta ja kokoonpanoa koskevista säännöistä — ei näyttö siitä, miksi sinua ei valittu.\n\nKuvaamasi ansioerot antavat kuitenkin hyvän syyn pyytää tarkempaa selvitystä. Sinulla on valmis tohtorintutkinto, enemmän vertaisarvioituja julkaisuja ja neljän vuoden opetuskokemus. Ne eivät automaattisesti tee sinusta ansioituneinta: myös julkaisujen laatu, opetustaidot, tehtävän painotus ja relevantti elinkeinoelämän kokemus voivat vaikuttaa. **Keskeistä on, mitä hakuilmoituksessa edellytettiin ja miten samoja kriteereitä sovellettiin hakijoihin.** Jos valmis tohtorintutkinto oli ehdoton kelpoisuusvaatimus, sen puuttuminen valitulta on erityisen tärkeä selvityskohde.\n\nLähettäisin nyt kirjallisen muistutuksen ja pyytäisin:\n- valintapäätöksen, sen perustelut ja saatavilla olevan ansiovertailun\n- tiedon valintakriteereistä ja niiden painotuksesta\n- selvityksen siitä, miten valitun kelpoisuus arvioitiin\n- tiedon lautakunnan nimittämisperusteista ja mahdollisista sukupuolten edustusta koskevista säännöistä\n- tiedon käytettävissä olevista muutoksenhaku- tai muista oikeussuojakeinoista ja niiden määräajoista.\n\nKokoonpanosta voi kysyä neutraalisti:\n> ”Huomasin, että valintalautakunnan kaikki jäsenet olivat miehiä. Mitä kokoonpanoa ja sukupuolten tasapuolista edustusta koskevia sääntöjä tässä menettelyssä sovellettiin, ja miten niiden toteutuminen varmistettiin?”\n\nKahden viikon vastaamattomuus ei itsessään osoita syrjintää. **Älä kuitenkaan oleta, että perustelupyyntö pysäyttää mahdolliset määräajat.** Säilytä hakuilmoitus, hakemuksesi, valintaa koskevat tiedot ja viestinvaihto.\n\nMissä maassa yliopisto sijaitsee? Se ratkaisee, mitä kokoonpanosta, perusteluvelvollisuudesta ja oikeussuojasta voidaan täsmällisesti sanoa. Jos epäilet nimenomaan sukupuoleesi perustuvaa syrjintää, myös sillä on merkitystä asian arvioinnissa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5936,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 627,
+    "reasoning_output_tokens": 20
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

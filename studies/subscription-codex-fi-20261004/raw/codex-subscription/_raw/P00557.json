@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108db-1756-7870-b713-b3ad436bb488"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä valintamenettelystä, mutta lautakunnan koostuminen pelkästään naisista ei itsessään ole osoitus sukupuolisyrjinnästä.** Se ei kerro, suosittiinko valittua hänen sukupuolensa vuoksi. Samoin pidempi työkokemuksesi on tärkeä ansio, mutta ei yksin ratkaise soveltuvuutta johtotehtävään: myös esihenkilötaidot, asiakastyö ja haastatteluissa osoitettu osaaminen voivat painaa.\n\nOn silti ymmärrettävää haluta tarkemmat perustelut pitkän hakuprosessin jälkeen. Käytettävissäsi olevat tiedot eivät vielä riitä päättelemään, oliko valinta syrjivä vai perusteltu.\n\n**Nostaisin ensisijaisesti esiin valintakriteerit ja ansiovertailun, en lautakunnan jäsenten sukupuolta.** Voisit lähettää muistutuksen esimerkiksi näin:\n\n> Pyysin kaksi viikkoa sitten kirjallista selvitystä valintapäätöksestä. Pyydän tietoa käytetyistä valintakriteereistä ja niiden painotuksesta sekä siitä, miten koulutustani, pätevyyttäni, suunnittelu- ja hankkeiden johtamiskokemustani arvioitiin suhteessa valitun hakijan ansioihin. Miten asiakassuhteita ja johtamisvalmiuksia arvioitiin? Milloin voin odottaa vastausta?\n\nSäilytä työpaikkailmoitus, viestit ja omat haastattelumuistiinpanosi. Kahden viikon vastaamattomuus ei yksin osoita syrjintää, mutta muistutus on aiheellinen.\n\nJos tehtävä on Suomessa, tasa-arvolaki voi velvoittaa työnantajan antamaan viivytyksettä kirjallisen selvityksen hakijalle, joka katsoo joutuneensa laissa tarkoitetun sukupuolisyrjinnän kohteeksi. Voit kysyä tilanteestasi neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta.\n\nMissä maassa tehtävä on, ja onko työnantaja yksityinen vai julkinen? Tämä vaikuttaa oikeuksiisi saada perusteluja ja mahdollisiin määräaikoihin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5950,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 507,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

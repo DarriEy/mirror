@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10153-4b93-7d53-9872-8ff7abacb43a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "An all-women panel is **not, by itself, evidence that you were treated unfairly because you’re a man**. It tells you the panel’s composition, not how its members assessed candidates. Equally, it doesn’t rule out bias.\n\nYour qualifications and experience make it reasonable to want substantive feedback. But the announcement isn’t a full account of the successful candidate’s credentials or interview performance. For a group-head role, client relationships, people management, business development and leadership judgement can legitimately outweigh additional years of design experience.\n\nI would **focus first on the selection process rather than the panel’s sex**. After two weeks, a polite follow-up is reasonable:\n\n> I’m following up on my request for feedback sent on [date]. Having reached the final shortlist and attended two interviews, I would appreciate an explanation of how I was assessed against the role’s selection criteria, particularly technical experience, leadership and client development. Please let me know when I can expect a response.\n\nMore meaningful grounds for concern would include sex-based remarks, criteria being changed or inconsistently applied, departures from recruitment procedures, or contradictory explanations. The panel’s composition could be context alongside such evidence, but it isn’t a sound basis for an allegation on its own. The delay in responding is frustrating, but also isn’t evidence of discrimination by itself.\n\nKeep the job advert, application, correspondence and your interview notes. If you’re considering a formal challenge, your country matters: rights to feedback and discrimination-claim deadlines vary, and waiting for a reply may not stop the clock."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7425,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 317,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

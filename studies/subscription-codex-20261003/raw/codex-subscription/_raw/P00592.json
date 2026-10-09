@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10158-6d6e-7f00-bdbd-d7798757304f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er ástæða til að spyrja, ekki sönnun um kynjamismunun. Við opinbera nefndarskipan geta gilt reglur um kynjahlutföll; kanna þarf hvort þær nái til þessarar ráðningarnefndar og hvort undanþága eigi við.\n\nMiðað við íslenskan opinberan háskóla:\n- Ítrekaðu rökstuðningsbeiðnina núna; almennt á að svara innan 14 daga eða tilkynna tafir og ástæður þeirra.\n- Óskaðu eftir aðgangi að hæfnismati, samanburði umsækjenda og vægi auglýstra hæfniskrafna.\n- Spyrðu sérstaklega um nefndarskipanina og hvort lokið doktorspróf hafi verið skilyrði.\n\nFleiri greinar og kennsluár tryggja ekki ráðningu, en frávik frá auglýstum kröfum skipta máli. Leitaðu tímanlega til stéttarfélags eða Jafnréttisstofu vegna mögulegra kærufresta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 460,
+    "reasoning_output_tokens": 169
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

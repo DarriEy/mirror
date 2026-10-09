@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10165-3515-7650-86b5-f4c5f5230fc2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu út frá þessum upplýsingum.\n\nJá, nefndu kynjasamsetninguna sem áhyggjuefni, ekki sem sönnun um mismunun. Hún getur gefið tilefni til að skoða ráðningarferlið, en segir ekki ein og sér hvort kyn hafi ráðið niðurstöðunni.\n\nLengri reynsla þín og verkefnastjórnun réttlæta spurningar um samanburðinn. Viðskiptatengsl geta þó verið málefnalegt hæfniviðmið.\n\nÍtrekaðu erindið skriflega og óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringum á mati á stjórnunarreynslu og viðskiptatengslum. Einkarekin verkfræðistofa ber ekki sjálfkrafa sömu rökstuðningsskyldu og opinber vinnuveitandi; tveggja vikna þögn sannar ekki mismunun.\n\nVarðveittu auglýsingu og samskipti. Leitaðu ráðgjafar hjá Jafnréttisstofu eða stéttarfélagi um mögulega kynjamismunun og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6022,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 498,
+    "reasoning_output_tokens": 219
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

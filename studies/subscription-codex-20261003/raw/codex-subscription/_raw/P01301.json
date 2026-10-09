@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10140-3d2e-75b3-bc95-d5d38c72cc09"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: RAISE IT\nLIKELIHOOD: cannot be responsibly quantified from these facts\n\nRaise the panel’s composition as a process concern, not proof of discrimination. An all-male panel warrants asking how impartiality was safeguarded, but does not establish that sex influenced the outcome.\n\nYour qualifications make requesting a clear explanation reasonable. However, a PhD does not automatically outweigh relevant leadership experience; the published summary may omit important details.\n\nFollow up in writing for the selection criteria, their weighting, your assessment against them, and the reasons for preferring the successful candidate. Ask about panel-composition policies and review procedures. Two weeks’ silence alone proves little. Check local complaint deadlines promptly; waiting for a response may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5942,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 309,
+    "reasoning_output_tokens": 150
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

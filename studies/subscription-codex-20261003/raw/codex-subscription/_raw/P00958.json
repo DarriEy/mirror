@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f7-b50d-7372-a5be-bd7b9d2e9cd7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: cannot be reliably estimated from these facts\n\nAn all-male panel is worth querying, but it does not establish that sex influenced the decision. Depending on your jurisdiction and whether the school is public, panel gender-balance rules may apply independently of discrimination.\n\nYour leadership qualifications and experience justify asking how candidates were assessed; the announcement may omit relevant qualifications or interview evidence.\n\nFollow up now on your written request. Ask for the selection criteria, comparative assessment, and whether the panel complied with applicable appointment and equality rules. Frame this as a request for transparency, not an accusation.\n\nCheck complaint deadlines promptly with your union or equality body; awaiting reasons may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5928,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 342,
+    "reasoning_output_tokens": 190
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e2-ed8f-7500-8d99-cf2204d73de6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "Voit ottaa lautakunnan kokoonpanon esille, mutta **pelkästään miehistä koostuva lautakunta ei yksin osoita syrjintää tai epäasiallista valintaa**. Se herättää perustellun kysymyksen päätöksenteon monipuolisuudesta, mutta ei kerro, miksi juuri sinua ei valittu.\n\nKoska sekä sinä että valittu olette miehiä, kertomasi perusteella ei ole erityistä näyttöä siitä, että sinut olisi sivuutettu sukupuolesi vuoksi. Se ei sulje syrjinnän mahdollisuutta pois, mutta sen arviointiin tarvittaisiin muuta tietoa. Myöskään ikäsyrjinnästä ei näillä tiedoilla voi päätellä mitään.\n\n**Vahvin lähtökohta on pyytää näkyviin valinnan perusteet ja hakijoiden ansiovertailu.** Sinulla on selvästi pidempi uutistyön kokemus ja viisi vuotta kokemusta varauutispäällikkönä. On ymmärrettävää haluta tietää, miten niitä painotettiin. Pidempi työkokemus ei kuitenkaan automaattisesti tarkoita parempaa soveltuvuutta: digitaalinen osaaminen, johtamisnäytöt ja tehtävän tavoitteet voivat perustellusti ratkaista valinnan.\n\nLähettäisin nyt kohteliaan muistutuksen esimerkiksi näin:\n\n> Pyysin kaksi viikkoa sitten kirjallisia perusteluja uutispäällikön valinnalle. Milloin voin odottaa vastausta? Toivon erityisesti tietoa käytetyistä valintakriteereistä ja niiden painotuksesta sekä siitä, miten johtamiskokemustani ja uutistyön kokemustani arvioitiin suhteessa valittuun hakijaan. Miten digitaalisen median osaamista arvioitiin, ja oliko sen painoarvo määritelty ennen haastatteluja?\n\nHalutessasi voit lisätä erillisen kysymyksen:\n> Miten valintalautakunnan kokoonpanossa huomioitiin organisaation tasa-arvo- ja monimuotoisuusperiaatteet?\n\nKahden viikon vastaamattomuus ei itsessään todista väärinkäytöstä. **Oikeus perusteluihin, mahdolliset kokoonpanovaatimukset ja muutoksenhaun määräajat riippuvat maasta ja tehtävän oikeudellisesta asemasta.** Julkinen yleisradioyhtiö ei välttämättä noudata samoja rekrytointisääntöjä kuin viranomainen. Jos harkitset valinnan riitauttamista, kysy ammattiliitostasi neuvoa jo nyt — perustelujen odottaminen ei välttämättä pysäytä määräaikoja.\n\nMissä maassa tehtävä on?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 667,
+    "reasoning_output_tokens": 50
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

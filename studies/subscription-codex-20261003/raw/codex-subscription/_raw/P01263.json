@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10132-02d0-7a21-9152-2cada524f9f7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Ekki eitt og sér.** Sú staðreynd að ráðningarnefndin var eingöngu skipuð konum er ekki sjálfkrafa vísbending um hlutdrægni eða mismunun. Hún segir ekki hvernig nefndin mat umsækjendur. Að önnur kona hafi fengið starfið útilokar þó ekki mismunun, til dæmis vegna aldurs—en ekkert í lýsingunni sýnir að slíkt hafi ráðið niðurstöðunni.\n\nÞað er skiljanlegt að þú viljir skýringar miðað við menntun þína, reynslu og verkefnastjórnun. **Fleiri starfsár þýða samt ekki sjálfkrafa að þú teljist hæfust í stjórnunarstarf.** Samskipti við viðskiptavini, stjórnunarhæfni og viðskiptaþróun geta verið málefnaleg viðmið. Stutt ráðningartilkynning lýsir heldur ekki endilega öllum hæfileikum þeirrar sem var ráðin.\n\nÉg myndi því beina athyglinni að **matsviðmiðunum og framkvæmd ráðningarinnar**, fremur en kyni nefndarmanna:\n\n- Fylgdu erindinu eftir núna og óskaðu eftir staðfestingu á móttöku og áætluðum svartíma.\n- Spurðu hvaða viðmið réðu úrslitum, hvernig þau tengdust starfsauglýsingunni og hvernig menntun þín, reynsla og stjórnun stórra verkefna voru metin.\n- Geymdu auglýsinguna, samskiptin og eigin minnispunkta úr viðtölunum, sérstaklega ef athugasemdir komu fram um aldur, kyn eða fjölskylduaðstæður.\n\nÞú gætir skrifað:\n\n> Ég fylgi eftir beiðni minni frá [dagsetning] um skýringar á ráðningunni. Ég óska sérstaklega eftir upplýsingum um hvaða hæfnisviðmið réðu úrslitum og hvernig menntun mín, hönnunarreynsla og reynsla af stjórnun stórra verkefna voru metin. Vinsamlegast staðfestið móttöku og hvenær svars sé að vænta.\n\nRéttur til formlegs rökstuðnings fer meðal annars eftir því hvort vinnuveitandinn er einkarekinn eða opinber; ekki gilda sömu reglur um allar ráðningar. Tveggja vikna þögn er ástæða til eftirfylgni, en ekki sjálfstæð sönnun um mismunun. Ef frekari upplýsingar vekja grun um ómálefnalegt mat geturðu leitað til stéttarfélags þíns eða Jafnréttisstofu um næstu skref og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5937,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 596,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

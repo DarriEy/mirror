@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f5-0c09-76b1-ad99-4e9ceea6a7cf"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: EKKI TAKA ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Að þú og ráðna konan séuð báðar konur útilokar ekki kynbundin áhrif, en ekkert sem þú lýsir bendir sérstaklega til þeirra.\n\nDoktorspróf og níu ára reynsla tryggja ekki að þú teljist hæfust; stjórnunarreynsla, eftirlitsþekking og önnur auglýst viðmið geta ráðið úrslitum.\n\nFylgdu beiðninni eftir skriflega núna. Óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og mat á þér gagnvart þeim. Réttur til formlegs rökstuðnings fer meðal annars eftir réttarstöðu bankans. Leitaðu til stéttarfélags eða lögfræðings ef fram koma ósamræmi eða ummæli tengd kyni eða aldri."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6017,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 382,
+    "reasoning_output_tokens": 131
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

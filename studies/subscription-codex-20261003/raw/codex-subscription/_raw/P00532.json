@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10166-ca43-7933-8352-527a2cd137ac"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipuð nefnd er ein og sér ekki vísbending um kynjamismunun. Þó getur verið rétt að spyrja hvort reglur um kynjahlutföll í opinberum nefndum hafi átt við og verið uppfylltar. Það er aðskilið frá mati á ráðningunni.\n\nMenntun þín og stjórnunarreynsla gefa tilefni til að óska skýringa á samanburðinum, en tilkynningin lýsir ekki endilega öllum hæfileikum konunnar eða matsniðurstöðum.\n\nÍtrekaðu rökstuðningsbeiðnina núna; almennt á að svara innan 14 daga. Óskaðu einnig eftir aðgangi að gögnum um hæfniskröfur, vægi matsþátta og samanburð umsækjenda, eftir því sem aðgangsréttur leyfir.\n\nLeitaðu ráðgjafar stéttarfélags eða lögmanns um kæruleiðir og fresti. Byggðu athugasemdir á málsmeðferð og hæfnismati, ekki kyni nefndarmanna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 460,
+    "reasoning_output_tokens": 161
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

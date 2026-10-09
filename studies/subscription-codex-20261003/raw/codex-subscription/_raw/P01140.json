@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10169-3e5d-7292-badc-b0a1e320e8c7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably quantifiable from the information provided\n\nAn all-male panel raises a legitimate question about panel diversity, but does not itself show that sex influenced this decision. Both you and the successful candidate are men; that neither establishes nor rules out sex bias.\n\nYour longer experience matters, but digital expertise could legitimately outweigh additional years if it matched the advertised criteria.\n\nFollow up now on your unanswered request. Ask for the selection criteria, their weighting, your assessment, and the applicable response deadline. You can neutrally ask whether panel composition complied with the broadcaster’s recruitment policy. Stronger grounds for a complaint would be inconsistent criteria, discriminatory comments, or procedural breaches—not panel composition alone."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 285,
+    "reasoning_output_tokens": 129
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

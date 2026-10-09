@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108cf-e2b6-7640-a7d6-9ab405077d1a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla; numero olisi perusteeton.\n\nVoit kysyä lautakunnan kokoonpanosta ja siitä, miten tasapuolinen arviointi varmistettiin. Pelkästään miehistä koostuva lautakunta ei kuitenkaan osoita, että sukupuoli vaikutti valintaan.\n\nTohtorintutkintosi ja kahdeksan vuoden johtamiskokemuksesi antavat hyvän syyn pyytää tarkkaa ansiovertailua. Korkeampi tutkinto ei yksin ratkaise paremmuutta: tehtävän vaatimukset, johtamiskokemuksen sisältö ja haastatteluarviot voivat vaikuttaa.\n\nLähetä kirjallinen muistutus ja pyydä valintakriteerit, niiden painotukset sekä hakijoiden ansiovertailu. Kahden viikon hiljaisuus ei itsessään osoita syrjintää. Säilytä hakuilmoitus ja viestit. Tarkista mahdolliset muutoksenhakuajat heti, sillä perustelujen odottaminen ei välttämättä pysäytä niitä. Jos kyse on Suomesta, tasa-arvovaltuutettu tai ammattiliittosi voi neuvoa syrjintäepäilyn arvioinnissa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6030,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 385,
+    "reasoning_output_tokens": 86
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

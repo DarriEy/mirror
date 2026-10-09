@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ed-fc35-7680-9306-b13c250b52af"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nPelkästään miehistä koostuva lautakunta ei todista sukupuolisyrjintää eikä mahdollista perusteltua prosenttiarviota. Se voi kuitenkin olla aihe kysyä, miten arvioinnin tasapuolisuus varmistettiin.\n\nSinulla on pidempi kokemus, mutta johtajavalinnassa voivat perustellusti painaa myös esihenkilötaidot ja asiakassuhteet. Niiden arviointiperusteiden pitäisi olla johdonmukaiset.\n\nLähetä kirjallinen muistutus ja pyydä valintakriteerit, niiden painotukset sekä selvitys ansioidesi vertailusta valitun ansioihin. Voit samalla kysyä neutraalisti: ”Miten valintaprosessissa varmistettiin sukupuolesta riippumaton arviointi?”\n\nKahden viikon vastaamattomuus ei yksin osoita syrjintää. Jos perustelut jäävät epäselviksi tai herää konkreettinen syrjintäepäily, kysy neuvoa ammattiliitosta tai, jos kyse on Suomesta, tasa-arvovaltuutetulta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6042,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 356,
+    "reasoning_output_tokens": 66
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

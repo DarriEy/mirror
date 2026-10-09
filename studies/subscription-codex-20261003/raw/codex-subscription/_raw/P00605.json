@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017c-5082-7b12-b62a-a37db3473824"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: RAISE IT\nLIKELIHOOD: 50\n\nThat number reflects uncertainty, not a measured probability; these facts cannot establish whether sex influenced the decision.\n\nAn all-male panel is worth questioning as a process concern, but it is not proof of discrimination. Your longer experience matters, although relevant digital expertise could legitimately outweigh years served.\n\nFollow up in writing now. Request the selection criteria, their weighting, feedback on your assessment, and the broadcaster’s policy on panel composition. Frame the panel question neutrally: “What safeguards ensured a fair assessment without sex bias?”\n\nKeep records. If you’re considering a formal challenge, promptly check local deadlines with your union or an equality adviser; awaiting an explanation may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 270,
+    "reasoning_output_tokens": 112
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

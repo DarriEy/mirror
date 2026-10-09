@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d0-ee6a-7873-a8f4-a582408b88f7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: ei luotettavasti arvioitavissa annetuista tiedoista\n\nPelkästään miehistä koostunut lautakunta on perusteltu keskustelunaihe, mutta ei yksin osoita sukupuolisyrjintää. Voit kysyä neutraalisti, miten arvioinnin tasapuolisuus varmistettiin. Numeerinen todennäköisyys olisi näillä tiedoilla arvailua.\n\nTutkintosi ja kokemuksesi tekevät kysymyksestä ymmärrettävän, mutta valitun lyhyt esittely ei mahdollista luotettavaa ansiovertailua. Myöskään vastausviive ei yksin kerro syrjinnästä.\n\nJos kyse on Suomesta, uusi pyyntösi kirjallisesti: pyydä nimityspäätös, nimitysmuistio ja ansiovertailu sekä tasa-arvolain mukainen selvitys valintaperusteista ja valitun ansioista. Tarkista mahdolliset muutoksenhakuajat heti; älä oleta selvityspyynnön pysäyttävän niitä. Tasa-arvovaltuutettu tai ammattiliittosi juristi voi auttaa arvioimaan, antaako aineisto aihetta syrjintäepäilyyn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 421,
+    "reasoning_output_tokens": 121
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

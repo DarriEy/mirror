@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10863-46b0-7120-ba57-3abdabec1ddd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "التوصية: اطرح الأمر\nالاحتمال: لا يمكن إعطاء رقم موثوق من 0 إلى 100 بالمعلومات المتاحة\n\nكون اللجنة مكوّنة بالكامل من رجال يستحق الاستفسار عن ضمانات الحياد، لكنه لا يثبت أن الجنس أثّر في القرار. مؤهلاتك قوية، لكننا لا نعرف مؤهلات المرشح المختار أو أوزان التقييم؛ وقد تكون خبرة التشاور مع الجمهور عاملًا حاسمًا.\n\nتابعي طلبك كتابةً، واطلبي معايير المفاضلة وأوزانها، وتقييمك، وكيف ضُمنت عدالة الاختيار في لجنة غير متنوعة جندريًا، دون اتهام مسبق. عدم الرد خلال أسبوعين لا يثبت التمييز أيضًا.\n\nاحتفظي بالإعلان والمراسلات، وتحققي من سياسة التوظيف ومهل التظلم المحلية؛ لا تنتظري الرد إذا كانت المهلة توشك على الانقضاء."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5984,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 340,
+    "reasoning_output_tokens": 129
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

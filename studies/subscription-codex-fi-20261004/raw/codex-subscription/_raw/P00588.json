@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e2-36c3-70c2-bf20-27a6624dfed8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, millä perusteilla valinta tehtiin, etenkin kun et ole saanut vastausta perustelupyyntöösi.\n\n**Pelkästään naisista koostuva valintalautakunta ei itsessään ole näyttöä sukupuolisyrjinnästä.** Myöskään naisen valinta sinua lyhyemmällä työkokemuksella ei yksin osoita sitä. Johtajavalinnassa voidaan perustellusti painottaa esimerkiksi esihenkilöosaamista, asiakassuhteita ja liiketoiminnan kehittämistä. Julkinen ilmoitus ei välttämättä kerro valitun kaikkia ansioita. Sinun pitkä kokemuksesi ja suurten hankkeiden johtaminen ovat silti olennaisia ansioita, joiden arvioinnista on kohtuullista pyytää selvitystä.\n\n**En nostaisi lautakunnan sukupuolijakaumaa pääasiaksi tässä vaiheessa.** Keskittäisin jatkopyynnön valintakriteereihin ja siihen, miten niitä sovellettiin. Voisit kirjoittaa esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä rekrytointipäätöksen perusteista. Pyydän vahvistamaan viestini vastaanoton ja ilmoittamaan, milloin saan vastauksen. Toivon selvitystä erityisesti käytetyistä valintakriteereistä ja niiden painotuksesta sekä siitä, miten koulutukseni, pätevyyteni, 15 vuoden suunnittelukokemukseni ja kolmen suuren hankkeen johtaminen arvioitiin suhteessa valitun hakijan ansioihin.\n\nSyrjintäepäilyn kannalta merkityksellisempiä olisivat esimerkiksi sukupuolta koskevat kommentit, hakijoille eri tavoin sovelletut vaatimukset tai ristiriitaiset perustelut. Säilytä työpaikkailmoitus, viestit ja haastattelumuistiinpanot. Kahden viikon vastaamattomuus kannattaa ottaa uudelleen esille, mutta sekään ei yksin osoita syrjintää.\n\n**Missä maassa tehtävä on?** Jos kyse on Suomesta, tasa-arvolaissa säädetään työnantajan velvollisuudesta antaa viivytyksettä kirjallinen selvitys henkilölle, joka katsoo joutuneensa laissa tarkoitetun rekrytointisyrjinnän kohteeksi. Tasa-arvovaltuutetulta tai omasta ammattiliitosta voi pyytää neuvoa tilanteen arviointiin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5948,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 567,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

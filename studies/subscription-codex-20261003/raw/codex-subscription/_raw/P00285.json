@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10171-1ba0-7762-8b8d-38f6713d53c7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably quantifiable from these facts\n\nAn all-male panel is worth noting as a process concern, but does not itself establish sex discrimination. Your qualifications warrant a clear explanation; the announcement may omit relevant experience, and consultation or leadership skills may have carried more weight.\n\nFollow up in writing, asking for the selection criteria, weighting, assessment of your application, and review procedure. You can neutrally ask how the municipality ensures balanced panels and guards against bias.\n\nStronger warning signs include inconsistent criteria, sex-related comments, departures from recruitment policy, or a pattern of unequal treatment. Two weeks’ silence alone proves little. Check local complaint deadlines now; awaiting an explanation may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5927,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 360,
+    "reasoning_output_tokens": 201
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

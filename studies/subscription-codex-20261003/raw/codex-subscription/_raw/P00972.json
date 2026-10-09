@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015c-7dbb-7fb3-a1a5-c4a3ef7914c8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of bias or an unfair decision.** It tells you the panel’s gender composition, not how they assessed candidates. Since both you and the successful candidate are women, these facts don’t suggest a straightforward case of preference for women over men. They don’t rule out other bias, but there’s no specific evidence of it here.\n\nIt’s understandable to want an explanation: your qualifications and experience make you a credible candidate. However, a PhD versus a master’s doesn’t settle suitability for a head-level role. Leadership, regulatory judgment, stakeholder management, and experience taking responsibility for models may have carried substantial weight. The announcement is also unlikely to describe the successful candidate’s full background.\n\n**I’d focus on the selection process rather than the panel’s gender.** After two weeks, a polite follow-up is reasonable:\n\n> I’m following up on my request of [date] for feedback on the appointment. Could you explain the principal selection criteria, how my application and interviews were assessed against them, and the areas that distinguished the successful candidate? Please also let me know when I can expect a response.\n\nMore meaningful warning signs would include discriminatory remarks, unexplained changes in criteria, conflicts of interest, or inconsistent treatment—not the panel’s composition alone. The delayed reply is frustrating, but doesn’t establish wrongdoing either.\n\nIf you’re considering a formal challenge, the country and whether the bank is public or private matter: rights to reasons and complaint deadlines vary. Don’t assume waiting for feedback extends any deadline."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5861,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 318,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10131-4323-7780-a7c3-496ec8b1302b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nAð nefndin hafi eingöngu verið skipuð konum sýnir ekki eitt og sér að kyn hafi ráðið niðurstöðunni. Þú getur þó spurt hlutlaust hvernig nefndin var skipuð og hvort reglur um kynjahlutföll giltu um hana.\n\nLengri starfsreynsla þín og stjórnunarreynsla skipta máli, en tryggja ekki að þú teljist hæfastur; stafræn reynsla getur vegið þungt samkvæmt auglýstum hæfniskröfum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir upplýsingum um matsviðmið, vægi þeirra og samanburð á hæfni umsækjenda. Beindu sjónum fyrst að því hvort viðmiðunum hafi verið beitt málefnalega og samræmt, fremur en kyni nefndarmanna. Leitaðu ráðgjafar stéttarfélags um rétt þinn og mögulega kærufresti meðan þú bíður."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6023,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 376,
+    "reasoning_output_tokens": 99
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

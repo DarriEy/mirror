@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10126-a5f6-76e1-9987-fc83a35f3470"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably estimable from these facts\n\nAn all-male panel is reasonable to question as a process concern, but it does not establish that sex influenced the decision. A numerical probability would be invented.\n\nYour qualifications make wanting an explanation understandable. However, the announcement may omit relevant experience, and leadership or regulatory expertise could legitimately outweigh academic qualifications.\n\nFollow up now, requesting the selection criteria, how your application was assessed, and the bank’s policy on panel composition and bias safeguards. Frame the panel question neutrally rather than alleging discrimination.\n\nKeep records. If the explanation reveals inconsistent criteria or sex-based assumptions, consider a formal complaint. Check local advice promptly: discrimination-claim deadlines can run while you await a response."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 306,
+    "reasoning_output_tokens": 143
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

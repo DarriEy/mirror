@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10151-68b0-73b1-be97-d3bef84a2860"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er réttmætt athugunarefni, en sannar ekki að kyn hafi ráðið niðurstöðunni. Kanna þarf hvort reglur jafnréttislaga um kynjahlutföll í opinberum nefndum eigi við um þessa ráðningarnefnd og hvort skipanin samræmdist þeim.\n\nÍtrekaðu nú beiðnina um rökstuðning skriflega. Óskaðu einnig eftir upplýsingum um skipun nefndarinnar, hæfniviðmið, vægi þeirra og samanburð á hæfni þinni og þess sem var ráðinn. Prófgráður og starfsár ein og sér ráða ekki hver telst hæfastur; verkefnareynsla og viðtöl geta skipt máli.\n\nÞú getur leitað leiðbeininga hjá Jafnréttisstofu og aðstoðar stéttarfélags við að meta gögn og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6035,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 417,
+    "reasoning_output_tokens": 166
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

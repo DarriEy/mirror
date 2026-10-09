@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014d-ec8f-7ff0-ad7b-424930151cf4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, taktu kynjasamsetningu nefndarinnar upp sem málefnalega spurningu. Hún gefur tilefni til að kanna ráðningarferlið en sannar ekki að kyn hafi ráðið niðurstöðunni. Lengri starfsreynsla og stjórnunarreynsla skipta máli, en stafræn hæfni gæti réttlætt annað mat ef hún samræmist auglýstum hæfniskröfum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Óskaðu eftir matsviðmiðum, vægi þeirra, samanburði á hæfni umsækjenda og skýringum á skipan nefndarinnar. Kannaðu hvort reglur um kynjajafnvægi eigi við um hana.\n\nLeitaðu ráðgjafar hjá stéttarfélaginu þínu eða Jafnréttisstofu um næstu skref og mögulega kærufresti; ekki bíða ótímabundið eftir svarinu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6011,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 454,
+    "reasoning_output_tokens": 188
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

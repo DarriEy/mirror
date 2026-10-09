@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016a-463c-7531-beb2-4410c6e5a88d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar sýnir ekki ein og sér að kyn hafi ráðið niðurstöðunni. Hún getur þó gefið tilefni til að spyrja hvort reglum um skipan nefndarinnar hafi verið fylgt, sérstaklega hjá opinberu sjúkrahúsi.\n\nDoktorspróf og átta ára stjórnunarreynsla eru sterk hæfni, en tryggja ekki ráðningu; meta þarf auglýstar kröfur og samanburð umsækjenda.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir upplýsingum um matsviðmið, vægi þeirra og samanburð á menntun og stjórnunarreynslu. Spyrðu hlutlaust um nefndarskipanina, fremur en að fullyrða um kynjamismunun.\n\nLeitaðu til stéttarfélags eða lögmanns ef svör dragast áfram eða rökstuðningurinn vekur grun um ómálefnalegt mat; kærufrestir geta skipt máli."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 407,
+    "reasoning_output_tokens": 127
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

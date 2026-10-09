@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011d-9185-70e1-859b-53f8b688d0ab"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: RAISE IT\nLIKELIHOOD: Cannot responsibly assign a number from these facts.\n\nRaise it as a question about fairness, not an accusation. An all-male panel warrants scrutiny of how bias was managed, but does not establish that sex influenced the outcome. Your qualifications merit a substantive explanation; the announcement alone does not reveal his full experience or how candidates were assessed.\n\nFollow up now requesting the selection criteria, their weighting, feedback on your assessment, and information about panel-composition and bias safeguards. Keep the advertisement, correspondence and dates.\n\nIf the explanation reveals inconsistent criteria or departures from required procedures, consider advice from a union, equality body or employment lawyer. Rules and complaint deadlines depend on your jurisdiction; don’t assume waiting for a reply pauses them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 313,
+    "reasoning_output_tokens": 148
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

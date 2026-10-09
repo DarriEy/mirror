@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f3-ecfe-7533-a7a4-5420dbcea1a5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence that your sex influenced the decision.** It is reasonable to check whether the panel was properly constituted, but I would not make its composition the centre of your challenge without more evidence.\n\nYour leadership qualification and deputy-principal experience give you a legitimate reason to ask for a clear explanation. However, the announcement may not describe the successful candidate’s full qualifications, and appointments can legitimately take account of interviews, references and other advertised criteria—not just degrees and years of experience.\n\nI would separate two questions:\n\n- **Was the process compliant?** Some jurisdictions have gender-balance requirements for public selection panels. A breach could be a procedural issue, but would not automatically establish discrimination against you.\n- **Was the selection justified?** The more useful evidence is how the panel assessed each candidate against the published requirements, whether it applied those requirements consistently, and what supported its final comparison.\n\nSince you requested reasons two weeks ago, send a written follow-up asking for acknowledgment and an expected response date. You could say:\n\n> Please confirm receipt of my request for written reasons dated [date]. I would appreciate an explanation of the selection criteria and how my qualifications and experience were assessed against those criteria, including the comparative assessment supporting the appointment. Please also advise me of any review or complaint procedure and applicable deadlines.\n\n**Do not assume that waiting for a reply suspends a complaint deadline.** Your union may be able to help check deadlines and your entitlement to selection records.\n\nWhich country is this in, and is the school public or private? That matters particularly for panel-composition rules and your right to written reasons."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5860,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 403,
+    "reasoning_output_tokens": 67
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

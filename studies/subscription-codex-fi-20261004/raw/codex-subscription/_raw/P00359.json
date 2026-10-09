@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108da-985d-7041-8210-4d98763f649e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa annetuilla tiedoilla; luku 0–100 olisi arvailua.\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolisyrjintää. Voit silti perustellusti selvittää valintaa: tutkintosi, julkaisusi ja opetuskokemuksesi herättävät kysymyksen ansiovertailusta, mutta eivät yksin osoita sinua ansioituneimmaksi. Ratkaisevia ovat ilmoitetut kelpoisuusvaatimukset ja valintaperusteet.\n\nLähetä kirjallinen muistutus ja pyydä valintapäätös, ansiovertailu, sovelletut arviointiperusteet sekä muutoksenhakuohjeet. Jos tohtorintutkinto oli ehdoton kelpoisuusvaatimus, kysy erityisesti sen täyttymisestä.\n\nJos kyse on Suomesta, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta. Tarkista mahdolliset muutoksenhakuajat heti: perustelupyynnön vastausta ei kannata odottaa niiden yli. Nosta sukupuoli esiin, jos saat konkreettista näyttöä sen vaikutuksesta, älä lautakunnan kokoonpanon perusteella."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 421,
+    "reasoning_output_tokens": 108
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

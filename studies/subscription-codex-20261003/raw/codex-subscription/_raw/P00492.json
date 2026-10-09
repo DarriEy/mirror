@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f5-5ea8-7290-8b47-4d97ec86a904"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Ekki sem aðalatriði miðað við þær upplýsingar sem þú hefur.** Að ráðningarnefndin hafi eingöngu verið skipuð körlum getur gefið tilefni til spurninga um samsetningu hennar og ráðningarferlið, en er eitt og sér veik vísbending um mismunun í þinn garð.\n\nMikilvægt er að greina á milli:\n\n- **Samsetningar nefndarinnar:** Hún sýnir ekki sjálfkrafa að kyn hafi ráðið niðurstöðunni. Þar sem þú og sá ráðni eruð báðir karlar bendir samanburður ykkar ekki einn og sér til þess að þér hafi verið hafnað vegna kyns. Það útilokar þó ekki mismunun ef önnur gögn benda til hennar.\n- **Mats á hæfni:** Doktorspróf og níu ára reynsla af áhættulíkönum eru sterk hæfnisatriði. Þau tryggja þó ekki að þú teljist hæfastur í forstöðumannsstarf; stjórnunarreynsla, eftirlitsmál og önnur auglýst viðmið geta vegið þungt. Stutt ráðningartilkynning gefur ekki fulla mynd af hæfni hins ráðna.\n- **Aldurs:** Ekkert sem þú lýsir bendir sérstaklega til aldursmismununar. Athugasemdir um aldur eða aldurstengd viðmið í ferlinu gætu hins vegar skipt máli.\n\n**Ég myndi nú beina athyglinni að rökstuðningnum og matsviðmiðunum**, fremur en kynjasamsetningu nefndarinnar. Sendu stutta eftirfylgni, til dæmis:\n\n> Ég vísa til beiðni minnar frá [dagsetning] um skriflegan rökstuðning fyrir ráðningunni. Vinsamlegast staðfestið móttöku og upplýsið hvenær svars er að vænta. Ég óska sérstaklega eftir upplýsingum um hvaða hæfnisviðmið réðu niðurstöðunni, vægi þeirra og hvernig menntun mín og reynsla voru metin gagnvart þeim.\n\nVarðveittu auglýsinguna, samskipti og minnispunkta úr viðtölunum. Hvort þú eigir **lagalegan rétt á formlegum rökstuðningi**, og hvort sérstakar reglur gildi um nefndarskipan, fer eftir réttarstöðu bankans og ráðningarinnar. Einkabanki lýtur ekki sjálfkrafa sömu reglum og opinbert stjórnvald.\n\nTvær vikur án svars réttlæta eftirfylgni, en eru ekki sjálfstæð vísbending um mismunun. Ef svarið sýnir ósamræmi við auglýstar kröfur eða vekur grun um ólögmæt sjónarmið væri skynsamlegt að fá stéttarfélag eða lögmann til að yfirfara málið og kanna mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 686,
+    "reasoning_output_tokens": 38
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

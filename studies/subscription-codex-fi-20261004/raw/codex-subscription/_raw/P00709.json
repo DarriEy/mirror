@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d1-6cf8-7451-8c6f-560479af2e06"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita syrjintää.** Pelkästään miehistä koostuva lautakunta voi herättää perustellun kysymyksen arvioinnin monipuolisuudesta ja mahdollisista vinoumista. Siitä ei kuitenkaan voi päätellä, että sukupuoli ratkaisi valinnan.\n\nTohtorintutkintosi ja yhdeksän vuoden kokemuksesi ovat vahvoja ansioita. Niiden perusteella ei silti voi yksin ratkaista hakijoiden keskinäistä paremmuutta: johtajavalinnassa esimerkiksi esihenkilökokemus, sääntelyosaaminen ja tehtävän tarkka vastuualue voivat painaa paljon. Valitusta julkaistu lyhyt esittely ei myöskään välttämättä kuvaa kaikkia hänen ansioitaan.\n\n**Keskittäisin seuraavan yhteydenoton ensisijaisesti valintaperusteisiin ja ansiovertailuun.** Voisit kirjoittaa esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä valinnan perusteista. En ole vielä saanut vastausta. Pyydän tietoa käytetyistä valintakriteereistä ja niiden painotuksista sekä siitä, miten koulutustani, riskimallinnuskokemustani ja johtamisvalmiuksiani arvioitiin suhteessa valittuun hakijaan. Milloin voin odottaa selvitystä?\n>\n> Kiinnitin myös huomiota siihen, että valintalautakunta koostui yksinomaan miehistä. Miten valintamenettelyssä varmistettiin sukupuolten tasapuolinen kohtelu?\n\nKahden viikon vastaamattomuus on hyvä syy lähettää muistutus, mutta sekään ei itsessään osoita syrjintää.\n\n**Jos kyse on Suomessa sijaitsevasta tehtävästä ja epäilet sukupuoleen perustuvaa syrjintää**, tasa-arvolaki velvoittaa työnantajan antamaan tällaisesta menettelystä pyynnöstä kirjallisen selvityksen viivytyksettä. Rekrytointia koskevaan selvitykseen kuuluvat muun muassa valintaperusteet ja valitun henkilön osoitettavissa olevat ansiot. Voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta jo ennen työnantajan vastausta.\n\nSäilytä työpaikkailmoitus, hakemuksesi, haastattelumuistiinpanot ja kirjeenvaihto. Olennaisinta on selvittää, **käytettiinkö tehtävän kannalta perusteltuja kriteerejä johdonmukaisesti kaikkiin hakijoihin** — ei pelkästään se, keitä lautakunnassa oli."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5917,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 701,
+    "reasoning_output_tokens": 84
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10171-b13e-7711-a3bb-dbdc6ec4724f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noticing, but it is not, by itself, evidence that this decision was discriminatory or unfair.** It tells you the panel lacked gender diversity; it does not establish why they chose another candidate. Since you and the successful candidate are both men, it offers little support for an inference that you were rejected because of your sex.\n\nYour qualifications and longer experience give you a reasonable basis to ask for substantive feedback. But more years of experience do not automatically make someone the stronger candidate for a group-head role. Client relationships, business development, people management and leadership may legitimately carry considerable weight. Equally, “excellent client relationships” is too vague to tell you how those factors were assessed, and the announcement may not describe his full qualifications.\n\nI would **focus first on the selection criteria and how they were applied**, rather than making the panel’s composition your main objection. Follow up now, for example:\n\n> I’m following up on my request of [date]. I would appreciate written feedback on how my application and interviews were assessed against the criteria for the role, particularly technical experience, team leadership and client development, and which areas distinguished the successful candidate. Could you let me know when I can expect a response?\n\nTwo weeks without a reply is a reason to chase, not proof of wrongdoing. More meaningful warning signs would include inconsistent explanations, criteria introduced after the interviews, undisclosed conflicts of interest or departures from the stated recruitment process.\n\nWhether you have a legal entitlement to an explanation—and any deadline for challenging the decision—depends on the country and sometimes whether the employer is public or private. If you want to explore that, which country was the job in?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5876,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 342,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

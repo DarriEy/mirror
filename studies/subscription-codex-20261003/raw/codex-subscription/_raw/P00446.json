@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012a-4d35-78d3-9b52-a79f0f7734e7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu út frá þessum upplýsingum.\n\nJá, spurðu hvers vegna nefndin var eingöngu skipuð körlum og hvort kynjajafnvægisreglur hafi átt við um skipun hennar. Samsetningin gefur tilefni til athugunar en sannar ekki kynjamismunun við ráðninguna.\n\nMenntun þín og reynsla réttlæta ekki ein og sér ályktun um að þú hafir verið hæfasti umsækjandinn; bera þarf saman auglýstar kröfur, hæfni og vægi matsþátta.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Rökstuðning á almennt að veita innan 14 daga frá beiðni. Óskaðu jafnframt eftir aðgangi að gögnum um samanburð umsækjenda, með lögmætum takmörkunum vegna einkahagsmuna annarra.\n\nLeitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6025,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 466,
+    "reasoning_output_tokens": 193
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

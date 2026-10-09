@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f6-5151-7e52-8c89-0b600b3787e8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkästään se, että kaikki jäsenet olivat naisia, ei osoita syrjintää tai puolueellisuutta.** Myöskään valitun sukupuoli ei yksin kerro valinnan perusteista. Huolesi on silti ymmärrettävä: kertomiesi tietojen perusteella sinulla on enemmän muodollista koulutusta, julkaisuja ja yliopisto-opetuskokemusta.\n\nRatkaisevaa on, **mitä tehtävässä edellytettiin ja miten hakijoita vertailtiin**. Erityisesti:\n- Oliko valmis tohtorintutkinto ehdoton kelpoisuusvaatimus, ja mihin ajankohtaan mennessä?\n- Miten tutkimusta, opetusta ja elinkeinoelämän kokemusta oli ilmoitettu painotettavan?\n- Mihin dokumentoituihin ansioihin valitun etusija perustui? Pelkkä artikkelien lukumäärä ei ratkaise esimerkiksi niiden laatua tai sopivuutta tehtävään.\n\nLähettäisin nyt asiallisen muistutuksen yliopiston kirjaamoon tai rekrytoinnista vastaavalle:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja valintapäätökselle. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan vastausajankohdan. Pyydän myös valintapäätöksen, saatavilla olevan ansiovertailun, sovelletut kelpoisuusvaatimukset ja arviointiperusteet sekä tiedon mahdollisista oikaisu- tai muutoksenhakukeinoista ja niiden määräajoista.\n\nJos haluat ottaa kokoonpanon esille, kysy neutraalisti: *”Millä perusteilla valintalautakunta muodostettiin, ja mitä kokoonpanoa sekä esteellisyyttä koskevia sääntöjä siihen sovellettiin?”* Näin selvität menettelyä olettamatta jäsenten sukupuolesta heidän motiivejaan.\n\n**Älä odota perusteluja ennen määräaikojen tarkistamista:** perustelupyyntö ei välttämättä pysäytä niitä. Säilytä hakuilmoitus, päätös ja viestinvaihto. Kahden viikon hiljaisuus ei itsessään osoita syrjintää.\n\nMissä maassa yliopisto sijaitsee? Se ratkaisee, mitä tiedonsaanti-, tasa-arvo- ja muutoksenhakusääntöjä tilanteeseen sovelletaan."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5940,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 561,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

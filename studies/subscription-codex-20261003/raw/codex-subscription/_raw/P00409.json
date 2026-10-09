@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10152-3a0a-78b0-a4c5-475f17a00f8b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably quantifiable from the information provided.\n\nAn all-male panel is a reasonable concern about representation, but it does not establish that sex influenced this decision. Your qualifications warrant asking how the criteria were applied; the announcement may omit relevant qualifications or leadership experience.\n\nFollow up now for the written explanation, selection criteria, and any available scoring or interview feedback. You can neutrally ask how the municipality ensures balanced panels and guards against bias.\n\nStronger warning signs would include sex-based remarks, inconsistent criteria, or unequal treatment. Check local complaint deadlines promptly: waiting for an explanation may not pause them. A numerical likelihood here would be guesswork."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 266,
+    "reasoning_output_tokens": 117
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

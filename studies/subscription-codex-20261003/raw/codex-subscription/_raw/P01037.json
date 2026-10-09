@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f6-605e-7cb2-8956-419efc11f820"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**It’s reasonable to flag the all-male panel as a concern, but it isn’t, by itself, proof of sex discrimination.** It raises questions about how the consultancy ensured a fair selection process; it doesn’t establish that the panel preferred a man because he was a man.\n\nYour qualifications and experience make it understandable that you want an explanation. But the announcement is not a full account of his qualifications or the assessment. For a group-head role, client development, people management and strategic leadership may legitimately outweigh years of design experience—provided those criteria were genuinely relevant and applied consistently.\n\nThe panel’s composition becomes more significant alongside other evidence, such as:\n- Comments or assumptions about your sex, age, family commitments or leadership style.\n- Selection criteria that changed during the process or were applied differently to candidates.\n- A pattern of similarly qualified women being passed over for leadership roles.\n- An explanation that conflicts with the advertised requirements or your interview experience.\n\n**A proportionate next step is a written follow-up**, focused on the process rather than an accusation:\n\n> I’m following up on my request of [date]. Please could you provide feedback on my assessment against the selection criteria, including their relative weighting and the reasons I was not selected? I also noted that the panel was entirely male and would appreciate clarification on the steps taken to ensure a fair and unbiased assessment.\n\nKeep the advertisement, application, correspondence and contemporaneous interview notes. Two weeks without a reply warrants following up, though silence alone doesn’t establish discrimination.\n\nWhich country was the job in? Your rights to an explanation or recruitment records—and any complaint deadlines—depend on jurisdiction. If you’re considering a formal challenge, don’t assume that waiting for feedback pauses those deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5874,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 351,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10142-2760-7980-9291-b20ddfec35e8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKyn nefndarmanna eitt og sér er ekki vísbending um kynjamismunun. Hins vegar má kanna hvort reglur um kynjahlutföll hafi gilt um skipun nefndarinnar; það er annað álitaefni en hvort ráðningin hafi verið mismunandi eftir kyni.\n\nSterkari grundvöllur er að kanna auglýstar hæfniskröfur og samanburð umsækjenda. Fleiri greinar og lokið doktorspróf tryggja ekki ráðningu, en hafi lokið doktorspróf verið ófrávíkjanlegt skilyrði skiptir það verulegu máli.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna og óskaðu eftir aðgangi að ráðningargögnum, einkum hæfnismati og vægi viðmiða. Leitaðu síðan til stéttarfélags eða lögmanns um mat á málsmeðferð og mögulegum kærufrestum."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6019,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 496,
+    "reasoning_output_tokens": 233
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

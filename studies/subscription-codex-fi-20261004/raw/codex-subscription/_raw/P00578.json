@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108cd-a8e9-7b12-a391-38c4e6de1ccf"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE, RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista; prosenttiluku olisi arvailua.\n\nVoit nostaa lautakunnan kokoonpanon esiin kysymyksenä arvioinnin tasapuolisuudesta, et todisteena syrjinnästä. Pelkästään miehistä koostuva lautakunta ei itsessään osoita, että sukupuoli vaikutti valintaan.\n\nPidempi kokemuksesi ja hankkeiden johtaminen antavat aihetta pyytää tarkempaa ansiovertailua. Asiakassuhteet voivat kuitenkin olla johtajatehtävässä hyväksyttävä valintaperuste, jos niitä arvioitiin johdonmukaisesti.\n\nLähetä kirjallinen muistutus ja pyydä valintakriteerit, niiden painotukset sekä selvitys johtamisosaamisen ja asiakassuhteiden vertailusta. Kahden viikon hiljaisuus ei yksin osoita syrjintää.\n\nJos perustelut jäävät epäselviksi tai muuttuvat, keskustele ammattiliiton tai paikallisen tasa-arvoviranomaisen kanssa. Oikeutesi perusteluihin ja mahdolliset määräajat riippuvat maasta ja työnantajasta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6042,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 397,
+    "reasoning_output_tokens": 95
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

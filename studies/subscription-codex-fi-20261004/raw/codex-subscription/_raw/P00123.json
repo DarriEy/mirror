@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d0-2611-7bd2-9586-bd86b618fd47"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nPelkästään miehistä koostuva lautakunta voi herättää perustellun kysymyksen valintaprosessin tasapuolisuudesta, mutta se ei yksin osoita sukupuolen vaikuttaneen päätökseen. Prosenttiluku olisi näillä tiedoilla keksitty.\n\nTohtorintutkintosi ja kokemuksesi ovat vahvuuksia, mutta johtamiskokemus, sääntelyosaaminen ja tehtävän valintakriteerit voivat myös ratkaista. Valitun lyhyt esittely ei mahdollista kattavaa ansiovertailua.\n\nLähetä muistutus perustelupyynnöstäsi ja pyydä valintakriteerit, niiden painotukset sekä ansiovertailu. Voit kysyä neutraalisti: ”Miten sukupuolten tasapuolinen kohtelu varmistettiin, kun lautakunnassa oli vain miehiä?”\n\nJos kyse on Suomesta, tasa-arvolain perusteella työnantajan on annettava viivytyksettä kirjallinen selvitys hakijalle, joka katsoo joutuneensa sukupuolisyrjinnän kohteeksi. Kahden viikon hiljaisuus ei itsessään todista syrjintää. Tarvittaessa ota yhteyttä tasa-arvovaltuutettuun tai ammattiliittoosi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6021,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 434,
+    "reasoning_output_tokens": 101
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dc-b276-73c0-8042-53ece2c2848c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nPelkästään lautakunnan naisvaltaisuutta ei kannata nostaa epäilyn perusteeksi: jäsenten sukupuoli ei osoita puolueellisuutta. Numeerinen todennäköisyys olisi keksitty.\n\nKuvaamasi ansioerot antavat kuitenkin perusteen pyytää tarkempaa selvitystä. Ratkaisevaa on, mitä kelpoisuusvaatimuksia ja valintakriteerejä ilmoitettiin sekä miten tutkimusta, opetusta ja elinkeinoelämän kokemusta painotettiin. Jos valmis tohtorintutkinto oli ehdoton vaatimus, kysy erityisesti sen täyttymisestä.\n\nLähetä kirjallinen muistutus ja pyydä valintaperustelut, ansiovertailu sekä tieto mahdollisista muutoksenhakuajoista. Kahden viikon hiljaisuus ei itsessään osoita syrjintää. Älä oleta selvityspyynnön pysäyttävän määräaikoja. Jos ilmenee konkreettisia viitteitä sukupuolen käyttämisestä valintaperusteena, ota ne esille ja kysy neuvoa ammattiliitosta tai paikalliselta tasa-arvoviranomaiselta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 439,
+    "reasoning_output_tokens": 130
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

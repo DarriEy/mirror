@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e0-2763-7200-8bdd-69a1bfb02acb"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä naisista koostuva lautakunta ei osoita sukupuolisyrjintää.** Olennaisempaa on selvittää, millä perusteilla hakijoita vertailtiin ja sovellettiinko ilmoitettuja valintakriteerejä johdonmukaisesti.\n\nKuvaamasi koulutus-, julkaisu- ja opetuskokemuksen erot antavat asiallisen syyn pyytää tarkempia perusteluja. Ne eivät kuitenkaan yksin osoita, että olisit kokonaisuutena ansioituneempi: esimerkiksi julkaisujen laatu, opetustaidot, tehtävän painotukset ja relevantti työkokemus voivat vaikuttaa. Erityisen tärkeää on tarkistaa, **oliko valmis tohtorintutkinto ehdoton kelpoisuusvaatimus ja mihin ajankohtaan mennessä sen piti olla suoritettu**.\n\nEtenisin näin:\n\n- Säilytä hakuilmoitus, hakemuksesi ja kaikki rekrytointia koskevat viestit.\n- Lähetä kirjallinen muistutus yliopiston kirjaamoon tai henkilöstöhallintoon. Pyydä valintapäätös perusteluineen, ansiovertailu, käytetyt arviointikriteerit sekä mahdollinen oikaisu- tai muutoksenhakuohje.\n- Kysy, miten tutkintoa, tutkimusnäyttöä, opetuskokemusta ja elinkeinoelämän kokemusta painotettiin.\n- **Selvitä mahdolliset määräajat heti.** Perustelupyynnön käsittelyä odottaminen ei välttämättä keskeytä niitä.\n\nVoisit kirjoittaa esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja lehtorin valintapäätökselle. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan vastausajankohdan. Pyydän erityisesti selvitystä kelpoisuusvaatimusten täyttymisestä, hakijoiden ansiovertailusta ja valintakriteerien painotuksesta sekä tiedon käytettävissä olevista oikeussuojakeinoista ja niiden määräajoista.\n\nJos haluat nostaa kokoonpanon esiin, neutraali kysymys on: ”Mitä sääntöjä tai ohjeita valintalautakunnan kokoonpanoon sovellettiin?” En tekisi siitä pääargumenttia ilman muuta näyttöä.\n\n**Missä maassa yliopisto sijaitsee?** Se ratkaisee sovellettavat säännöt. Jos kyse on Suomesta, sukupuolisyrjinnän kielto suojaa myös miehiä, ja tasa-arvovaltuutetulta tai ammattiliiton juristilta voi pyytää neuvoa. Lautakunnan sukupuolijakauman mahdollinen sääntöjenvastaisuus on erillinen kysymys siitä, syrjittiinkö sinua valinnassa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5944,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 651,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

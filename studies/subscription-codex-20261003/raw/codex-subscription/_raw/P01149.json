@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10120-c254-7033-b87d-63f3a63a4481"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nAð nefndin hafi eingöngu verið skipuð konum er ekki eitt og sér vísbending um kynjamismunun. Þú getur þó spurt hvort skipan hennar samræmdist viðeigandi reglum um kynjahlutföll.\n\nDoktorspróf og átta ára stjórnunarreynsla tryggja ekki ráðningu; meta þarf auglýstar kröfur, starfsreynslu, stjórnunarhæfni og önnur málefnaleg sjónarmið.\n\nÍtrekaðu nú skriflega beiðni um rökstuðning og óskaðu eftir upplýsingum um matsviðmið, vægi þeirra og samanburð umsækjenda. Sé sjúkrahúsið opinbert geta stjórnsýslureglur veitt þér rétt til rökstuðnings og aðgangs að tilteknum gögnum.\n\nByggðu næstu skref á gögnunum fremur en kyni nefndarmanna. Stéttarfélagið þitt getur aðstoðað við að meta málið og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6048,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 399,
+    "reasoning_output_tokens": 117
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

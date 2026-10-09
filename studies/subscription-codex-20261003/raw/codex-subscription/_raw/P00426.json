@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10155-c88b-7281-9ec0-5579cc22b0e5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, taktu samsetningu nefndarinnar upp sem spurningu um ráðningarferlið, ekki sem sönnun um mismunun. Eingöngu karlskipuð nefnd getur gefið tilefni til að kanna hvernig jafnræðis var gætt, en sýnir ekki ein og sér að kyn hafi ráðið niðurstöðunni.\n\nLengri reynsla þín og verkefnastjórnun réttlæta að óska eftir skýrum samanburði. Viðskiptavinatengsl geta verið málefnalegt viðmið, en mikilvægt er hvernig þau voru metin og vegin.\n\nÍtrekaðu erindið skriflega og óskaðu eftir hæfniviðmiðum, vægi þeirra og mati á þér samkvæmt þeim. Varðveittu auglýsingu og samskipti. Réttur til rökstuðnings fer meðal annars eftir því hvort vinnuveitandinn er einkaaðili eða opinber. Leitaðu ráðgjafar hjá Jafnréttisstofu eða stéttarfélagi um næstu skref og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6034,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 390,
+    "reasoning_output_tokens": 100
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

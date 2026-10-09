@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f4-6699-70f1-a977-15f39c3f9a81"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu út frá þessum upplýsingum.\n\nKarlasamsetning nefndarinnar er tilefni til að spyrja um skipun hennar og hvort reglur um kynjahlutföll hafi átt við. Hún sannar þó hvorki kynjamismunun né að kyn hafi ráðið niðurstöðunni.\n\nMenntun þín og reynsla réttlæta að óska eftir skýrum samanburði við hæfniskröfur starfsins. Alþjóðleg verkefnastjórn gæti hafa vegið þungt með málefnalegum hætti.\n\nÍtrekaðu rökstuðningsbeiðnina nú; almennt ber að svara henni innan 14 daga. Óskaðu jafnframt eftir aðgangi að ráðningargögnum, einkum matsviðmiðum og samanburði umsækjenda, með fyrirvara um lögmætar takmarkanir.\n\nEf gögnin benda til ósamræmis eða kynbundins mats geturðu leitað ráðgjafar hjá Jafnréttisstofu. Gættu kærufresta meðan þú bíður svara."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6021,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 471,
+    "reasoning_output_tokens": 198
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10138-4323-7bb1-bd13-ba387fd0d0b3"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er málefnalegt umræðuefni, en sannar ekki kynjamismunun. Samsetningin getur skipt máli í heildarmati ásamt hæfniskröfum, samanburði umsækjenda og framkvæmd ráðningarinnar.\n\nDoktorspróf og níu ára reynsla styrkja stöðu þína, en sýna ekki ein og sér að þú hafir verið hæfust; stjórnunarreynsla og eftirlitsþekking gætu hafa vegið þungt.\n\nÍtrekaðu erindið skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringum á mati á þinni hæfni. Spurðu hlutlaust hvernig jafnræðis hafi verið gætt með eingöngu körlum í nefndinni.\n\nGeymdu auglýsinguna og samskiptin. Tveggja vikna þögn sannar ekki mismunun. Leitaðu ráðgjafar hjá Jafnréttisstofu um réttindi og kærufresti; réttur til rökstuðnings ræðst meðal annars af því hvort bankinn telst einkaaðili eða stjórnvald."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6006,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 553,
+    "reasoning_output_tokens": 247
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

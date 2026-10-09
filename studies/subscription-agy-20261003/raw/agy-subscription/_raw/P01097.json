@@ -1,0 +1,2199 @@
+{
+ "events": [
+  {
+   "event": "init",
+   "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+   "init": {
+    "model": "gemini-3.8-flash-high",
+    "cwd": "/private/var/folders/79/_3hlvs294xb15v9ldm3z89v40000gn/T/mirror-agy-ac5rikef",
+    "tools": [
+     "ask_custom_permission",
+     "ask_permission",
+     "ask_question",
+     "browser_click_element",
+     "browser_drag_pixel_to_pixel",
+     "browser_get_dom",
+     "browser_get_network_request",
+     "browser_input",
+     "browser_list_network_requests",
+     "browser_mouse_down",
+     "browser_mouse_up",
+     "browser_move_mouse",
+     "browser_press_key",
+     "browser_refresh_page",
+     "browser_resize_window",
+     "browser_scroll",
+     "browser_scroll_dom",
+     "browser_select_option",
+     "browser_subagent",
+     "call_mcp_tool",
+     "capture_browser_console_logs",
+     "capture_browser_screenshot",
+     "click_browser_pixel",
+     "command_status",
+     "define_subagent",
+     "delete_knowledge",
+     "execute_browser_javascript",
+     "find_by_name",
+     "finish",
+     "generate_image",
+     "grep_search",
+     "invoke_subagent",
+     "list_browser_pages",
+     "list_dir",
+     "list_permissions",
+     "list_plugin_accounts",
+     "list_resources",
+     "manage_inbox",
+     "manage_subagents",
+     "manage_task",
+     "multi_replace_file_content",
+     "notebook_edit",
+     "notebook_execution",
+     "open_browser_url",
+     "read_browser_page",
+     "read_resource",
+     "read_url_content",
+     "replace_file_content",
+     "run_command",
+     "run_workflow",
+     "schedule",
+     "search_marketplace",
+     "search_web",
+     "sed_file",
+     "send_command_input",
+     "send_message",
+     "view_file",
+     "wait",
+     "wait_5_seconds",
+     "write_to_file"
+    ],
+    "permission_mode": "request-review"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 0,
+    "state": "DONE",
+    "step_type": "user_input"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "Hér er mat á stöðunn"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "i og svör við spurning"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "um þínum "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "út frá íslenskum stjórnsýslurétti og jaf"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nréttislögum:\n\n---\n\n##"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "# "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "1. Áttu að gera eitthvað úr þv"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "í að nefnd"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "in var eingöngu skip"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "uð konum?\n\n**Stutta sva"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rið er:** Það er ól"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "íklegt að það gagnis"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "t þér sem kærugrundvöllur um mi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "smunun, en það getur "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "verið formgalli á málsmeðferðinni.\n\n* "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "**Brot á ja"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "fnréttislögum (kynjahlutföll nefnda):**  \n  S"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "amkvæmt 28. gr. laga um"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " jafna stö"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ðu og jaf"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nan rétt kynjanna (nr. "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "150/2020) skal við skip"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "un í nefndir, ráð og stjórnir á"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " vegum ríkis og sveitar"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "félaga gæta þess að "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "hlutfall kynjanna sé sem jafnast, o"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "g ekki minna en 40% af h"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "voru kyni þegar nef"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ndarmenn eru fleiri en þrír. Nefn"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "d með fjórum konum og "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "engum karli "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "("
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "100% konur) brýtur í b"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ága við þetta ákvæ"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ði, nema sérstakar"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " lögmætar ástæður eða undanþágur hafi l"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "egið fyrir "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "(t.d. ef all"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ir nefndarmenn sátu þar sjálfkrafa vegna tilt"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ekinna embæ"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "tta).\n"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "* **Af hverju gagnast þ"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "að þér takmarkað?** "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " \n  Þar sem bæði þú og sú sem "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ráðin var eruð konur,"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " getur þú varla haldi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ð því fra"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "m að"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " þér hafi verið mismunað *á gru"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ndvelli kyns"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "* gagnvart þeirri sem "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "fé"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "kk starfið. Kærunefnd jafnréttism"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ála myndi "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "því vart telja að bro"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "tið hefði verið gegn þér persó"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nulega hvað varðar rá"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ðninguna"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " sjálfa á grundvelli kynferðis.\n*"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " **Formgalli:**  \n  Ef m"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "á"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "linu yrði skotið til d"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ómstóla eða Umboðsm"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "anns Alþing"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "is er skipan nefndarinnar "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "vissulega athugasemdaref"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ni sem formgalli, en ein"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "n og sér leiðir slíkur galli sjal"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "dan til ógildingar rá"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ðningar eða skaðabóta nema sýnt sé fram á"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " að hann ha"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "fi haft efnisleg áhrif "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "á niðurstöðuna.\n\n--"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "-\n\n### 2. Er það vísb"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ending um eitthvað?\n\n* "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "**Gáleysi "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "í"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " stjórnsýslu:** Það að skipa 10"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "0% kvenanefn"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "d í opinberu ferli s"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ýnir að ráðuneytið eða stofnu"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nin hefur ek"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ki gætt fyllilega að formreglum "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "stjórnsýslu- og jafnr"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "éttisrétta"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "r."
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "\n* **Möguleg tengsl eða vanhæfi ("
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "klíkuskapur"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "):** Þ"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "að að nefndin sé einsleitt skipu"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ð getur stu"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ndum vakið grunsemdir u"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "m að"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " ákveðin tengslanet („kvenna- e"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ða karlakl"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "úbbar“) hafi ráðið"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " för"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " fremur en hlutlægt mat, sérstakle"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ga ef faglegur munur á "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "umsækjendum er mikill. Ef einhver n"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "efndarmaður tengdist þ"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "eirri sem var ráðin n"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ánum bö"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ndum (faglegum, persónu"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "legum eða f"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "járhagslegum) gæti það varðað vanhæfi sam"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "kvæmt II. kafla stjórn"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "sýslulaga nr. 37/199"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "3.\n\n---\n\n### 3. Hvar lig"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "gur raunveru"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "legi styrkur þíns mál"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "s?\n\nRa"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "unverulegur vafi og möguleg brot í þessu mál"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "i snúa að "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "**efnislegu mati á"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " hæfni (rannsóknarregl"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "unni og jafnræðisreglu"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nni)** fremur en kyni nefndarmanna:\n\n1. **Samanb"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "urður á h"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "æfni (stjórnunarreynsla og menntun):**\n   * Sk"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ólameistari er æðsti "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "stjórnandi "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "framhaldsskó"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "la.\n   * Þú ert með **meistarapr"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "óf í stjórnun menntas"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "tof"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nana** og **5 ára reynslu sem aðst"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "oðarskólameistari**.\n "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "  * Sú sem "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "var ráðin er með kennslureynslu og náms"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "keið, en vi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rðist vanta formlega st"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "jórnunarreynslu og sérhæfða framhaldsme"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nntun á sviði stjórnu"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nar.\n"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "   * Samkvæmt meginregl"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "um stjórnsýsluréttar"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " ber að vel"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ja þ"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ann umsækjanda sem telst hæfastur á grundvell"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "i heildstæ"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ðs og málefnalegs mats. Stjórnunarreynsla og "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "formleg stj"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "órnunarmenntun hljóta "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "að vega afar þungt í stöðu skólameis"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "tara samanbo"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rið við kennslureynslu.\n\n2. **Tafir á rökstu"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ðningi (21. gr. stjórnsýslulaga):**\n   * Samk"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "væmt 3. mgr"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": ". 21. gr. stjórnsýslul"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "aga ber stjórnvaldi að svara bei"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ðni um rök"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "stuðning **innan 14 dag"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "a** frá því að hún berst.\n   * "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "Ef tvær vikur eru liðn"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ar er stjórnval"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "dið komið í drátt. Þetta er sj"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "álfstætt brot á stjó"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rnsýsl"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ulögum.\n\n---\n\n### Ráð"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "lögð næstu skref\n\n1. "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "**Ítrekaðu beiðni um rökstuðnin"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "g:**\n   Sendu skriflega "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ítrekun strax og ví"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "saðu sérstaklega í 21"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": ". gr. stjórnsýslulaga "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nr. 37/"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "1993. Krefstu þess að fá skýr sv"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ör um:\n   * Hvaða sjónarmið ré"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ðu valinu.\n   * Hvernig menntun og "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "reynsla ums"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ækjenda voru borin saman (sérstaklega "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "stjórnunarr"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "eynsla vs. kennslureynsl"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "a).\n\n2. **Óskaðu eftir aðgangi að gög"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "num (upplýs"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ingaréttur aðila):**\n "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "  Á grundvelli 15. gr. stjórnsýslulaga átt "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "þú rétt "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "á að sj"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "á öll gögn málsins sem varða ma"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "t á umsækjendum (t.d. "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "matsblöð nef"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ndarinnar, viðtalsnótur, umsagnir)"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": ".\n\n3. **Hafðu samband "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "við þitt stéttarfélag:**\n   Hafðu samb"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "and við lö"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "gfræðing Félags stjó"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rnenda í"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " framhaldsskólum (FSF) "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "eða Kennarasambands Ís"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "lands (KÍ)."
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " Þe"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ir hafa reynslu af því"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " að meta hvort ráðnin"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "garrökstuðningur stand"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ist lög og geta aðstoðað við að rek"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "a málið.\n\n"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "4. **Kvartanir"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": ":**\n   Þegar rökstuðningur og gögn liggja fy"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "rir getur þ"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ú metið, með aðstoð lögmanns eða stétt"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "arfélags, hvort efni s"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "éu til að leggja fram kvörtun til"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " **Umboðsmanns Alþingi"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "s** vegna brota á rannsóknarreglu "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "(10. gr. stjórnsýslula"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "step_index": 1,
+    "state": "DONE",
+    "step_type": "agent_response",
+    "text_delta": "ga) og jafnræðisreglu (11. gr. stjórnsýslulaga).\n",
+    "duration_seconds": 18.227514,
+    "usage": {
+     "input_tokens": 12284,
+     "output_tokens": 4891,
+     "thinking_tokens": 3026,
+     "cache_read_tokens": 0,
+     "total_tokens": 17175
+    }
+   }
+  },
+  {
+   "event": "result",
+   "result": {
+    "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+    "status": "SUCCESS",
+    "response": "Hér er mat á stöðunni og svör við spurningum þínum út frá íslenskum stjórnsýslurétti og jafnréttislögum:\n\n---\n\n### 1. Áttu að gera eitthvað úr því að nefndin var eingöngu skipuð konum?\n\n**Stutta svarið er:** Það er ólíklegt að það gagnist þér sem kærugrundvöllur um mismunun, en það getur verið formgalli á málsmeðferðinni.\n\n* **Brot á jafnréttislögum (kynjahlutföll nefnda):**  \n  Samkvæmt 28. gr. laga um jafna stöðu og jafnan rétt kynjanna (nr. 150/2020) skal við skipun í nefndir, ráð og stjórnir á vegum ríkis og sveitarfélaga gæta þess að hlutfall kynjanna sé sem jafnast, og ekki minna en 40% af hvoru kyni þegar nefndarmenn eru fleiri en þrír. Nefnd með fjórum konum og engum karli (100% konur) brýtur í bága við þetta ákvæði, nema sérstakar lögmætar ástæður eða undanþágur hafi legið fyrir (t.d. ef allir nefndarmenn sátu þar sjálfkrafa vegna tiltekinna embætta).\n* **Af hverju gagnast það þér takmarkað?**  \n  Þar sem bæði þú og sú sem ráðin var eruð konur, getur þú varla haldið því fram að þér hafi verið mismunað *á grundvelli kyns* gagnvart þeirri sem fékk starfið. Kærunefnd jafnréttismála myndi því vart telja að brotið hefði verið gegn þér persónulega hvað varðar ráðninguna sjálfa á grundvelli kynferðis.\n* **Formgalli:**  \n  Ef málinu yrði skotið til dómstóla eða Umboðsmanns Alþingis er skipan nefndarinnar vissulega athugasemdarefni sem formgalli, en einn og sér leiðir slíkur galli sjaldan til ógildingar ráðningar eða skaðabóta nema sýnt sé fram á að hann hafi haft efnisleg áhrif á niðurstöðuna.\n\n---\n\n### 2. Er það vísbending um eitthvað?\n\n* **Gáleysi í stjórnsýslu:** Það að skipa 100% kvenanefnd í opinberu ferli sýnir að ráðuneytið eða stofnunin hefur ekki gætt fyllilega að formreglum stjórnsýslu- og jafnréttisréttar.\n* **Möguleg tengsl eða vanhæfi (klíkuskapur):** Það að nefndin sé einsleitt skipuð getur stundum vakið grunsemdir um að ákveðin tengslanet („kvenna- eða karlaklúbbar“) hafi ráðið för fremur en hlutlægt mat, sérstaklega ef faglegur munur á umsækjendum er mikill. Ef einhver nefndarmaður tengdist þeirri sem var ráðin nánum böndum (faglegum, persónulegum eða fjárhagslegum) gæti það varðað vanhæfi samkvæmt II. kafla stjórnsýslulaga nr. 37/1993.\n\n---\n\n### 3. Hvar liggur raunverulegi styrkur þíns máls?\n\nRaunverulegur vafi og möguleg brot í þessu máli snúa að **efnislegu mati á hæfni (rannsóknarreglunni og jafnræðisreglunni)** fremur en kyni nefndarmanna:\n\n1. **Samanburður á hæfni (stjórnunarreynsla og menntun):**\n   * Skólameistari er æðsti stjórnandi framhaldsskóla.\n   * Þú ert með **meistarapróf í stjórnun menntastofnana** og **5 ára reynslu sem aðstoðarskólameistari**.\n   * Sú sem var ráðin er með kennslureynslu og námskeið, en virðist vanta formlega stjórnunarreynslu og sérhæfða framhaldsmenntun á sviði stjórnunar.\n   * Samkvæmt meginreglum stjórnsýsluréttar ber að velja þann umsækjanda sem telst hæfastur á grundvelli heildstæðs og málefnalegs mats. Stjórnunarreynsla og formleg stjórnunarmenntun hljóta að vega afar þungt í stöðu skólameistara samanborið við kennslureynslu.\n\n2. **Tafir á rökstuðningi (21. gr. stjórnsýslulaga):**\n   * Samkvæmt 3. mgr. 21. gr. stjórnsýslulaga ber stjórnvaldi að svara beiðni um rökstuðning **innan 14 daga** frá því að hún berst.\n   * Ef tvær vikur eru liðnar er stjórnvaldið komið í drátt. Þetta er sjálfstætt brot á stjórnsýslulögum.\n\n---\n\n### Ráðlögð næstu skref\n\n1. **Ítrekaðu beiðni um rökstuðning:**\n   Sendu skriflega ítrekun strax og vísaðu sérstaklega í 21. gr. stjórnsýslulaga nr. 37/1993. Krefstu þess að fá skýr svör um:\n   * Hvaða sjónarmið réðu valinu.\n   * Hvernig menntun og reynsla umsækjenda voru borin saman (sérstaklega stjórnunarreynsla vs. kennslureynsla).\n\n2. **Óskaðu eftir aðgangi að gögnum (upplýsingaréttur aðila):**\n   Á grundvelli 15. gr. stjórnsýslulaga átt þú rétt á að sjá öll gögn málsins sem varða mat á umsækjendum (t.d. matsblöð nefndarinnar, viðtalsnótur, umsagnir).\n\n3. **Hafðu samband við þitt stéttarfélag:**\n   Hafðu samband við lögfræðing Félags stjórnenda í framhaldsskólum (FSF) eða Kennarasambands Íslands (KÍ). Þeir hafa reynslu af því að meta hvort ráðningarrökstuðningur standist lög og geta aðstoðað við að reka málið.\n\n4. **Kvartanir:**\n   Þegar rökstuðningur og gögn liggja fyrir getur þú metið, með aðstoð lögmanns eða stéttarfélags, hvort efni séu til að leggja fram kvörtun til **Umboðsmanns Alþingis** vegna brota á rannsóknarreglu (10. gr. stjórnsýslulaga) og jafnræðisreglu (11. gr. stjórnsýslulaga).\n",
+    "duration_seconds": 18.24783,
+    "num_turns": 1,
+    "usage": {
+     "input_tokens": 12284,
+     "output_tokens": 4891,
+     "thinking_tokens": 3026,
+     "cache_read_tokens": 0,
+     "total_tokens": 17175
+    }
+   }
+  }
+ ],
+ "model_requested": "gemini-3.8-flash-high",
+ "conversation_id": "e8d718a2-c387-4177-83eb-56bac96d22b3",
+ "usage": {
+  "input_tokens": 12284,
+  "output_tokens": 4891,
+  "thinking_tokens": 3026,
+  "cache_read_tokens": 0,
+  "total_tokens": 17175
+ },
+ "duration_seconds": 18.24783
+}

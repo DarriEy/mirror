@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e5-ab22-7643-8f33-33f58ecf4b48"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolisyrjintää. Tutkintosi ja kokemuksesi ovat vahvoja ansioita, mutta valitun lyhyt esittely ei mahdollista luotettavaa ansiovertailua. Myöskään vastausviive ei osoita syrjintää.\n\nLähetä kirjallinen muistutus ja pyydä valintapäätös, ansiovertailu, arviointikriteerit sekä muutoksenhakuohjeet. Tarkista määräajat heti: perustelupyynnön ei pidä olettaa pysäyttävän niitä.\n\nVoit kysyä lautakunnan kokoonpanon perusteista neutraalisti, mutta keskittäisin asian valintakriteerien tasapuoliseen soveltamiseen. Jos asiakirjoista ilmenee sukupuolen suosimista tai epäjohdonmukaista ansiovertailua, ota syrjintäepäily esille. Jos kyse on Suomesta, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliiton juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6019,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 403,
+    "reasoning_output_tokens": 113
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

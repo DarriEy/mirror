@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e2-5da9-7a42-a741-06d1540f54c2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai puolueellisesta valinnasta.** Koska sinäkin ja valittu hakija olette naisia, kertomasi ei anna erityistä perustetta epäillä sukupuoleen perustuvaa syrjintää. Se ei silti ratkaise sitä, oliko valintamenettely asianmukainen.\n\nOn ymmärrettävää, että haluat perustelut: kuvauksesi mukaan sinulla on valmis tohtorintutkinto, enemmän julkaisuja ja yliopisto-opetuskokemusta. **Nämä ovat olennaisia ansioita, mutta eivät yksin ratkaise kokonaisarviointia.** Julkaisujen laatu ja soveltuvuus, opetustaito sekä tehtävään liittyvä elinkeinoelämän kokemus voivat vaikuttaa — sen mukaan, mitä hakuilmoituksessa edellytettiin ja painotettiin. Valitusta julkaistu esittely ei myöskään välttämättä kerro kaikkia hänen ansioitaan.\n\nKeskittyisin nyt lautakunnan sukupuolijakauman sijasta seuraaviin kysymyksiin:\n- Oliko valmis tohtorintutkinto pakollinen kelpoisuusvaatimus, ja milloin sen piti olla suoritettu?\n- Millä perusteilla hakijoita vertailtiin ja miten eri ansioita painotettiin?\n- Miten valitun elinkeinoelämän kokemus vastasi tehtävän vaatimuksia?\n\nVoit lähettää kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja lehtorin tehtävän valinnasta. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan vastausajankohdan. Pyydän lisäksi valintapäätöksen perusteluineen, saatavilla olevan hakijoiden ansiovertailun sekä tiedon mahdollisista oikaisu- tai muutoksenhakukeinoista ja niiden määräajoista.\n\n**Älä oleta, että perustelupyynnön käsittely pysäyttää mahdollisen muutoksenhakuajan.** Tarkista määräajat viipymättä esimerkiksi yliopiston kirjaamosta tai ammattiliitoltasi.\n\nMissä maassa yliopisto sijaitsee? Se vaikuttaa sekä perusteluvelvollisuuteen että siihen, onko lautakunnan kokoonpanosta erityisiä sääntöjä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5942,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 535,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d2-15d0-7971-91f8-c8f4e11d4304"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nVoit ottaa lautakunnan kokoonpanon esille kysymyksenä menettelyn tasapuolisuudesta, mutta pelkkä miesvaltaisuus ei osoita sukupuolisyrjintää. Pidempi työkokemuksesi ja esihenkilötaustasi antavat aihetta pyytää tarkempaa ansiovertailua. Digiosaaminen voi kuitenkin olla hyväksyttävä valintaperuste; olennaista on, miten sitä arvioitiin ja painotettiin suhteessa tehtävän vaatimuksiin.\n\nLähetä kirjallinen muistutus ja pyydä valintakriteerit, niiden painotukset sekä selvitys sinun ja valitun ansioiden vertailusta. Kahden viikon vastaamattomuus ei yksin osoita syrjintää.\n\nJos kyse on Suomesta, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitoltasi. Säilytä hakuilmoitus ja viestit. Prosenttiluku olisi tässä näennäistarkka arvaus."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6030,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 380,
+    "reasoning_output_tokens": 108
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

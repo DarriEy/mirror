@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e4-7318-76d3-b7c8-32f96d043428"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä mieskokoonpano ei osoita syrjintää tai suosimista.** Koska sekä sinä että valittu hakija olette miehiä, kertomasi ei sellaisenaan viittaa siihen, että sinut olisi sivuutettu sukupuolesi vuoksi.\n\nJos kyse on Suomessa olevasta kunnallisesta lukiosta, kokoonpanolla voi silti olla erillistä oikeudellista merkitystä: tiettyjä kunnallisia toimielimiä koskee tasa-arvolain vaatimus vähintään 40 prosentista kumpaakin sukupuolta, jollei erityisestä syystä muuta johdu. Se, koskeeko vaatimus tätä valintalautakuntaa, riippuu sen asemasta ja asettamisesta. Pelkkä nimitys ”valintalautakunta” ei ratkaise asiaa.\n\n**Keskittyisin ensisijaisesti kelpoisuuden tarkistamiseen ja hakijoiden ansiovertailuun.** Johtamiskoulutuksesi ja viiden vuoden vararehtorikokemuksesi ovat olennaisia ansioita. Ne eivät kuitenkaan automaattisesti tarkoita, että olisit kokonaisuutena ansioitunein. Myöskään lyhyt kuvaus valitun kursseista ei riitä osoittamaan, täyttääkö hän rehtorin kelpoisuusvaatimukset.\n\nLähettäisin nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyydän toimittamaan valintapäätöksen perusteluineen ja muutoksenhakuohjeineen sekä olemassa olevat hakijoiden ansiovertailu- ja kelpoisuusarviointiasiakirjat julkisilta osiltaan. Pyydän myös tietoa valintalautakunnan asettamisesta ja siitä, miten sen kokoonpanossa on arvioitu tasa-arvolain soveltuminen. Alkuperäisen pyyntöni lähetin [päivämäärä].\n\nSuomessa viranomaisen julkisia asiakirjoja koskeva pyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, laajemmissa tai tavallista työläämmissä tapauksissa kuukaudessa. Uuden perustelun laatimista koskeva pyyntö ei kuitenkaan välttämättä ole tällainen asiakirjapyyntö.\n\n**Älä odota vastausta muutoksenhakuajan kustannuksella:** perustelupyyntö ei yleensä pysäytä määräajan kulumista. Tarkista päätöksen muutoksenhakuohjeet heti ja harkitse yhteyttä ammattiliittosi juristiin.\n\nMissä maassa lukio sijaitsee, ja onko työnantaja kunta vai yksityinen toimija? Tämä ratkaisee, mitkä säännöt tilanteeseen soveltuvat."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5926,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 621,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

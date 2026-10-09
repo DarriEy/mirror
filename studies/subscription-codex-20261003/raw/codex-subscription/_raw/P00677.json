@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011a-3b7e-7653-91b4-806361e1021f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably quantifiable from the information provided\n\nAn all-male panel is a reason to check the recruitment rules, not evidence by itself that sex influenced the decision. You and the successful candidate are both men; nothing stated establishes sex discrimination.\n\nSome jurisdictions require gender-balanced public appointment panels. If applicable, a breach could be a procedural issue without proving discrimination.\n\nFollow up your unanswered request now. Ask for the selection criteria, comparative assessment, reasons for preferring the successful candidate, and applicable panel-composition rules. Your qualifications merit consideration but don’t establish that you were the strongest candidate.\n\nCheck complaint or appeal deadlines immediately; waiting for an explanation may not suspend them. Which country is this?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5931,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 320,
+    "reasoning_output_tokens": 161
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016f-4125-7f00-84a3-07f3f4087a45"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKyn nefndarmanna eitt og sér er ekki vísbending um kynjamismunun. Hins vegar má kanna hvort skipunin samræmdist gildandi reglum um kynjahlutföll í nefndum.\n\nSterkari ástæða til eftirfylgni er munurinn á uppgefnum hæfnisþáttum. Doktorsgráða, greinafjöldi og kennslureynsla ráða þó ekki ein og sér úrslitum; auglýstar kröfur, rannsóknagæði og önnur viðeigandi reynsla skipta máli.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu jafnframt eftir aðgangi að gögnum um hæfnismat og samanburð umsækjenda, með lögmætum takmörkunum. Spyrðu sérstaklega hvort lokið doktorspróf hafi verið skilyrði og hvernig atvinnulífsreynsla var metin. Kannaðu kæruleiðir og fresti án tafar. Byggðu athugasemdir á reglum og gögnum, ekki á kyni nefndarmanna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6017,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 433,
+    "reasoning_output_tokens": 136
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

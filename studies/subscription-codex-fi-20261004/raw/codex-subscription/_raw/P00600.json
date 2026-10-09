@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f2-9487-7f01-b651-f8ede271a81d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuilla tiedoilla\n\nPelkkä mieskokoonpano ei osoita, että sukupuoli vaikutti valintaan. Sinä ja valittu olette molemmat miehiä, eikä kuvauksessa ole muutakaan konkreettista näyttöä sukupuolen vaikutuksesta. Numeron antaminen olisi perusteetonta arvailua.\n\nKokoonpanon voi ottaa neutraalisti esille: jos kyse on kunnallisesta toimielimestä, siihen saattaa soveltua sukupuolikiintiösääntö. Haastatteluryhmä ei kuitenkaan välttämättä ole tällainen toimielin. Mahdollinen kokoonpanovirhe on eri asia kuin syrjivä valintapäätös.\n\nEnsisijaisesti pyydä uudelleen päätös, ansiovertailu, selvitys valitun rehtorikelpoisuudesta ja muutoksenhakuohjeet. Koulutuksesi ja johtamiskokemuksesi antavat aihetta kysyä vertailun perusteita, mutta eivät yksin osoita valintaa virheelliseksi. Selvitä muutoksenhakuaika heti: perustelupyynnön käsittely ei välttämättä pysäytä määräaikaa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 414,
+    "reasoning_output_tokens": 115
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

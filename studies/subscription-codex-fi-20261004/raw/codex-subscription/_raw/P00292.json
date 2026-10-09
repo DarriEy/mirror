@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ee-595e-7202-836a-ff268ca32e70"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit nostaa asian esiin, mutta en tekisi lautakunnan sukupuolijakaumasta pääasiaa.** Neljä naista lautakunnassa ei itsessään osoita, että sukupuolesi vaikutti valintaan. Se ei myöskään sulje syrjinnän mahdollisuutta pois. Olennaisempaa on, millä perusteilla hakijoita vertailtiin ja sovellettiinko perusteita tasapuolisesti.\n\nSinulla on vahva tehtävään liittyvä tausta, joten halu saada perustelut on ymmärrettävä. Tohtorintutkinto ja yhdeksän vuoden mallinnuskokemus eivät kuitenkaan yksin ratkaise johtajavalintaa: esimerkiksi johtamiskokemus ja sääntelyosaaminen voivat painaa paljon. Valitusta julkaistu lyhyt esittely ei riitä koko ansiovertailuun.\n\n**Lähettäisin nyt kirjallisen muistutuksen**, esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallista selvitystä valintaperusteista. Pyydän tietoa tehtävässä painotetuista kriteereistä, niiden soveltamisesta ansiovertailussa sekä valinnan ratkaisseista seikoista. Miten riskimallinnusosaamista, koulutusta, johtamiskokemusta ja sääntelyosaamista painotettiin? Milloin voin odottaa vastausta?\n\nJos kyse on Suomessa olevasta työpaikasta ja epäilet sukupuolisyrjintää, tasa-arvolain 10 §:n mukaan työnantajan on annettava sitä epäilevälle hakijalle pyynnöstä viivytyksettä kirjallinen selvitys menettelystään. Siihen kuuluvat muun muassa valintaperusteet sekä valitun koulutus, työ- ja muu kokemus ja muut valintaan vaikuttaneet osoitettavissa olevat ansiot ja seikat. Kahden viikon vastaamattomuus antaa syyn muistuttaa, mutta ei yksin osoita syrjintää.\n\nSäilytä työpaikkailmoitus, viestit ja haastattelumuistiinpanot. Jos vastausta ei tule tai perustelut vaikuttavat ristiriitaisilta, voit kysyä neuvoa tasa-arvovaltuutetulta tai liittosi juristilta.\n\nLyhyesti: **pyydä näyttöä valinnan perusteista, älä päättele puolueellisuutta lautakunnan jäsenten sukupuolesta.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5921,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 541,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f5-56d9-7112-ad1a-3136768cec83"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: EKKI TAKA ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nAð nefndin hafi eingöngu verið skipuð konum er eitt og sér ekki vísbending um kynjamismunun. Þið sem sóttuð um og fenguð starfið eruð báðar konur; ekkert sem þú lýsir bendir sérstaklega til áhrifa kyns.\n\nHins vegar er ástæða til að fylgja ráðningunni eftir vegna menntunar þinnar og stjórnunarreynslu. Stutt tilkynning sýnir ekki allan samanburðinn og meiri formleg menntun tryggir ekki ráðningu.\n\nSendu skriflega ítrekun. Ef um opinberan skóla er að ræða skal almennt veita umbeðinn rökstuðning innan 14 daga. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringum á samanburði hæfni ykkar. Leitaðu síðan ráðgjafar stéttarfélags ef rökstuðningurinn vekur frekari spurningar."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 440,
+    "reasoning_output_tokens": 176
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

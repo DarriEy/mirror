@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1089a-6daa-7c40-9bd5-e7f0a690452b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "التوصية: لا تطرح الأمر\nالاحتمال: لا يمكن تقديره برقم موثوق من 0 إلى 100 بناءً على المعلومات المتاحة\n\nكون اللجنة مكوّنة بالكامل من نساء لا يدل بذاته على تحيز جنسي. وكونك والمرشحة المختارة امرأتين لا يثبت التحيز ولا ينفيه.\n\nالأفضل متابعة طلب التفسير كتابيًا، وطلب معايير المفاضلة وأوزانها وتقييم مؤهلاتك وخبرتك، خصوصًا التخصص المطلوب وقيادة المشاريع الدولية. عدم الرد خلال أسبوعين لا يثبت تمييزًا؛ تحققي من مهل الرد والتظلم كي لا تفوتك.\n\nأثيري مسألة تشكيل اللجنة إذا كانت قواعد التوظيف تشترط توازنًا معينًا، أو ظهرت قرائن محددة على تحيز مرتبط بالجنس، لا لمجرد أن أعضاءها نساء."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5975,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 308,
+    "reasoning_output_tokens": 106
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

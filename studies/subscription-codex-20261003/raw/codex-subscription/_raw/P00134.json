@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f2-aac7-70e3-b5d8-5a532aa8ffe7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er unnt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin ein og sér sýnir ekki að kyn hafi ráðið niðurstöðunni, enda voruð þið báðir karlar. Hún getur þó vakið sjálfstæða spurningu um hvort reglum um kynjahlutföll í opinberum nefndum hafi verið fylgt. Eðlilegt er að spyrja um það án ásakana.\n\nSterkara álitaefnið er samanburður hæfni við auglýstar kröfur, sérstaklega hvort lokið doktorspróf hafi verið skilyrði. Fleiri greinar tryggja þó ekki sjálfkrafa meiri hæfni.\n\nÍtrekaðu rökstuðningsbeiðnina nú skriflega. Óskaðu eftir upplýsingum um matsviðmið, vægi þeirra og samanburð umsækjenda, ásamt aðgangi að gögnum málsins eftir því sem lög heimila. Leitaðu ráðgjafar stéttarfélags um framhaldið og mögulega fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 476,
+    "reasoning_output_tokens": 212
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

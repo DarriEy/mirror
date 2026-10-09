@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017b-8df7-7e80-ac2b-e665cc47e86b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er tilefni til fyrirspurnar, ekki sjálfstæð sönnun kynjamismununar. Jafnréttislög gera almennt kröfu um kynjahlutföll í opinberum nefndum; kanna þarf hvort reglan eigi við þessa ráðningarnefnd og hvort undanþága hafi átt við.\n\nÓskaðu eftir upplýsingum um skipun nefndarinnar, hæfniviðmið og samanburð á umsækjendum. Prófgráður þínar og starfsreynsla skipta máli, en sanna ekki ein og sér að þú hafir verið hæfust.\n\nÍtrekaðu rökstuðningsbeiðnina núna: skriflegur rökstuðningur skal að jafnaði berast innan 14 daga frá móttöku beiðni. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og kærufresti. Ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi alla fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7580,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 428,
+    "reasoning_output_tokens": 146
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

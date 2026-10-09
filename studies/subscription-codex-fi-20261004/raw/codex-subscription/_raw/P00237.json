@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f7-7e2d-77b0-bdf2-cb708255b916"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Lautakunnan naisvaltaisuus ei yksin ole merkki syrjinnästä tai epäasiallisesta valinnasta.** En nostaisi sitä tässä vaiheessa pääasiaksi. Se, että sinä ja valittu hakija olette naisia, ei sulje syrjintää pois, mutta kertomissasi tiedoissa ei ole konkreettista viitettä sukupuoleen perustuvaan syrjintään.\n\nSinulla vaikuttaa olevan vahva kokemus tehtävään. On ymmärrettävää haluta tietää, miten ansioita vertailtiin. Pidempi työkokemus ei kuitenkaan automaattisesti ratkaise johtajavalintaa: esimerkiksi esihenkilötaidot, asiakassuhteet ja liiketoiminnan kehittäminen voivat painaa paljon. Julkistettu kuvaus valitusta ei myöskään välttämättä kata hänen kaikkia ansioitaan.\n\n**Lähettäisin nyt ystävällisen kirjallisen muistutuksen**, esimerkiksi:\n\n> Pyysin [päivämäärä] palautetta rekrytointipäätöksestä. Haluaisin ymmärtää, mitkä valintakriteerit ratkaisivat ja miten johtamiskokemustani, hankevastuitani ja teknistä pätevyyttäni arvioitiin suhteessa niihin. Miten asiakassuhteita arvioitiin ja painotettiin? Milloin voin odottaa vastausta?\n\nKahden viikon vastaamattomuus ei yksin osoita syrjintää. Säilytä silti työpaikkailmoitus, viestit ja haastattelumuistiinpanot. Jos haastatteluissa esimerkiksi kommentoitiin ikääsi, perhetilannettasi tai sukupuoltasi, ne ovat olennaisempia selvityskohteita kuin lautakunnan kokoonpano.\n\nMissä maassa tehtävä on, ja onko työnantaja yksityinen vai julkinen? Oikeus kirjallisiin perusteluihin ja mahdolliset muutoksenhakuajat riippuvat näistä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5956,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 452,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

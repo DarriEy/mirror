@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013c-3c46-70d1-a7c9-fedec3116863"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki metanlegt af þessum upplýsingum; prósentutala væri ágiskun.\n\nAð nefndin hafi eingöngu verið skipuð konum er ekki eitt og sér vísbending um kynjamismunun. Þú og ráðna konan eruð af sama kyni, og kyn nefndarmanna segir ekki til um hlutdrægni þeirra.\n\nÞó getur verið málefnalegt að spyrja hvort reglur um kynjahlutföll í opinberum nefndum hafi gilt um þessa nefnd og verið uppfylltar. Það er annað álitaefni en hvort kyn hafi ráðið ráðningunni.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna og óskaðu eftir upplýsingum um afgreiðslutíma, matsviðmið og samanburð á hæfni ykkar. Menntun þín og reynsla réttlæta að þú leitir skýringa, en sanna ekki einar að ráðningin hafi verið ómálefnaleg."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6040,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 420,
+    "reasoning_output_tokens": 171
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10165-bdd7-7952-9e48-af92674606d7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Hún getur þó vakið sjálfstæða spurningu um lögmæti skipunarinnar: við skipun í opinberar nefndir gilda almennt reglur um kynjahlutföll. Hvort þær nái til þessarar ráðningarnefndar þarf að kanna.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna; samkvæmt stjórnsýslulögum skal almennt svara henni innan 14 daga. Óskaðu eftir upplýsingum um hæfniskröfur, vægi matsþátta og samanburð umsækjenda, sérstaklega stjórnunarreynslu og menntun. Tilkynningin segir ekki endilega alla söguna um hæfni ráðinnar konu.\n\nSterkasta tilefnið til eftirfylgni er því hæfnismatið og málsmeðferðin, ekki ályktun um hlutdrægni út frá kyni nefndarmanna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 476,
+    "reasoning_output_tokens": 200
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

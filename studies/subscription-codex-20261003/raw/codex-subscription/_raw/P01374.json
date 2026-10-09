@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013a-e752-7a51-80fd-e2a123229f41"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar er ekki ein og sér vísbending um kynjamismunun. Þið sem kepptuð um starfið eruð báðar konur. Ef þetta er opinber nefnd geta þó reglur um kynjahlutföll átt við; eðlilegt er að spyrja um skipun hennar án þess að saka hana um hlutdrægni.\n\nSterkara tilefni til eftirfylgni er samanburður hæfninnar. Meistarapróf þitt og stjórnunarreynsla skipta máli, en tryggja ekki ráðningu; tilkynningin segir heldur ekki alla söguna.\n\nÍtrekaðu strax rökstuðningsbeiðnina skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og samanburði á hæfni ykkar. Athugaðu kærufresti samhliða, til dæmis með aðstoð stéttarfélags."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 397,
+    "reasoning_output_tokens": 140
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10161-6234-7ef3-9193-354b1f4a79d5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin ein sýnir ekki að kyn hafi ráðið niðurstöðunni, sérstaklega þar sem bæði þú og ráðni umsækjandinn eruð karlar. Hún getur þó réttlætt fyrirspurn um hvort reglum um kynjasamsetningu nefnda hafi verið fylgt; það fer eftir stöðu nefndarinnar.\n\nSterkara tilefni til eftirfylgni er munurinn á auglýstum hæfniskröfum og mati á umsækjendum. Fleiri greinar tryggja ekki ráðningu, en hafi lokið doktorspróf verið ófrávíkjanlegt skilyrði skiptir það miklu.\n\nÍtrekaðu rökstuðningsbeiðnina nú; almennt á að svara henni innan 14 daga. Óskaðu eftir matsgögnum, vægi viðmiða og skýringu á samanburðinum. Spyrðu jafnframt hlutlaust um nefndarskipanina, án þess að fullyrða kynjamismunun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 455,
+    "reasoning_output_tokens": 186
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

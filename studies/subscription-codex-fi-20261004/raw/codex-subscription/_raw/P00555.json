@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ee-ca85-7921-ab8a-db1268f05784"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Kyllä, voit ottaa lautakunnan kokoonpanon esille. Se on selvittämisen arvoinen seikka, mutta ei yksin osoita sukupuolisyrjintää.** Olennaisempaa on, miten hakijoiden ansioita vertailtiin ja millä perusteilla mies valittiin.\n\nKertomasi perusteella sinulla on vahvoja tehtävään liittyviä ansioita: koulutusjohtamisen maisterintutkinto ja viisi vuotta vararehtorikokemusta. On perusteltua kysyä, miten niitä painotettiin. Valitusta julkaistu lyhyt kuvaus ei kuitenkaan välttämättä kerro hänen kaikkia ansioitaan. Myös soveltuvuutta voidaan arvioida, mutta sillä ei saa peittää sukupuoleen perustuvaa valintaa.\n\n**Jos kyse on Suomessa tehdystä valinnasta:**\n\n- **Tasa-arvolaki:** Jos olet tehtävään ansioituneempi kuin valittu mies, voi syntyä syrjintäolettama. Työnantajan on silloin osoitettava valinnalle hyväksyttävä, sukupuolesta riippumaton peruste. Syrjivää tarkoitusta ei tarvitse näyttää toteen.\n- **Lautakunnan kokoonpano:** Kunnallisissa toimielimissä on yleensä vähintään 40 prosentin sukupuolikiintiö, jollei erityisestä syystä muuta johdu. Se, koskeeko sääntö juuri tätä valintalautakuntaa, riippuu sen oikeudellisesta asemasta. Pelkkään haastatteluryhmään sääntö ei välttämättä sovellu.\n- **Kirjallinen selvitys:** Tasa-arvolain mukaan työnantajan on annettava syrjintää epäilevälle hakijalle pyynnöstä viivytyksettä kirjallinen selvitys menettelystään. Kahden viikon hiljaisuus antaa aiheen muistuttaa pyynnöstä, mutta ei itsessään osoita syrjintää.\n\nVoit lähettää esimerkiksi:\n\n> Uudistan [päivämäärä] esittämäni selvityspyynnön. Pyydän tasa-arvolain 10 §:n mukaista kirjallista selvitystä valintamenettelystä, käytetyistä valintaperusteista sekä valitun koulutuksesta, työ- ja muusta kokemuksesta ja muista valintaan vaikuttaneista osoitettavista ansioista. Pyydän lisäksi selvittämään, miten koulutusjohtamisen tutkintoani ja viiden vuoden vararehtorikokemustani arvioitiin suhteessa valitun ansioihin.  \n> Pyydän myös tietoa valintalautakunnan oikeudellisesta asemasta ja siitä, miten sukupuolikiintiötä koskevat säännökset huomioitiin sen kokoonpanossa.\n\n**Älä odota vastausta ennen muutoksenhakuajan tarkistamista.** Jos kyse on kunnallisesta virasta, oikaisuvaatimusaika on usein vain 14 päivää päätöksen tiedoksisaannista. Selvityspyyntö ei pysäytä määräaikaa. Ota päätös muutoksenhakuohjeineen heti ammattiliittosi juristin arvioitavaksi; tasa-arvovaltuutetulta voit pyytää neuvoja syrjintäepäilyn selvittämiseen.\n\nMissä maassa ja oliko kyse kunnallisesta vai yksityisestä lukiosta? Tämä vaikuttaa sovellettaviin sääntöihin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5930,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 753,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

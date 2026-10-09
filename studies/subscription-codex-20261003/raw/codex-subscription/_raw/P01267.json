@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014f-7ef7-7b52-aae0-1638cedfe83e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er málefnalegt athugunarefni, en sannar ekki kynjamismunun við ráðninguna. Reglur um kynjahlutföll í nefndum sveitarfélaga kunna að eiga við; það ræðst meðal annars af stöðu ráðningarnefndarinnar.\n\nSendu skriflega ítrekun núna. Óskaðu eftir rökstuðningi, hæfniviðmiðum, samanburði á umsækjendum og skýringu á skipun nefndarinnar. Meiri menntun tryggir ekki ráðningu, en sveitarfélagið þarf að byggja valið á málefnalegu heildarmati. Reynsla af íbúasamráði getur vegið þungt ef hún tengist starfinu.\n\nLeitaðu fljótt ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og kærufresti. Ekki bíða ótímabundið eftir rökstuðningi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6015,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 414,
+    "reasoning_output_tokens": 148
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

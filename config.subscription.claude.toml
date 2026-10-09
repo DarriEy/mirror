@@ -1,0 +1,30 @@
+# Separate exploratory subscription audit, run as a direct comparison to
+# config.subscription.toml (Codex CLI / ChatGPT subscription). Not the
+# preregistered API study.
+[study]
+name = "subscription-claude-20261003"
+exploratory = true
+method_note = "Claude Code CLI 2.1.288 via Claude subscription; requested claude-opus-5 (account default at setup); fresh ephemeral sessions, no session persistence, no tools/MCP/settings; minimal model instructions via --system-prompt. Free-text ratings use one blind self-rater; no independent or human validation. See METHODS.md."
+languages = ["en", "is"]
+seed = 20261003
+reps_S = 10
+reps_F = 4
+gender_check = true
+max_output_tokens = 2048 # CLI cannot enforce this cap
+concurrency = 4
+
+[[models]]
+id = "claude-subscription"
+provider = "claude_cli"
+model = "claude-opus-5"
+cwd = "/tmp/mirror-claude-scratch"  # local scratch path, redacted for publication
+keep_raw = true
+
+[rating]
+raters = ["claude-subscription"] # Exploratory self-rating only
+batch_size = 12
+human_sample_fraction = 0.2
+
+[analysis]
+bootstrap = 5000
+permutations = 10000

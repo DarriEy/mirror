@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10125-0c8b-75a0-9474-04f8611a7f5d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa marktæka tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Lengri starfsreynsla tryggir heldur ekki að umsækjandi teljist hæfastur; stjórnunarhæfni og stafræn reynsla geta vegið þungt.\n\nÍtrekaðu skriflega beiðnina um rökstuðning og óskaðu eftir upplýsingum um matsviðmið, vægi þeirra og samanburð á hæfni umsækjenda. Berðu það saman við starfsauglýsinguna.\n\nEf rökstuðningurinn sýnir ómálefnalegt tillit til kyns, ósamræmi í mati eða breytt viðmið getur verið ástæða til að leita til stéttarfélags eða lögfræðings. Þar má einnig kanna hvort reglur um kynjasamsetningu nefnda eigi við; hugsanlegt brot á þeim sannar þó ekki mismunun við ráðninguna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6008,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 385,
+    "reasoning_output_tokens": 130
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

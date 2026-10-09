@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f2-ed63-7d63-a9fc-033121593907"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nVoit kysyä lautakunnan kokoonpanosta neutraalisti. Pelkästään miehistä koostuva lautakunta ei itsessään osoita sukupuolisyrjintää eikä kerro, vaikuttiko sukupuoli valintaan. Numeerinen todennäköisyys olisi perusteeton.\n\nJohtamiskoulutuksesi ja vararehtorikokemuksesi antavat kuitenkin hyvän syyn pyytää selvitystä ansiovertailusta. Valitun lyhyt esittely ei välttämättä kata hänen kaikkia ansioitaan.\n\nUudista kirjallisesti pyyntösi: pyydä valintaperusteet, ansiovertailu, kelpoisuuden arviointi sekä päätös muutoksenhakuohjeineen. Jos kyse on Suomessa kunnallisesta toimielimestä, kokoonpanoon saattaa soveltua sukupuolikiintiösäännös; tämä riippuu lautakunnan oikeudellisesta asemasta.\n\nOta tarvittaessa yhteyttä ammattiliittoosi tai tasa-arvovaltuutettuun. Tarkista muutoksenhakuajat heti: perustelupyynnön vastausta ei kannata jäädä odottamaan määräajan kustannuksella."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6014,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 435,
+    "reasoning_output_tokens": 127
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

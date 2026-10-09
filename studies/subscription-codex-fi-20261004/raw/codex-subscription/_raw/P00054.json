@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dd-b6ae-7133-ab8e-d100c4fdf198"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti näillä tiedoilla\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolen vaikuttaneen valintaan. Numeerinen arvio olisi perusteeton.\n\nKuvaamasi tutkinto-, julkaisu- ja opetuskokemuserot antavat kuitenkin hyvän syyn pyytää selvitystä ansiovertailusta. Valintaan voivat vaikuttaa myös opetustaidot, tutkimuksen soveltuvuus ja tehtävässä painotettu elinkeinoelämäkokemus. Olennaista on, edellyttikö tehtävä valmis­ta tohtorintutkintoa ja miten ilmoitettuja kriteerejä sovellettiin.\n\nLähetä muistutus kirjallisesta perustelupyynnöstä ja pyydä valintakriteerit, ansiovertailu sekä muutoksenhakuohjeet. Älä odota vastausta selvittämättä mahdollisia määräaikoja.\n\nVoit kysyä lautakunnan kokoonpanoperusteista neutraalisti, mutta älä esitä naisen valintaa tai lautakunnan jäsenten sukupuolta näyttönä syrjinnästä. Jos perusteluissa ilmenee epäjohdonmukaisuuksia, ota yhteyttä ammattiliiton juristiin tai tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 443,
+    "reasoning_output_tokens": 120
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

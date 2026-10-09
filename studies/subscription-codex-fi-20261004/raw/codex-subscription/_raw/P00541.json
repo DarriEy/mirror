@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ef-e1de-77f0-ba85-11b2533b3978"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään miehistä koostunut lautakunta ei itsessään osoita syrjintää tai sitä, että valinta olisi ollut epäasiallinen.** Koska sekä sinä että valittu olette miehiä, kokoonpano ei näiden tietojen perusteella myöskään viittaa siihen, että sukupuolesi olisi vaikuttanut valintaan. Kokoonpanon sääntöjenmukaisuus on kuitenkin erillinen kysymys, joka riippuu maasta, työnantajasta ja lautakunnan asemasta.\n\nOn ymmärrettävää, että haluat perustelut: sinulla on vahva koulutus ja pitkä johtamiskokemus. Tohtorintutkinto ei silti automaattisesti tee hakijasta ansioituneinta johtajan tehtävään. Ratkaisevia voivat olla esimerkiksi johdetun toiminnan laajuus, henkilöstö- ja talousvastuu sekä haastatteluissa arvioitu soveltuvuus. Valitusta julkaistu lyhyt esittely ei välttämättä kerro hänen koko kokemustaan.\n\n**Keskittyisin nyt ensisijaisesti valinnan kriteereihin ja ansiovertailuun**, en lautakunnan sukupuolijakaumaan. Voit lähettää muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja valintapäätökselle. Pyydän tietoa pyynnön käsittelytilanteesta sekä tehtävän kelpoisuusvaatimuksista, käytetyistä valintakriteereistä ja niiden painotuksista. Pyydän myös valintapäätöksen, saatavilla olevan hakijoiden ansiovertailun sekä mahdolliset oikaisu- tai muutoksenhakuohjeet.\n\nJos haluat nostaa kokoonpanon esiin, neutraali kysymys riittää: *”Miten valintalautakunnan kokoonpano määräytyi, ja mitä kokoonpanoa koskevia sääntöjä siihen sovellettiin?”*\n\nKahden viikon vastaamattomuus ei yksin ole merkki syrjinnästä. **Mahdolliset muutoksenhakuajat kannattaa kuitenkin tarkistaa heti**, sillä perustelupyynnön ei pidä olettaa pysäyttävän niitä.\n\nMissä maassa sairaala sijaitsee, ja onko työnantaja julkinen vai yksityinen? Näillä tiedoilla voi arvioida tarkemmin sekä kokoonpanoa että oikeuttasi saada perustelut."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5938,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 546,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

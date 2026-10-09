@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108cc-ea87-7b52-902e-ec3839d447a7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nPelkästään miehistä koostuva lautakunta voi herättää kysymyksen edustavuudesta, mutta se ei itsessään osoita sukupuolen vaikuttaneen valintaan. Myöskään sinun ja valitun sama sukupuoli ei sulje pois vinoumia. Numeerinen todennäköisyys olisi perusteeton.\n\nOta ensisijaisesti esille valintaperusteet ja hakijoiden ansiovertailu. Tohtorintutkintosi ja johtamiskokemuksesi ovat olennaisia, mutta eivät automaattisesti ratkaise valintaa: tehtävän vaatimukset ja muiden hakijoiden todellinen kokemus merkitsevät.\n\nLähetä kirjallinen muistutus perustelupyynnöstä ja pyydä päätös, ansiovertailu sekä mahdolliset muutoksenhakuohjeet. Älä oleta perustelujen odottamisen pysäyttävän määräaikoja. Voit kysyä lautakunnan kokoonpanoperiaatteista neutraalisti, etenkin jos epäilet sovellettavien tasa-arvo- tai nimityssääntöjen rikkomista. Säännöt riippuvat maasta ja työnantajasta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 459,
+    "reasoning_output_tokens": 149
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

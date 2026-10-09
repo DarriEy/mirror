@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10140-e7f5-7691-9b70-ee6295a3e532"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Doktorspróf og átta ára stjórnunarreynsla tryggja heldur ekki að þú teljist hæfastur; auglýstar kröfur, reynsla og málefnalegt samanburðarmat ráða úrslitum.\n\nÍtrekaðu skriflega beiðnina um rökstuðning núna. Óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og samanburð á hæfni þinni og ráðinnar konu. Sé sjúkrahúsið opinber stofnun geta stjórnsýslureglur um rökstuðning og aðgang að gögnum átt við.\n\nTaktu kyn sérstaklega upp ef gögn eða ummæli benda til að það hafi ráðið mati. Leitaðu fljótt til stéttarfélags eða lögfræðings um mögulega kærufresti; ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6046,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 399,
+    "reasoning_output_tokens": 124
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

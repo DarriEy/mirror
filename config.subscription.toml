@@ -1,0 +1,27 @@
+# Separate exploratory subscription audit. Not the preregistered API study.
+[study]
+name = "subscription-codex-20261003"
+exploratory = true
+method_note = "Codex CLI 0.157.1 via ChatGPT subscription; requested gpt-6-astra; fresh ephemeral sessions; minimal model instructions; CLI context differs from API and resolved model ID is unavailable. Free-text ratings use one blind self-rater; no independent or human validation. See METHODS.md."
+languages = ["en", "is"]
+seed = 20261003
+reps_S = 10
+reps_F = 4
+gender_check = true
+max_output_tokens = 2048 # CLI cannot enforce this cap
+concurrency = 4
+
+[[models]]
+id = "codex-subscription"
+provider = "codex_cli"
+model = "gpt-6-astra"
+keep_raw = true
+
+[rating]
+raters = ["codex-subscription"] # Exploratory self-rating only
+batch_size = 12
+human_sample_fraction = 0.2
+
+[analysis]
+bootstrap = 5000
+permutations = 10000

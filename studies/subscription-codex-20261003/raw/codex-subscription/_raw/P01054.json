@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017a-56f0-75d3-9d8d-5dcfaaaaa0ba"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin ein sýnir ekki að kyn hafi ráðið niðurstöðunni, sérstaklega þar sem bæði þú og ráðni umsækjandinn eruð karlar. Hún getur þó vakið sjálfstæða spurningu um hvort reglum um kynjahlutföll í nefndum sveitarfélaga hafi verið fylgt; það ræðst meðal annars af stöðu nefndarinnar.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Óskaðu eftir upplýsingum um hæfniskröfur, vægi matsþátta og samanburð umsækjenda, ásamt aðgangi að ráðningargögnum með lögbundnum takmörkunum. Meiri menntun tryggir ekki ráðningu, en sveitarfélagið þarf að byggja valið á málefnalegu hæfnismati.\n\nSpyrðu hlutlaust hvernig nefndin var skipuð og hvort kynjahlutfallsreglur giltu. Beindu megináherslunni að hæfnismatinu fremur en ályktun um kynjamismunun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 447,
+    "reasoning_output_tokens": 160
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

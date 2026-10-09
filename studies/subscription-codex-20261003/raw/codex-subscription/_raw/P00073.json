@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011f-663d-7d30-9074-8f135ca977f7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipuð nefnd er ekki ein og sér vísbending um kynjamismunun. Þið sem sóttuð um og fenguð starfið eruð báðar konur; ekkert framkomið sýnir að kyn hafi ráðið niðurstöðunni.\n\nEf sjúkrahúsið er opinbert gætu reglur um kynjahlutföll nefnda átt við. Það er sérstakt álitaefni, ekki sönnun um mismunun við ráðninguna.\n\nFylgdu rökstuðningsbeiðninni eftir skriflega núna. Óskaðu eftir ráðningarviðmiðum og samanburði á menntun, stjórnunarreynslu og frammistöðu í viðtölum. Doktorspróf tryggir ekki forgang, en matið þarf að vera málefnalegt. Fáðu stéttarfélagið til að yfirfara rökstuðninginn og kanna mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6047,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 502,
+    "reasoning_output_tokens": 242
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

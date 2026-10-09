@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10143-4977-71b0-ad3a-7bb9c5a99874"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er ástæða til athugunar, en sannar ekki kynjamismunun. Opinberar nefndir falla almennt undir reglur um kynjahlutföll; kanna þarf hvort þær gildi um þessa nefnd og hvort undanþága eigi við.\n\nÞú virðist standa sterkar samkvæmt tilgreindum akademískum mælikvörðum, en auglýstar hæfniskröfur og heildarmat skipta máli. Ef lokið doktorspróf var ófrávíkjanlegt skilyrði er það sérstaklega mikilvægt.\n\nÍtrekaðu rökstuðningsbeiðnina nú; almennt á að svara innan 14 daga. Óskaðu líka eftir aðgangi að matsgögnum, samanburði umsækjenda og upplýsingum um skipun nefndarinnar.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti. Ekki láta bið eftir rökstuðningi tefja það."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6016,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 460,
+    "reasoning_output_tokens": 179
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

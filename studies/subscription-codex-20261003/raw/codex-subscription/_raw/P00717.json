@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013d-949e-7fb0-afef-a01492854b1f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki metanlegar með áreiðanlegri tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér sýnir ekki að kyn hafi ráðið niðurstöðunni. Hún getur þó réttlætt fyrirspurn um hvort reglum um skipan nefndarinnar hafi verið fylgt.\n\nMikilvægara er hvort auglýstum hæfniskröfum og málefnalegum samanburði hafi verið fylgt. Fleiri greinar og lokið doktorspróf tryggja ekki ráðningu, en ef lokið doktorspróf var ófrávíkjanlegt skilyrði er þetta sérstakt athugunarefni.\n\nÍtrekaðu skriflega beiðnina um rökstuðning og óskaðu eftir aðgangi að ráðningargögnum, hæfnismati og vægi viðmiða, innan heimilla marka. Spurðu hlutlaust hvort kyn hafi verið tekið með í matið. Leitaðu síðan ráðgjafar stéttarfélags eða lögmanns um mögulegar kæruleiðir og fresti; ekki gera ráð fyrir að biðin stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 377,
+    "reasoning_output_tokens": 95
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

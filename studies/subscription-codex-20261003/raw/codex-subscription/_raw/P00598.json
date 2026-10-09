@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011e-1e43-7bc1-8f04-0f4c4411e949"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of bias or discrimination.** It’s reasonable to want assurance that the process was fair, but the panel’s composition and the successful candidate’s sex don’t establish that yours wasn’t.\n\nYour qualifications make you a credible candidate; reaching the final three confirms you were seriously considered. But the announcement isn’t a full account of her experience or the assessment. International project leadership might have been especially relevant, and degrees and years of service don’t necessarily determine the ranking.\n\nI’d focus first on **how the decision was made**, rather than the panel members’ sex:\n\n- Follow up on your request, noting the date you sent it and asking when you can expect a response.\n- Ask for the selection criteria, their weighting, and your assessment or scores, plus whatever comparative explanation can lawfully be disclosed.\n- Check the recruitment policy and any review or appeal deadlines now—waiting for an explanation may not stop those deadlines.\n\nMore meaningful warning signs would include sex-based remarks, criteria changed or applied inconsistently, undisclosed conflicts of interest, or an explanation that contradicts the advertised requirements. Panel composition could also matter if a specific rule requires gender balance, but a breach would not automatically prove discriminatory selection.\n\n**Which country or jurisdiction is this in?** That determines the rules on panel composition, written reasons and challenge deadlines. Two weeks without a reply is worth following up, but isn’t itself evidence of sex bias."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5855,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 299,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

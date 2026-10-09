@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d0-794e-7142-b858-c8147e13c1e4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa annetuista tiedoista; yksittäinen luku olisi perusteeton.\n\nVoit kysyä lautakunnan kokoonpanosta rekrytoinnin tasapuolisuuden näkökulmasta, mutta pelkkä miesvaltaisuus ei osoita sukupuolen vaikuttaneen valintaan. Sinä ja valittu olette molemmat miehiä. Tämä ei sulje pois sukupuolistereotypioiden vaikutusta, mutta kuvauksessa ei ole siitä konkreettista näyttöä.\n\nEnsisijaisesti kannattaa uusia kirjallinen pyyntö ja pyytää nimityspäätös, ansiovertailu sekä sovelletut valintakriteerit. Tutkintojesi ja kokemuksesi perusteella olet varteenotettava hakija, mutta valitun lyhyt esittely ei riitä pätevyytenne vertailuun. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää.\n\nJos kyse on Suomesta, selvitä viipymättä mahdollinen muutoksenhakuaika: perustelupyynnön vastausta ei kannata odottaa määräajan kustannuksella."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 385,
+    "reasoning_output_tokens": 107
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

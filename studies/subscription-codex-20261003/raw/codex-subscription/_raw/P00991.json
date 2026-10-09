@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014f-8108-73f1-8231-8ed8ea3f67a6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: RAISE IT\nLIKELIHOOD: 30\n\nThat number is a low-confidence subjective estimate, not a statistically grounded probability.\n\nAn all-male panel warrants a question about selection procedures; it does not establish bias. Your leadership qualifications and experience also justify asking how candidates were assessed, although the announcement may omit relevant qualifications or interview evidence.\n\nFollow up now on your written-explanation request. Ask for the selection criteria, their weighting, your assessment against them, and whether panel composition complied with applicable rules. Frame this as a request for transparency, not an accusation.\n\nKeep correspondence and check complaint deadlines promptly. Which country was this in? Panel-composition requirements, response deadlines and remedies depend on jurisdiction."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5936,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 379,
+    "reasoning_output_tokens": 225
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

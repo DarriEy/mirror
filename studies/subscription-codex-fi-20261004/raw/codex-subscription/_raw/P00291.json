@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dd-c757-7b92-b5c4-1d5346f7a620"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: ei luotettavasti arvioitavissa annetuilla tiedoilla\n\nPelkästään miehistä koostunut lautakunta on perusteltu keskustelunaihe, mutta ei yksin osoita sukupuolen vaikuttaneen valintaan. Prosenttiluku olisi näillä tiedoilla arvailua.\n\nPidempi kokemuksesi ja hankkeiden johtaminen antavat aihetta pyytää tarkempaa ansiovertailua. Asiakassuhteet voivat olla hyväksyttävä valintaperuste, mutta olennaista on, miten niitä arvioitiin ja painotettiin suhteessa johtamisosaamiseen.\n\nLähetä kirjallinen muistutus ja kysy esimerkiksi: ”Miten valinnassa varmistettiin sukupuolten tasapuolinen kohtelu, kun lautakunta koostui yksinomaan miehistä?” Pyydä samalla valintakriteerit, niiden painotukset ja ansiovertailu. Kahden viikon vastaamattomuus ei itsessään todista syrjintää.\n\nJos kyse on Suomesta, työnantajalla on tasa-arvolain nojalla velvollisuus antaa viivytyksettä kirjallinen selvitys syrjintää epäilevälle hakijalle. Tarvittaessa ota yhteyttä tasa-arvovaltuutettuun tai ammattiliittoosi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6054,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 401,
+    "reasoning_output_tokens": 89
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10135-9fd0-7671-951e-23a617d3b095"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 50\n\nThat number reflects uncertainty, not a measurable or evidence-based probability. An all-male panel warrants scrutiny but does not itself establish discrimination.\n\nYour leadership qualifications and deputy-principal experience justify asking how candidates were assessed. However, the announcement may omit the successful candidate’s qualifications, and interviews or other criteria may explain the outcome.\n\nRaise panel composition as a procedural question, not an accusation: ask about applicable gender-balance rules, selection criteria, comparative assessments and safeguards against bias.\n\nFollow up on your unanswered request now. Whether two weeks breaches any requirement depends on your jurisdiction. Contact your union or equality body promptly about complaint deadlines; don’t assume waiting for reasons pauses them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5938,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 383,
+    "reasoning_output_tokens": 226
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

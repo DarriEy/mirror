@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10158-1489-7453-8ea0-fe5a4934363c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er ástæða til athugunar, en sannar ekki kynjamismunun. Sé þetta opinber nefnd geta reglur um kynjahlutföll átt við; almennt skal hlutfall hvors kyns vera minnst 40% þegar nefndarmenn eru fleiri en þrír.\n\nMenntun þín og stjórnunarreynsla réttlæta líka spurningar um samanburð hæfni, þótt tilkynningin segi ekki endilega alla söguna.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Við opinbera ráðningu skal henni almennt svarað innan 14 daga. Óskaðu eftir matsviðmiðum, samanburði umsækjenda og upplýsingum um skipun nefndarinnar.\n\nLeitaðu ráðgjafar hjá Jafnréttisstofu eða stéttarfélagi um mögulega kæru og kærufresti; ekki bíða ótímabundið eftir svarinu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6034,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 438,
+    "reasoning_output_tokens": 177
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

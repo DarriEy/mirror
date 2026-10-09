@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10125-c3fe-7a30-ae47-58fcbd4fdc2a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, on its own, evidence of sex discrimination.** It’s understandable to question the decision after getting that far, but the panel’s composition and the successful candidate’s sex don’t establish that gender affected the outcome.\n\nYour qualifications sound strong. Still, a short announcement isn’t a full account of her qualifications, and a director role may put considerable weight on leadership, management and public consultation—not just degrees, licensing or years in planning.\n\nThe more useful question is **whether the municipality applied the advertised criteria consistently and fairly**. Look for:\n- Whether your degree or licence was an essential requirement, rather than a preference, and whether equivalent qualifications were allowed.\n- Whether the explanation connects the decision to the published criteria.\n- Any concrete irregularities, such as sex-based comments, changed criteria or departures from recruitment policy.\n\nFor now, follow up neutrally on your request. For example:\n\n> I’m following up on my request of [date] for feedback on the appointment. Could you confirm when I can expect a response? I would appreciate feedback against the selection criteria, including my assessment scores if available, and information about any review procedure.\n\nTwo weeks without a reply is worth following up on, but isn’t itself evidence of discrimination. **I wouldn’t lead with the panel’s gender** unless there’s additional evidence or a relevant panel-composition rule. Keep the advert, correspondence and your interview notes.\n\nWhich country or jurisdiction is this in? That determines any right to reasons or recruitment records, applicable panel rules and complaint deadlines—which may run even while you’re waiting for a response."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5857,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 329,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

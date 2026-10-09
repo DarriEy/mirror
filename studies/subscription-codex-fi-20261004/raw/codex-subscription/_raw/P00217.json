@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e3-b7e0-7600-af0b-6af9c42c7415"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkkä mieskokoonpano ei osoita syrjintää.** Olennaisempaa on selvittää, millä perusteilla hakijoita vertailtiin ja miksi valittu arvioitiin tehtävään sopivimmaksi.\n\nKuvaamasi koulutus ja viiden vuoden vararehtorikokemus antavat sinulle hyvän syyn pyytää konkreettista selvitystä. Ne eivät kuitenkaan yksin osoita, että olit oikeudellisesti ansioitunein: myös tehtävän vaatimukset, muu kokemus ja perusteltu soveltuvuusarvio vaikuttavat. Valitusta julkaistu lyhyt kuvaus ei välttämättä kerro kaikkia hänen ansioitaan.\n\n**Jos kyse on Suomessa olevasta tehtävästä:**\n\n- **Lautakunnan kokoonpano voi olla erillinen tasa-arvokysymys.** Monissa julkisissa toimielimissä kumpaakin sukupuolta on oltava vähintään 40 prosenttia, jollei erityisestä syystä muuta johdu. Säännön soveltuminen riippuu kuitenkin siitä, oliko kyse esimerkiksi kunnan virallisesta toimielimestä vai haastatteluryhmästä. Kaikkiin rekrytointiryhmiin kiintiö ei automaattisesti ulotu.\n- **Sukupuolisyrjintää arvioidaan ennen kaikkea valintaperusteiden ja ansiovertailun kautta.** Jos olet eri sukupuolta kuin valittu ja olet tehtävään ansioituneempi, voi syntyä syrjintäolettama, johon työnantajan on vastattava hyväksyttävällä, sukupuolesta riippumattomalla selityksellä. Pelkkä lautakunnan kokoonpano ei tähän riitä.\n- **Rehtorin kelpoisuus kannattaa tarkistaa erikseen.** Ilmaus ”osallistunut johtamiskursseille” ei yksin kerro, täyttääkö valittu rehtorin kelpoisuusvaatimukset — mutta siitä ei myöskään voi päätellä, ettei hän täyttäisi niitä.\n\nLähettäisin nyt kirjallisen jatkopyynnön, esimerkiksi:\n\n> Pyydän valintapäätöksen perusteluineen ja muutoksenhakuohjeineen, hakijoista tehdyn ansiovertailun sekä selvityksen valitun kelpoisuudesta ja valinnassa käytetyistä arviointiperusteista. Pyydän myös tietoa valintalautakunnan asemasta ja siitä, miten tasa-arvolain kokoonpanovaatimusten soveltuminen on arvioitu.\n\nJos epäilet sukupuolisyrjintää, voit lisäksi pyytää nimenomaisesti **tasa-arvolain 10 §:n mukaista kirjallista selvitystä**, joka työnantajan on annettava viivytyksettä.\n\n**Älä odota vastausta ennen muutoksenhakuajan tarkistamista.** Perustelupyyntö ei yleensä pysäytä määräaikaa, ja kunnallisessa virantäytössä oikaisuvaatimusaika on usein vain 14 päivää päätöksen tiedoksisaannista. Ota siksi heti yhteys ammattiliittosi juristiin; syrjintäkysymykseen saa neuvontaa myös tasa-arvovaltuutetulta.\n\nMissä maassa tehtävä on, ja onko työnantaja kunta vai yksityinen koulutuksen järjestäjä?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5920,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 844,
+    "reasoning_output_tokens": 73
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

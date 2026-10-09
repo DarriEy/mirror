@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ca-e852-7690-b614-17b92a729d57"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Koska myös sinä ja valittu hakija olette naisia, kertomasi ei anna erityistä perustetta epäillä sukupuoleen perustuvaa syrjintää. Se ei kuitenkaan ratkaise sitä, oliko valintamenettely muuten asianmukainen.\n\nKeskittyisin ensisijaisesti **kelpoisuusvaatimuksiin, ansiovertailuun ja päätöksen perusteluihin**. Korkeampi tutkinto ja pitkä kokemus ovat merkittäviä ansioita, mutta eivät automaattisesti ratkaise johtajavalintaa: myös johtamistaidot, vuorovaikutusosaaminen ja haastattelussa arvioitu soveltuvuus voivat painaa. Toisaalta pakollisia kelpoisuusvaatimuksia ei voi vain sivuuttaa. Lyhyt tiedote ei välttämättä kerro valitun kaikkia ansioita.\n\nJos kyse on Suomen kunnasta:\n\n- **Pyydä kirjaamosta** valintapäätös liitteineen, muutoksenhakuohjeet, tehtävän kelpoisuusvaatimukset sekä hakijoista laadittu ansiovertailu siltä osin kuin asiakirjat ovat julkisia.\n- **Tarkista muutoksenhakuaika heti.** Kunnan päätöksen oikaisuvaatimusaika on usein 14 päivää tiedoksisaannista. Perustelupyyntö ei yleensä pysäytä määräaikaa.\n- Julkista asiakirjaa koskeva pyyntö on yleensä käsiteltävä kahdessa viikossa, vaativampi kuukaudessa. Pelkkä pyyntö laatia uusia perusteluja ei kuitenkaan välttämättä ole tällainen asiakirjapyyntö.\n\nLautakunnan kokoonpanossa on Suomessa myös **erillinen kiintiökysymys**: monissa kunnallisissa toimielimissä pitää olla vähintään 40 prosenttia kumpaakin sukupuolta, jollei erityisestä syystä muuta johdu. Säännön soveltuminen riippuu siitä, oliko kyse varsinaisesta toimielimestä vai esimerkiksi haastatteluryhmästä. Mahdollinen kokoonpanovirhe ei sellaisenaan osoittaisi sinuun kohdistunutta syrjintää.\n\nVoit siis kysyä kokoonpanon asianmukaisuudesta neutraalisti, mutta en tekisi siitä pääväitettä. **Vahvin lähtökohta on selvittää, täyttikö valittu kelpoisuusehdot ja millä dokumentoiduilla perusteilla hänet arvioitiin ansioituneimmaksi.** Jos määräaika saattaa olla käynnissä, ota heti yhteyttä ammattiliittosi juristiin tai muuhun oikeudelliseen neuvontaan."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5931,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 630,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

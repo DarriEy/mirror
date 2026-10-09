@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10150-a476-7da1-92ca-861a67c70564"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu út frá þessum upplýsingum.\n\nJá, taktu samsetningu nefndarinnar upp sem málefnalega fyrirspurn, ekki ásökun. Kanna þarf hvort reglur jafnréttislaga um kynjahlutföll í opinberum nefndum giltu um hana. Eingöngu karlskipuð nefnd sannar þó ekki að kyn hafi ráðið ráðningunni.\n\nMenntun þín og reynsla réttlæta að óska eftir skýrum samanburði, en hærri prófgráða tryggir ekki ráðningu. Auglýstar hæfniskröfur, vægi samráðsreynslu og samræmt mat skipta máli.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega, óskaðu eftir afgreiðslutíma og aðgangi að ráðningargögnum og samanburði umsækjenda, með lögbundnum takmörkunum. Spyrðu sérstaklega um skipun nefndarinnar. Leitaðu fljótt leiðsagnar hjá Jafnréttisstofu eða stéttarfélagi um möguleg úrræði og kærufresti; ekki bíða ótímabundið eftir svari."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6015,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 518,
+    "reasoning_output_tokens": 214
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

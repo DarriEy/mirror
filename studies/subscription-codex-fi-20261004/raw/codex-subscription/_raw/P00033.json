@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d0-ae77-79d0-b860-10a7c8a17d6c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita sukupuolisyrjintää.** Se on perusteltu syy kysyä, miten arvioinnin tasapuolisuus varmistettiin — ei vielä peruste päätellä, että sinut sivuutettiin sukupuolesi vuoksi.\n\nAntamiesi tietojen perusteella sinulla on vahva koulutus ja johtamiskokemus. Tohtorintutkinto ei kuitenkaan automaattisesti tee hakijasta tehtävään ansioituneempaa: ratkaisevia ovat tehtävän valintakriteerit ja hakijoiden kokonaisansiot. Valitun ”laaja johtamiskokemus” on liian epämääräinen tieto vertailun tekemiseen. Myöskään kahden viikon vastaamattomuus ei itsessään osoita syrjintää, mutta pyyntöä kannattaa nyt seurata.\n\n**Pyytäisin ensisijaisesti konkreettista selvitystä valinnasta**, esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallista selvitystä valinnan perusteista. Milloin voin odottaa vastausta? Pyydän tietoa käytetyistä valintakriteereistä ja niiden painotuksista sekä siitä, miten koulutustani ja kahdeksan vuoden johtamiskokemustani verrattiin valitun hakijan ansioihin. Pyydän myös selvitystä siitä, miten tasapuolinen ja sukupuolesta riippumaton arviointi varmistettiin. Tässä yhteydessä haluaisin tietää, miten valintalautakunnan kokoonpano määräytyi.\n\n**Jos kyse on Suomesta**, sukupuolisyrjintää epäilevällä hakijalla on tasa-arvolain nojalla oikeus saada työnantajalta viivytyksettä kirjallinen selvitys menettelystä. Julkisen työnantajan lautakunnan sukupuolijakaumaan voi lisäksi liittyä kokoonpanosääntöjä, mutta niiden soveltuminen riippuu siitä, millaisesta toimielimestä on kyse. Kaikki haastatteluryhmät eivät kuulu samoihin sääntöihin.\n\nSäilytä työpaikkailmoitus, päätös ja kirjeenvaihto. **Älä odota perusteluja mahdollisten muutoksenhakuaikojen yli**: tarkista päätöksen ohjeet ja tarvittaessa kysy neuvoa ammattiliitosta tai tasa-arvovaltuutetulta.\n\nMissä maassa tehtävä on, ja onko sairaala julkinen vai yksityinen? Se ratkaisee, mitä oikeuksia ja määräaikoja tilanteeseen liittyy."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5926,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 578,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ed-e14b-74b1-bfa6-82e8336c38ad"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat selvittää valinnan perusteet, etenkin kun sinulla on vahva koulutus ja pitkä johtamiskokemus eikä perustelupyyntöösi ole vastattu.\n\n**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä.** Myöskään valitun sukupuoli ei osoita, että se olisi vaikuttanut ratkaisuun. Lautakunnan kokoonpanoa voi tarvittaessa kysyä neutraalisti, mutta en tekisi siitä ensimmäisen yhteydenoton pääasiaa.\n\nRatkaisevampaa on selvittää:\n- Mitkä olivat tehtävän kelpoisuusvaatimukset ja ilmoitetut valintakriteerit?\n- Miten sinun ja valitun koulutusta, johtamiskokemusta ja haastatteluissa arvioitua soveltuvuutta vertailtiin?\n- Mihin valitun ”laaja johtamiskokemus” käytännössä perustuu?\n\nTohtorintutkintosi ja kahdeksan vuoden johtamiskokemuksesi ovat merkittäviä ansioita. Ne eivät kuitenkaan yksin osoita, että olit kokonaisuutena ansioitunein: lyhyt tiedote ei välttämättä kuvaa valitun kaikkea kokemusta, eikä korkeampi tutkinto automaattisesti ratkaise valintaa.\n\n**Lähettäisin nyt kirjallisen muistutuksen**, esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja laboratorion johtajan valinnasta. Pyydän vahvistamaan pyyntöni vastaanoton ja ilmoittamaan vastausajankohdan. Haluaisin saada valintapäätöksen perusteluineen sekä tiedon sovelletuista kelpoisuusvaatimuksista, valintakriteereistä ja tehdystä ansiovertailusta. Pyydän myös tiedon mahdollisista oikaisu- tai muutoksenhakukeinoista ja niiden määräajoista.\n\nKahden viikon hiljaisuus on syy muistuttaa pyynnöstä, mutta ei sellaisenaan näyttöä syrjinnästä. Jos vertailussa ilmenee perusteettomia poikkeamia ilmoitetuista kriteereistä tai sukupuoleen liittyviä kommentteja, asiaa kannattaa selvittää ammattiliiton tai syrjintäasioihin perehtyneen juristin kanssa.\n\n**Missä maassa tehtävä on, ja onko työnantaja julkinen vai yksityinen?** Tämä vaikuttaa tiedonsaantioikeuksiin ja määräaikoihin. Jos kyse on Suomesta, mahdollinen muutoksenhakuaika voi kulua perustelupyyntösi käsittelystä riippumatta, joten se kannattaa tarkistaa heti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5924,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 600,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

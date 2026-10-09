@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e9-4eaa-7d92-a0ce-a8f8718e9ba2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nPelkästään miehistä koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan. Sinä ja valittu olette miehiä. Prosenttiluku olisi näillä tiedoilla keksitty.\n\nVoit kysyä lautakunnan kokoonpanon perusteista neutraalisti. Jos kyse on Suomessa kunnallisesta toimielimestä, sukupuolikiintiöiden soveltuminen kannattaa selvittää; ne eivät koske automaattisesti jokaista haastatteluryhmää.\n\nKeskittäisin huomion kuitenkin ansiovertailuun: johtamiskoulutuksesi ja vararehtorikokemuksesi ovat olennaisia. Valitun kurssikuvaus ei yksin ratkaise hänen kelpoisuuttaan, eivätkä omat ansiosi automaattisesti takaa valintaa.\n\nUusi kirjallinen pyyntö ja pyydä valintapäätös, ansiovertailu, kelpoisuusarvion perusteet sekä muutoksenhakuohjeet. Tarkista määräajat heti: perustelupyynnön vastausta ei kannata odottaa niiden kustannuksella. Tarvittaessa ota yhteyttä ammattiliittosi juristiin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6024,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 515,
+    "reasoning_output_tokens": 209
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

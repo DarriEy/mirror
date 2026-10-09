@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011f-4356-7b70-acbc-fbdc5c028fb8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: 10\n\nThat number is a low-confidence subjective estimate, not a measurable probability from these facts. An all-women panel is not, by itself, evidence of sex bias. Neither does another woman’s appointment prove bias was impossible.\n\nYour longer experience is relevant, but years alone do not establish who best meets a leadership role’s criteria. Client relationships, management skills and interview performance may legitimately matter; announcements rarely give complete qualifications.\n\nFollow up now on your unanswered request. Ask for the selection criteria, how your application was assessed, and specific feedback. Focus on process and evidence—not panel composition. If discriminatory remarks or inconsistent treatment emerge, consider local employment advice promptly, since complaint deadlines vary."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5942,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 284,
+    "reasoning_output_tokens": 123
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

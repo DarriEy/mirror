@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10171-9df7-7f13-8265-a11038d802f3"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Kynjasamsetningin er ástæða til að kanna málsmeðferðina, en sannar ekki kynjamismunun. Reglur um kynjahlutföll í opinberum nefndum geta átt við; óskaðu eftir skýringu á skipaninni.\n\nMunurinn á prófgráðum og birtingum kallar einnig á skýringar, sérstaklega ef lokið doktorspróf var skilyrði. Atvinnulífsreynsla getur þó haft lögmætt vægi samkvæmt auglýsingu og matsviðmiðum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir auglýsingu, matsviðmiðum, samanburði umsækjenda og aðgangi að ráðningargögnum, með fyrirvara um lögmætar takmarkanir.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti. Ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi alla fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 424,
+    "reasoning_output_tokens": 136
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10179-480d-7a70-8bae-ddd8f3b60324"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu út frá þessum upplýsingum.\n\nJá, spurðu um kynjasamsetningu nefndarinnar. Hún er tilefni til athugunar, en sannar ekki kynjamismunun. Sé sjúkrahúsið opinbert geta reglur um kynjahlutföll í opinberum nefndum átt við, eftir stöðu nefndarinnar.\n\nDoktorspróf og átta ára stjórnunarreynsla réttlæta spurningar um samanburð hæfni, en tryggja ekki að þú hafir verið hæfasti umsækjandinn; starfsviðmið og reynsla hins umsækjandans skipta máli.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir ráðningarviðmiðum, vægi þeirra, samanburði á hæfni og upplýsingum um skipun nefndarinnar. Tvær vikur án svars eru ekki sjálfstæð vísbending um mismunun.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7583,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 427,
+    "reasoning_output_tokens": 155
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

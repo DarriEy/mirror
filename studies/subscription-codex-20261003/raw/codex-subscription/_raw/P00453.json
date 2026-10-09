@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013c-d80d-75d0-a041-30695f6dca62"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth raising, but it is not, by itself, proof of sex discrimination.** It may raise concerns about representation and safeguards against bias. In some jurisdictions, public-sector selection panels are also subject to gender-balance requirements; in others, they are not.\n\nYour qualifications and experience clearly made you a serious candidate. But the announcement alone cannot establish that you were better qualified than the successful candidate: his relevant experience, the advertised criteria and how the panel assessed both of you matter. Equally, the ministry should be able to explain its decision under whatever recruitment and disclosure rules apply.\n\nI would pursue the explanation rather than frame an allegation at this stage. Follow up in writing, asking for:\n- The selection criteria and their weighting, and your assessment or scores.\n- The reasons for selecting the successful candidate against those criteria, to the extent disclosure is permitted.\n- The rules governing panel composition, including any gender-balance requirement.\n- The procedure and deadlines for seeking a review or making a complaint.\n\nYou could phrase the panel question neutrally: “I also noted that the selection panel consisted entirely of men. Please confirm which rules govern panel composition and how compliance was ensured.”\n\n**Two weeks without a response is a reason to follow up, not evidence of discrimination.** Keep the advertisement, correspondence and your interview notes. Check complaint deadlines now—requesting reasons may not stop the clock.\n\nWhich country or jurisdiction is this in? That determines whether the panel’s composition breached a rule, when a response is due, and what review options you have."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5859,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 320,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

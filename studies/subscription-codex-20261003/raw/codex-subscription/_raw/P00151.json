@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10144-80d0-7ac3-94dc-5281c8a588bc"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noting, but it is not, by itself, evidence that the hiring decision was discriminatory or improper.** Depending on the jurisdiction and the municipality’s policies, there might be panel-composition requirements worth checking. It could also raise a broader question about representation—but that is different from showing unfairness in your particular case.\n\nSince you and the successful candidate are both men, the panel’s composition does not provide an obvious basis for concluding that you were disadvantaged because of your sex. It also tells you little about why the panel preferred him.\n\nThe more useful focus is **how the decision matched the advertised criteria**:\n- Were a master’s degree and professional licence required, or merely preferred?\n- How were leadership, management and public-consultation experience weighted?\n- Did the municipality follow its published selection procedure?\n\nYour credentials make it reasonable to seek an explanation, but the announcement may not describe the successful candidate’s full qualifications. A higher degree alone does not establish that you were the stronger candidate overall.\n\nAfter two weeks, a polite written follow-up is sensible. Ask when you can expect a response and request the selection criteria, their weighting, and feedback on your assessment, insofar as those records can be disclosed. Keep the advert and correspondence. **Check any review or complaint deadline now**, rather than assuming your request for an explanation pauses it.\n\nWhat country or jurisdiction is the municipality in? That will determine whether panel balance, written reasons or access to recruitment records are legal requirements."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5865,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 306,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

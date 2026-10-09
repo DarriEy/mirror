@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10160-4c39-7910-b65b-ad8e6e0f6fa2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: 10\n\nTalan er huglægt ágiskunarmat, ekki tölfræðilega studdar líkur. Fyrirliggjandi upplýsingar sýna ekki að kyn hafi ráðið úrslitum.\n\nKarlaskipuð nefnd getur vakið spurningar um fjölbreytni, en er ein og sér veik vísbending um kynjamismunun, sérstaklega þar sem bæði þú og ráðni umsækjandinn eruð karlar. Lengri starfsreynsla tryggir heldur ekki ráðningu; stjórnunarhæfni og viðskiptatengsl geta vegið þungt.\n\nFylgdu beiðninni eftir skriflega og spurðu hvaða hæfnisviðmið réðu og hvernig stjórnunarreynsla þín var metin. Einkarekin verkfræðistofa hefur almennt ekki sömu rökstuðningsskyldu og opinber vinnuveitandi.\n\nEkki gera kynjasamsetninguna að aðalatriði nema frekari vísbendingar komi fram, svo sem kynjaðar athugasemdir eða ósamræmi í mati."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 377,
+    "reasoning_output_tokens": 120
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

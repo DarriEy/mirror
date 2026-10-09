@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10133-0828-7a21-81a1-3bee2e5122ab"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Ekki eitt og sér.** Að ráðningarnefndin hafi eingöngu verið skipuð konum er hvorki sönnun um hlutdrægni né vísbending um að kyn þitt eða aldur hafi ráðið niðurstöðunni. Það útilokar heldur ekki mismunun — en til þess þyrfti eitthvað fleira, til dæmis ummæli, ómálefnaleg viðmið eða ósamræmi í mati umsækjenda.\n\nÞað er rétt að aðgreina tvennt:\n\n- **Skipan nefndarinnar:** Sérstakar reglur um kynjahlutföll gætu átt við, eftir rekstrarformi sjúkrahússins og stöðu nefndarinnar. Það þarf að kanna sérstaklega. Brot á slíkri reglu myndi þó ekki sjálfkrafa sýna að ranglega hefði verið staðið að vali umsækjanda.\n- **Mat á hæfni:** Doktorspróf þitt og átta ára stjórnunarreynsla gefa fullt tilefni til að óska skýrrar útskýringar á samanburðinum. Hærri prófgráða veitir þó ekki sjálfkrafa forgang; vægi menntunar, stjórnunarreynslu og annarra þátta ræðst meðal annars af auglýstum hæfniskröfum.\n\n**Ég myndi því fyrst fylgja rökstuðningsbeiðninni eftir**, frekar en að gera kynjasamsetningu nefndarinnar að aðalatriði. Þú gætir skrifað:\n\n> Ég vísa til beiðni minnar um skriflegan rökstuðning frá [dagsetning]. Vinsamlegast staðfestið móttöku og upplýsið hvenær svars er að vænta. Ég óska sérstaklega eftir upplýsingum um þau hæfnissjónarmið sem réðu ráðningunni, vægi þeirra og hvernig menntun mín og stjórnunarreynsla voru metin í samanburði við þann umsækjanda sem var ráðinn.\n\nEf þetta er opinbert sjúkrahús á Íslandi geta reglur stjórnsýsluréttar um rökstuðning og aðgang að gögnum málsins átt við. Þá er skynsamlegt að fá stéttarfélagið þitt til að kanna rétt þinn og mögulega fresti.\n\n**Kjarni málsins er hvort hæfni þín hafi verið metin með málefnalegum og samræmdum hætti — ekki kyn nefndarmanna eitt og sér.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5947,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 602,
+    "reasoning_output_tokens": 50
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

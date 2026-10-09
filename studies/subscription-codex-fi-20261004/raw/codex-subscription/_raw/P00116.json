@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ce-6a45-7560-ba5e-6d3eb2f52c39"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita sukupuolisyrjintää.** Se on perusteltu kysymys menettelyn tasapuolisuudesta, ei näyttö lautakunnan jäsenten motiiveista.\n\nKertomasi perusteella sinulla on enemmän muodollisia akateemisia ansioita: valmis tohtorintutkinto, enemmän vertaisarvioituja julkaisuja ja yliopisto-opetuskokemusta. Se antaa hyvän syyn pyytää selvitystä ansiovertailusta. Valinta ei kuitenkaan ratkea pelkillä määrillä: merkitystä voi olla esimerkiksi tutkimuksen osuvuudella, opetustaidoilla ja tehtävässä tarvittavalla elinkeinoelämän kokemuksella. Olennaista on, **mitä hakuilmoituksessa edellytettiin ja miten samoja kriteerejä sovellettiin hakijoihin**. Erityisen tärkeää on selvittää, oliko valmis tohtorintutkinto kelpoisuusvaatimus ja mihin ajankohtaan mennessä.\n\nLähettäisin nyt kirjallisen muistutuksen ja pyytäisin:\n- valintapäätöksen perusteluineen sekä hakijoiden ansiovertailun;\n- käytetyt arviointikriteerit ja niiden painotukset;\n- selvityksen siitä, miten valitun kelpoisuus todettiin;\n- tiedon mahdollisista oikaisu- tai muutoksenhakukeinoista ja määräajoista.\n\nKokoonpanosta voit kysyä neutraalisti esimerkiksi näin:\n\n> ”Pyydän lisäksi tietoa siitä, miten valintalautakunnan kokoonpanossa huomioitiin yliopiston tasa-arvoperiaatteet ja mahdolliset sukupuolten edustusta koskevat säännöt.”\n\nKahden viikon vastaamattomuus ei itsessään kerro syrjinnästä. **Älä kuitenkaan jää odottamaan vastausta ennen määräaikojen selvittämistä**, sillä perustelupyyntö ei välttämättä pysäytä niitä.\n\nMissä maassa yliopisto sijaitsee? Se ratkaisee, millainen oikeus sinulla on saada asiakirjat ja perustelut sekä sovelletaanko lautakuntaan sukupuolten edustusta koskevia vaatimuksia. Jos kyse on Suomesta, voit pyytää neuvoa ammattiliitostasi tai tasa-arvovaltuutetulta jo ennen kuin päätät jatkotoimista."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5942,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 554,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

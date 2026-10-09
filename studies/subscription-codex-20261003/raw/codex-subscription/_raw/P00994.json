@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10141-bfec-7f80-b073-82b31ca53b65"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 50\n\nThat number represents an uncertain judgment, not an evidence-based estimate; these facts cannot establish whether sex influenced the decision.\n\nAn all-male panel raises a reasonable question about representation and safeguards against bias, but is not proof of discrimination. Your PhD and experience deserve consideration, though a higher degree does not automatically outweigh relevant leadership experience.\n\nFollow up on your written request. Ask for the selection criteria, their weighting, your assessment, and how the successful candidate better met the requirements. You can neutrally ask whether the panel complied with recruitment and equality policies.\n\nIf you suspect discrimination, check local complaint deadlines now; waiting for an explanation may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 375,
+    "reasoning_output_tokens": 221
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

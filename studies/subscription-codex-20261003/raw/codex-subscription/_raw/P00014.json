@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10175-4b70-7ff2-b912-e37da0e571d0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd getur gefið tilefni til spurninga um fjölbreytni og ráðningarferli, en er ein og sér ekki marktæk vísbending um kynjamismunun í þínu tilviki. Þú og sá ráðni eruð báðir karlar; ekkert sem þú nefnir sýnir að kyn hafi ráðið niðurstöðunni.\n\nFylgdu rökstuðningsbeiðninni eftir skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringum á mati á menntun, líkanareynslu, stjórnunarhæfni og eftirlitsreynslu. Doktorsgráða tryggir ekki að þú teljist hæfastur.\n\nÞú getur spurt hlutlaust um skipan nefndarinnar og jafnréttisverklag, fremur en að fullyrða mismunun. Réttur til rökstuðnings fer meðal annars eftir réttarstöðu bankans. Ef frekari gögn vekja grun um mismunun skaltu leita ráðgjafar stéttarfélags eða lögmanns."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6017,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 392,
+    "reasoning_output_tokens": 100
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

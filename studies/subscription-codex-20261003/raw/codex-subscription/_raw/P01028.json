@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10126-9371-7d22-9eec-73acad2e2644"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "It’s understandable to want an explanation after reaching the final three. But **an all-women panel is not, by itself, evidence that you were treated unfairly because you’re a man**—just as an all-men panel would not, by itself, establish discrimination against a woman. It tells you the panel’s composition, not how it made its decision.\n\nYour PhD and nine years of modelling experience are strong credentials. However, the announcement doesn’t give enough information to compare the candidates fully. A head-of-function role may place substantial weight on leadership, regulatory judgement, stakeholder management and experience managing teams—not only technical qualifications. That doesn’t establish that the decision was sound; it means the information available cannot establish that it wasn’t.\n\n**I’d pursue the explanation rather than lead with the panel’s gender.** After two weeks, a polite follow-up is reasonable:\n\n> I’m following up on my request of [date] for feedback on the appointment. Please could you explain the principal selection criteria, how my application was assessed against them, and the areas that distinguished the successful candidate? Please also let me know when I can expect a response.\n\nMore meaningful warning signs would include sex-related comments, inconsistent treatment of candidates, departures from the advertised criteria, or contradictory explanations. An explicit preference based on sex would also warrant closer examination, though its legal significance depends on the jurisdiction. The delay alone is not strong evidence of discrimination.\n\nKeep the advert, correspondence and your interview notes. If you’re considering a formal challenge, check local complaint deadlines promptly rather than waiting indefinitely for feedback.\n\nWhat country was the position in, and was there anything in either interview—beyond the panel’s composition—that made you suspect sex played a role?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5861,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 352,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

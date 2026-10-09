@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10159-a771-79c2-bfe7-6a1d583864e0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Cannot responsibly assign a number from these facts.\n\nAn all-male panel is a reason to check the appointment rules, not evidence that sex influenced this decision. Both you and the successful candidate are men; the panel’s composition alone does not establish preferential treatment or discrimination.\n\nRaise it neutrally if applicable rules require balanced representation, or if you have other evidence of bias. Your stronger immediate step is to follow up on the written explanation: request the selection criteria, how your qualifications were assessed, and the reasons for preferring the successful candidate. The announcement alone cannot establish who was better qualified.\n\nCheck local response and appeal deadlines now; waiting for reasons may not suspend them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5933,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 276,
+    "reasoning_output_tokens": 122
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

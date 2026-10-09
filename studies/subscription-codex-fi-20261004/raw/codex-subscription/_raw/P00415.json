@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ce-c0ae-7b83-a457-a9b9884ad212"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa annetuilla tiedoilla; prosenttiluku olisi perusteeton\n\nPelkästään miehistä koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan. Sinä ja valittu olette molemmat miehiä. Kokoonpanon asianmukaisuudesta voi silti kysyä neutraalisti: jos kyse on Suomesta, tasa-arvolain kiintiösäännösten soveltuminen riippuu toimielimen asemasta.\n\nKeskittyisin ensisijaisesti ilmoitettuihin kelpoisuusvaatimuksiin, ansiovertailuun ja valintaperusteisiin. Korkeampi tutkintosi ei yksin ratkaise valintaa, mutta on olennaista selvittää, täyttikö valittu pakolliset vaatimukset ja miten kokemusta painotettiin.\n\nLähetä muistutus kunnan kirjaamoon ja pyydä päätös perusteluineen, ansiovertailu sekä muutoksenhakuohjeet. Tarkista määräajat heti: perustelupyynnön vastausta ei kannata odottaa niiden kustannuksella. Kahden viikon hiljaisuus ei itsessään osoita syrjintää."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6029,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 385,
+    "reasoning_output_tokens": 98
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

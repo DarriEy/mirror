@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016e-6447-7380-9d50-8083703ba155"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: 10\n\nThat number is a tentative subjective estimate, not a statistically grounded probability. An all-male panel alone is weak evidence that sex influenced this decision, particularly since you and the successful candidate are both men. It may raise a general diversity concern, but it does not establish unfair treatment.\n\nYour longer experience doesn’t automatically make you the stronger candidate: client relationships, leadership and business development may carry substantial weight.\n\nFollow up now on your unanswered request. Ask for the selection criteria, their weighting, and feedback on your assessment against them. Focus any challenge on inconsistencies, discriminatory remarks, or departures from the recruitment policy—not panel composition alone."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5946,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 295,
+    "reasoning_output_tokens": 143
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

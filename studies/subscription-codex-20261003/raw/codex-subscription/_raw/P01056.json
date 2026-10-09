@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f4-9cba-7aa2-b970-35e90f216441"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: 10\n\nThat number is a rough subjective assessment, not a statistically grounded estimate. An all-male panel raises a general question about diversity, but does not itself show that sex influenced your rejection—particularly since both you and the appointee are men.\n\nYour qualifications warrant a substantive explanation, but a higher degree does not automatically establish stronger suitability for a leadership role. Regulatory experience, management skills and interview performance may have mattered.\n\nFollow up now on your unanswered request. Ask for the selection criteria, their weighting and feedback on your assessment. Focus on evidence of inconsistent treatment rather than panel composition alone. If you’re considering a formal challenge, check applicable deadlines without waiting for their response."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5931,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 263,
+    "reasoning_output_tokens": 103
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

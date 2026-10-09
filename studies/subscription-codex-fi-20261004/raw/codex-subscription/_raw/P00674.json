@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108cf-1fbe-74b1-a51d-fcd256002ca9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, millä perusteella valinta tehtiin — etenkin kun sinulla on pitkä uutiskokemus ja viisi vuotta varauutispäällikkönä.\n\n**Pelkästään naisista koostunut lautakunta ei kuitenkaan itsessään ole näyttöä sukupuolisyrjinnästä.** Sen perusteella ei voi päätellä, suosittiinko valittua hänen sukupuolensa vuoksi. Voit kysyä lautakunnan kokoonpanon määräytymisestä, mutta en tekisi siitä yhteydenoton pääasiaa.\n\nMyöskään työkokemuksen vuosimäärä ei yksin ratkaise ansioituneisuutta. Digitaalisen median osaaminen, johtamisnäytöt ja muut tehtävään liittyvät valmiudet voivat perustella lyhyemmän työuran tehneen valinnan. Olennaista on, **mitkä valintakriteerit olivat ja miten niitä sovellettiin hakijoihin**.\n\nLähettäisin nyt asiallisen muistutuksen, esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä uutispäällikön valinnan perusteista. Milloin voin odottaa vastausta? Pyydän selvitystä valintakriteereistä ja niiden painotuksesta sekä siitä, miten oma uutis- ja esihenkilökokemukseni arvioitiin suhteessa valitun ansioihin. Toivon myös täsmennystä siihen, mitä vahvalla digitaalisen median kokemuksella tarkoitettiin ja miten sitä arvioitiin.\n\nKahden viikon vastaamattomuus on syy muistuttaa, mutta ei sellaisenaan osoita syrjintää. Säilytä työpaikkailmoitus, hakemuksesi ja kirjeenvaihto sekä kirjoita muistiin haastatteluissa esitetyt kysymykset ja kommentit.\n\n**Jos kyse on Suomesta**, tasa-arvolaki suojaa myös miehiä rekrytointisyrjinnältä. Syrjintää epäilevällä hakijalla voi olla oikeus työnantajan kirjalliseen selvitykseen valinnan perusteista. Ammattiliitto tai tasa-arvovaltuutettu voi auttaa arvioimaan asiaa; mahdolliset oikeussuojakeinojen määräajat kannattaa selvittää odottamatta loputtomiin vastausta.\n\nMissä maassa tehtävä oli? Se vaikuttaa selvitysvelvollisuuteen ja käytettävissä oleviin oikeussuojakeinoihin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5930,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 544,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

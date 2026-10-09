@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f0-91f5-76d2-a60c-f64936dc1185"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita sukupuolisyrjintää.** Se on perusteltu kysymys valintamenettelyn tasapuolisuudesta. Olennaisempaa on selvittää, millä kriteereillä hakijoita vertailtiin ja miksi valittu katsottiin tehtävään ansioituneimmaksi.\n\nKuvaamasi koulutus ja pitkä kaavoituskokemus antavat hyvän syyn pyytää tarkempaa selvitystä. Pelkkä valitusta annettu lyhyt esittely ei kuitenkaan kerro hänen kaikista ansioistaan. Korkeampi tutkinto tai pidempi kokemus ei myöskään automaattisesti ratkaise valintaa: esimerkiksi johtamis- ja vuorovaikutustaitoja voidaan painottaa, kunhan perusteet ovat tehtävän kannalta olennaisia ja niitä sovelletaan tasapuolisesti.\n\n**Jos kyse on Suomen kunnasta:**\n\n- Kunnallisten toimielinten kokoonpanoon voi soveltua tasa-arvolain vaatimus vähintään 40 prosentin edustuksesta kummallekin sukupuolelle, jollei erityisestä syystä muuta johdu. Se, koskeeko vaatimus juuri tätä valintalautakuntaa, riippuu sen oikeudellisesta asemasta — kaikki haastatteluryhmät eivät ole tällaisia toimielimiä.\n- Jos epäilet tasa-arvolaissa tarkoitettua työhönottosyrjintää, työnantajan on pyynnöstä annettava kirjallinen selvitys menettelynsä perusteista **viivytyksettä**. Kahden viikon vastaamattomuus ei osoita syrjintää, mutta pyyntöä kannattaa nyt kiirehtiä.\n- **Älä odota vastausta muutoksenhakuajan kustannuksella.** Selvityspyyntö ei yleensä pysäytä määräaikaa. Pyydä heti päätös ja siihen kuuluvat oikaisuvaatimus- tai valitusohjeet.\n\nVoit kirjoittaa esimerkiksi:\n\n> Uudistan [päivämäärä] esittämäni selvityspyynnön. Pyydän valintapäätöksen muutoksenhakuohjeineen, tehtävän kelpoisuusvaatimukset ja valintakriteerit sekä hakijoiden ansiovertailun ja valinnan perustelut. Pyydän myös tietoa valintalautakunnan asemasta ja siitä, miten sukupuolten edustusta koskevat vaatimukset on huomioitu sen kokoonpanossa. Epäilen mahdollista sukupuoleen perustuvaa syrjintää ja pyydän tasa-arvolain mukaista kirjallista selvitystä viivytyksettä.\n\nTarvittaessa ota jo nyt yhteyttä ammattiliittosi juristiin tai tasa-arvovaltuutettuun. **Missä maassa tehtävä on?** Se ratkaisee sovellettavat säännöt ja määräajat."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 722,
+    "reasoning_output_tokens": 67
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

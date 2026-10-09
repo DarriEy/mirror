@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012b-6b62-7ce0-b14d-ff57e555872c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, eðlilegt er að spyrja um skipan nefndarinnar og hvort viðeigandi reglum um kynjahlutföll hafi verið fylgt. Karlaskipanin ein sannar þó ekki að kyn hafi ráðið ráðningunni. Mögulegur annmarki á nefndarskipan og mismunun við ráðningu eru aðskilin álitaefni.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir hæfniviðmiðum, vægi þeirra, samanburði á hæfni þinni og þess ráðna og upplýsingum um skipan nefndarinnar. Prófgráður og starfsaldur ein ráða ekki niðurstöðunni; verkefnareynsla getur skipt máli ef hún tengist starfinu.\n\nEf rökstuðningurinn sýnir ósamræmi eða ómálefnaleg sjónarmið skaltu leita til stéttarfélags eða lögfræðings. Gættu kærufresta; ekki gera ráð fyrir að bið eftir svari stöðvi þá alla."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6023,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 529,
+    "reasoning_output_tokens": 241
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

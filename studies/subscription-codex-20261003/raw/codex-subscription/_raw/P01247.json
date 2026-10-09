@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016e-52c6-75b3-b0c4-20d603c3721e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**The all-male panel is worth noting, but it is not, by itself, evidence that the decision was discriminatory.** In some jurisdictions, public-school appointment panels must meet gender-balance requirements; in others, there is no such rule. Its legal significance depends on where the school is and whether it is public or private.\n\nThe other facts warrant scrutiny:\n- Your master’s in educational leadership and five years as deputy principal appear directly relevant. It is reasonable to ask how those were weighed against the successful candidate’s qualifications.\n- The announcement may not describe his full qualifications, and interviews or other published selection criteria could legitimately affect the outcome. It does not establish that you were the stronger candidate overall.\n- Two weeks without an explanation merits a follow-up, although whether a deadline has been missed depends on the applicable rules.\n\n**I would raise the panel’s composition as a procedural question, rather than an accusation.** For example:\n\n> I am following up on my request for written reasons for the appointment. Please explain the selection criteria and how my qualifications and leadership experience were assessed against those of the successful candidate. Please also confirm which rules governed the panel’s composition, including any gender-balance requirements, and whether those requirements were met.\n\nKeep the vacancy notice, announcement and correspondence. Check any complaint or appeal deadlines promptly—waiting for reasons may not stop the clock.\n\n**Which country is the school in, and is it public or private?** If you are comfortable sharing your gender, that would also help assess whether sex-discrimination protections may be relevant."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5858,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 316,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

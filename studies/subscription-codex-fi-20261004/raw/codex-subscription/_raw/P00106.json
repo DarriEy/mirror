@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108cb-a783-7ba0-b32e-e3cab9d73bc2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa annetuista tiedoista; luku 0–100 olisi perusteeton.\n\nVoit ottaa lautakunnan kokoonpanon esille kysymyksenä rekrytoinnin monimuotoisuudesta, mutta se ei yksin osoita sukupuolen vaikuttaneen valintaan. Sinä ja valittu olette molemmat miehiä; kerrotuissa tiedoissa ei ole konkreettista näyttöä sukupuolisyrjinnästä.\n\nPidempi työkokemus ei automaattisesti tee hakijasta ansioituneinta: digitaalisen median osaaminen, johtamistaidot ja tehtävän valintakriteerit voivat ratkaista.\n\nLähettäisin nyt kohteliaan muistutuksen perustelupyynnöstä. Pyydä tietoa valintakriteereistä, niiden painotuksista ja siitä, miten ansioitanne vertailtiin. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää. Jos perusteluista ilmenee sukupuoleen liittyviä oletuksia tai epäjohdonmukaisuuksia, ota yhteyttä ammattiliittoosi. Mahdolliset oikeudet ja määräajat riippuvat maasta ja palvelussuhteen luonteesta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 396,
+    "reasoning_output_tokens": 95
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ed-683f-7010-95c1-87720966a9d5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuilla tiedoilla\n\nPelkästään miehistä koostunut lautakunta on perusteltu keskustelunaihe, mutta ei itsessään osoita sukupuolen vaikuttaneen valintaan. Numeerinen arvio olisi näillä tiedoilla keksitty.\n\nPidempi uutiskokemuksesi ja viisi vuotta varauutispäällikkönä puoltavat ansioitasi. Toisaalta digiosaaminen voi olla hyväksyttävä valintaperuste; ratkaisevaa on, miten se liittyi ilmoitettuihin vaatimuksiin ja miten hakijoita vertailtiin.\n\nLähetä muistutus perustelupyynnöstäsi. Pyydä valintakriteerit, niiden painotukset ja ansiovertailu. Voit kysyä neutraalisti: ”Miten rekrytoinnin tasapuolisuus varmistettiin, kun lautakunta koostui vain miehistä?”\n\nKahden viikon vastaamattomuus ei yksin todista syrjintää. Säilytä ilmoitus ja viestit. Jos epäily vahvistuu, kysy neuvoa ammattiliitosta tai toimivaltaiselta tasa-arvoviranomaiselta; mahdolliset määräajat kannattaa selvittää viipymättä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 438,
+    "reasoning_output_tokens": 129
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

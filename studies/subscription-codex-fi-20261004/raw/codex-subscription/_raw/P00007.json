@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f0-8bb9-7ea0-8a70-5ef68a3912cc"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, mihin ratkaisu perustui, etenkin kun perustelupyyntöösi ei ole vastattu.\n\n**Lautakunnan koostumuksen voi mainita, mutta en tekisi siitä pääasiaa.** Se, että kaikki neljä jäsentä olivat naisia, ei itsessään osoita sukupuoleen perustuvaa suosimista tai syrjintää. Olennaisempaa on, millä kriteereillä hakijoita vertailtiin ja sovellettiinko niitä tasapuolisesti.\n\nSinulla on vahva tausta riskimallinnukseen. Tohtorintutkinto ja yhdeksän vuoden kokemus eivät kuitenkaan yksin ratkaise johtajavalintaa: johtamiskokemus, sääntelyosaaminen ja tehtävän muut painotukset voivat olla ratkaisevia. Valitusta julkaistu lyhyt esittely ei myöskään kerro hänen koko pätevyyttään.\n\n**Lähettäisin nyt asiallisen muistutuksen**, esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä rekrytointipäätöksen perusteista. Voisitteko ilmoittaa, milloin saan vastauksen? Pyydän erityisesti tietoa valintakriteereistä ja niiden painotuksista sekä siitä, miten koulutusta, riskimallinnuskokemusta, johtamisosaamista ja sääntelyosaamista vertailtiin.\n\nJos haluat käsitellä tasapuolisuutta, kysy mieluummin *”Miten arvioinnin tasapuolisuus varmistettiin?”* kuin vihjaa lautakunnan sukupuolen selittävän päätöksen.\n\nJos kyse on Suomesta, tasa-arvolaki suojaa myös miehiä rekrytointisyrjinnältä. Työnantajan on annettava viivytyksettä kirjallinen selvitys hakijalle, joka katsoo joutuneensa laissa tarkoitetun sukupuolisyrjinnän kohteeksi. Kahden viikon hiljaisuus ei yksin todista syrjintää, mutta muistutus on perusteltu. Jos vastausta ei tule tai perustelut herättävät konkreettisia epäilyjä, voit kysyä neuvoa tasa-arvovaltuutetulta tai liittosi juristilta.\n\nSäilytä työpaikkailmoitus, viestit ja haastattelumuistiinpanot. **Selvitä valinnan perusteita — älä päättele niitä valitsijoiden sukupuolesta.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5923,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 553,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

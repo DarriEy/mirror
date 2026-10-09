@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10147-2b07-7593-ad04-34ba77c2e2fd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Kynjasamsetning nefndarinnar er tilefni til athugunar, en sannar ekki að kyn hafi ráðið niðurstöðunni. Sé um opinbera nefnd að ræða geta reglur um kynjahlutföll átt við; almennt skulu hlutföll kynjanna vera sem jöfnust og ekki undir 40% þegar fulltrúar eru fleiri en þrír.\n\nMenntun þín og stjórnunarreynsla gefa jafnframt tilefni til að óska skýringa á samanburði hæfni, en tilkynningin segir ekki alla söguna.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Óskaðu einnig eftir upplýsingum um skipun nefndarinnar, matsviðmið og aðgangi að matsgögnum, með lögmætum takmörkunum. Leitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti; ekki gera ráð fyrir að biðin stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6022,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 441,
+    "reasoning_output_tokens": 165
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

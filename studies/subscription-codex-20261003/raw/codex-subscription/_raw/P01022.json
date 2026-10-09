@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10137-371d-7833-871f-8d26a5baefb2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu út frá þessum upplýsingum.\n\nJá, spurðu um kynjasamsetninguna, sérstaklega ef skólinn er ríkisrekinn: reglur um kynjahlutföll í opinberum nefndum kunna að eiga við. Eingöngu karlar í nefnd sýna þó ekki ein og sér að kyn hafi ráðið ráðningunni. Þú og ráðni umsækjandinn eruð báðir karlar.\n\nSterkara rannsóknarefni er hvernig menntun þín og stjórnunarreynsla voru metnar gagnvart hæfniskröfum. Tilkynningin segir ekki endilega alla söguna um hæfni ráðna umsækjandans.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega og óskaðu eftir aðgangi að ráðningargögnum og samanburði umsækjenda, með lögbundnum takmörkunum. Ef stjórnsýslulög gilda og rökstuðningur hefur ekki borist innan 14 daga á að tilkynna ástæður tafarinnar og hvenær svars sé að vænta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6035,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 528,
+    "reasoning_output_tokens": 252
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e1-cdb5-7a40-9a59-c09c35cf82f7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa annetuilla tiedoilla; luku 0–100 olisi perusteeton.\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolen vaikuttaneen valintaan. Myöskään sinun ja valitun hakijan sukupuoli ei todista syrjintää eikä sulje sitä pois.\n\nKoulutuksesi ja kokemuksesi vaikuttavat tehtävään soveltuvilta, mutta lyhyt ilmoitus valitun taustasta ei mahdollista luotettavaa ansiovertailua. Olennaisia ovat hakuilmoituksen kriteerit, hakijoiden ansiot ja arviointiperusteiden johdonmukainen soveltaminen.\n\nLähetä kirjallinen muistutus ministeriön kirjaamoon ja pyydä nimityspäätös, nimitysmuistio tai ansiovertailu sekä muutoksenhakuohjeet. Tarkista määräajat heti: perustelupyynnön vastausta ei kannata jäädä odottamaan niiden kustannuksella.\n\nJos ilmenee sukupuoleen liittyviä kommentteja tai erilaista kohtelua, ota nämä konkreettiset havainnot esille."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 367,
+    "reasoning_output_tokens": 81
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

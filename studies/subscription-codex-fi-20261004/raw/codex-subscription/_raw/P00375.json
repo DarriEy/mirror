@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d5-f2e2-7b71-a2b3-6dfc5c2525e1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuilla tiedoilla; prosenttiluku olisi keksitty.\n\nLautakunnan naisvaltaisuus ei itsessään osoita sukupuolen vaikuttaneen valintaan. Sekään, että sinä ja valittu olette naisia, ei sulje syrjintää pois, mutta kertomasi ei anna siitä konkreettisia viitteitä.\n\nTohtorintutkintosi ja johtamiskokemuksesi ovat merkittäviä ansioita, mutta korkeampi tutkinto ei automaattisesti ratkaise valintaa. Ratkaisevia ovat tehtävän kelpoisuusvaatimukset, ilmoitetut valintaperusteet ja hakijoiden vertailu.\n\nLähetä kirjallinen muistutus perustelupyynnöstä. Pyydä valintapäätös, ansiovertailu ja mahdolliset muutoksenhakuohjeet. Tarkista määräajat heti: perustelujen odottaminen ei välttämättä pysäytä niitä. Jos asiakirjoista ilmenee epäjohdonmukaisuuksia tai sukupuoleen liittyviä perusteluja, ota yhteyttä ammattiliittoon tai juristiin. Keskity nyt valinnan perusteisiin, älä lautakunnan sukupuolijakaumaan."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 420,
+    "reasoning_output_tokens": 114
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

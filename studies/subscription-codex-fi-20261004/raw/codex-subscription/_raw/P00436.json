@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d3-ef9c-7460-8940-2562ab0adfb6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita sukupuolisyrjintää.** Se on perusteltu syy kysyä, miten arvioinnin tasapuolisuus varmistettiin. Ymmärrän, että asia mietityttää, etenkin kun et ole saanut pyytämiäsi perusteluja.\n\nArvioinnissa kannattaa erottaa kolme asiaa:\n- **Lautakunnan kokoonpano:** pelkästään miehistä koostuva ryhmä ei automaattisesti tee syrjivää päätöstä. Kokoonpano voi kuitenkin olla osa kokonaiskuvaa, jos menettelyssä ilmenee muutakin epäilyttävää.\n- **Hakijoiden ansiot:** tohtorintutkintosi ja yhdeksän vuoden kokemuksesi ovat vahvoja ansioita. Niiden perusteella ei silti yksin voi päätellä, että olit tehtävään ansioituneempi: esimerkiksi johtamis- ja sääntelykokemus voivat olla olennaisia. Valitusta julkaistu lyhyt esittely ei välttämättä kuvaa kaikkia hänen ansioitaan.\n- **Perustelujen puuttuminen:** kahden viikon hiljaisuus ei todista syrjintää, mutta muistutus on nyt aiheellinen.\n\n**Jos kyse on Suomessa olevasta tehtävästä**, tasa-arvolain 10 § velvoittaa työnantajan antamaan viivytyksettä kirjallisen selvityksen henkilölle, joka katsoo joutuneensa lain tarkoittaman työhönottosyrjinnän kohteeksi. Selvityksessä tulee kuvata valintaperusteet ja valitun osoitettavissa olevat ansiot. Pelkkä yleinen perustelupyyntö ei välttämättä ole tuonut esiin, että pyydät tätä selvitystä.\n\nVoisit kirjoittaa esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja rekrytointipäätökselle. Koska haluan selvittää, onko sukupuolella voinut olla vaikutusta valintaan, pyydän tasa-arvolain 10 §:n mukaista kirjallista selvitystä valintaperusteista ja valitun henkilön valintaan vaikuttaneista ansioista. Pyydän erityisesti selventämään, miten riskimallinnusosaamista, koulutusta sekä johtamis- ja sääntelykokemusta painotettiin. Havaitsin myös, että valintalautakunta koostui yksinomaan miehistä. Miten arvioinnin tasapuolisuus varmistettiin?\n\nSäilytä työpaikkailmoitus, viestit ja haastattelumuistiinpanot. Jos vastausta ei tule tai perusteet herättävät lisäkysymyksiä, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta.\n\nPääpaino kannattaa pitää **valintaperusteissa ja ansiovertailussa**, ei lautakunnan jäsenten sukupuolessa. Sinun ei tarvitse tietää varmasti, tapahtuiko syrjintää, voidaksesi pyytää asian selvittämistä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5923,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 694,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

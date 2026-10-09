@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015c-1ced-7600-9ac8-548e2aaf2632"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er unnt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, nefndarskipanin gefur tilefni til spurninga, en sannar ekki kynjamismunun. Reglur um kynjahlutföll í opinberum nefndum gætu átt við; það þarf að kanna hvernig ráðningarnefndin var skipuð.\n\nMeistarapróf og starfsreynsla tryggja ekki ráðningu, en sveitarfélagið þarf að geta rökstutt samanburð umsækjenda út frá málefnalegum sjónarmiðum.\n\nÍtrekaðu beiðnina núna: skriflegan rökstuðning á almennt að veita innan 14 daga. Óskaðu jafnframt eftir hæfniviðmiðum, samanburðarmati og upplýsingum um skipun nefndarinnar.\n\nLeitaðu ráðgjafar hjá Jafnréttisstofu eða stéttarfélaginu þínu. Athugaðu kærufresti strax; ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6015,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 492,
+    "reasoning_output_tokens": 223
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

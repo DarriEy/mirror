@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100ec-94de-7dc0-9c12-772a9046a6a2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, taktu kynjasamsetninguna upp sem málefnalega spurningu um ráðningarferlið. Hún sannar ekki kynjamismunun en gefur tilefni til að kanna hvort viðeigandi reglum um kynjahlutföll í nefndum hafi verið fylgt, sérstaklega á opinberu sjúkrahúsi.\n\nDoktorsprófið og stjórnunarreynslan styrkja stöðu þína, en sýna ekki ein og sér að þú hafir verið hæfust samkvæmt auglýstum viðmiðum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Óskaðu eftir hæfniviðmiðum, vægi þeirra, samanburði á umsækjendum og upplýsingum um skipun nefndarinnar. Spurðu hvenær svars sé að vænta.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um réttindi og mögulega kærufresti; ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6046,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 427,
+    "reasoning_output_tokens": 149
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

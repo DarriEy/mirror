@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013e-a8f5-7af3-b538-95663a41f82e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence that you were treated unfairly because you’re a man.** It’s understandable to question the decision given your qualifications, but the panel’s composition alone tells you little about how it assessed candidates.\n\nYour PhD and eight years running a section are substantial credentials. Still, a head-of-laboratory appointment may weigh organisation-wide leadership, staff management, quality and safety, budgets, and interview performance more heavily than the highest academic degree. The announcement doesn’t give enough detail to compare those factors fairly.\n\nI’d focus first on **the selection process and its documented reasons**, rather than the panel members’ sex:\n\n- Follow up on your request, noting the date you sent it and asking when to expect a response.\n- Ask for the selection criteria, their weighting, feedback on your assessment, and the reasons the successful candidate was preferred—as far as disclosure rules permit.\n- Compare the explanation with the advertised requirements. An unexplained departure from essential qualifications, shifting criteria, or sex-related comments would warrant closer scrutiny.\n\nTwo weeks without a reply merits a follow-up, but isn’t itself evidence of discrimination. You could write:\n\n> I’m following up on my request of [date] for a written explanation of the appointment decision. Please confirm receipt and advise when I can expect a response. I would appreciate feedback on how my qualifications and experience were assessed against the selection criteria, and the principal reasons for the final decision.\n\nPanel-balance rules, disclosure rights, and complaint deadlines vary by jurisdiction. **Which country was this in, and is the hospital public or private?** If you’re considering a formal challenge, check deadlines promptly rather than waiting indefinitely for the explanation."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5870,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 350,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

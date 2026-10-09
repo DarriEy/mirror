@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d2-d729-78b3-b968-e0fa2e1fe246"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuista tiedoista\n\nPelkästään naisista koostuva lautakunta ei osoita sukupuolen vaikuttaneen valintaan. Prosenttiluku olisi perusteeton arvaus. Tutkintosi, julkaisusi ja opetuskokemuksesi antavat kuitenkin aihetta pyytää tarkempaa ansiovertailua.\n\nLähetä kirjallinen muistutus ja pyydä valintapäätös, arviointikriteerit, ansiovertailu sekä mahdolliset muutoksenhakuohjeet. Selvitä erityisesti, edellytettiinkö valmiin tohtorintutkinnon suorittamista ja miten elinkeinoelämäkokemusta painotettiin. Tarkista määräajat heti: perustelupyynnön ei pidä olettaa pysäyttävän niitä.\n\nVoit kysyä lautakunnan kokoonpanon perusteista neutraalisti, mutta älä esitä sen sukupuolijakaumaa syrjinnän todisteena. Jos asiakirjoista ilmenee sukupuolen suosimista tai epäjohdonmukaisia valintaperusteita, ota yhteyttä liittosi juristiin tai Suomessa tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 437,
+    "reasoning_output_tokens": 138
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

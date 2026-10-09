@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ce-4d9b-7ca1-af69-59142dcefb93"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä naisista koostuva lautakunta ei ole näyttö sukupuolisyrjinnästä.** Olennaisempaa on selvittää, millä perusteilla hakijoita vertailtiin ja valinta tehtiin. On ymmärrettävää, että kaipaat perusteluja etenkin johtamiskoulutuksesi ja vararehtorikokemuksesi vuoksi.\n\nKuvaamasi perusteella sinulla on tehtävään vahvoja ansioita. Valitusta julkaistu lyhyt kuvaus ei kuitenkaan välttämättä kerro hänen koko pätevyydestään. Rehtorin kelpoisuus ja hakijoiden keskinäinen ansiovertailu ovat myös eri asioita: molemmat voivat olla kelpoisia, vaikka heidän koulutuksensa ja johtamiskokemuksensa eroavat. Soveltuvuutta voidaan painottaa, mutta sillä ei saa peittää sukupuoleen perustuvaa valintaa.\n\n**Jos kyse on Suomessa täytetystä tehtävästä, toimisin näin:**\n\n- **Uudista kirjallinen pyyntö heti.** Pyydä valintapäätös perusteluineen, hakijoiden ansiovertailu, tehtävässä käytetyt valintaperusteet sekä selvitys valitun rehtorikelpoisuuden täyttymisestä. Asiakirjoissa voi olla salassa pidettäviä osia.\n- **Pyydä tarvittaessa nimenomaisesti tasa-arvolain 10 §:n mukainen kirjallinen selvitys.** Työnantajan on annettava se viivytyksettä, jos hakija katsoo joutuneensa laissa tarkoitetun syrjinnän kohteeksi. Pyyntö ei edellytä, että olet jo todistanut syrjinnän.\n- **Tarkista muutoksenhakuaika nyt.** Jos kyse on kunnallisesta virasta, oikaisuvaatimusaika on yleensä 14 päivää päätöksen tiedoksisaannista. Perustelupyynnön vastausta odottaminen ei yleensä pysäytä määräaikaa. Pyydä päätös ja muutoksenhakuohje sekä ota tarvittaessa heti yhteyttä ammattiliiton juristiin.\n- Voit kysyä neuvoa myös **tasa-arvovaltuutetulta**.\n\nKokoonpanossa on lisäksi erillinen oikeudellinen kysymys: moniin kunnallisiin toimielimiin sovelletaan sukupuolikiintiöitä, mutta ei automaattisesti jokaiseen haastattelu- tai valmisteluryhmään. Voit siksi kysyä neutraalisti: *”Mikä oli valintalautakunnan muodollinen asema, ja sovellettiinko sen kokoonpanoon tasa-arvolain kiintiösäännöstä?”* Mahdollinen kokoonpanovirhe ei itsessään todista, että sinua syrjittiin valinnassa.\n\n**Keskittyisin siis ensin valinnan perusteluihin, en lautakunnan jäsenten sukupuolesta tehtäviin päätelmiin.** Jos ansiovertailu osoittaa sinun olleen ansioituneempi ja tehtävään valittiin eri sukupuolta oleva henkilö, voi syntyä syrjintäolettama, johon työnantajan on vastattava hyväksyttävillä, sukupuolesta riippumattomilla perusteilla."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5926,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 745,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

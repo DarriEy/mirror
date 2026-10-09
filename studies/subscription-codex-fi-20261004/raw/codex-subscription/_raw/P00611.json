@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f6-51f6-7551-9cd7-a6234ac32e2d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Sen perusteella ei voi päätellä, miten hakijoita arvioitiin. Myöskään se, että sekä sinä että valittu olette naisia, ei yksin todista valinnan asianmukaisuutta tai syrjivyyttä.\n\nOn kuitenkin ymmärrettävää, että haluat perustelut: sinulla on vahva koulutus ja pitkä, tehtävään liittyvä johtamiskokemus. Tohtorintutkinto ei automaattisesti ratkaise ansiovertailua, jos tehtävässä painotetaan esimerkiksi johtamiskokemuksen laajuutta. Ilmoituksen tiedoilla valitun todellisia ansioita ei vielä pysty vertaamaan omiisi.\n\n**Ottaisin ensin esille valintaperusteet, en lautakunnan sukupuolijakaumaa.** Voisit lähettää esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja laboratorion johtajan valintapäätökseen. Voisitteko vahvistaa pyynnön vastaanoton ja kertoa, milloin saan vastauksen? Pyydän tietoa valintakriteereistä ja niiden painotuksesta sekä siitä, miten koulutustani ja johtamiskokemustani arvioitiin suhteessa valittuun hakijaan. Pyydän myös mahdolliset oikaisu- tai muutoksenhakuohjeet määräaikoineen.\n\nLautakunnan kokoonpano kannattaa nostaa erikseen esiin, jos siihen liittyy jokin konkreettinen epäkohta, kuten esteellisyys tai sovellettavan kokoonpanosäännön rikkominen — ei oletuksena jäsenten sukupuolen perusteella.\n\nMissä maassa sairaala sijaitsee, ja onko työnantaja julkinen vai yksityinen? Se vaikuttaa tiedonsaantiin ja muutoksenhakuun. **Mahdolliset määräajat kannattaa selvittää heti**, sillä perustelupyynnön vastausta odottaminen ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5936,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 468,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10125-35b5-7972-a6d8-c4aba6744ee4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nEingöngu karlskipuð nefnd er tilefni til að spyrja um skipan hennar, en sannar ekki kynjamismunun. Reglur um kynjahlutföll í opinberum nefndum gætu átt við; það ræðst af stöðu nefndarinnar. Ólögmæt nefndarskipan og mismunun við ráðningu eru aðskilin álitaefni.\n\nMenntun þín og reynsla réttlæta að óska eftir skýrum samanburði við ráðningarviðmiðin, en sýna ekki ein og sér að þú hafir verið hæfust.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu jafnframt eftir upplýsingum um matsviðmið, samanburð umsækjenda og grundvöll nefndarskipunar. Leitaðu fljótt ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6037,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 457,
+    "reasoning_output_tokens": 189
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10127-42d3-76b2-ad82-0b9bcdeb6681"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Kynjasamsetning nefndarinnar ein og sér er ekki vísbending um að þér hafi verið mismunað.** Það gildir jafnt um nefnd skipaða eingöngu konum og nefnd skipaða eingöngu körlum. Það er þó eðlilegt að vilja skilja niðurstöðuna eftir að hafa komist svo langt í ferlinu.\n\nÞú virðist hafa sterka faglega reynslu. Lengri starfsreynsla tryggir hins vegar ekki að umsækjandi teljist hæfastur í stjórnunarstarf: leiðtogahæfni, starfsmannastjórnun og viðskiptatengsl geta líka vegið þungt. Stutt ráðningartilkynning gefur heldur ekki heildarmynd af hæfni hennar eða samanburðinum.\n\n**Ég myndi því fylgja málinu eftir, en beina athyglinni að matsforsendunum fremur en kyni nefndarmanna.** Sendu kurteisa ítrekun núna, til dæmis:\n\n> Ég ítreka beiðni mína frá [dagsetning] um nánari skýringu á ráðningunni. Sérstaklega óska ég eftir upplýsingum um hvaða hæfnisviðmið réðu niðurstöðunni, hvernig stjórnunar- og hönnunarreynsla mín var metin og hvaða vægi viðskiptatengsl höfðu. Hvenær má ég vænta svars?\n\nÞað sem gæfi frekar tilefni til að kanna kynjamismunun væri til dæmis ummæli um að ráða ætti konu, kynbundnar staðalímyndir í viðtölum eða gögn um að sambærileg hæfni hefði verið metin ólíkt eftir kyni. Kvennaskipuð nefnd, ráðning konu og tveggja vikna svarleysi sýna það ekki ein og sér.\n\nVarðveittu auglýsinguna, samskiptin og minnispunkta úr viðtölunum. Réttur til rökstuðnings er ekki sá sami hjá einkarekinni verkfræðistofu og opinberum vinnuveitanda. Ef frekari upplýsingar vekja grun um mismunun geturðu leitað ráðgjafar hjá stéttarfélaginu þínu eða Jafnréttisstofu um næstu skref og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5927,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 519,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

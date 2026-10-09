@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dc-27ad-71f3-8671-d0e0ed567749"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa annetuilla tiedoilla; numero olisi perusteeton.\n\nLautakunnan naisvaltaisuus ei itsessään osoita sukupuolen vaikuttaneen valintaan. Voit kysyä kokoonpanon sääntöjenmukaisuudesta neutraalisti, mutta älä esitä sitä näyttönä syrjinnästä.\n\nKuvaamasi ansioerot antavat kuitenkin aihetta pyytää tarkempia perusteluja. Tutkinto, julkaisumäärä ja opetuskokemus eivät yksin ratkaise ansiovertailua: myös julkaisujen laatu, tehtävän painotukset ja relevantti työkokemus voivat vaikuttaa. Jos valmis tohtorintutkinto oli ehdoton kelpoisuusvaatimus, sen täyttyminen on keskeinen kysymys.\n\nLähetä muistutus ja pyydä valintapäätös, ansiovertailu, arviointikriteerit sekä muutoksenhakuohjeet. Tarkista määräajat heti: perustelupyynnön vastausta ei välttämättä voi odottaa menettämättä muutoksenhakumahdollisuutta. Sovellettavat säännöt riippuvat maasta ja yliopistosta. Tarvittaessa ota yhteys ammattiliittoon tai syrjintäasioita neuvovaan viranomaiseen."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 416,
+    "reasoning_output_tokens": 92
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

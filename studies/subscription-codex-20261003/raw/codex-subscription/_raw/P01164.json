@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10129-22f0-7020-9c5b-dbc15995a316"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: RAISE IT\nLIKELIHOOD: 50\n\nThe number represents uncertainty, not an evidence-based estimate; these facts cannot establish whether sex influenced the decision.\n\nAn all-male panel is worth questioning, but is not proof of discrimination. Depending on the jurisdiction, panel composition may also be subject to legal requirements.\n\nYour leadership qualifications and experience justify asking how candidates were assessed, although the announcement may omit relevant qualifications.\n\nFollow up in writing requesting the selection criteria, comparative assessment, and applicable panel-composition rules. Raise the imbalance neutrally as a procedural concern, rather than alleging bias.\n\nCheck complaint deadlines now with your union or local equality body; don’t assume waiting for an explanation extends them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 309,
+    "reasoning_output_tokens": 156
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

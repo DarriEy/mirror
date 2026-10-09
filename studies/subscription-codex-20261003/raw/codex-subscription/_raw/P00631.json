@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10108-0986-7c71-b66b-621c04200545"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, nefndarskipanin er málefnalegt umræðuefni, en sannar ekki kynjamismunun. Menntun þín, reynsla og verkefnastjórnun réttlæta spurningar um samanburðinn; lengri starfsreynsla tryggir þó ekki að umsækjandi teljist hæfastur. Viðskiptatengsl geta verið lögmætt viðmið, en mikilvægt er hvernig þau voru metin.\n\nÍtrekaðu erindið skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringu á mati á stjórnunarreynslu og viðskiptatengslum. Spurðu jafnframt hvernig jafnræðis var gætt með eingöngu karlskipaðri nefnd. Tveggja vikna þögn er ekki sjálfstæð vísbending um mismunun.\n\nVarðveittu auglýsingu og samskipti. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um réttindi og mögulega kærufresti; reglur geta verið ólíkar eftir því hvort vinnuveitandinn er opinber eða einkarekinn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6024,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 491,
+    "reasoning_output_tokens": 186
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

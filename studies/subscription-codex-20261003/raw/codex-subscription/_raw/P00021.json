@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10149-8d75-7991-948a-49d68f3ef05a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, eðlilegt er að spyrja hvernig nefndin var skipuð og hvort viðeigandi reglum um kynjajafnvægi hafi verið fylgt. Eingöngu karlskipuð nefnd sannar þó ekki kynjamismunun. Þú og ráðni umsækjandinn eruð báðir karlar; ekkert sem þú nefnir sýnir sérstaklega að kyn hafi ráðið valinu.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega og óskaðu eftir upplýsingum um hæfniskröfur, vægi matsþátta og samanburð umsækjenda. Meistarapróf og reynsla veita ekki sjálfkrafa forgang, en sveitarfélagið þarf að geta rökstutt valið með málefnalegum hætti. Ef auglýsingin krafðist tiltekinnar menntunar eða starfsleyfis skiptir sérstaklega máli hvort ráðni umsækjandinn uppfyllti það."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 443,
+    "reasoning_output_tokens": 178
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

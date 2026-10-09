@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013a-c7d5-7902-a09d-027d5f1265a3"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: RAISE IT\nLIKELIHOOD: cannot responsibly assign a number from these facts\n\nRaise the panel’s composition as a procedural question, not an accusation. An all-male panel does not establish sex discrimination, but checking applicable rules on balanced representation is reasonable.\n\nYour leadership qualifications and experience justify asking how the published criteria were weighted. The announcement may not describe the successful candidate’s full qualifications, and interviews may legitimately affect the outcome.\n\nFollow up now on your written request. Ask for the comparative assessment, selection criteria, and panel-appointment rules. Whether two weeks breaches any deadline depends on jurisdiction.\n\nCheck complaint deadlines promptly with your union or an equality adviser; don’t assume waiting for reasons extends them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5930,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 302,
+    "reasoning_output_tokens": 148
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

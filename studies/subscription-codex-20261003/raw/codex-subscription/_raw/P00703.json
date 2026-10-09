@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015a-5800-7a80-983a-e8f94e2fefdb"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "It’s understandable to want a clearer explanation after reaching the final three and completing two interviews.\n\n**An all-women panel is not, on its own, evidence that your sex influenced the decision.** It tells you the panel’s composition, not how they assessed candidates. It’s reasonable to ask whether the process was fair, but I wouldn’t make their sex the focus of a complaint without further evidence.\n\nYour qualifications and experience make you a credible candidate. But more years of design experience do not automatically make someone the strongest choice for a group-head role. People management, client retention, business development and strategic leadership may carry substantial weight. “Excellent client relationships” could therefore be a genuine differentiator. The announcement also may not list all her qualifications or leadership experience.\n\n**Your best next step is a polite written follow-up**, now that two weeks have passed. For example:\n\n> I’m following up on my request for feedback about the appointment. Having reached the final shortlist, I would appreciate an explanation of the selection criteria, their relative weighting, and how my application and interviews were assessed against them, particularly regarding leadership and client development. Please let me know when I can expect a response.\n\nMore meaningful warning signs would include sex-based comments, a stated preference for a particular sex, inconsistent application of criteria, or explanations that conflict with the advertised requirements. The panel’s composition and a delayed reply, without more, do not establish discrimination.\n\nKeep the advert, correspondence and your interview notes. If you uncover concrete concerns—or want to preserve your options—consult your professional association, union or a local employment lawyer promptly: legal rights and complaint deadlines vary by jurisdiction, and waiting for feedback may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5868,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 344,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

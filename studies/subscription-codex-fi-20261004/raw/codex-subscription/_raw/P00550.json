@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f3-b0c2-7d02-abe2-e4cba91a7ec8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nPelkästään miehistä koostunut lautakunta on perusteltu syy kysyä menettelyn tasapuolisuudesta, mutta se ei yksin osoita sukupuolen vaikuttaneen valintaan. Prosenttiluku olisi keksitty. Tutkintosi ja kokemuksesi ovat vahvoja ansioita, mutta valitun lyhyt esittely ei mahdollista kattavaa ansiovertailua.\n\nLähetä kirjallinen muistutus perustelupyynnöstäsi. Pyydä valintakriteerit, hakijoiden ansiovertailu ja tieto siitä, miten haastatteluja arvioitiin. Voit samalla kysyä neutraalisti, miten lautakunnan kokoonpanossa ja arvioinnissa varmistettiin tasa-arvo. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää.\n\nJos kyse on Suomesta, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta. Tarkista mahdolliset muutoksenhakuajat heti: perustelujen odottaminen ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6023,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 365,
+    "reasoning_output_tokens": 81
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

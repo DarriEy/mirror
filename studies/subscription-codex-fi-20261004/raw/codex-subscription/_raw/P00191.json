@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f6-e310-7550-9fb2-8613c9cbb300"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat perustelut valinnalle, etenkin päästyäsi loppusuoralle vahvalla taustalla.\n\n**En nostaisi lautakunnan sukupuolijakaumaa ensimmäiseksi esiin.** Se, että kaikki neljä jäsentä olivat naisia, ei yksin ole näyttöä syrjinnästä eikä kerro heidän motiiveistaan. Myöskään valitun sukupuoli ei sitä osoita.\n\nTohtorintutkintosi ja yhdeksän vuoden kokemuksesi ovat merkittäviä ansioita. Niiden perusteella ei silti voi päätellä, että olit tehtävään kokonaisuutena pätevin: johtajavalinnassa voidaan painottaa esimerkiksi johtamiskokemusta, sääntelyosaamista ja viranomaisyhteistyötä. Valitusta julkaistu lyhyt kuvaus ei välttämättä kata hänen ansioitaan.\n\n**Lähettäisin nyt asiallisen muistutuksen**, jossa pyydät vertailukelpoisia tietoja:\n\n> Pyysin [päivämäärä] kirjallista selvitystä rekrytointipäätöksen perusteista. Voisitteko ilmoittaa, milloin saan vastauksen? Pyydän erityisesti tietoa valinnassa käytetyistä kriteereistä ja niiden painotuksesta sekä siitä, mitkä valitun henkilön ansiot ratkaisivat valinnan suhteessa omaan koulutukseeni ja kokemukseeni.\n\nSyrjintäepäilyä olisi perustellumpaa selvittää, jos esimerkiksi haastattelussa esitettiin sukupuoleen liittyviä kommentteja, hakijoita arvioitiin eri perustein tai ilmoitetuista kelpoisuusvaatimuksista poikettiin epäjohdonmukaisesti. Kahden viikon vastaamattomuus kannattaa selvittää, mutta sekään ei yksin osoita syrjintää. Säilytä työpaikkailmoitus, viestit ja haastattelumuistiinpanot.\n\nJos haku tapahtui Suomessa ja epäilet sukupuolisyrjintää, tasa-arvolain mukaan työnantajan on annettava sitä epäilevälle hakijalle pyynnöstä kirjallinen selvitys menettelystään viivytyksettä. Voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta.\n\nLyhyesti: **pyydä selvitys ansiovertailusta, älä päättele puolueellisuutta lautakunnan sukupuolista.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5915,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 556,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

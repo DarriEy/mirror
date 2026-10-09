@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f7-4993-7011-942d-7634b843b03a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä mieskokoonpano ei osoita syrjintää tai epäasiallista valintaa.** Koska sekä sinä että valittu olette miehiä, nämä tiedot eivät sellaisinaan tue päätelmää, että sukupuolesi olisi vaikuttanut valintaan. Ikäsyrjinnästäkään ei ole esittämiesi tietojen perusteella näyttöä.\n\nKokoonpano voi silti olla erillinen menettelykysymys: yliopiston säännöt tai sovellettava lainsäädäntö saattavat edellyttää sukupuolten tasapuolista edustusta. Mahdollinen poikkeama ei kuitenkaan yksin osoita, että valinta olisi ollut syrjivä.\n\n**Keskittyisin ensisijaisesti kelpoisuusehtoihin ja ansiovertailuun.** Sinulla on kertomasi perusteella pidemmälle edenneet akateemiset ansiot, joten perustelujen pyytäminen on aiheellista. Artikkelien lukumäärä ei silti yksin ratkaise: niiden laatu, opetustaito, tehtävän painotus ja relevantti elinkeinoelämän kokemus voivat vaikuttaa. Erityisen tärkeää on selvittää, oliko valmis tohtorintutkinto pakollinen kelpoisuusehto ja milloin sen piti olla suoritettu.\n\nLähettäisin nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] rekrytointipäätöksen kirjallisia perusteluja. Pyydän tietoa pyyntöni käsittelyajasta sekä valintapäätöksen, sovelletut kelpoisuusehdot ja valintakriteerit sekä hakijoiden ansiovertailun siltä osin kuin asiakirjat ovat julkisia. Pyydän erityisesti täsmennystä siihen, miten tohtorintutkintoa, tutkimus- ja opetuskokemusta sekä elinkeinoelämän kokemusta arvioitiin. Pyydän myös tiedon mahdollisista oikaisu- tai muutoksenhakukeinoista ja määräajoista.\n\nHalutessasi voit lisätä neutraalisti: ”Mitä sääntöjä valintalautakunnan kokoonpanoon ja sukupuolten edustukseen sovellettiin?”\n\n**Missä maassa yliopisto sijaitsee?** Se ratkaisee tiedonsaanti- ja muutoksenhakuoikeudet sekä kokoonpanoa koskevat säännöt. Älä odota perusteluja ennen määräaikojen selvittämistä: perustelupyyntö ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5940,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 592,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

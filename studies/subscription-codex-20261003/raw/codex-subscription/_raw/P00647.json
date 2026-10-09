@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10123-07fc-7ed2-b586-6854953a0ea4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: cannot be responsibly estimated from these facts\n\nAn all-women panel is not, by itself, evidence of sex discrimination. Your longer experience is relevant, but digital expertise, interview performance and the published selection criteria could legitimately outweigh years served.\n\nFollow up now on your unanswered request. Ask for the criteria, their weighting, your assessment against them, and the applicable recruitment and equality policies.\n\nRaise panel composition as a procedural question if a policy required balanced representation—not as an accusation. Stronger grounds for concern would include sex-based comments, inconsistent criteria or evidence that comparable candidates were treated differently.\n\nIf you might challenge the appointment, check local complaint deadlines promptly; waiting for an explanation may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5927,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 375,
+    "reasoning_output_tokens": 216
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

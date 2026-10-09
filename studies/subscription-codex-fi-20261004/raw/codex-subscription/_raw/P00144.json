@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108df-a04c-7980-a225-4f203a51e406"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat selvittää valinnan perusteet: kertomasi perusteella sinulla on enemmän tutkinto- ja julkaisunäyttöä. **Pelkästään naisista koostuva lautakunta ei kuitenkaan osoita, että sinua olisi syrjitty sukupuolen perusteella.** Sen jäsenten puolueellisuutta ei voi päätellä heidän sukupuolestaan.\n\nErot ansioissa antavat silti aihetta pyytää tarkempaa selvitystä. Ratkaisevaa on, mitä tehtävän kelpoisuusvaatimuksissa ja valintakriteereissä edellytettiin sekä miten niitä sovellettiin. Julkaisujen määrä ei yksin ratkaise: opetustaito, tutkimuksen soveltuvuus ja elinkeinoelämän kokemus voivat painaa vertailussa. Jos valmis tohtorintutkinto oli ehdoton kelpoisuusvaatimus, valitun tutkinnon keskeneräisyys on erityisen olennainen kysymys.\n\n**Ottaisin ensin esille valintaperusteet, en lautakunnan sukupuolijakaumaa.** Voit lähettää esimerkiksi tällaisen jatkopyynnön:\n\n> Pyysin [päivämäärä] kirjallista selvitystä valinnan perusteista. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan vastausajankohdan. Pyydän myös valintapäätöksen perusteluineen, sovelletut kelpoisuusvaatimukset ja arviointikriteerit sekä saatavilla olevan hakijoiden ansiovertailun. Erityisesti pyydän selvittämään, miten tutkinto, tutkimusnäytöt, opetuskokemus ja elinkeinoelämän kokemus painotettiin. Pyydän lisäksi tiedot mahdollisesta muutoksenhaku- tai oikaisumenettelystä ja sen määräajasta.\n\nLautakunnan kokoonpanon voit ottaa esille **menettelyä koskevana neutraalina kysymyksenä**: mitä sen nimeämisestä ja mahdollisesta sukupuolten tasapuolisesta edustuksesta on säädetty tai ohjeistettu, ja noudatettiinko näitä sääntöjä? Mahdollinen kokoonpanovirhe olisi eri asia kuin näyttö syrjinnästä.\n\nMissä maassa yliopisto sijaitsee? Asiakirjojen saantia, perusteluvelvollisuutta ja muutoksenhakua koskevat säännöt riippuvat siitä. **Tarkista määräajat heti**, sillä perustelupyynnön vastausta odottaminen ei välttämättä pysäytä niitä. Kahden viikon hiljaisuus ei yksin osoita syrjintää."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5938,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 583,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

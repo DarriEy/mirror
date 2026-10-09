@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e9-3ea0-7490-ba41-4756fdd85017"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, mihin valinta perustui, etenkin kun sinulla on vahva koulutus ja pitkä kokemus.\n\n**Lautakunnan naisvaltaisuus ei yksin ole merkki syrjinnästä.** Sen perusteella ei voi päätellä, että sukupuoli vaikutti päätökseen. Kokoonpanon mahdollinen lainmukaisuus on eri kysymys kuin se, arvioitiinko hakijoita tasapuolisesti.\n\nMyöskään valitun alempi tutkinto ei yksin osoita virheellistä valintaa. Ratkaisevaa on:\n- mitkä olivat tehtävän **sitovat kelpoisuusvaatimukset** ja täyttikö valittu ne;\n- millä perusteilla hakijoiden ansioita, johtamisvalmiuksia ja soveltuvuutta vertailtiin;\n- sovellettiinko samoja kriteereitä kaikkiin hakijoihin.\n\nJos ylempi korkeakoulututkinto oli ehdoton kelpoisuusvaatimus eikä valitulla ole sellaista, kyseessä olisi huomattavasti konkreettisempi huolenaihe kuin lautakunnan sukupuolijakauma. Lyhyt esittelyteksti ei kuitenkaan välttämättä kerro hänen kaikkia ansioitaan.\n\n**Etenisin nyt asiakirjojen, en lautakunnan sukupuolen kautta.** Lähetä kunnan kirjaamoon esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja kaavoitusjohtajan valinnalle. Pyydän toimittamaan valintapäätöksen perusteluineen ja muutoksenhakuohjeineen, tehtävän kelpoisuusvaatimukset sekä hakijoiden ansiovertailun ja muut valinnan perusteita koskevat julkiset asiakirjat. Pyydän myös vahvistamaan pyyntöni vastaanoton ja ilmoittamaan, milloin saan vastauksen.\n\n**Jos kyse on Suomesta**, julkisia asiakirjoja koskeva pyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, laajemmissa tai työläissä tapauksissa kuukaudessa. Pelkkä pyyntö laatia perusteluja ei välttämättä ole sama asia kuin asiakirjapyyntö. Lisäksi muutoksenhakuaika voi olla lyhyt, eikä perustelupyyntö yleensä pysäytä sitä. Tarkista siis muutoksenhakuohjeet heti ja ota tarvittaessa yhteyttä ammattiliiton juristiin. Jos esiin tulee konkreettisia viitteitä sukupuolisyrjinnästä, myös tasa-arvovaltuutetulta voi pyytää neuvoa.\n\nMissä maassa kunta sijaitsee, ja mitä työpaikkailmoituksessa sanottiin tutkintovaatimuksesta?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 645,
+    "reasoning_output_tokens": 29
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10167-c7ef-7d41-8f7c-ab79b5d62441"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 30\n\nThat number is a highly uncertain subjective estimate, not a statistical or legal assessment. An all-male panel raises a reasonable question about representation and safeguards against bias, but does not establish discrimination. Your PhD and eight years leading a section are substantial qualifications; the role may nevertheless place greater weight on other leadership experience.\n\nFollow up now on your unanswered request. Ask for the selection criteria, their weighting, your assessment, and the reasons for preferring the successful candidate. You can neutrally ask how panel composition and potential bias were addressed.\n\nCheck local complaint deadlines promptly: waiting for an explanation may not suspend them. Your jurisdiction and the hospital’s recruitment rules matter."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5930,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 354,
+    "reasoning_output_tokens": 198
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

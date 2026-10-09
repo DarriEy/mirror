@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10170-ea48-7903-9092-584aee5eaf43"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, nefndarskipanin er málefnalegt atriði að nefna, en sannar ekki kynjamismunun. Hún getur gefið tilefni til að kanna ráðningarferlið nánar. Lengri reynsla þín og verkefnastjórnun skipta máli, en viðskiptatengsl og stjórnunarhæfni geta líka verið lögmæt matsatriði. Tilkynningin lýsir ekki endilega allri hæfni þess ráðna.\n\nSendu skriflega ítrekun og óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringum á samanburði umsækjenda. Spyrðu hlutlaust hvernig jafnræðis hafi verið gætt. Varðveittu auglýsingu og samskipti. Tveggja vikna þögn sannar ekkert ein og sér; réttur til rökstuðnings ræðst meðal annars af því hvort vinnuveitandinn er opinber eða einkaaðili. Jafnréttisstofa eða stéttarfélagið þitt getur leiðbeint um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6024,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 435,
+    "reasoning_output_tokens": 145
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

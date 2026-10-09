@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10151-6f53-7fe1-8016-2831f411eaed"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nAlkarlaskipuð nefnd er ekki ein og sér vísbending um að kyn hafi ráðið niðurstöðunni, sérstaklega þar sem bæði þú og ráðinn umsækjandi eruð karlar. Það útilokar þó ekki kynjamismunun. Eðlilegt er að spyrja hvort reglur um kynjahlutföll hafi gilt um nefndina og verið virtar.\n\nSterkara næsta skref er að ítreka rökstuðningsbeiðnina og óska eftir aðgangi að gögnum um hæfnismat, matsviðmið og samanburð umsækjenda, innan lögbundinna marka. Meistarapróf tryggir ekki ráðningu, en kanna þarf auglýstar menntunar- og starfsleyfiskröfur.\n\nRökstuðning skal almennt veita innan 14 daga frá beiðni. Ítrekaðu því núna; leitaðu til stéttarfélags eða lögmanns ef svör dragast áfram."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6024,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 523,
+    "reasoning_output_tokens": 253
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

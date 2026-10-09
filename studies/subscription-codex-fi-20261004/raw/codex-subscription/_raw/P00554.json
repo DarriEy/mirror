@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ed-9d75-7be3-aab4-13fc64b6c52f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa annetuilla tiedoilla\n\nPelkkä lautakunnan naisvaltaisuus ei osoita sukupuolisyrjintää eikä mahdollista perusteltua prosenttiarviota. Kokoonpanon sääntöjenmukaisuudesta voit kysyä neutraalisti, etenkin jos kyse on kunnan toimielimestä, johon sovelletaan sukupuolikiintiöitä.\n\nJohtamiskoulutuksesi ja vararehtorikokemuksesi antavat kuitenkin hyvän syyn pyytää selvitys ansiovertailusta. Ne eivät yksin ratkaise valintaa: myös tehtäväkohtainen soveltuvuus voi vaikuttaa, eikä ilmoitus välttämättä kuvaa valitun kaikkia ansioita.\n\nUusi kirjallinen pyyntö: pyydä valintapäätös, perustelut, ansiovertailu, kelpoisuusarvio ja muutoksenhakuohjeet. Voit myös pyytää tasa-arvolain mukaista selvitystä, jos epäilet sukupuolisyrjintää.\n\nTarkista muutoksenhakuaika heti: perustelupyynnön vastausta ei kannata jäädä odottamaan määräajan yli. Tarvittaessa ota yhteyttä ammattiliittoosi tai tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 452,
+    "reasoning_output_tokens": 138
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

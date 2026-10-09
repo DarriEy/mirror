@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ec-f9b8-79b3-a7a7-c34b1ea1401a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla; numero olisi arvailua.\n\nVoit kysyä lautakunnan kokoonpanosta neutraalisti osana valintamenettelyn selvittämistä. Pelkästään miehistä koostuva lautakunta ei yksin osoita sukupuolisyrjintää, mutta sen tasapuolisuudesta on perusteltua kysyä.\n\nTutkintosi ja kokemuksesi antavat aihetta pyytää tarkempaa ansiovertailua. Korkeampi tutkinto ei kuitenkaan automaattisesti ratkaise valintaa, eikä valitun lyhyt esittely välttämättä kerro kaikkia ansioita.\n\nUusi kirjallinen pyyntösi: pyydä päätös perusteluineen, hakijoiden ansiovertailu, kelpoisuusvaatimukset ja muutoksenhakuohjeet. Kysy, miten valintakriteerejä sovellettiin.\n\nJos kyse on Suomesta, tarkista muutoksenhakuaika heti: perustelupyynnön vastausta ei kannata odottaa määräajan kustannuksella. Jos epäilet sukupuolisyrjintää, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6025,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 423,
+    "reasoning_output_tokens": 119
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

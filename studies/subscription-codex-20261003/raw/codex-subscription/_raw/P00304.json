@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10178-ec65-7ff0-8ebe-ddedf54d0530"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Eingöngu karlskipuð nefnd gefur tilefni til spurninga um kynjajafnvægi og málsmeðferð, en sannar ekki kynjamismunun. Hvort sérstakar reglur um kynjasamsetningu eigi við fer eftir stöðu nefndarinnar.\n\nLengri starfsreynsla þín og stjórnunarreynsla skipta máli, en tryggja ekki að þú teljist hæfust; stafræn reynsla getur verið málefnalegt viðmið.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra, samanburði á hæfni ykkar og skýringum á skipan nefndarinnar.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og mögulega kærufresti. Ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6011,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 484,
+    "reasoning_output_tokens": 217
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

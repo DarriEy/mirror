@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e8-40ad-75f1-ad2f-b65550e26f62"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista; numero olisi arvailua.\n\nVoit kysyä lautakunnan kokoonpanosta asiallisesti. Pelkästään miehistä koostuva lautakunta ei todista syrjintää, mutta sen kokoonpanon asianmukaisuus on perusteltu kysymys. Suomessa tiettyihin kunnallisiin toimielimiin sovelletaan sukupuolikiintiöitä; soveltuminen riippuu lautakunnan asemasta.\n\nTutkintosi ja kokemuksesi antavat aiheen pyytää tarkempi ansiovertailu. Ne eivät yksin osoita, että olit kokonaisuutena ansioituneempi: ratkaisevia ovat kelpoisuusvaatimukset ja tehtävän kannalta hyväksyttävät valintaperusteet.\n\nUudista kirjallinen pyyntö ja pyydä kelpoisuusvaatimukset, ansiovertailu, valintaperusteet sekä päätös muutoksenhakuohjeineen. Kahden viikon hiljaisuus ei yksin osoita syrjintää. Tarkista muutoksenhakuaika heti, älä odota vastausta sen yli. Jos kyse on Suomesta, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 434,
+    "reasoning_output_tokens": 121
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

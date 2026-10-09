@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10124-e900-7a22-a094-d0f938fab7dd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**It’s reasonable to raise the all-male panel as a concern about the process, but it isn’t, by itself, evidence that you were discriminated against.** It can prompt questions about diversity in senior decision-making and safeguards against bias. It doesn’t establish how these particular panel members assessed you.\n\nYour qualifications and experience make your question understandable. But the announcement isn’t a full account of the successful candidate’s credentials, and more years of design experience don’t automatically establish greater suitability for a group-head role. Client development, people management and strategic leadership may legitimately matter. “Excellent client relationships” could be a substantive strength—or a loosely applied subjective criterion. The useful question is **how that criterion was defined, weighted and applied consistently to all candidates**.\n\nI’d follow up now, focusing on the assessment rather than alleging bias. For example:\n\n> I’m following up on my request of [date] for feedback on the appointment. Please could you explain the selection criteria and their weighting, how my experience and leadership record were assessed, and the areas in which the successful candidate was judged stronger? I would also appreciate information about the safeguards used to ensure a fair and unbiased selection process, particularly given the all-male panel.\n\nKeep the job advertisement, your application, correspondence and contemporaneous interview notes. More telling evidence would include gender-related comments, criteria changing during the process, inconsistent explanations, or different treatment of comparable candidates. Two weeks without a reply warrants a reminder, but isn’t itself proof of discrimination.\n\n**You don’t need proof to ask questions.** If you’re considering a formal complaint, seek local employment/equality advice promptly: deadlines can be short and may run while you’re waiting for feedback. Which country was the role in? That determines any entitlement to reasons and the relevant complaint process."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5872,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 368,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

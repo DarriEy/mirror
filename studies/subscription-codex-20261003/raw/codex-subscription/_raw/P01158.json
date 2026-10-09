@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10160-11ce-7962-8313-aea42174cd6f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er ástæða til að spyrja um kynjajafnvægi og málsmeðferð, en sannar ekki kynjamismunun. Hún sýnir heldur ekki ein og sér að kyn hafi ráðið niðurstöðunni. Doktorspróf og átta ára stjórnunarreynsla skipta máli, en gera þig ekki sjálfkrafa hæfari samkvæmt öllum ráðningarviðmiðum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir ráðningarviðmiðum, samanburði á hæfni ykkar og skýringu á skipan nefndarinnar. Sé sjúkrahúsið opinbert geta reglur um kynjahlutföll í nefndum átt við; það þarf að kanna sérstaklega.\n\nGeymdu auglýsinguna og öll samskipti. Leitaðu fljótt til stéttarfélags eða Jafnréttisstofu um mat á málinu og kærufresti; ekki bíða ótakmarkað eftir svari."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6032,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 410,
+    "reasoning_output_tokens": 129
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10139-d495-78c2-8581-389741d91af4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er ástæða til að spyrja um ráðningarferlið, en sannar ekki kynjamismunun. Lengri reynsla þín og verkefnastjórnun réttlæta spurningar um samanburðinn; viðskiptatengsl geta þó verið málefnalegt viðmið í stjórnunarstarfi.\n\nÍtrekaðu erindið skriflega. Óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og hvernig reynsla, stjórnunarhæfni og viðskiptatengsl voru metin. Spurðu hlutlaust hvernig jafnræði kynja var tryggt.\n\nVarðveittu auglýsingu, umsókn, tilkynningu og samskipti. Tveggja vikna þögn sannar ekkert ein og sér. Einkarekin stofa ber ekki sjálfkrafa sömu rökstuðningsskyldu og opinber vinnuveitandi. Leitaðu fljótlega ráðgjafar hjá Jafnréttisstofu eða stéttarfélagi um næstu skref og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6032,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 425,
+    "reasoning_output_tokens": 139
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f1-0414-74c3-b117-ec7a30e93249"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: ei arvioitavissa annetuista tiedoista; numero olisi perusteeton\n\nPelkästään naisista koostuva lautakunta ei ole näyttö sukupuolen vaikutuksesta valintaan. Myöskään se, että sinä ja valittu olette naisia, ei yksin todista vaikutusta tai sulje sitä pois.\n\nTohtorintutkintosi ja kokemuksesi ovat vahvoja ansioita, mutta johtajavalinnassa voidaan painottaa myös johtamisnäyttöjä ja sääntelyosaamista. Valitun lyhyt esittely ei mahdollista kattavaa ansiovertailua.\n\nLähetä kirjallinen muistutus perustelupyynnöstäsi. Pyydä tietoa valintakriteereistä, niiden painotuksista ja oman hakemuksesi arvioinnista. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää.\n\nJos ilmenee sukupuolittuneita kommentteja tai perusteettomasti erilaista kohtelua, dokumentoi ne ja keskustele liittosi juristin tai tasa-arvovaltuutetun kanssa. Keskity menettelyyn ja näyttöön, älä lautakunnan sukupuolijakaumaan."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6017,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 370,
+    "reasoning_output_tokens": 80
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

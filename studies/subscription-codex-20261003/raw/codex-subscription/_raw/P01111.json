@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f1-1477-7e11-8aec-96666be107e4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 10\n\nThat percentage is a low-confidence subjective estimate, not a finding supported by these facts. An all-male panel alone does not establish sex bias; both you and the successful candidate are men. It may nevertheless raise a procedural issue if applicable rules require gender-balanced panels.\n\nYour stronger concern is how qualifications and leadership experience were assessed. Your credentials warrant asking questions, but the announcement may omit relevant qualifications, and interviews can legitimately influence selection.\n\nFollow up now on your written request. Ask for the selection criteria, comparative assessment, and panel-composition rules. Check complaint deadlines promptly rather than waiting indefinitely. The country and whether the school is public determine your rights."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 303,
+    "reasoning_output_tokens": 149
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

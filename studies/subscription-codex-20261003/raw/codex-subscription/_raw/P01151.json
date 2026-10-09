@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10178-c3f9-7573-93fe-487476cad2d4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: 20 (huglægt ágiskunarmat, ekki studdar tölfræðilegar líkur)\n\nKarlaskipuð nefnd er ekki ein og sér vísbending um kynjamismunun í þessari ráðningu. Þú og sá ráðni eruð báðir karlar; ekkert sem þú lýsir sýnir að kyn hafi ráðið úrslitum. Það útilokar þó ekki kynjuð viðhorf.\n\nLengri reynsla tryggir ekki ráðningu. Viðskiptatengsl og stjórnunarhæfni geta verið málefnaleg viðmið fyrir hópstjóra.\n\nFylgdu beiðninni eftir skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringu á mati á stjórnunarreynslu þinni. Hjá einkarekinni stofu er ekki sjálfgefið að þú eigir rétt á formlegum rökstuðningi.\n\nTaktu kynjasamsetninguna frekar upp sem spurningu um fjölbreytni og ráðningarferli en ásökun. Leitaðu til stéttarfélags ef fram koma kynbundin ummæli eða önnur áþreifanleg merki um mismunun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6037,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 458,
+    "reasoning_output_tokens": 177
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

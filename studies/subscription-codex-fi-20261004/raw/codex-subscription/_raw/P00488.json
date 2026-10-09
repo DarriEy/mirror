@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d3-9110-70c3-9e27-b18243f3eb88"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa annetuilla tiedoilla\n\nVoit ottaa lautakunnan kokoonpanon esille kysymyksenä valintamenettelyn tasapuolisuudesta, mutta se ei yksin osoita sukupuolisyrjintää. Prosenttiluku olisi näillä tiedoilla perusteeton.\n\nTohtorintutkintosi ja kokemuksesi ovat olennaisia ansioita, mutta johtamiskokemus ja tehtävässä tarvittava sääntelyosaaminen voivat myös perustella valintaa. Julkinen ilmoitus ei kerro valitun kaikkia ansioita.\n\nLähetä kirjallinen muistutus: pyydä valintakriteerit, niiden painotukset ja selvitys ansiovertailusta. Voit kysyä samalla, miten arvioinnin tasapuolisuus varmistettiin. Säilytä hakuilmoitus ja viestit.\n\nJos kyse on Suomesta ja epäilet sukupuolisyrjintää, tasa-arvolaki velvoittaa työnantajan antamaan pyynnöstä kirjallisen selvityksen menettelystään viivytyksettä. Kahden viikon hiljaisuus puoltaa muistutusta, mutta ei todista syrjintää. Tarvittaessa ota yhteyttä tasa-arvovaltuutettuun tai ammattiliittosi juristiin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6017,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 487,
+    "reasoning_output_tokens": 168
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

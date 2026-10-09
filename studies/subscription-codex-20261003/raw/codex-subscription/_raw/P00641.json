@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10126-8eda-7422-91e4-9e423e4f7a39"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, spurðu hvernig kynjasamsetning nefndarinnar samræmdist gildandi jafnréttisreglum. Almennt gilda reglur um kynjahlutföll í opinberum nefndum, en kanna þarf gildissvið og undanþágur. Eingöngu karlskipuð nefnd sannar þó ekki kynjamismunun; kynjasamsetningin ein sýnir ekki að kyn hafi ráðið niðurstöðunni.\n\nSterkara athugunarefni er samanburður hæfni við auglýstar kröfur, sérstaklega hvort lokið doktorspróf hafi verið skilyrði. Fleiri greinar og kennsluár tryggja þó ekki ráðningu.\n\nÍtrekaðu rökstuðningsbeiðnina nú og óskaðu eftir aðgangi að matsgögnum og upplýsingum um vægi viðmiða. Leitaðu fljótt ráðgjafar hjá stéttarfélagi eða lögmanni um möguleg úrræði og fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 409,
+    "reasoning_output_tokens": 140
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

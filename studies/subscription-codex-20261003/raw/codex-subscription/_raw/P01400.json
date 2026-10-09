@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10123-5864-7e73-ba39-5061b145e504"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Eingöngu karlskipuð ráðningarnefnd gefur tilefni til athugunar, en sannar ekki kynjamismunun. Reglur jafnréttislaga um kynjahlutföll í opinberum nefndum gætu átt við; kanna þarf skipun nefndarinnar og hugsanlegar undanþágur.\n\nMunurinn á doktorsprófi, birtingum og kennslureynslu styrkir ástæðu til að óska skýringa. Atvinnulífsreynsla getur þó verið málefnalegt sjónarmið, eftir auglýsingu og starfskröfum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu jafnframt eftir aðgangi að ráðningargögnum, hæfnismati og upplýsingum um vægi viðmiða og skipun nefndarinnar. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um mögulega kæru og kærufresti. Ekki bíða ótímabundið eftir svari."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 524,
+    "reasoning_output_tokens": 240
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

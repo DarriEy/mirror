@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d4-e734-7231-a7e3-1673cfc600ef"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE, RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuilla tiedoilla; numero olisi arvailua.\n\nVoit ottaa lautakunnan kokoonpanon esille asiallisena kysymyksenä menettelyn tasapuolisuudesta. Pelkästään miehistä koostuva lautakunta ei kuitenkaan itsessään osoita sukupuolisyrjintää.\n\nKuvaamasi ansioero antaa aihetta pyytää tarkempaa selvitystä, mutta artikkelimäärä ja tutkinto eivät yksin ratkaise kokonaisarviointia. Elinkeinoelämäkokemuksen merkitys riippuu tehtävästä ja ilmoitetuista valintaperusteista.\n\nLähetä kirjallinen muistutus ja pyydä valintaperusteet, ansiovertailu sekä selvitys siitä, täyttikö valittu kelpoisuusvaatimukset. Kysy myös, miten lautakunnan kokoonpano määräytyi.\n\nKahden viikon hiljaisuus ei yksin osoita syrjintää. Tarkista silti mahdolliset muutoksenhakuajat heti: perustelujen odottaminen ei välttämättä pidennä niitä. Jos kyse on Suomesta, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 442,
+    "reasoning_output_tokens": 125
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

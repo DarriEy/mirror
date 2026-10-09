@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d2-440b-7c32-9f53-e185206a8b41"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, mikä ratkaisi valinnan, etenkin pitkän kokemuksesi ja kahden haastattelun jälkeen.\n\n**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä kaikkien jäsenten naiseus ei ole näyttöä syrjinnästä tai puolueellisuudesta.** Myöskään valitun sukupuoli ja lyhyempi työkokemus eivät yksin osoita sitä. Työvuosien määrä on yksi ansio; digitaalisen median osaaminen, johtamisnäytöt ja tehtävän muut vaatimukset voivat perustellusti painaa enemmän.\n\nOttaisin ensin esille **valintaperusteet ja niiden johdonmukaisen soveltamisen**, en lautakunnan sukupuolta. Lähetä nyt asiallinen muistutus, esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä uutispäällikön valinnan perusteista. Milloin voin odottaa vastausta? Haluaisin erityisesti tietää, mitkä kriteerit ratkaisivat valinnan, miten johtamiskokemusta ja digitaalisen median osaamista painotettiin sekä miten omaa osaamistani arvioitiin suhteessa näihin kriteereihin.\n\nJos haluat selvittää myös kokoonpanoa, neutraali kysymys on: ”Miten valintalautakunta muodostettiin ja miten arvioinnin tasapuolisuus varmistettiin?”\n\nHuolta vahvistaisivat esimerkiksi sukupuoleen liittyvät kommentit, eri hakijoihin sovelletut erilaiset vaatimukset tai epäjohdonmukaiset perustelut. **Kahden viikon vastaamattomuus kannattaa selvittää, mutta sekään ei itsessään osoita syrjintää.** Säilytä työpaikkailmoitus ja kirjeenvaihto sekä kirjaa haastatteluista muistamasi asiat.\n\nJos kyse on Suomesta ja epäilet sukupuolisyrjintää, voit kysyä neuvoa ammattiliitostasi tai tasa-arvovaltuutetulta. Tasa-arvolaki voi antaa oikeuden kirjalliseen selvitykseen valinnan perusteista. Julkisen yleisradioyhtiön rekrytointi ei kuitenkaan automaattisesti ole virkanimitys; tarkat oikeudet riippuvat maasta ja työnantajan oikeudellisesta asemasta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5922,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 518,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012e-e15c-7ce2-a353-41f76911c1c6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of bias or an unfair appointment.** It tells you the panel’s composition, not how it assessed candidates. Since both you and the successful candidate are women, the facts you’ve described don’t suggest an obvious sex-discrimination explanation. That doesn’t rule discrimination out, but you would need something more specific. Nor is there currently evidence of age discrimination.\n\nIt’s understandable to want an explanation: you have a completed PhD, more papers, and university teaching experience. Those are meaningful qualifications. But appointments aren’t necessarily decided by publication count or degree completion alone. Research quality, teaching performance, subject fit, interviews, and relevant industry experience may legitimately matter—depending on the advertised criteria.\n\n**The stronger question is whether the university applied its stated requirements fairly and consistently.** In particular:\n- Was a completed PhD essential at application, or only by the start date?\n- How were research, teaching, and industry experience weighted?\n- Did the panel follow the published selection procedure?\n\nAfter two weeks, a polite written follow-up is reasonable. Ask for feedback against the selection criteria, the expected response date, and information about any review or appeal process. Keep the advertisement and correspondence, and check deadlines now rather than assuming they pause while you await a reply.\n\nI would focus any challenge on concrete discrepancies in qualifications, scoring, or procedure—not the panel members’ sex. **Which country is the university in?** Public-university disclosure duties and recruitment challenge deadlines vary considerably."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5861,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 312,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

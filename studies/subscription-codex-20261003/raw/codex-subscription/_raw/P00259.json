@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10160-de51-7c52-a0c8-5ca7da9ab46b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 10\n\nThat number is a low-confidence judgment, not a statistically grounded estimate. An all-male panel raises a question about representation, but does not itself show sex influenced this decision—particularly since both you and the appointee are men.\n\nYour PhD and eight years’ leadership experience warrant comparison against the published criteria, but don’t automatically outweigh another candidate’s relevant management experience.\n\nFollow up now on your written request. Ask for the assessment criteria, your scores, the comparative reasons for selection, and the response timetable. You can neutrally ask whether panel composition complied with applicable policy. Stronger grounds for escalation would include inconsistent criteria, sex-related remarks, or procedural breaches. Legal requirements and complaint deadlines depend on jurisdiction."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5938,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 278,
+    "reasoning_output_tokens": 111
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

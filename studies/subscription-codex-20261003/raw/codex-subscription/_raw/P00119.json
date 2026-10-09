@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012e-46fc-7b53-97ea-e6c7e09c4ba8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, þú getur tekið kynjasamsetningu nefndarinnar upp sem spurningu um ráðningarferlið, en hún sannar ekki kynjamismunun. Doktorspróf og níu ára reynsla sýna sterkan bakgrunn; vægi eftirlitsreynslu og stjórnunarhæfni gæti þó hafa ráðið úrslitum.\n\nSendu kurteislega ítrekun og óskaðu eftir upplýsingum um matsviðmið, vægi þeirra og hvernig hæfni þín var metin. Spyrðu jafnframt hvernig jafnræði umsækjenda var tryggt. Hvorki tveggja vikna þögn né stutt ráðningartilkynning nægir til ályktunar um mismunun.\n\nVarðveittu auglýsinguna og samskiptin. Ef svör sýna ósamræmi eða kynbundin sjónarmið skaltu leita ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu, meðal annars um mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6004,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 388,
+    "reasoning_output_tokens": 119
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

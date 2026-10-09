@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d6-cfe8-7273-8a62-9faec6e1bfb1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita sukupuolisyrjintää.** On ymmärrettävää, että asia herättää kysymyksiä, etenkin kun et ole saanut pyytämääsi selvitystä.\n\nPelkästään miehistä koostuva lautakunta voi antaa aiheen kysyä, miten arvioinnin tasapuolisuus varmistettiin. Siitä ei kuitenkaan voi päätellä, että valinta tehtiin sukupuolen perusteella. Myöskään tohtorintutkintosi ja valitun maisterintutkinto eivät yksin ratkaise ansiovertailua: johtamiskokemus, sääntelyosaaminen ja tehtävän ennalta määritellyt vaatimukset voivat olla olennaisia. Sinun taustasi antaa silti hyvän syyn pyytää konkreettinen selvitys vertailusta.\n\n**Keskittyisin nyt ensisijaisesti valintaperusteisiin.** Voit lähettää esimerkiksi tämän:\n\n> Pyysin [päivämäärä] kirjallista selvitystä rekrytointipäätöksestä. Pyydän tietoa käytetyistä valintaperusteista ja niiden painotuksesta sekä siitä, miten koulutustani, riskimallinnuskokemustani ja johtamisvalmiuksiani arvioitiin suhteessa valittuun henkilöön. Pyydän myös selvitystä valitun henkilön koulutuksesta, työkokemuksesta ja muista valintaan vaikuttaneista osoitettavista ansioista.\n>\n> Koska valintalautakunta koostui yksinomaan miehistä, haluaisin lisäksi tietää, miten sukupuolten tasa-arvo ja arvioinnin tasapuolisuus varmistettiin valintamenettelyssä.\n\n**Jos rekrytointi tapahtui Suomessa**, tasa-arvolain 10 § velvoittaa työnantajan antamaan viivytyksettä kirjallisen selvityksen henkilölle, joka katsoo joutuneensa lain tarkoittaman syrjinnän kohteeksi työhönotossa. Voit mainita tämän jatkopyynnössäsi. Kahden viikon hiljaisuus ei itsessään osoita syrjintää, mutta muistutus on perusteltu.\n\nSäilytä työpaikkailmoitus, hakemuksesi, haastattelumuistiinpanot ja viestit. Jos selvitystä ei tule tai perustelut jäävät epäselviksi, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta.\n\nYdin on siis: **lautakunnan kokoonpano on aiheellinen kysymys menettelyn tasapuolisuudesta, ei yksin näyttö syrjinnästä.** Ratkaisevampaa on, millä perusteilla hakijoita tosiasiassa verrattiin ja sovellettiinko perusteita johdonmukaisesti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 642,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

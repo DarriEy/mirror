@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f1-4a36-78c3-86ca-efb9b3aac257"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei yksin osoita syrjintää.** Se on perusteltu kysymys menettelyn arvioinnissa, ei näyttö siitä, miksi juuri tämä hakija valittiin.\n\nKuvaamasi koulutus ja vararehtorikokemus antavat sinulle hyvän syyn pyytää tarkkaa selvitystä ansiovertailusta. Niiden perusteella ei kuitenkaan vielä voi varmasti sanoa, kumpi oli tehtävään ansioituneempi: siihen vaikuttavat hakuilmoituksen kriteerit, hakijoiden kaikki ansiot sekä tehtävän kannalta perusteltu soveltuvuusarvio.\n\nJos kyse on Suomessa olevasta lukiosta, erottaisin kolme kysymystä:\n\n- **Lautakunnan kokoonpanon lainmukaisuus.** Tasa-arvolain mukaan monissa julkishallinnon toimielimissä on oltava vähintään 40 prosenttia kumpaakin sukupuolta, jollei erityisistä syistä muuta johdu. Se, koskeeko sääntö tätä valintalautakuntaa, riippuu sen oikeudellisesta asemasta. Pelkkä haastatteluryhmä ei välttämättä ole tällainen toimielin.\n- **Valitun kelpoisuus ja ansiot.** Rehtorilta vaaditaan muutakin kuin opettajan kelpoisuus. Esimerkiksi opetushallinnon tuntemus voidaan osoittaa eri tavoilla, joten ilmaisu ”osallistunut kursseille” ei yksin kerro, täyttyykö kelpoisuusvaatimus. Myöskään koulutusjohtamisen maisterintutkinto ei automaattisesti ratkaise hakijoiden paremmuutta.\n- **Mahdollinen sukupuolisyrjintä.** Jos olet eri sukupuolta kuin valittu ja osoittaudut häntä ansioituneemmaksi, voi syntyä syrjintäolettama. Työnantajan on silloin osoitettava valinnalle hyväksyttävä, muu kuin sukupuoleen perustuva syy. Lautakunnan jäsenten sukupuoli ei ratkaise tätä.\n\n**Lähettäisin nyt kirjallisen muistutuksen**, esimerkiksi:\n\n> Pyydän toimittamaan valintapäätöksen perusteluineen ja muutoksenhakuohjeineen sekä selvityksen hakijoiden ansiovertailusta, valintakriteereistä ja siitä, miten valitun rehtorikelpoisuus on todettu. Pyydän myös selvittämään, sovelletaanko valintalautakuntaan tasa-arvolain kokoonpanovaatimusta ja, jos sovelletaan, millä perusteella siitä on poikettu.\n\nJos epäilet sukupuolisyrjintää, voit lisäksi pyytää nimenomaisesti **tasa-arvolain 10 §:n mukaista kirjallista selvitystä**, joka työnantajan on annettava viivytyksettä. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää, mutta muistutus on aiheellinen.\n\n**Älä odota vastausta ennen muutoksenhakuajan tarkistamista:** selvityspyyntö ei yleensä pysäytä määräaikaa. Ota päätös ja hakuilmoitus mukaan ja kysy viipymättä neuvoa ammattiliitoltasi tai tasa-arvovaltuutetulta.\n\nOnko kyse Suomessa olevasta kunnallisesta vai yksityisestä lukiosta, ja oletko saanut varsinaisen valintapäätöksen muutoksenhakuohjeineen?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5920,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 882,
+    "reasoning_output_tokens": 87
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

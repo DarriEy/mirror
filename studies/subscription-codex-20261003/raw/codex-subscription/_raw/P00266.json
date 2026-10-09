@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10165-99d3-7822-9ca8-55a3c3312e32"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, spurðu hlutlægt um skipan nefndarinnar. Ef þetta er opinber nefnd geta reglur um kynjahlutföll átt við; almennt skal hlutur hvors kyns vera minnst 40% þegar fulltrúar eru fleiri en þrír, með tilteknum undantekningum.\n\nKarlaskipanin ein sýnir þó ekki að kyn hafi ráðið niðurstöðunni, sérstaklega þar sem bæði þú og ráðni umsækjandinn eruð karlar. Mögulegur annmarki á nefndarskipan er annað álitaefni en mismunun við ráðningu.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Óskaðu sérstaklega eftir hæfniviðmiðum og samanburði á menntun og stjórnunarreynslu. Námskeið jafngilda ekki sjálfkrafa meistaraprófi, en tilkynningin ein segir ekki alla söguna. Kannaðu kæruleiðir og fresti án þess að bíða ótímabundið."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6037,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 439,
+    "reasoning_output_tokens": 163
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

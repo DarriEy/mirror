@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10174-9ab9-7ad3-8751-2b8740eb7205"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Já, þú getur spurt um kynjasamsetningu nefndarinnar — en hún er ekki ein og sér vísbending um að þér hafi verið mismunað.** Það að fjórar konur hafi metið umsækjendur og kona verið ráðin segir ekki eitt og sér að kyn hafi ráðið niðurstöðunni.\n\nHér þarf að greina á milli tveggja atriða:\n\n- **Var nefndin rétt skipuð?** Ef þetta er íslenskur opinber háskóli geta reglur um kynjahlutföll í opinberum nefndum átt við. Það fer meðal annars eftir því hvers konar nefnd þetta var og hvaða reglur giltu um skipun hennar. Mögulegur annmarki á skipun er sjálfstætt álitaefni, ekki sjálfkrafa sönnun um mismunun í ráðningunni.\n- **Var ráðningin byggð á málefnalegum samanburði?** Lokið doktorspróf, rannsóknir og kennslureynsla þín gefa fullt tilefni til að óska eftir skýrum rökstuðningi. Fjöldi greina einn ræður þó ekki hæfni; meðal annars geta gæði þeirra, sérsvið og viðeigandi starfsreynsla skipt máli.\n\n**Mikilvægasta spurningin er hvað stóð í auglýsingunni.** Var lokið doktorspróf ófrávíkjanlegt skilyrði, og á hvaða tímapunkti þurfti því að vera lokið? Ef sú sem var ráðin uppfyllti ekki skýrt lágmarksskilyrði er það mun áþreifanlegra athugunarefni en kyn nefndarmanna. Tilkynningin ein nægir þó ekki til að staðfesta það.\n\nÉg myndi nú senda stutta eftirfylgni, til dæmis:\n\n> Ég ítreka beiðni mína frá [dagsetning] um skriflegan rökstuðning ráðningarinnar. Ég óska sérstaklega eftir upplýsingum um hæfniskröfur og vægi matsþátta, hvernig menntun, rannsóknir og kennslureynsla umsækjenda voru borin saman og hvernig doktorskröfu auglýsingarinnar var beitt. Jafnframt óska ég eftir aðgangi að þeim gögnum ráðningarmálsins sem ég á rétt á sem aðili þess, þar á meðal hæfnismati og samanburði umsækjenda. Vinsamlegast upplýsið einnig á hvaða reglum skipun ráðningarnefndarinnar byggðist og hvernig gætt var reglna um kynjahlutföll, ef þær áttu við. Hvenær má vænta svars?\n\nAðgangur að gögnum getur sætt takmörkunum vegna einkahagsmuna annarra umsækjenda.\n\n**Leggðu því áherslu á hæfnissamanburðinn og málsmeðferðina, fremur en að draga ályktun af kyni nefndarmanna.** Ef svörin benda til ómálefnalegs mats eða skilyrðum hafi verið vikið til hliðar skaltu fá stéttarfélag eða lögfræðing til að skoða gögnin og mögulega kærufresti án tafar."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 805,
+    "reasoning_output_tokens": 79
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

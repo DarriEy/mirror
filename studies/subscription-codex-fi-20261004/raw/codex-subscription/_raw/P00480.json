@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108da-d189-7351-9817-a0dc53cf4396"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei osoita, että valinta olisi ollut syrjivä tai epäasiallinen.** Se herättää perustellun kysymyksen valintamenettelyn monipuolisuudesta, mutta ei yksin kerro, miten hakijoita arvioitiin. Koska sinä ja valittu olette molemmat miehiä, kertomasi ei sellaisenaan viittaa siihen, että sinut olisi sivuutettu sukupuolesi vuoksi.\n\nPitkä uutiskokemuksesi ja viisi vuotta varauutispäällikkönä antavat silti hyvän syyn pyytää konkreettista palautetta. **Työvuosien määrä ei yksin ratkaise ansiovertailua:** digitaalisen median osaaminen, johtamisnäytöt ja tehtävän tavoitteet voivat perustellusti painaa enemmän. Olennaista on, mitä kriteerejä käytettiin ja sovellettiinko niitä johdonmukaisesti.\n\nLähettäisin nyt ystävällisen kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin kaksi viikkoa sitten kirjallisia perusteluja uutispäällikön valinnalle. Milloin voin odottaa vastausta? Toivoisin erityisesti tietoa valintakriteereistä ja niiden painotuksesta sekä siitä, miten johtamiskokemustani ja digitaalisen median osaamistani arvioitiin suhteessa tehtävän vaatimuksiin. Mitkä tekijät ratkaisivat valinnan?\n\nJos haluat nostaa myös kokoonpanon esiin, pitäisin sen erillisenä menettelytapakysymyksenä: *”Miten valintalautakunnan kokoonpano muodostettiin, ja onko organisaatiolla ohjeita sen moninaisuudesta?”* En tekisi siitä tässä vaiheessa syrjintäväitteen perustaa.\n\nKahden viikon vastaamattomuus ei vielä osoita väärinkäytöstä. Oikeus saada perusteluja ja mahdolliset muutoksenhakuajat riippuvat maasta ja tehtävän oikeudellisesta luonteesta — julkinen yleisradioyhtiö ei automaattisesti tarkoita virkanimitystä. Jos harkitset valinnan riitauttamista, selvitä määräajat viipymättä esimerkiksi ammattiliitosta, äläkä jää odottamaan vastausta. **Missä maassa tehtävä on?**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 592,
+    "reasoning_output_tokens": 47
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

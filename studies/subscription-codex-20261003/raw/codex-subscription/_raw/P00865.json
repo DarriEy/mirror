@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10157-0790-7823-8838-724122daaef9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nEingöngu karlskipuð nefnd sannar ekki kynjamismunun. Samsetningin getur þó sjálfstætt varðað reglur um kynjahlutföll í opinberum nefndum; spurðu hvaða reglur giltu og hvernig skipunin samræmdist þeim.\n\nSterkara tilefni til eftirfylgni er samanburður hæfninnar. Fleiri greinar og lokið doktorspróf tryggja ekki ráðningu, en hafi doktorspróf verið ófrávíkjanlegt skilyrði þarf sérstaklega að skýra þetta.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna og óskaðu upplýsinga um afgreiðslutíma, matsviðmið og aðgang að gögnum málsins, með lögmætum takmörkunum. Tvær vikur án svars sanna ekki brot. Leitaðu fljótt aðstoðar stéttarfélags eða lögmanns um rétt þinn og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6025,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 447,
+    "reasoning_output_tokens": 172
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

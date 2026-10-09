@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10125-8f0d-7b62-b73f-5e4b3e76b3d6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noticing, but it is not, on its own, evidence that this decision was discriminatory or unfair.** You and the successful candidate are both men, and nothing you’ve described connects the panel’s gender composition to your rejection. It may raise a broader question about diversity in the firm’s leadership or selection process, but it doesn’t establish why you weren’t chosen.\n\nYour qualifications and experience make it reasonable to seek substantive feedback. However, more years of design work do not automatically make someone the strongest candidate for a group-head role. People management, client development, commercial judgment and leadership could legitimately carry substantial weight. “Excellent client relationships” could reflect that—or be a vague explanation. The announcement alone cannot tell you which.\n\n**I’d focus first on the selection criteria and how they were applied.** After two weeks, a polite follow-up is reasonable:\n\n> I’m following up on my request of [date] for feedback on the appointment. Could you explain the principal selection criteria, their relative weighting, and how my experience and interview performance were assessed against them? In particular, I would appreciate understanding which areas distinguished the successful candidate.\n\nYou can ask about the panel’s composition separately if diversity or governance concerns matter to you, but I wouldn’t lead with it as evidence of unfair treatment. More telling signs would be inconsistent explanations, criteria changed during the process, discriminatory remarks, or departures from the advertised requirements.\n\nWhether you’re entitled to a written explanation—and whether any complaint deadlines apply—depends on the country and whether the employer is public or private. **Where was the role based, and was this a private consultancy?**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5876,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 337,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012c-ad39-7b81-a830-9401fd9de55b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Karlaskipanin gefur tilefni til að kanna málsmeðferðina, en sannar ekki að kyn hafi ráðið ráðningunni. Reglur um kynjahlutföll í opinberum nefndum geta átt við; kanna þarf stöðu ráðningarnefndarinnar og skipun hennar.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega og óskaðu jafnframt eftir:\n- skýringum á kynjasamsetningu nefndarinnar,\n- ráðningarviðmiðum og vægi þeirra,\n- samanburði á hæfni þinni og þess sem var ráðinn og aðgangi að viðeigandi gögnum málsins.\n\nMenntun þín og reynsla gefa tilefni til að óska skýrs samanburðar, en tryggja ekki að þú hafir verið hæfust umsækjenda. Leitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti; ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6025,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 453,
+    "reasoning_output_tokens": 168
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

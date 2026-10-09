@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10176-eaa0-77d0-803b-6cb36d2ef064"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel, by itself, is not evidence of bias or an unfair decision.** It tells you the panel’s gender composition—not how they assessed candidates. Since you and the successful candidate are both women, the facts you’ve given don’t suggest a straightforward case of preference for women over men. They don’t establish age discrimination either.\n\nIt’s understandable to want an explanation after reaching the final three. Your PhD and nine years of relevant experience are strong qualifications. But a head-of-function appointment may also put substantial weight on leadership, regulatory relationships, governance, and communication. The announcement is too brief to establish whether the successful candidate was less qualified overall.\n\n**I’d focus on the selection process rather than the panel’s gender:**\n- Follow up on your unanswered request and ask when you can expect a response.\n- Ask for the selection criteria, their relative weighting, and feedback on how your experience and interview performance were assessed.\n- Keep the job advertisement, correspondence, and any interview notes.\n\nYou could write:\n\n> I’m following up on my request of [date] for feedback on the appointment. Having reached the final shortlist and attended two interviews, I would appreciate an explanation of how my qualifications and experience were assessed against the selection criteria, and the principal factors that determined the outcome. Please let me know when I can expect a response.\n\nTwo weeks without a reply warrants a follow-up, but isn’t itself evidence of discrimination. More meaningful warning signs would be discriminatory comments, inconsistent criteria, conflicts of interest, or departures from the stated process. If any of those emerge, consider local employment-law advice promptly, since complaint deadlines can be short. Whether you’re entitled to a written explanation depends on the jurisdiction and the applicable recruitment rules."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5861,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 356,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

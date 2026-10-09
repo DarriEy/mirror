@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f2-8252-7362-9820-7b35e94b9ca8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa kokoonpanon esille, mutta pelkkä miesvaltainen lautakunta ei osoita syrjintää tai epäasiallista valintaa.** On silti ymmärrettävää, että haluat selvittää ratkaisun perusteet oman koulutuksesi ja kokemuksesi vuoksi.\n\nErot­taisin kaksi kysymystä:\n\n- **Lautakunnan kokoonpano:** Jos kyse on Suomesta, kunnan toimielimiä koskee yleensä vaatimus, että naisia ja miehiä on kumpiakin vähintään 40 prosenttia, jollei erityisestä syystä muuta johdu. Koskeeko tämä kyseistä valintalautakuntaa, riippuu sen oikeudellisesta asemasta: haastatteluryhmä ei välttämättä ole tällainen toimielin. Pelkkä kokoonpano ei myöskään kerro, miten hakijoita on kohdeltu. Koska sekä sinä että valittu olette miehiä, kuvaamasi tiedot eivät sellaisinaan viittaa sinuun kohdistuneeseen sukupuolisyrjintään.\n- **Valinnan perusteet:** Olennaisempaa on selvittää tehtävän sitovat kelpoisuusvaatimukset ja hakijoiden ansiovertailu. Korkeampi tutkinto ei automaattisesti ratkaise valintaa, ja vuorovaikutus- sekä johtamistaitoja voidaan painottaa. Jos valittu ei kuitenkaan täytä sitovia kelpoisuusvaatimuksia, se on merkittävä asia.\n\n**Tarkista muutoksenhakuaika heti.** Suomessa kunnan virantäyttöpäätöksen oikaisuvaatimusaika on usein 14 päivää tiedoksisaannista. Noudata päätöksen muutoksenhakuohjetta: perustelujen pyytäminen tai vastauksen odottaminen ei yleensä pysäytä määräaikaa.\n\nPyytäisin kirjallisesti:\n1. Valintapäätöksen liitteineen ja muutoksenhakuohjeineen.\n2. Hakuilmoituksen, kelpoisuusvaatimukset ja olemassa olevan ansiovertailun julkiset osat.\n3. Tiedon valintalautakunnan asemasta ja asettamispäätöksestä sekä mahdollisen perusteen yksisukupuoliselle kokoonpanolle.\n\nJos aiempi pyyntösi koski olemassa olevia julkisia asiakirjoja, ne on Suomessa yleensä annettava viimeistään kahdessa viikossa, tavallista työläämmässä tapauksessa kuukaudessa. Uuden perustelutekstin laatimista koskeva pyyntö on eri asia.\n\nOttaisin siis kokoonpanon esille **neutraalina lainmukaisuuskysymyksenä, en syrjintäsyytöksenä**, ja keskittyisin ensisijaisesti kelpoisuuteen, ansiovertailuun ja määräajan turvaamiseen."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5937,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 752,
+    "reasoning_output_tokens": 118
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

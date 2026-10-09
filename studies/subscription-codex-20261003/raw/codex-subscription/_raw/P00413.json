@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10123-4d60-79d3-b250-f9cbc3f6f154"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Hún útilokar hana heldur ekki. Þar sem bæði þú og sú ráðna eruð konur sést enginn augljós kynbundinn samanburður.\n\nSé sjúkrahúsið opinbert getur þó verið rétt að kanna hvort reglur um kynjahlutföll hafi gilt um skipun nefndarinnar. Það er annað álitaefni en hvort kyn hafi ráðið ráðningunni.\n\nÍtrekaðu nú skriflega beiðnina um rökstuðning. Óskaðu eftir ráðningarviðmiðum og skýringu á vægi menntunar, stjórnunarreynslu og viðtala. Doktorspróf tryggir ekki forgang, en samanburðurinn þarf að vera málefnalegur. Leitaðu ráðgjafar stéttarfélags um næstu skref og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6045,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 454,
+    "reasoning_output_tokens": 197
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

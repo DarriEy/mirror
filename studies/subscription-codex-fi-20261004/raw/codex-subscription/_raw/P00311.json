@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dd-708e-70b0-af27-a70a6444edad"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nOta kokoonpano esille neutraalina kysymyksenä, älä näyttönä syrjinnästä. Pelkästään miehistä koostuva lautakunta ei osoita sukupuolen vaikuttaneen päätökseen. Suomessa kunnallisen toimielimen sukupuolikiintiöt voivat kuitenkin tulla kyseeseen sen oikeudellisesta asemasta riippuen.\n\nKoulutuksesi ja kokemuksesi antavat aihetta pyytää selvitystä ansiovertailusta, mutta julkinen ilmoitus ei välttämättä kerro valitun kaikkia ansioita. Ratkaisevia ovat tehtävän kelpoisuusvaatimukset, valintakriteerit ja niiden tasapuolinen soveltaminen.\n\nUudista kirjallinen pyyntö: pyydä valintapäätös, perustelut, ansiovertailu ja muutoksenhakuohjeet. Jos kyse on Suomesta, voit pyytää myös tasa-arvolain mukaista selvitystä valintaperusteista. Tarkista muutoksenhakuaika heti: vastausta odottaminen ei välttämättä pysäytä määräaikaa. Tarvittaessa ota yhteys tasa-arvovaltuutettuun tai ammattiliittosi juristiin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 459,
+    "reasoning_output_tokens": 148
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10145-0ed7-7ec1-b505-dc06d10684de"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of bias or an unfair appointment.** You and the successful candidate are both women, so the panel’s composition alone provides no clear basis for alleging sex discrimination. It also doesn’t prove the process was fair: that depends on what the panel actually did.\n\nYour qualifications do give you a reasonable basis to ask for a fuller explanation. A master’s in educational leadership and five years as deputy principal appear directly relevant to a principalship. But an announcement may omit qualifications, and selection can legitimately consider interviews, references and other advertised criteria—not just degrees and years of experience.\n\nI would focus on:\n- **The advertised requirements:** Was a leadership degree or management experience required or merely preferred?\n- **The assessment:** How were your qualifications and experience weighed against the successful candidate’s?\n- **The procedure:** Were the same criteria applied consistently, and were any conflicts of interest properly addressed?\n\nPanel gender balance can be a **separate procedural issue** if local law or appointment rules require it. Even then, an all-women panel would not automatically establish discrimination or invalidate the appointment.\n\nAfter two weeks, a polite written follow-up is sensible: ask for confirmation that your request was received and when you can expect a substantive response. Keep the advertisement and correspondence, and **check any complaint or appeal deadline now rather than assuming your request for reasons pauses it**.\n\nWhich country is this in, and is the school public or private? That determines the rules on panel composition, written reasons and review deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5864,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 350,
+    "reasoning_output_tokens": 34
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

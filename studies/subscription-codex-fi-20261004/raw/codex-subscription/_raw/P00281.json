@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f1-c21e-7760-b564-a2d011e1db3d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei itsessään osoita syrjintää.** Se on perusteltu syy kysyä valintamenettelyn tasapuolisuudesta — ei vielä peruste päätellä, että valittu henkilö sai tehtävän sukupuolensa vuoksi.\n\nKoulutuksesi ja kokemuksesi perusteella olet ollut varteenotettava hakija. Annetuista tiedoista ei kuitenkaan voi päätellä, kumpi teistä oli tehtävän kriteereillä ansioituneempi: valitun henkilön julkinen esittely saattaa olla suppea, ja kansainvälisellä johtamiskokemuksella voi olla tehtävässä merkittävä paino.\n\n**Keskittyisin nyt dokumentoituun ansiovertailuun ja valintaperusteisiin.** Lähetä kirjallisesta pyynnöstäsi muistutus ja pyydä:\n- nimityspäätös, nimitysmuistio tai vastaava ansiovertailu sekä muutoksenhakuohjeet\n- tieto siitä, miten ilmoitettuja valintakriteerejä painotettiin ja hakijoita arvioitiin\n- selvitys lautakunnan kokoonpanon perusteista ja tasapuolisuuden varmistamisesta.\n\nVoit muotoilla viimeisen kohdan esimerkiksi näin:\n\n> ”Huomasin, että valintalautakunta koostui yksinomaan miehistä. Millä perusteilla lautakunta muodostettiin ja miten sukupuolten tasa-arvo ja hakijoiden tasapuolinen arviointi varmistettiin valintamenettelyssä?”\n\n**Jos kyse on Suomesta**, tasa-arvolain perusteella syrjintää epäilevällä hakijalla voi olla oikeus saada työnantajalta viivytyksettä kirjallinen selvitys valinnan perusteista. Julkisten asiakirjojen tietopyynnöissä tavallinen määräaika on puolestaan kaksi viikkoa, vaativammissa tapauksissa kuukausi. Lautakuntaan mahdollisesti sovellettavat sukupuolikiintiösäännöt riippuvat siitä, millaisesta toimielimestä on kyse; ne eivät automaattisesti koske jokaista haastatteluryhmää.\n\nKahden viikon hiljaisuus ei yksin osoita syrjintää, mutta muistutus on aiheellinen. **Älä odota vastausta ennen mahdollisen muutoksenhakuajan tarkistamista**, sillä selvityspyyntö ei yleensä pysäytä sitä. Tarvittaessa ammattiliittosi juristi tai Suomessa tasa-arvovaltuutettu voi auttaa arvioimaan asiaa.\n\nMissä maassa ministeriö sijaitsee? Se ratkaisee, mitä tiedonsaanti- ja muutoksenhakusääntöjä sovelletaan."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 611,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

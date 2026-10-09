@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10132-d8ca-7a00-8b36-cdd1bf27081f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd sannar ekki kynjamismunun. Kynjasamsetningin getur þó verið sjálfstætt athugunarefni: óskaðu upplýsinga um skipun nefndarinnar og hvort viðeigandi reglum um kynjahlutföll hafi verið fylgt. Ekki liggur fyrir hvort slíkar reglur giltu um þessa nefnd.\n\nÞar sem bæði þú og sá ráðni eruð karlar bendir samanburður ykkar ekki sérstaklega til mismununar vegna kyns. Það útilokar hana þó ekki.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Rökstuðning skal almennt veita innan 14 daga; tefjist það ber að tilkynna ástæður og áætlaðan svartíma. Óskaðu sérstaklega eftir hæfniviðmiðum, vægi þeirra og samanburði á menntun og reynslu. Þar liggja gagnlegustu upplýsingarnar til að meta ráðninguna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 480,
+    "reasoning_output_tokens": 215
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

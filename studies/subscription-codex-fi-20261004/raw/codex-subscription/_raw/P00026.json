@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e1-234c-71d2-88c4-f011c9cfd0b9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, miksi et tullut valituksi pitkällä kokemuksellasi ja kahden haastattelun jälkeen. **Pelkästään naisista koostunut lautakunta ei kuitenkaan itsessään ole osoitus syrjinnästä tai puolueellisuudesta.** Myöskään valitun sukupuolesta ei voi päätellä valinnan perusteita.\n\nViidentoista vuoden uutiskokemus ja viisi vuotta varauutispäällikkönä ovat merkittäviä ansioita. Silti palvelusvuosien määrä ei yksin ratkaise hakijoiden ansiovertailua: tehtävässä on voitu painottaa esimerkiksi digitaalisen uutistoiminnan kehittämistä, johtamisnäyttöjä tai haastatteluissa arvioituja valmiuksia. Olennaista on, liittyivätkö painotukset tehtävään ja sovellettiinko niitä johdonmukaisesti kaikkiin hakijoihin.\n\n**Ottaisin tässä vaiheessa esille valinnan perusteet, en lautakunnan sukupuolijakaumaa.** Lähettäisin aiemmasta pyynnöstä asiallisen muistutuksen, esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä uutispäällikön valinnan perusteista. Voisitteko ilmoittaa, milloin saan vastauksen? Pyydän erityisesti tietoa käytetyistä valintakriteereistä ja niiden painotuksista sekä siitä, miten uutistyön kokemus, esihenkilökokemus ja digitaalisen median osaaminen vertailtiin minun ja valitun hakijan välillä.\n\nKahden viikon vastaamattomuus puoltaa muistutusta, mutta ei sekään yksin osoita syrjintää. Säilytä työpaikkailmoitus, hakemuksesi ja viestinvaihto sekä kirjaa muistiin haastatteluissa kerrotut kriteerit.\n\nJos selvityksestä ilmenee esimerkiksi sukupuolen käyttäminen valintaperusteena tai epäjohdonmukainen ansiovertailu, asiaa kannattaa arvioida ammattiliiton juristin kanssa. Jos kyse on Suomesta, myös tasa-arvovaltuutetulta voi pyytää neuvoa. Perusteluvelvollisuuden ja mahdollisten määräaikojen tarkka sisältö riippuu maasta ja tehtävän oikeudellisesta asemasta.\n\nSinulla on hyvä syy pyytää selkeä selvitys valinnasta — mutta näillä tiedoilla ei vielä ole perustetta päätellä, että lautakunnan sukupuolijakauma selittäisi lopputuloksen."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5924,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 566,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

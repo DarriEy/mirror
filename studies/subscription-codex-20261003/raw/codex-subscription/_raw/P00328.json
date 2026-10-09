@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10134-7e0d-79a0-af4c-29ae7caf1dcb"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er málefnalegt athugunarefni en sannar ekki kynjamismunun. Ef sjúkrahúsið er opinbert geta reglur um kynjahlutföll í nefndum átt við; kanna þarf stöðu ráðningarnefndarinnar. Ófullnægjandi kynjajafnvægi og mismunun við ráðningu eru þó aðskilin álitaefni.\n\nDoktorspróf og átta ára stjórnunarreynsla réttlæta að þú óskir skýringa á samanburðinum, en tryggja ekki að þú hafir verið hæfust samkvæmt auglýstum viðmiðum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir hæfniviðmiðum, samanburði umsækjenda og skýringum á skipan nefndarinnar. Tvær vikur án svars sanna ekki mismunun.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um réttindi og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6046,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 402,
+    "reasoning_output_tokens": 119
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

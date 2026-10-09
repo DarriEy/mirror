@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108dc-55a1-77f2-a011-e0ef57fa3488"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkkä miesjäsenyys ei osoita sukupuolisyrjintää.** Se on perusteltu syy kysyä valintamenettelyn tasapuolisuudesta, ei yksin peruste päätellä, miksi sinua ei valittu.\n\nSinulla on vahva koulutus ja pitkä, tehtävään liittyvä johtamiskokemus. On ymmärrettävää, että haluat tietää, millä perusteilla valittu hakija katsottiin sopivammaksi. Toisaalta tohtorintutkinto ei automaattisesti ratkaise ansiovertailua: merkitystä on hakuilmoituksen kriteereillä, johtamiskokemuksen sisällöllä ja muilla tehtävän kannalta olennaisilla ansioilla. Ilmaus ”laaja johtamiskokemus” ei vielä mahdollista vertailua.\n\n**Jos kyse on Suomessa olevasta tehtävästä:**\n- Ansioituneemman hakijan syrjäyttäminen toista sukupuolta olevan hyväksi voi synnyttää syrjintäolettaman. Työnantajan on silloin osoitettava hyväksyttävä, sukupuolesta riippumaton syy valinnalle.\n- Tasa-arvolain mukaan työnantajan on annettava syrjintää epäilevälle hakijalle pyynnöstä viivytyksettä kirjallinen selvitys valintaperusteista sekä valitun koulutuksesta, työ- ja muusta kokemuksesta ja muista valintaan vaikuttaneista osoitettavista ansioista.\n- Julkisten toimielinten sukupuolikiintiöt voivat olla merkityksellisiä, mutta niiden soveltuminen riippuu lautakunnan oikeudellisesta asemasta. Jokainen rekrytointiryhmä ei kuulu niiden piiriin.\n\nLähettäisin nyt kirjallisen muistutuksen, jossa **ansiovertailu on pääasia ja kokoonpano erillinen kysymys**, esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä valintapäätöksen perusteista. Pyydän selvitystä valintakriteereistä, niiden soveltamisesta ja oman sekä valitun hakijan ansioiden vertailusta. Epäilen mahdollista sukupuoleen perustuvaa syrjintää ja pyydän tasa-arvolain 10 §:n mukaista selvitystä. Pyydän lisäksi tietoa siitä, miten valintalautakunnan kokoonpano määräytyi ja koskevatko sitä sukupuolten edustusta koskevat säännökset.\n\nKahden viikon vastaamattomuus ei itsessään osoita syrjintää, mutta muistutus on aiheellinen. Säilytä hakuilmoitus, hakemuksesi ja viestinvaihto. **Tarkista mahdolliset oikaisu- tai valitusajat heti:** perustelupyynnön vastausta odottamalla määräajat eivät yleensä pysähdy. Ammattiliitto tai tasa-arvovaltuutettu voi auttaa arvioimaan asiaa.\n\nMissä maassa tehtävä on, ja onko sairaala julkinen vai yksityinen? Se ratkaisee, mitkä säännöt ja oikeussuojakeinot soveltuvat."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 714,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

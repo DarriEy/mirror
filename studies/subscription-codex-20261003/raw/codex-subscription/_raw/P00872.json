@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012a-75a8-7c53-8d49-386095c56be6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, taktu kynjasamsetninguna upp sem málefnalega spurningu, ekki ásökun. Hún getur varðað reglur um kynjahlutföll í opinberum nefndum, eftir stöðu nefndarinnar og skipun hennar, en sannar ekki kynjamismunun við ráðninguna.\n\nMeiri formleg menntun þín og reynsla kalla á skýran samanburð við auglýstar hæfniskröfur; þær tryggja þó ekki sjálfkrafa ráðningu.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir matsviðmiðum, samanburði á hæfni og skýringum á nefndarskipaninni. Almennt á að svara beiðni um rökstuðning innan 14 daga.\n\nLeitaðu fljótt ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um mögulegt kæruefni og kærufresti. Ekki bíða ótímabundið eftir svarinu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 444,
+    "reasoning_output_tokens": 164
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

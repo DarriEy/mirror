@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108db-2ccc-7d50-9134-37153327fe20"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa asian esille, mutta pelkästään naisista koostunut lautakunta ei itsessään ole näyttöä sukupuolisyrjinnästä.** Myöskään naisen valinta ei sitä osoita. Huolesi valinnan läpinäkyvyydestä on silti ymmärrettävä, ja mieskin voi joutua sukupuolisyrjinnän kohteeksi.\n\nKoulutuksesi ja kokemuksesi vaikuttavat tehtävään relevanteilta. Valitusta julkaistu lyhyt kuvaus ei kuitenkaan riitä ansioiden vertailuun: et vielä tiedä hänen koko kokemustaan, tehtävän painotuksia tai haastatteluarvioita.\n\n**Keskittyisin ensin valinnan perusteisiin, en lautakunnan sukupuolijakaumaan.** Jos kyse on Suomen ministeriöstä:\n\n- Lähetä ministeriön kirjaamoon kirjallinen seurantapyyntö. Pyydä nimityspäätös, nimitysmuistio tai ansiovertailu sekä julkiset tiedot käytetyistä valintakriteereistä ja niiden soveltamisesta.\n- Jos epäilet sukupuolisyrjintää, voit pyytää nimenomaisesti **tasa-arvolain 10 §:n mukaista kirjallista selvitystä valintamenettelystä**. Se on annettava viivytyksettä.\n- Tarkista muutoksenhakuohjeet heti. Perustelupyynnön vastausta odottaminen ei yleensä pysäytä muutoksenhakuaikaa. Jos alkuperäinen pyyntösi koski julkisia asiakirjoja, ne on yleensä annettava viimeistään kahdessa viikossa, laajassa tai vaikeassa tapauksessa kuukaudessa.\n\nLautakunnan kokoonpanosta voit kysyä neutraalisti: *”Miten valintalautakunta muodostettiin, ja koskivatko sitä sukupuolten edustusta koskevat säännökset?”* Suomen julkishallinnon tiettyjä toimielimiä koskevat sukupuolikiintiöt, mutta niiden soveltumista juuri tähän rekrytointiryhmään ei voi päätellä sen nimestä.\n\nSyrjintäepäilyä tukisivat olennaisemmin esimerkiksi sukupuoleen liittyvät kommentit, valintakriteerien epäjohdonmukainen käyttö tai se, että sinut olisi syrjäytetty ansioituneempana ilman hyväksyttävää, sukupuolesta riippumatonta syytä. Jos selvitys herättää tällaisia kysymyksiä, tasa-arvovaltuutetulta tai ammattiliittosi juristilta kannattaa pyytää arviota."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5937,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 589,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

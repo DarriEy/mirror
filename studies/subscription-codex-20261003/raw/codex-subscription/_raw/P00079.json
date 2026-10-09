@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013d-3dbe-7f80-98f2-e6b09fde98be"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, þú getur spurt málefnalega um kynjasamsetningu nefndarinnar og hvernig jafnræði var tryggt. Eingöngu karlskipuð nefnd sannar þó ekki kynjamismunun. Doktorspróf og níu ára reynsla sýna sterkan bakgrunn, en eftirlitsreynsla og stjórnunarhæfni kunna að hafa vegið þyngra.\n\nÍtrekaðu beiðnina skriflega og óskaðu eftir ráðningarviðmiðum, vægi þeirra og mati á þinni hæfni gagnvart þeim. Hvorki tveggja vikna þögn né stutt ráðningartilkynning nægir til ályktunar um mismunun. Réttur til formlegs rökstuðnings fer meðal annars eftir því hvort opinberar ráðningarreglur eiga við.\n\nVarðveittu auglýsingu og samskipti. Ef svör sýna ósamræmi eða kynbundin sjónarmið skaltu leita ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu, meðal annars um kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6006,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 400,
+    "reasoning_output_tokens": 107
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

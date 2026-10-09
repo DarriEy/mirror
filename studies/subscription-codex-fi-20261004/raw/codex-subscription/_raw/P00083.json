@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ea-2b15-7c82-b6a9-6123bce37ccd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva valintalautakunta ei itsessään ole merkki sukupuolisyrjinnästä.** Voit kysyä menettelyn tasapuolisuudesta, mutta lautakunnan sukupuolijakaumaa ei kannata nostaa pääasialliseksi perusteeksi epäilylle.\n\nSinulla on vahva koulutus ja relevanttia johtamiskokemusta, joten on ymmärrettävää haluta selvitys valinnasta. Tohtorintutkinto ei kuitenkaan automaattisesti tee hakijasta ansioituneempaa johtajatehtävään: ratkaisevia voivat olla esimerkiksi johtamiskokemuksen laajuus, toiminnan kehittäminen ja tehtävän erityisvaatimukset. Valitusta julkaistu lyhyt kuvaus ei riitä hakijoiden vertailuun. Kahden viikon vastaamattomuuskaan ei yksin osoita syrjintää.\n\n**Nostaisin nyt esiin valintakriteerit ja ansiovertailun, en lautakunnan jäsenten sukupuolta.** Voit lähettää esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä valintapäätöksen perusteista. Pyydän tietoa siitä, milloin saan vastauksen, sekä selvitystä käytetyistä valintakriteereistä, niiden painotuksesta ja siitä, miten omaa koulutustani ja johtamiskokemustani arvioitiin suhteessa valittuun. Pyydän myös päätöksen mahdollisine muutoksenhakuohjeineen.\n\nJos tehtävä on Suomessa:\n- Sukupuoleen perustuva syrjintä on kielletty myös mieshakijaa kohtaan. Jos epäilet sitä, voit pyytää työnantajalta **tasa-arvolain mukaista kirjallista selvitystä valintaperusteista** ja kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta.\n- Julkisessa rekrytoinnissa voit pyytää lisäksi saatavilla olevat valinta- ja ansiovertailuasiakirjat.\n- **Tarkista mahdolliset muutoksenhakuajat heti.** Perustelupyynnön vastausta ei kannata odottaa niiden yli.\n\nMissä maassa sairaala sijaitsee, ja onko työnantaja julkinen vai yksityinen? Se ratkaisee tarkemmat oikeutesi ja menettelyt."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5932,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 532,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

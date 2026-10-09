@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d3-e743-7570-9cd0-e940cfecceea"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuilla tiedoilla.\n\nVoit nostaa lautakunnan kokoonpanon esiin asiallisena kysymyksenä tasapuolisuudesta. Pelkästään miehistä koostuva lautakunta ei kuitenkaan osoita sukupuolisyrjintää eikä mahdollista perusteltua prosenttiarviota.\n\nKuvaamasi ansioerot antavat aiheen pyytää tarkempaa selvitystä. Tutkinto ja julkaisumäärä eivät yksin ratkaise valintaa: ilmoitetut valintakriteerit, opetustaito ja tehtävään liittyvä työkokemus voivat vaikuttaa. Jos valmis tohtorintutkinto oli kelpoisuusvaatimus, kysy erityisesti sen täyttymisestä.\n\nLähetä kirjallinen muistutus ja pyydä ansiovertailu, valintakriteerien painotukset sekä tieto mahdollisista muutoksenhakukeinoista ja määräajoista. Älä odota perusteluja määräaikojen kustannuksella. Jos kyse on Suomesta, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 392,
+    "reasoning_output_tokens": 105
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012c-9a5f-7be0-9d37-176aa83cec19"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipaðri nefnd fylgir ekki sjálfkrafa vísbending um kynjamismunun. Þú og ráðni umsækjandinn eruð báðir karlar; samsetningin ein sýnir ekki að kyn hafi ráðið niðurstöðunni.\n\nSé þetta opinber skóli er þó eðlilegt að spyrja hvort skipun nefndarinnar samræmist reglum um kynjahlutföll opinberra nefnda. Það er sjálfstætt álitaefni, óháð mismunun gagnvart þér.\n\nSterkara tilefni til eftirfylgni er samanburður hæfni: meistaranám þitt og stjórnunarreynsla kalla á skýringu á vægi menntunar, reynslu og viðtala, en tryggja ekki ráðningu. Ítrekaðu rökstuðningsbeiðnina skriflega núna og óskaðu eftir aðgangi að ráðningargögnum, einkum hæfnismati og samanburði umsækjenda. Stutt tilkynning segir ekki endilega alla söguna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 564,
+    "reasoning_output_tokens": 281
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

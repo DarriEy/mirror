@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108db-d9c1-7330-9d28-c9d26d4b9ef7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään se, että kaikki jäsenet olivat miehiä, ei osoita sukupuolisyrjintää.** Se on perusteltu kysymys rekrytoinnin tasapuolisuudesta, ei vielä näyttö siitä, miksi sinua ei valittu.\n\nSinulla vaikuttaa olevan vahva tausta tehtävään. Käytettävissä olevilla tiedoilla ei kuitenkaan voi päätellä, kumpi oli tehtävän valintaperusteisiin nähden ansioituneempi: valitun julkinen esittely voi olla suppea, ja esimerkiksi johtamiskokemuksen merkitys riippuu tehtävän vaatimuksista.\n\n**Keskittäisin seuraavan yhteydenoton ennen kaikkea dokumentoituun ansiovertailuun.** Pyydä:\n- nimityspäätös ja sen perustelut sekä mahdollinen nimitysmuistio\n- käytetyt valintakriteerit ja niiden painotukset\n- selvitys siitä, miten koulutustanne, kokemustanne ja haastatteluissa arvioituja ominaisuuksia vertailtiin.\n\nLautakunnasta voit kysyä neutraalisti esimerkiksi:\n\n> ”Haluaisin myös tietää, miten valintalautakunnan kokoonpano määräytyi ja miten menettelyssä varmistettiin sukupuolten tasa-arvoinen kohtelu.”\n\nJos kyse on **Suomen ministeriöstä**, tasa-arvolain perusteella syrjintää epäilevä työnhakija voi pyytää työnantajalta kirjallisen selvityksen valinnan perusteista. Se on annettava viivytyksettä. Kahden viikon hiljaisuus puoltaa muistutusviestin lähettämistä esimerkiksi kirjaamoon, mutta ei itsessään osoita syrjintää. Julkisten toimielinten sukupuolikiintiöiden soveltuminen juuri tähän lautakuntaan riippuu sen oikeudellisesta asemasta.\n\nSäilytä hakuilmoitus, hakemuksesi ja viestinvaihto. **Tarkista mahdolliset muutoksenhakuajat heti**, sillä perustelupyynnön ei pidä olettaa pysäyttävän niitä. Suomessa neuvoa saat esimerkiksi tasa-arvovaltuutetulta tai ammattiliittosi juristilta.\n\nMissä maassa ministeriö toimii? Se ratkaisee, mitä tarkkoja sääntöjä ja määräaikoja tilanteeseen sovelletaan."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5937,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 542,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

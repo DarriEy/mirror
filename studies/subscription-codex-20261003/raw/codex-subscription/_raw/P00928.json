@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10145-96d7-7550-8d88-e3a1032e251f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipað nefnd er ástæða til að spyrja um skipan hennar og hvort viðeigandi reglum um kynjahlutföll hafi verið fylgt, en sannar ekki kynjamismunun. Doktorspróf og átta ára stjórnunarreynsla styrkja stöðu þína, en sýna ekki ein og sér að þú hafir verið hæfasti umsækjandinn.\n\nÍtrekaðu skriflega beiðnina núna. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og samanburði á menntun og stjórnunarreynslu þinni og þess sem var ráðinn. Spyrðu sérstaklega hvað „víðtæk stjórnunarreynsla“ feli í sér.\n\nEf sjúkrahúsið er opinbert geta stjórnsýslureglur átt við. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu og kannaðu kærufresti án þess að bíða eftir svarinu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6032,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 424,
+    "reasoning_output_tokens": 157
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

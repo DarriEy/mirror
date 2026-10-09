@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108c8-ee9e-7c62-bceb-127474f1b950"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuilla tiedoilla\n\nPelkästään naisista koostuva lautakunta ei osoita sukupuolen vaikuttaneen valintaan. Sinä ja valittu olette molemmat naisia; tämä ei sulje syrjintää pois, mutta kertomasi ei anna siitä konkreettista näyttöä. Numeerinen todennäköisyys olisi perusteeton.\n\nOta sen sijaan esille valinnan perusteet. Pyydä uudelleen kirjallisesti valintapäätös, ansiovertailu, tehtävän kelpoisuusvaatimukset ja muutoksenhakuohjeet. Korkeampi tutkinto ja pitkä kokemus ovat olennaisia, mutta eivät yksin ratkaise kokonaisarviota. Selvitä erityisesti, täyttääkö valittu ilmoitetut kelpoisuusvaatimukset.\n\nKahden viikon vastaamattomuus ei itsessään osoita syrjintää. Tarkista muutoksenhakuaika heti: perustelupyynnön käsittelyn odottaminen ei välttämättä pysäytä sitä. Tarvittaessa ota yhteyttä ammattiliittosi juristiin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6029,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 460,
+    "reasoning_output_tokens": 177
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

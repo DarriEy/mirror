@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108cd-7ce6-7f22-a042-6cd2a68e3dd6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat selvittää valinnan perusteet: kuvaamasi koulutus ja vararehtorikokemus antavat siihen hyvän syyn. **Pelkästään lautakunnan naisvaltaisuus ei kuitenkaan ole näyttöä syrjinnästä eikä kerro jäsenten motiiveista.** Vahvempi lähtökohta on selvittää, miten hakijoiden ansioita vertailtiin.\n\nJos kyse on Suomessa olevasta tehtävästä, erottaisin nämä asiat:\n\n- **Kelpoisuus:** Lukion rehtorin kelpoisuuteen liittyy opettajakelpoisuuden ja ylemmän korkeakoulututkinnon lisäksi muun muassa riittävä opetuskokemus ja opetushallinnon tuntemus. Ilmaus ”osallistunut koulun johtamista käsitteleville kursseille” ei yksin kerro, täyttääkö valittu nämä vaatimukset. Myöskään tutkintosi nimi ei yksin ratkaise kaikkia kelpoisuusehtoja.\n- **Ansiovertailu:** Viiden vuoden vararehtorikokemuksesi on merkityksellinen ansio. Pidempi opetuskokemus voi puolestaan olla valitun vahvuus. Haastattelussa arvioitu soveltuvuuskin voi vaikuttaa, mutta sillä ei saa peittää syrjiviä valintaperusteita.\n- **Lautakunnan kokoonpano:** Jos kyse on kunnan toimielimestä, tasa-arvolain sukupuolikiintiöt voivat tulla sovellettaviksi. Kaikki haastattelu- tai valmisteluryhmät eivät kuitenkaan kuulu niiden piiriin. Mahdollinen kokoonpanovirhe on eri kysymys kuin se, onko sinua syrjitty valinnassa.\n\n**Toimisin nyt näin:**\n\n1. Pyydä uudelleen kirjallisesti valintapäätös perusteluineen, muutoksenhakuohjeet, hakijoiden ansiovertailu sekä tieto siitä, millä perusteella valitun kelpoisuus todettiin. Julkisessa haussa voit pyytää myös julkiset hakemusasiakirjat; kaikkea henkilöarviointia ei välttämättä luovuteta.\n2. **Tarkista muutoksenhakuaika heti.** Kunnallisessa virantäytössä oikaisuvaatimusaika on usein 14 päivää tiedoksisaannista. Perustelupyynnön tekeminen ei yleensä pysäytä määräaikaa.\n3. Jos epäilet sukupuolisyrjintää, voit pyytää työnantajalta nimenomaisesti *tasa-arvolain 10 §:n mukaista kirjallista selvitystä valinnan perusteista*. Selvitys on annettava viivytyksettä. Tasa-arvovaltuutettu tai ammattiliittosi juristi voi auttaa arvioinnissa.\n\nVoit siis ottaa kokoonpanon esille **neutraalina laillisuuskysymyksenä**, esimerkiksi: ”Mihin toimielimeen valintaryhmä kuuluu, ja sovelletaanko sen kokoonpanoon tasa-arvolain kiintiösäännöstä?” En aloittaisi väitteellä, että naiset suosivat naista.\n\nOliko kyse Suomessa sijaitsevan kunnan lukiosta, ja milloin sait varsinaisen valintapäätöksen sekä muutoksenhakuohjeet?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5916,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 810,
+    "reasoning_output_tokens": 67
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

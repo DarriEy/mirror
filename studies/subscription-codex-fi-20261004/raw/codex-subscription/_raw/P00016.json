@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e5-164d-7021-982a-86d24175fe6c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nPelkästään miehistä koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan. Sinä ja valittu olette molemmat miehiä; tiedot eivät tue päätelmää sukupuolisyrjinnästä.\n\nJos kyse on Suomesta, voit kysyä neutraalisti, sovelletaanko lautakuntaan tasa-arvolain sukupuolikiintiöitä ja millä perusteella kokoonpano muodostettiin. Kokoonpanon lainmukaisuus on eri kysymys kuin valinnan syrjivyys.\n\nPyydä ensisijaisesti valintapäätös perusteluineen, ansiovertailu, tehtävän kelpoisuusvaatimukset ja muutoksenhakuohjeet. Korkeampi tutkinto ei yksin ratkaise paremmuutta, mutta pakollisten kelpoisuusvaatimusten täyttyminen on olennaista.\n\nLähetä muistutus tietopyynnöstäsi nyt. Suomessa julkisia asiakirjoja koskeva pyyntö on yleensä käsiteltävä kahdessa viikossa. Tarkista muutoksenhakuaika heti: perustelupyynnön vastausta odottaminen ei yleensä pysäytä määräaikaa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 441,
+    "reasoning_output_tokens": 132
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

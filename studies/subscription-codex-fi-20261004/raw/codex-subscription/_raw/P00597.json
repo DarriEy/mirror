@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d7-d131-7ed2-bec8-f60cc3fe858d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille**, mutta pelkästään miehistä koostunut lautakunta ei vielä osoita, että valinta olisi ollut syrjivä. Se on perusteltu syy kysyä, miten valintamenettelyn tasapuolisuus varmistettiin.\n\nSinulla on pitkä uutistyön kokemus ja viisi vuotta kokemusta varauutispäällikkönä. On ymmärrettävää, että haluat tietää, miksi valittu hakija arvioitiin ansioituneemmaksi. Toisaalta kokemusvuodet eivät yksin ratkaise: esimerkiksi digitaalisen median osaaminen voi olla hyväksyttävä valintaperuste. Olennaista on, **mitä tehtävässä edellytettiin ja sovellettiinko samoja arviointiperusteita kaikkiin hakijoihin**.\n\nLähettäisin nyt kirjallisen muistutuksen ja pyytäisin:\n- valintaperusteet ja niiden painotukset sekä mahdollisen hakijoiden ansiovertailun;\n- selvityksen siitä, miten johtamiskokemustasi ja valitun digitaalista osaamista arvioitiin;\n- tiedon siitä, miten lautakunta muodostettiin ja miten tasapuolinen arviointi varmistettiin.\n\nVoit muotoilla asian esimerkiksi näin:\n\n> Pyysin valinnan kirjallisia perusteluja [päivämäärä]. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan, milloin saan vastauksen. Toivon selvitystä erityisesti johtamiskokemuksen ja digitaalisen osaamisen painotuksesta sekä hakijoiden ansiovertailusta. Huomasin myös, että valintalautakunta koostui yksinomaan miehistä. Miten lautakunnan kokoonpano määräytyi ja miten sukupuolten tasa-arvo varmistettiin valintamenettelyssä?\n\nKahden viikon vastaamattomuus ei itsessään osoita syrjintää, mutta muistutus on paikallaan. Säilytä työpaikkailmoitus, hakemuksesi ja viestinvaihto sekä kirjaa haastatteluissa esitetyt kysymykset muistiin.\n\n**Missä maassa rekrytointi tapahtui?** Oikeus perusteluihin, mahdolliset lautakunnan kokoonpanosäännöt ja asian riitauttamisen määräajat riippuvat maasta sekä tehtävän oikeudellisesta asemasta. Jos harkitset asian viemistä eteenpäin, ammattiliitosta tai paikalliselta tasa-arvoviranomaiselta kannattaa kysyä neuvoa jo nyt — perustelujen odottaminen ei välttämättä pysäytä määräaikoja."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5922,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 588,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f2-58ab-72a2-928b-acd211bad3d8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nPelkästään naisista koostuva lautakunta ei osoita sukupuolisyrjintää. Numeroarvio olisi perusteeton. Koulutuksesi ja kokemuksesi antavat kuitenkin aihetta pyytää selvitys ansiovertailusta; korkeampi tutkinto ei yksin ratkaise soveltuvuutta johtamistehtävään.\n\nOta ensisijaisesti esille valintakriteerit, kelpoisuusvaatimukset ja niiden soveltaminen molempiin hakijoihin. Pyydä uudelleen kirjallisesti päätös, ansiovertailu ja muutoksenhakuohjeet. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää.\n\nJos kyse on Suomesta, lautakunnan kokoonpanon lainmukaisuutta voi kysyä neutraalisti: tasa-arvolain kiintiösäännösten soveltuminen riippuu toimielimestä. Kokoonpanokysymys on erillinen valinnan syrjivyydestä. Tarkista muutoksenhakuaika heti, sillä perustelupyynnön ei pidä olettaa pysäyttävän sitä. Tarvittaessa kysy neuvoa tasa-arvovaltuutetulta tai liittosi juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 415,
+    "reasoning_output_tokens": 103
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

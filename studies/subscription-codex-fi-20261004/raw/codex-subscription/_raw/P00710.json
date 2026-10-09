@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108c9-3b43-71c1-968a-01a0cd6aae1d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa annetuista tiedoista; numero olisi perusteeton.\n\nPelkästään naisista koostunut lautakunta ei itsessään osoita sukupuolen vaikuttaneen valintaan. Sekään, että sekä sinä että valittu olette naisia, ei sulje syrjintää pois, mutta kertomasi ei anna siitä konkreettista näyttöä.\n\nKeskity valinnan perusteisiin: koulutuksesi ja vararehtorikokemuksesi antavat aihetta pyytää tarkempaa ansiovertailua, mutta eivät yksin osoita valintaa virheelliseksi. Pyydä uudelleen kirjallisesti päätös perusteluineen, käytetyt valintakriteerit, ansiovertailu sekä selvitys valitun rehtorikelpoisuudesta.\n\nJos kyse on suomalaisesta julkisesta virasta, selvitä myös lautakuntaan mahdollisesti sovellettavat sukupuolikiintiösäännöt: kokoonpanon lainmukaisuus on eri kysymys kuin syrjintä. Tarkista muutoksenhakuohjeet heti, sillä perustelupyynnön ei pidä olettaa pysäyttävän määräaikoja. Tarvittaessa ota yhteyttä ammattiliittosi juristiin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 397,
+    "reasoning_output_tokens": 87
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

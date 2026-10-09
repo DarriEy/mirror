@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f6-8c6a-7821-b976-451b8a2fef64"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: ÄLÄ OTA ASIAA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa annetuilla tiedoilla; luku 0–100 olisi perusteeton.\n\nÄlä nosta lautakunnan sukupuolijakaumaa sellaisenaan epäilyn perusteeksi. Pelkästään naisista koostuva lautakunta ei osoita sukupuolen vaikuttaneen valintaan. Tohtorintutkintosi ja kokemuksesi ovat vahvoja ansioita, mutta johtamiskokemus, sääntelyosaaminen ja tehtävän valintakriteerit voivat ratkaista kokonaisarvion. Valitun lyhyt esittely ei mahdollista kattavaa ansiovertailua.\n\nLähetä muistutus perustelupyynnöstäsi ja pyydä selvitystä valintakriteereistä, niiden painotuksesta ja ansiovertailusta. Kahden viikon vastaamattomuus ei yksin osoita syrjintää.\n\nJos kyse on Suomesta, tasa-arvolaki velvoittaa työnantajan antamaan viivytyksettä kirjallisen selvityksen hakijalle, joka katsoo joutuneensa sukupuolisyrjinnän kohteeksi. Jos ilmenee sukupuoleen viittaavia lausumia tai epäjohdonmukaisia perusteluja, ota syrjintäepäily esille ja kysy neuvoa tasa-arvovaltuutetulta tai liitostasi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6017,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 419,
+    "reasoning_output_tokens": 95
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

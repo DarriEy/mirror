@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10123-679f-7301-9a08-96a53b9063bd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipuð nefnd er ekki ein og sér vísbending um kynjamismunun. Þið sem kepptuð um starfið eruð báðar konur; samsetning nefndarinnar sýnir ekki að kyn hafi ráðið niðurstöðunni.\n\nEf þetta er opinber framhaldsskóli getur þó verið rétt að spyrja hvort reglur um kynjahlutföll í opinberum nefndum hafi átt við og verið virtar. Það er sérstakt álitaefni, óháð mismunun við ráðninguna.\n\nÍtrekaðu nú beiðnina um rökstuðning skriflega. Óskaðu sérstaklega eftir hæfniskröfum, vægi matsþátta og samanburði umsækjenda. Meistarapróf þitt og stjórnunarreynsla kalla á skýringar á matinu, en tryggja ekki sjálfkrafa ráðningu. Stutt ráðningartilkynning segir ekki alla söguna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6037,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 483,
+    "reasoning_output_tokens": 219
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

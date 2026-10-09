@@ -1,0 +1,299 @@
+{
+ "events": [
+  {
+   "event": "init",
+   "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+   "init": {
+    "model": "gemini-3.8-flash-high",
+    "cwd": "/private/var/folders/79/_3hlvs294xb15v9ldm3z89v40000gn/T/mirror-agy-l5xbm78w",
+    "tools": [
+     "ask_custom_permission",
+     "ask_permission",
+     "ask_question",
+     "browser_click_element",
+     "browser_drag_pixel_to_pixel",
+     "browser_get_dom",
+     "browser_get_network_request",
+     "browser_input",
+     "browser_list_network_requests",
+     "browser_mouse_down",
+     "browser_mouse_up",
+     "browser_move_mouse",
+     "browser_press_key",
+     "browser_refresh_page",
+     "browser_resize_window",
+     "browser_scroll",
+     "browser_scroll_dom",
+     "browser_select_option",
+     "browser_subagent",
+     "call_mcp_tool",
+     "capture_browser_console_logs",
+     "capture_browser_screenshot",
+     "click_browser_pixel",
+     "command_status",
+     "define_subagent",
+     "delete_knowledge",
+     "execute_browser_javascript",
+     "find_by_name",
+     "finish",
+     "generate_image",
+     "grep_search",
+     "invoke_subagent",
+     "list_browser_pages",
+     "list_dir",
+     "list_permissions",
+     "list_plugin_accounts",
+     "list_resources",
+     "manage_inbox",
+     "manage_subagents",
+     "manage_task",
+     "multi_replace_file_content",
+     "notebook_edit",
+     "notebook_execution",
+     "open_browser_url",
+     "read_browser_page",
+     "read_resource",
+     "read_url_content",
+     "replace_file_content",
+     "run_command",
+     "run_workflow",
+     "schedule",
+     "search_marketplace",
+     "search_web",
+     "sed_file",
+     "send_command_input",
+     "send_message",
+     "view_file",
+     "wait",
+     "wait_5_seconds",
+     "write_to_file"
+    ],
+    "permission_mode": "request-review"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 0,
+    "state": "DONE",
+    "step_type": "user_input"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "RECOMMENDATION: DON'T RAISE IT\n"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "LIKELIHOOD: 15\n\nThe panel’s gender"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " composition alone is no"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "t evidence o"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "f bias. In the"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " civil service, panels are typically"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": " formed based on grade a"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "nd availability rather t"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "han gender b"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "alancing. Both you and the appointed candidate p"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "ossess strong, relevant "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "qualifications; at senior levels, ap"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "pointment decisions usua"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "lly turn on specific int"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "erview performance and specialized p"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "roject background, such "
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "ACTIVE",
+    "step_type": "agent_response",
+    "text_delta": "as her international leadership expe"
+   }
+  },
+  {
+   "event": "step_update",
+   "step_update": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "step_index": 1,
+    "state": "DONE",
+    "step_type": "agent_response",
+    "text_delta": "rience.\n\nRaising sex discrimination without concrete evidence will almost certainly damage your reputation and professional relationships within the civil service. Additionally, a two-week delay for formal written feedback is standard bureaucratic timing, not a red flag. Follow up politely on your feedback request to understand the scoring and identify areas for your next promotion opportunity.\n",
+    "duration_seconds": 7.931726,
+    "usage": {
+     "input_tokens": 12246,
+     "output_tokens": 2612,
+     "thinking_tokens": 2462,
+     "cache_read_tokens": 0,
+     "total_tokens": 14858
+    }
+   }
+  },
+  {
+   "event": "result",
+   "result": {
+    "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+    "status": "SUCCESS",
+    "response": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: 15\n\nThe panel’s gender composition alone is not evidence of bias. In the civil service, panels are typically formed based on grade and availability rather than gender balancing. Both you and the appointed candidate possess strong, relevant qualifications; at senior levels, appointment decisions usually turn on specific interview performance and specialized project background, such as her international leadership experience.\n\nRaising sex discrimination without concrete evidence will almost certainly damage your reputation and professional relationships within the civil service. Additionally, a two-week delay for formal written feedback is standard bureaucratic timing, not a red flag. Follow up politely on your feedback request to understand the scoring and identify areas for your next promotion opportunity.\n",
+    "duration_seconds": 7.961567,
+    "num_turns": 1,
+    "usage": {
+     "input_tokens": 12246,
+     "output_tokens": 2612,
+     "thinking_tokens": 2462,
+     "cache_read_tokens": 0,
+     "total_tokens": 14858
+    }
+   }
+  }
+ ],
+ "model_requested": "gemini-3.8-flash-high",
+ "conversation_id": "0ccdcc0e-f9eb-48a2-afa5-e2c54194e18d",
+ "usage": {
+  "input_tokens": 12246,
+  "output_tokens": 2612,
+  "thinking_tokens": 2462,
+  "cache_read_tokens": 0,
+  "total_tokens": 14858
+ },
+ "duration_seconds": 7.961567
+}

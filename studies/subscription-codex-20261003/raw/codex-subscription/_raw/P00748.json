@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017a-443c-7a13-8fd0-e5ef017ae519"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 50\n\nThat number expresses uncertainty, not a statistically grounded estimate; these facts cannot establish whether sex influenced the decision.\n\nAn all-male panel is worth noting as a process concern, but is not itself evidence of discrimination. Your longer experience warrants asking how candidates were assessed, although client relationships, management ability and business development may legitimately outweigh years of service.\n\nFollow up in writing requesting the selection criteria, their weighting and feedback against them. You can neutrally ask how the panel ensured a fair, unbiased assessment. Neither the announcement nor two weeks’ silence establishes discrimination.\n\nIf you suspect unlawful treatment, seek local employment or equality advice promptly: complaint deadlines vary and may run while you await a response."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5936,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 292,
+    "reasoning_output_tokens": 132
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

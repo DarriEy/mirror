@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e7-ba75-7503-8fe8-63b4f1e0df66"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Koska sekä sinä että valittu hakija olette naisia, kertomasi tiedot eivät myöskään sellaisinaan viittaa siihen, että sukupuoli olisi ratkaissut valinnan. Lautakunnan kokoonpanosta ei voi päätellä sen jäsenten motiiveja.\n\nOn silti ymmärrettävää, että haluat tietää, mihin ratkaisu perustui. Koulutuksesi ja kokemuksesi vaikuttavat tehtävään olennaisilta, mutta valitun lyhyt esittely ei riitä hakijoiden ansioiden vertailuun. Ratkaisevia voivat olla esimerkiksi tehtävässä painotettu erityisosaaminen ja haastatteluissa arvioidut valmiudet.\n\n**Keskittyisin nyt valinnan perusteisiin, en lautakunnan sukupuolijakaumaan.** Jos kyse on Suomen ministeriöstä, voit lähettää kirjaamoon esimerkiksi tämän:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja tehtävän [nimi] valinnasta. Pyydän vahvistamaan pyyntöni vastaanoton sekä toimittamaan nimityspäätöksen, nimitysmuistion tai muun hakijoiden ansiovertailun sisältävän asiakirjan ja mahdolliset muutoksenhakuohjeet. Haluaisin erityisesti tietää, mitä valintakriteerejä painotettiin ja miten ansioitani arvioitiin suhteessa valitun hakijan ansioihin. Jos asiakirjoissa on salassa pidettäviä tietoja, pyydän niiden julkiset osat.\n\nSuomessa julkista asiakirjaa koskeva pyyntö käsitellään yleensä viimeistään kahdessa viikossa, laajempi tai tavallista työläämpi kuukaudessa. Erillinen pyyntö laatia uusia perusteluja ei kuitenkaan välttämättä ole sama asia kuin asiakirjapyyntö. **Tarkista mahdollinen muutoksenhakuaika heti:** perustelujen odottaminen ei yleensä pysäytä sitä.\n\nLautakunnan kokoonpanon voi ottaa neutraalisti esille, jos haluat selvittää, miten jäsenet valittiin tai koskeeko kyseistä elintä jokin kokoonpanosääntö. Pelkkä sukupuolijakauma on kuitenkin heikko peruste kyseenalaistaa valinta; olennaisempaa on, ovatko kriteerit olleet tehtävään liittyviä ja onko niitä sovellettu johdonmukaisesti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5933,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 574,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

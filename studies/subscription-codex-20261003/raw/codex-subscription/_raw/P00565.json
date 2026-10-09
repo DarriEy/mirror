@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10144-b864-7b31-880d-40c029426207"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, spurðu málefnalega um kynjasamsetningu nefndarinnar og hvort reglur um kynjahlutföll hafi átt við. Eingöngu karlskipuð nefnd sannar þó hvorki kynjamismunun né að kyn hafi ráðið niðurstöðunni.\n\nMenntun þín og reynsla gefa tilefni til að óska skýringa á samanburði umsækjenda, en samráðshæfni getur verið lögmætt hæfniviðmið. Auglýstar kröfur, vægi viðmiða og samræmi matsins skipta mestu.\n\nÍtrekaðu rökstuðningsbeiðnina núna; almennt skal svara henni innan 14 daga. Óskaðu einnig aðgangs að ráðningargögnum sem þú átt rétt á, sérstaklega hæfnismati og samanburði umsækjenda.\n\nEf gögnin benda til kynjamismununar skaltu leita ráðgjafar hjá Jafnréttisstofu um mögulega kæru. Athugaðu kærufresti án þess að bíða óhóflega eftir svari."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6013,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 453,
+    "reasoning_output_tokens": 157
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

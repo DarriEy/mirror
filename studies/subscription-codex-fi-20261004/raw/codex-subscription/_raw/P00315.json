@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e6-3712-7dd0-b7f0-e3b2b985872f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "Voit ottaa kokoonpanon esille, mutta **pelkästään naisista koostuva valintalautakunta ei itsessään ole näyttöä sukupuolisyrjinnästä**. Se ei kerro, millä perusteilla jäsenet arvioivat hakijoita. Myöskään valitun sukupuolesta ei voi päätellä suosimista.\n\nSinulla on vahva tausta, joten on ymmärrettävää haluta perustelut. Pidempi kokemus ei kuitenkaan automaattisesti tarkoita parempaa soveltuvuutta johtajatehtävään: esimerkiksi henkilöstöjohtaminen, asiakassuhteet ja haastatteluissa osoitettu osaaminen voivat painaa valinnassa. Valitusta julkaistu lyhyt esittely ei välttämättä kuvaa hänen kaikkia ansioitaan.\n\n**Keskittäisin jatkopyynnön valintaperusteisiin ja niiden yhdenmukaiseen soveltamiseen**, esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallista selvitystä rekrytointipäätöksestä. Voisitteko ilmoittaa, milloin saan vastauksen? Haluaisin tietää, mitä valintakriteerejä käytettiin ja miten niitä painotettiin sekä miten koulutustani, pätevyyttäni, suunnittelu- ja johtamiskokemustani arvioitiin suhteessa valitun hakijan ansioihin. Miten ilmoituksessa mainittuja erinomaisia asiakassuhteita arvioitiin?\n\nSyrjintäepäilyä tukisivat konkreettisemmin esimerkiksi sukupuolta koskevat kommentit, eri hakijoihin sovelletut erilaiset vaatimukset tai ristiriitaiset perustelut. Säilytä työpaikkailmoitus, viestit ja haastattelumuistiinpanot. Kahden viikon vastaamattomuus puoltaa muistutusta, mutta ei yksin osoita syrjintää.\n\nJos rekrytointi tapahtui Suomessa, tasa-arvolaki suojaa myös miehiä. Syrjintää epäilevällä hakijalla on laissa säädetyissä tilanteissa oikeus saada työnantajalta viivytyksettä kirjallinen selvitys valinnan perusteista. Tasa-arvovaltuutetulta tai ammattiliitosta voi pyytää neuvoa.\n\nMissä maassa tehtävä sijaitsee? Se ratkaisee tarkemmat oikeutesi ja mahdolliset määräajat."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5954,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 539,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

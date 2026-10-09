@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d7-034b-7460-a3bc-b79170ea9866"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nVoit kysyä lautakunnan kokoonpanosta neutraalisti, mutta pelkästään miehistä koostuva lautakunta ei osoita sukupuolisyrjintää. Numeerinen arvio olisi perusteeton.\n\nJohtamiskoulutuksesi ja vararehtorikokemuksesi antavat kuitenkin aihetta pyytää tarkempaa ansiovertailua. Valitun koulutuksen lyhyt kuvaus ei kerro hänen koko pätevyydestään, ja soveltuvuuttakin voidaan arvioida.\n\nUusi kirjallinen pyyntö ja pyydä valintaperusteet, ansiovertailu sekä selvitys sukupuolten tasa-arvon huomioimisesta. Vastaamattomuus ei yksin osoita syrjintää.\n\nJos kyse on Suomessa tehdystä valinnasta, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitoltasi. Tarkista heti päätöksen muutoksenhakuohjeet: perustelujen odottaminen ei yleensä pysäytä määräaikoja."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6022,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 385,
+    "reasoning_output_tokens": 112
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

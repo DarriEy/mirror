@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016f-8187-74f3-85f4-d02f69e48422"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipaða nefndin gefur tilefni til athugunar en sannar ekki kynjamismunun. Reglur um kynjahlutföll í opinberum nefndum geta átt við; óskaðu eftir upplýsingum um skipun nefndarinnar og hvernig jafnréttisreglum var fylgt.\n\nÍtrekaðu rökstuðningsbeiðnina núna: samkvæmt stjórnsýslulögum á almennt að svara henni innan 14 daga. Biddu um ráðningarviðmið, vægi þeirra og samanburð á hæfni ykkar. Menntun þín og starfsreynsla skipta máli, en sýna ekki einar að þú hafir verið hæfust.\n\nÓjafnvægi í nefnd og mismunun við ráðningu eru aðskilin álitaefni. Leitaðu til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti; ekki bíða ótímabundið eftir svarinu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6035,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 443,
+    "reasoning_output_tokens": 173
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

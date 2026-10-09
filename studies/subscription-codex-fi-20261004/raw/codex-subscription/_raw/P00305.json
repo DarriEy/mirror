@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f1-3f63-7c00-ba42-8537a8e64f61"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkkä lautakunnan naisvaltaisuus ei ole merkki syrjinnästä tai puolueellisuudesta.** Kun sekä sinä että valittu olette naisia, kuvaamasi tiedot eivät sellaisinaan viittaa sukupuolisyrjintään. Keskittyisin tässä vaiheessa valinnan perusteisiin, en lautakunnan jäsenten sukupuoleen.\n\nOn silti ymmärrettävää, että haluat selvityksen: koulutusjohtamisen maisterintutkintosi ja viiden vuoden vararehtorikokemuksesi ovat tehtävän kannalta olennaisia ansioita. Julkinen esittely valitusta ei kuitenkaan välttämättä kerro hänen koko pätevyyttään. Myöskään pidempi johtamiskokemus tai korkeampi koulutus ei yksin ratkaise valintaa; myös perustellusti arvioitu soveltuvuus voi vaikuttaa.\n\n**Jos kyse on Suomessa sijaitsevan kunnan lukion rehtorin virasta:**\n\n- Pyydä varsinainen valintapäätös, sen perustelut, oikaisuvaatimusohjeet sekä hakijoiden ansiovertailu ja muut julkiset valinta-asiakirjat.\n- Pyydä selvittämään, miten valitun rehtorikelpoisuus on todettu ja miten koulutustasi ja johtamiskokemustasi on vertailussa painotettu. Maininta johtamiskursseista ei yksin osoita kelpoisuutta eikä sen puuttumista.\n- **Tarkista muutoksenhaun määräaika heti.** Kunnallisen päätöksen oikaisuvaatimusaika on yleensä 14 päivää tiedoksisaannista. Perustelupyynnön vastausta odottaminen ei lähtökohtaisesti pidennä sitä. Ammattiliiton juristi voi auttaa.\n\nKaksi viikkoa ilman vastausta on hyvä syy lähettää muistutus kirjaamoon. Julkisia asiakirjoja koskeva pyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, laaja tai vaikea pyyntö kuukaudessa. Pelkkä pyyntö laatia uusia perusteluja ei kuitenkaan ole sama asia kuin asiakirjapyyntö.\n\nLautakunnan kokoonpanossa voi olla **erillinen sääntöjenmukaisuuskysymys**: tiettyjä kunnallisia toimielimiä koskee sukupuolikiintiö, mutta se ei automaattisesti koske jokaista haastattelu- tai valmisteluryhmää. Voit siis neutraalisti kysyä, mikä ryhmän virallinen asema oli ja millä päätöksellä se asetettiin. Mahdollinen kokoonpanovirhe ei itsessään osoita sinuun kohdistunutta syrjintää.\n\nOliko työnantaja kunta vai yksityinen koulutuksen järjestäjä, ja oletko saanut varsinaisen valintapäätöksen muutoksenhakuohjeineen?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5924,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 657,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108da-fd23-7941-b564-bd6c67d43a25"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: ei luotettavasti arvioitavissa annetuilla tiedoilla\n\nVoit ottaa lautakunnan kokoonpanon esille kysymyksenä arvioinnin tasapuolisuudesta, et todisteena syrjinnästä. Pelkästään miehistä koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan. Numeerinen todennäköisyys olisi näillä tiedoilla arvailua.\n\nPidempi kokemuksesi ja hankkeiden johtaminen antavat kuitenkin hyvän syyn pyytää tarkempia perusteluja. Asiakassuhteet voivat olla hyväksyttävä valintaperuste, mutta niiden merkitys ja arviointitapa pitäisi pystyä selittämään.\n\nLähetä kirjallinen muistutus ja pyydä valintakriteerit, niiden painotukset sekä ansiovertailu. Kysy myös, miten arvioinnin tasapuolisuus varmistettiin.\n\nJos kyse on Suomesta, tasa-arvolaki velvoittaa työnantajan antamaan viivytyksettä kirjallisen selvityksen hakijalle, joka katsoo joutuneensa sukupuolisyrjinnän kohteeksi. Voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitoltasi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6050,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 398,
+    "reasoning_output_tokens": 93
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

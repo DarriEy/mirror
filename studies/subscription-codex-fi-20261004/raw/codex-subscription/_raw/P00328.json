@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e4-9235-7bd3-82f7-320616424e02"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä miesvaltaisuus ei osoita syrjintää tai epäasiallista valintaa.** Koska sekä sinä että valittu olette miehiä, näistä tiedoista ei erityisesti ilmene, että sukupuolesi olisi vaikuttanut ratkaisuun. Kokoonpano voi silti herättää perustellun kysymyksen siitä, miten lautakunta asetettiin ja koskivatko sitä jotkin tasapuolisuutta koskevat säännöt.\n\nMyöskään ilmoituksen lyhyt kuvaus valitusta ei riitä ansioiden vertailuun. Sinulla on vahva koulutus- ja kokemustausta, mutta kahden tutkinnon tai pidemmän virkauran perusteella ei yksin voi päätellä, kuka oli tehtävään ansioitunein. Olennaista on, mitä tehtävässä edellytettiin ja miten hakijoita arvioitiin näitä vaatimuksia vasten.\n\n**Keskittyisin nyt valinnan perusteisiin.** Lähetä kirjallinen muistutus, mielellään ministeriön kirjaamoon, ja pyydä:\n- valintapäätös sekä mahdollinen nimitysmuistio tai hakijoiden ansiovertailu;\n- käytetyt arviointikriteerit ja niiden painotukset;\n- tieto mahdollisesta muutoksenhakukeinosta ja määräajasta.\n\nVoit lisätä neutraalisti: ”Pyydän myös tietoa siitä, miten valintalautakunnan kokoonpano määräytyi ja mitä kokoonpanoa koskevia sääntöjä siihen sovellettiin.”\n\nKahden viikon vastaamattomuus ei itsessään osoita väärinkäytöstä, mutta muistutus on aiheellinen. **Älä oleta, että perustelupyynnön käsittely pysäyttää mahdollisen muutoksenhakuajan.**\n\nMissä maassa ministeriö sijaitsee? Se ratkaisee, millaisia tiedonsaanti-, kokoonpano- ja muutoksenhakusääntöjä tilanteeseen sovelletaan."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 459,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100ec-5d56-7c33-97e3-bb25e9d87d7b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noting, but it isn’t, by itself, evidence that this hiring decision was discriminatory or unfair.** Since you and the successful candidate are both men, it doesn’t provide an obvious explanation for why he was chosen over you. It could raise a separate question about the university’s panel-composition rules—but whether those require gender balance depends on the institution and jurisdiction.\n\nYour qualifications give you a reasonable basis to request a substantive explanation. Still, a completed PhD and more papers don’t automatically establish that you were the stronger candidate under the advertised criteria: research quality, teaching fit, interview performance and relevant industry experience may all count.\n\nI’d focus first on:\n- **The advertised requirements:** Was a completed PhD essential at application, or only by the start date? How was industry experience weighted?\n- **The assessment:** Ask for feedback on your performance against the selection criteria and whatever scoring or selection records you’re entitled to receive.\n- **The procedure:** Check the recruitment policy, including panel composition, and any review or complaint deadlines. Don’t assume waiting for a reply extends those deadlines.\n\nAfter two weeks, a polite follow-up to HR is reasonable: “Please confirm receipt of my request and advise when I can expect a response, along with the applicable recruitment-review procedure and deadlines.”\n\n**Treat the panel’s composition as a procedural question to check, not as proof of bias.** Your strongest starting point is whether the published criteria were applied consistently.\n\nWhich country is the university in? That matters for both panel requirements and your rights to an explanation."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5865,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 323,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

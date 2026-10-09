@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10155-5f50-7ae3-916d-4f38d9f3a924"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um að þér hafi verið mismunað. Þú getur þó spurt hlutlægt hvort skipun hennar hafi samræmst gildandi reglum um kynjahlutföll.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu sérstaklega eftir samanburði á hæfni ykkar út frá auglýstum kröfum, vægi menntunar, starfsleyfis, reynslu og viðtala.\n\nMeistarapróf og starfsreynsla tryggja ekki ráðningu; samráðshæfni getur verið málefnalegt sjónarmið. Ef meistarapróf eða starfsleyfi var hins vegar skilyrði í auglýsingu skiptir verulegu máli hvort hún uppfyllti það.\n\nBeindu athyglinni fyrst að ráðningarferlinu og rökstuðningnum, ekki kyni nefndarmanna. Komi fram gögn um kynbundið mat gæti verið tilefni til kvörtunar til kærunefndar jafnréttismála."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 539,
+    "reasoning_output_tokens": 245
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

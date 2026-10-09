@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10121-e29f-75c3-aa4e-91c6f4d0fc49"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa marktæka tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar er ein og sér ekki vísbending um kynjamismunun. Lengri starfsreynsla þín og verkefnastjórnun skipta máli, en sanna ekki að þú hafir verið hæfastur samkvæmt ráðningarviðmiðunum. Viðskiptatengsl, leiðtogahæfni og frammistaða í viðtölum geta líka vegið þungt; tilkynningin lýsir ekki endilega öllum hennar verðleikum.\n\nFylgdu beiðninni eftir skriflega núna. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringu á mati á þinni umsókn. Réttur til formlegs rökstuðnings fer meðal annars eftir því hvort vinnuveitandinn er opinber eða einkaaðili.\n\nTaktu kyn sérstaklega upp ef frekari gögn benda til þess að það hafi ráðið mati, til dæmis kynbundin ummæli eða ósamræmi í beitingu viðmiða. Leitaðu þá ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6025,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 454,
+    "reasoning_output_tokens": 164
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

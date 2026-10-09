@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10132-e5d2-7651-b32a-0414a2d88042"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér bendir ekki til kynjamismununar. Þú getur þó spurt hvort reglur um kynjajafnvægi hafi gilt um skipun hennar og verið virtar. Það er aðskilið frá mati á ráðningunni.\n\nMeistarapróf og starfsaldur tryggja ekki ráðningu; samráðsreynsla og stjórnunarhæfni geta vegið þungt. Úrslitaatriði eru auglýstar hæfniskröfur, málefnaleg viðmið og samanburður umsækjenda.\n\nÍtrekaðu nú skriflega beiðnina um rökstuðning. Óskaðu sérstaklega eftir upplýsingum um vægi menntunar, starfsleyfis, reynslu og viðtala og hvernig hæfni þín var metin gagnvart hæfni ráðinnar konu. Stutt ráðningartilkynning sýnir ekki endilega alla hæfni hennar.\n\nEf gögn sýna ómálefnalega kynjatengda afstöðu eða ósamræmi við hæfniskröfur er tilefni til frekari athugunar."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6016,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 448,
+    "reasoning_output_tokens": 149
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

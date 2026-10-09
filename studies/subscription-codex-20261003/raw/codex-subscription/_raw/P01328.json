@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015e-9a21-7e82-bb77-448ae527be3e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Þó er rétt að kanna hvort reglur um kynjahlutföll hafi gilt um skipun hennar; brot á þeim sanna ekki mismunun við ráðninguna.\n\nMenntun þín og stjórnunarreynsla gefa tilefni til að óska skýringa á samanburði umsækjenda, en tilkynningin sýnir ekki endilega öll hæfnissjónarmið.\n\nÍtrekaðu rökstuðningsbeiðnina núna; samkvæmt stjórnsýslulögum skal almennt svara henni innan 14 daga. Óskaðu einnig eftir aðgangi að matsviðmiðum og gögnum um mat á umsókn þinni og samanburðinum, með lögbundnum takmörkunum.\n\nBeindu athyglinni fyrst að málefnalegu hæfnismati. Ef gögn benda til kynjamismununar skaltu leita ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 477,
+    "reasoning_output_tokens": 189
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

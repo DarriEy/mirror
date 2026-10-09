@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012d-bffe-7f73-95fd-2f4964282238"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nEingöngu karlskipuð nefnd er ástæða til að spyrja um skipunina, en sannar ekki kynjamismunun. Hjá opinberu sjúkrahúsi geta reglur um kynjahlutföll í nefndum átt við; það fer eftir stöðu nefndarinnar.\n\nDoktorsprófið og átta ára stjórnunarreynsla réttlæta að óska eftir skýrum samanburði við ráðinn umsækjanda. Hærri prófgráða veitir þó ekki sjálfkrafa forgang.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Ef stjórnsýslulög gilda á almennt að svara henni innan 14 daga. Óskaðu eftir hæfniviðmiðum, vægi þeirra og samanburðarmati, ásamt skýringum á nefndarskipuninni. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6040,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 459,
+    "reasoning_output_tokens": 181
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

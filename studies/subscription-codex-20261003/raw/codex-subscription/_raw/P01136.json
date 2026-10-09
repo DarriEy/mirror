@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10163-89e0-73c3-b059-100304d74f62"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: EKKI TAKA ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nEkki gera kynjasamsetningu nefndarinnar að sjálfstæðu kvörtunarefni. Hún er ein og sér ekki vísbending um kynjamismunun. Að þið séuð báðar konur útilokar þó ekki mismunun.\n\nLengri reynsla þín og verkefnastjórnun gefa tilefni til að spyrja um hæfnismatið, en tryggja ekki ráðningu. Viðskiptatengsl og stjórnunarhæfni geta verið málefnaleg viðmið.\n\nFylgdu beiðninni eftir skriflega núna. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringu á mati á þinni hæfni. Hjá einkarekinni verkfræðistofu gildir almennt ekki sama rökstuðningsskylda og við opinberar ráðningar.\n\nVarðveittu auglýsingu og samskipti. Komi fram kynjaðar eða aldurstengdar athugasemdir skaltu leita ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 462,
+    "reasoning_output_tokens": 179
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

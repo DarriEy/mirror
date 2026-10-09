@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015c-c9e4-78a3-a5aa-28cee5b824a9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki metanlegar út frá þessum upplýsingum; tala væri ágiskun.\n\nKynjasamsetning nefndarinnar ein og sér er ekki haldbær vísbending um kynjamismunun. Ekki byggja kvörtun á henni einni.\n\nFylgdu rökstuðningsbeiðninni eftir skriflega núna. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og samanburði á hæfni þinni og þess sem var ráðinn. Athugaðu sérstaklega hvort auglýsingin krafðist meistaraprófs eða starfsleyfis og hvort hún uppfyllti þær kröfur.\n\nMeiri menntun og lengri reynsla tryggja ekki ráðningu; samráðshæfni og stjórnunarhæfni geta vegið þungt. Stutt tilkynning segir heldur ekki alla hæfnisöguna.\n\nTaktu hugsanleg kynjasjónarmið sérstaklega upp ef rökstuðningur, ummæli eða gögn benda til þeirra. Leitaðu þá ráðgjafar hjá stéttarfélagi eða lögmanni, meðal annars um kæruleiðir og fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6016,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 432,
+    "reasoning_output_tokens": 160
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

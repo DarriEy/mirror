@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011c-bb01-7fb3-aa40-a656c2b583ee"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: EKKI TAKA ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Hún sannar heldur ekki að kyn hafi verið áhrifalaust.\n\nDoktorspróf og níu ára reynsla styrkja umsókn þína, en stjórnunarreynsla, eftirlitsþekking og önnur starfstengd viðmið gætu hafa ráðið úrslitum. Tilkynningin gefur ekki nægar upplýsingar til samanburðar.\n\nFylgdu beiðninni eftir skriflega núna. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og mati á umsókn þinni. Réttur til rökstuðnings fer meðal annars eftir því hvort bankinn lýtur einkaréttarlegum eða opinberum ráðningarreglum.\n\nEf fram koma kynjaðar athugasemdir eða ósamræmi í beitingu viðmiðanna skaltu varðveita gögn og leita ráðgjafar hjá stéttarfélagi eða lögfræðingi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6017,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 409,
+    "reasoning_output_tokens": 143
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

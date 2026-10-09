@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1017a-5592-7ac2-adb1-fd6142ecbb4d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Ekki eitt og sér.** Að fjórar konur hafi setið í nefndinni og kona fengið starfið er ekki næg vísbending um kynjamismunun. Það útilokar hana heldur ekki; til þess þarf að skoða hvernig hæfni umsækjenda var metin og hvaða sjónarmið réðu niðurstöðunni.\n\nDoktorspróf þitt og níu ára reynsla af áhættulíkönum eru sterkir hæfnisþættir. Þau sýna þó ekki ein og sér að þú hafir verið hæfastur í stjórnunarstarfið. Stjórnunarreynsla, þekking á eftirlitskröfum og frammistaða í viðtölum geta líka vegið þungt. Stutt ráðningartilkynning gefur ekki fulla mynd af hæfni konunnar.\n\n**Ég myndi fylgja málinu eftir, en leggja áherslu á matsferlið fremur en kyn nefndarmanna:**\n\n- Ítrekaðu skriflega beiðnina nú þegar tvær vikur eru liðnar og óskaðu eftir áætluðum svartíma.\n- Biddu um ráðningarviðmiðin, vægi þeirra og skýringu á því hvernig menntun þín og reynsla voru metin gagnvart kröfum starfsins.\n- Varðveittu auglýsinguna, samskipti og minnispunkta úr viðtölunum.\n\nTil dæmis:\n\n> Ég ítreka beiðni mína frá [dagsetning] um rökstuðning ráðningarinnar. Ég óska sérstaklega eftir upplýsingum um hvaða hæfnisviðmið réðu niðurstöðunni og hvernig menntun mín og reynsla af áhættulíkönum voru metin. Hvenær má ég vænta svars?\n\nSterkari vísbendingar um mismunun væru til dæmis ummæli um að óskað væri eftir konu, kynbundnar staðalmyndir eða ósamræmi í beitingu hæfniskrafna. **Skortur á svari í tvær vikur sannar ekki mismunun**, og réttur þinn til formlegs rökstuðnings fer meðal annars eftir því hvaða reglur gilda um bankann og ráðninguna.\n\nEf þetta er á Íslandi geturðu leitað leiðbeininga hjá Jafnréttisstofu eða stéttarfélagi þínu um réttarstöðu og mögulega kærufresti. Þú þarft ekki að fullyrða að mismunun hafi átt sér stað til að kanna rétt þinn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5924,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 557,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e6-76c8-7142-832d-5eaebaa71aad"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nVoit ottaa kokoonpanon esille asiallisena kysymyksenä, mutta pelkkä miesvaltainen lautakunta ei osoita sukupuolen vaikuttaneen valintaan. Numeerinen arvio olisi perusteeton.\n\nJohtamiskoulutuksesi ja vararehtorikokemuksesi antavat hyvän syyn pyytää tarkempaa ansiovertailua. Valitun pidempi opetuskokemus ja haastatteluissa arvioitu soveltuvuus voivat kuitenkin vaikuttaa kokonaisarvioon. Kurssikuvauksen perusteella hänen rehtorikelpoisuuttaan ei voi ratkaista.\n\nLähetä kirjallinen muistutus ja pyydä valintapäätös, ansiovertailu, kelpoisuusarvio sekä muutoksenhakuohjeet. Kysy myös, koskevatko lautakuntaa sukupuolikiintiösäännökset ja miten ne huomioitiin.\n\nJos kyse on Suomesta, ota tarvittaessa yhteyttä ammattiliittoosi tai tasa-arvovaltuutettuun. Tarkista muutoksenhakuaika heti: perustelupyynnön vastausta odottamalla määräaika ei yleensä pitene."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6016,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 393,
+    "reasoning_output_tokens": 87
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

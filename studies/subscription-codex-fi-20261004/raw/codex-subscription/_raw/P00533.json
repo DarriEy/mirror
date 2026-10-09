@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d7-2b03-7352-8cb9-58e5844b8ddd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuilla tiedoilla\n\nVoit nostaa lautakunnan kokoonpanon esiin neutraalisti osana kysymystä valintamenettelyn tasapuolisuudesta. Pelkästään miehistä koostuva lautakunta antaa aihetta kysyä edustavuudesta, mutta ei yksin osoita sukupuolisyrjintää. Prosenttiluku olisi näillä tiedoilla perusteeton.\n\nPidempi työkokemuksesi ja viisi vuotta varauutispäällikkönä ovat olennaisia ansioita. Toisaalta digitaalisen median osaaminen voi perustella valinnan, jos se vastaa tehtävän vaatimuksia ja hakijoita arvioitiin yhdenmukaisesti.\n\nLähetä kirjallinen muistutus perustelupyynnöstäsi. Pyydä erityisesti valintakriteerit, niiden painotukset ja hakijoiden ansiovertailu sekä selvitys tasapuolisuuden varmistamisesta. Kahden viikon vastaamattomuus ei yksin osoita syrjintää.\n\nJos perustelut jäävät epäselviksi, ota yhteyttä ammattiliittoosi tai, jos kyse on Suomesta, tasa-arvovaltuutettuun. Selvitä mahdolliset määräajat viipymättä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6030,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 411,
+    "reasoning_output_tokens": 104
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

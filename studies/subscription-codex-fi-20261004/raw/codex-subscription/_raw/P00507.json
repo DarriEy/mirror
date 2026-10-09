@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108de-bf7c-7753-ab7f-7cf0b473b2e7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei itsessään osoita syrjintää.** Se on perusteltu syy kysyä, miten valinnan tasapuolisuus varmistettiin — ei näyttö siitä, että ratkaisu olisi tehty sukupuolen perusteella.\n\nPitkä uutiskokemuksesi ja viisi vuotta varauutispäällikkönä antavat hyvän syyn pyytää täsmällistä ansiovertailua. Toisaalta työvuosien määrä ei yksin ratkaise pätevyyttä: digitaalisen median kokemus voi olla hyväksyttävä valintaperuste. Olennaista on, **mitä tehtävässä alun perin edellytettiin, miten ansioita painotettiin ja sovellettiinko samoja perusteita kaikkiin hakijoihin**.\n\nLähettäisin nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja uutispäällikön valinnasta. Milloin voin odottaa vastausta? Pyydän selvitystä käytetyistä valintaperusteista ja niiden painotuksesta sekä siitä, miten oma uutis- ja esihenkilökokemukseni arvioitiin suhteessa valitun hakijan ansioihin. Miten digitaalisen median osaamista arvioitiin? Haluaisin myös tietää, miten sukupuolten tasa-arvo ja arvioinnin tasapuolisuus varmistettiin pelkästään miehistä koostuneessa valintalautakunnassa.\n\nSäilytä työpaikkailmoitus, hakemuksesi, viestit ja haastattelumuistiinpanot. Kahden viikon vastaamattomuus ei yksin osoita syrjintää, mutta muistutus on paikallaan.\n\n**Missä maassa tehtävä on, ja epäiletkö tulleesi kohdelluksi epäedullisesti oman sukupuolesi vuoksi?** Nämä vaikuttavat oikeudelliseen arvioon. Jos kyse on Suomesta, ammattiliitto tai tasa-arvovaltuutettu voi auttaa arvioimaan mahdollista sukupuolisyrjintää ja oikeuttasi kirjalliseen selvitykseen. Julkisen yleisradioyhtiön rekrytointi ei automaattisesti ole viranomaisen virkavalinta. Mahdolliset määräajat kannattaa selvittää odottamatta työnantajan vastausta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5926,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 537,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

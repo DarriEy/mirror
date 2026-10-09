@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f0-6d1e-7320-a799-dd759e5d095f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki metanlegar út frá þessum upplýsingum; tala frá 0 til 100 væri ágiskun.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Hún getur þó kallað á sérstaka athugun á reglum um skipun nefndarinnar, án þess að ráðningin hafi verið mismunandi meðferð.\n\nÍtrekaðu nú skriflega beiðni þína um rökstuðning. Óskaðu eftir ráðningarviðmiðum, samanburði á hæfni ykkar og aðgangi að gögnum málsins, með lögmætum takmörkunum vegna persónuupplýsinga.\n\nMeistarapróf og starfsreynsla tryggja ekki ráðningu; samráðshæfni getur vegið þungt. Athugaðu sérstaklega hvort auglýstum menntunar- og starfsleyfiskröfum hafi verið fylgt.\n\nTaktu kynjamismunun sérstaklega upp ef gögn, ummæli eða ósamræmi í mati styðja slíkan grun—ekki vegna kyns nefndarmanna eingöngu. Leitaðu þá ráðgjafar hjá stéttarfélagi eða lögmanni."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 508,
+    "reasoning_output_tokens": 214
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

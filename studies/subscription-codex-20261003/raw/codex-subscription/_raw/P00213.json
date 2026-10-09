@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011f-1fa9-7b93-be22-97da031a1749"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Kynjasamsetningin er tilefni til athugunar, en sannar ekki kynjamismunun. Við skipun í opinberar nefndir gilda almennt reglur um að hlutur hvors kyns sé að minnsta kosti 40%, með tilteknum undantekningum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Óskaðu jafnframt eftir upplýsingum um skipun nefndarinnar, hæfniskröfur, vægi matsþátta og samanburð umsækjenda. Spyrðu sérstaklega hvernig ólokið doktorspróf samræmdist auglýsingunni.\n\nFleiri greinar og meiri kennslureynsla tryggja ekki ráðningu, en mismunurinn kallar á skýringar. Atvinnulífsreynsla getur verið málefnalegt viðmið.\n\nLeitaðu fljótt ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um mögulega kæru og fresti; ekki bíða ótímabundið eftir svari."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 459,
+    "reasoning_output_tokens": 175
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

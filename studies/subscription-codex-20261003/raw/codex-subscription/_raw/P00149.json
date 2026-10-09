@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10147-b8ca-74e3-9059-5d915a273c67"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ómetanlegar út frá þessum upplýsingum; tala frá 0 til 100 væri ágiskun.\n\nKynjasamsetning nefndarinnar ein og sér sýnir ekki að kyn hafi ráðið ráðningunni. Doktorspróf og átta ára deildarstjórn tryggja heldur ekki að þú hafir best uppfyllt öll auglýst hæfnisskilyrði.\n\nSé sjúkrahúsið opinbert geta reglur um kynjahlutföll í opinberum nefndum átt við; það þarf að kanna sérstaklega. Þú getur því spurt hlutlaust um skipun nefndarinnar, án ásakana um mismunun.\n\nÍtrekaðu nú rökstuðningsbeiðnina skriflega, óskaðu eftir áætluðum svartíma og skýringum á vægi menntunar, stjórnunarreynslu og viðtala. Berðu svarið saman við auglýsinguna. Ef ósamræmi kemur fram skaltu leita ráðgjafar hjá stéttarfélagi eða lögfræðingi, meðal annars um mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 408,
+    "reasoning_output_tokens": 141
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

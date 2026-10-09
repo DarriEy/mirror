@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f0-0051-73c3-8767-cbec5788a6c9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: Not reliably quantifiable from these facts\n\nAn all-women panel is not, by itself, evidence that sex influenced the decision. Your longer experience makes asking for feedback reasonable, but years served do not necessarily outweigh digital expertise, interview performance, or other selection criteria.\n\nFollow up now on your unanswered request. Ask for the criteria, their weightings, your assessment against them, and the reasons for the appointment. Keep the focus on how the decision was reached, rather than panel members’ sex.\n\nIf you uncover sex-related remarks, inconsistent criteria, or unequal treatment, raise those specific concerns. Check local complaint deadlines promptly; waiting for feedback may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7476,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 267,
+    "reasoning_output_tokens": 112
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

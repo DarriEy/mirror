@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016f-f7b7-74e3-8642-8e088686917f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin ein sýnir ekki að kyn hafi ráðið vali, sérstaklega þar sem bæði þú og ráðni umsækjandinn eruð karlar. Hún getur þó verið sjálfstætt álitaefni: hjá opinberum aðilum gilda almennt reglur um kynjahlutföll í nefndum, en kanna þarf stöðu þessarar nefndar og mögulegar undanþágur.\n\nÍtrekaðu rökstuðningsbeiðnina núna; samkvæmt stjórnsýslulögum á almennt að svara henni innan 14 daga. Óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra, samanburð umsækjenda og skipun nefndarinnar.\n\nMeistaraprófið og stjórnunarreynslan réttlæta spurningar um hæfnismatið, þótt þau tryggi ekki ráðningu. Hafðu kynjaskipanina með sem málefnalega fyrirspurn, ekki ásökun um mismunun. Leitaðu ráðgjafar stéttarfélags um næstu skref."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 479,
+    "reasoning_output_tokens": 198
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

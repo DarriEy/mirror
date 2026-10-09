@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d5-ab07-7da1-8b7b-3f6ce78c7a65"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkkä miesvaltainen kokoonpano ei osoita sukupuolisyrjintää.** Huolesi on silti ymmärrettävä: kertomasi johtamiskoulutus ja viiden vuoden vararehtorikokemus antavat hyvän syyn pyytää tarkka selvitys hakijoiden vertailusta.\n\nJos kyse on Suomessa olevasta tehtävästä, erottaisin kolme asiaa:\n\n- **Lautakunnan kokoonpano.** Moniin kunnallisiin toimielimiin sovelletaan tasa-arvolain vaatimusta, jonka mukaan naisia ja miehiä on kumpiakin oltava vähintään 40 prosenttia, jollei erityisestä syystä muuta johdu. Se, koskeeko vaatimus tätä lautakuntaa, riippuu sen muodollisesta asemasta: pelkkä haastatteluryhmä ei välttämättä ole tällainen toimielin. Kokoonpanosta kannattaa siksi kysyä, ei päätellä suoraan syrjintää.\n- **Hakijoiden kelpoisuus ja ansiot.** Julkinen kuvaus valitun koulutuksesta ei välttämättä kerro kaikkea. Rehtorin kelpoisuus on myös eri asia kuin opettajan kelpoisuus. Olennaista on selvittää, täyttikö valittu rehtorin kelpoisuusvaatimukset ja miten koulutus, johtamiskokemus, opetuskokemus ja soveltuvuus vertailtiin. Haastattelussa arvioitu soveltuvuus voi vaikuttaa valintaan, mutta sillä ei saa peittää sukupuoleen perustuvaa syrjintää.\n- **Mahdollinen syrjintäolettama.** Jos osoittaudut tehtävään ansioituneemmaksi kuin valittu mies, voi syntyä tasa-arvolain mukainen syrjintäolettama. Tällöin työnantajan on osoitettava valinnalle hyväksyttävä, sukupuolesta riippumaton peruste. Pelkkien nyt tiedossa olevien tietojen perusteella tätä ei vielä voi ratkaista.\n\n**Toimi nyt myös määräaikojen vuoksi.** Jos kyse on kunnallisesta virasta, oikaisuvaatimusaika on tavallisesti 14 päivää päätöksen tiedoksisaannista. Perustelupyynnön tekeminen ei yleensä pysäytä määräaikaa. Tarkista päätöksen muutoksenhakuohje heti ja ota tarvittaessa yhteys ammattiliittosi juristiin.\n\nVoit lähettää esimerkiksi tämän:\n\n> Pyydän uudelleen valintapäätöstä perusteluineen ja muutoksenhakuohjeineen sekä hakijoiden ansiovertailua. Pyydän lisäksi tasa-arvolain 10 §:n mukaista kirjallista selvitystä valintaperusteista, valitun koulutuksesta ja työkokemuksesta sekä muista valintaan vaikuttaneista osoitettavissa olevista ansioista. Pyydän selvittämään myös, miten valitun rehtorin kelpoisuus on todettu.  \n> Lisäksi pyydän tietoa valintalautakunnan muodollisesta asemasta ja siitä, sovelletaanko sen kokoonpanoon tasa-arvolain kiintiösäännöstä sekä millä perusteella kokoonpano muodostettiin.\n\nTasa-arvolain mukainen selvitys on annettava **viivytyksettä**. Kahden viikon hiljaisuus ei itsessään todista syrjintää, mutta uusintapyyntö on perusteltu. Myös tasa-arvovaltuutetulta voi pyytää neuvoa.\n\nLyhyesti: **nosta kokoonpano esiin asiallisena kysymyksenä, mutta keskity ennen kaikkea kelpoisuuteen, ansiovertailuun ja valinnan todellisiin perusteisiin.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5928,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 848,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

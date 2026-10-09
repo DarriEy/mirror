@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d4-2de0-7d70-9c2b-9141e1b52041"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nVoit ottaa lautakunnan sukupuolijakauman esille asiallisena kysymyksenä menettelyn tasapuolisuudesta. Pelkästään miehistä koostuva lautakunta ei kuitenkaan osoita syrjintää eikä mahdollista perusteltua prosenttiarviota.\n\nKoulutuksesi ja kokemuksesi antavat aihetta pyytää tarkempia perusteluja, mutta valitun lyhyt esittely ei riitä hakijoiden ansiovertailuun. Ratkaisevaa on ansioiden suhde tehtävän vaatimuksiin ja käytettyihin valintaperusteisiin.\n\nJos kyse on Suomesta, lähetä kirjaamoon muistutus ja pyydä nimityspäätös, nimitysmuistio sekä ansiovertailu. Voit pyytää myös tasa-arvolain mukaista kirjallista selvitystä valintaperusteista. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää.\n\nTarkista muutoksenhakuohjeet heti: selvityspyyntö ei yleensä pysäytä määräaikoja. Tarvittaessa kysy neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 437,
+    "reasoning_output_tokens": 124
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

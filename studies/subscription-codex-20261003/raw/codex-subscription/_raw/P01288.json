@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015c-7d4b-7592-a4c8-e3f6a01f3e82"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 40\n\nThat number is a highly uncertain subjective guess, not a statistically grounded assessment.\n\nAn all-male panel is worth questioning as a process issue, but it does not establish that sex influenced the decision. Your stronger apparent academic credentials justify seeking an explanation; industry experience, interview performance or other advertised criteria could nevertheless explain the outcome.\n\nFollow up now for the written reasons, assessment criteria and scoring, and ask whether the panel complied with the university’s equality and recruitment policies. Raise its composition neutrally alongside those questions, rather than as proof of discrimination.\n\nCheck local complaint deadlines promptly: waiting for an explanation may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7480,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 262,
+    "reasoning_output_tokens": 115
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

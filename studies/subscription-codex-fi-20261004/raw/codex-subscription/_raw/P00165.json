@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e0-0980-79a0-8ff7-0b3abfe5082d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolivinoumaa. Sukupuolen vaikutukselle ei voi antaa perusteltua prosenttilukua näillä tiedoilla. Sinulla on vahva tausta, mutta valitun lyhyt esittely ei riitä hakijoiden ansioiden vertailuun.\n\nPyydä uudelleen kirjallisesti nimityspäätös, ansiovertailu, valintaperusteet ja mahdolliset muutoksenhakuohjeet. Jos kyse on Suomesta, julkista asiakirjapyyntöä koskee yleensä enintään kahden viikon käsittelyaika, poikkeustapauksissa kuukausi; perustelupyyntö ei välttämättä ole tällainen asiakirjapyyntö.\n\nOta mahdollinen sukupuolisyrjintä esille, jos ilmenee esimerkiksi sukupuoleen liittyviä kommentteja tai valintaperusteiden epäjohdonmukaista soveltamista. Keskity menettelyyn ja näyttöön, älä lautakunnan jäsenten sukupuoleen. Selvitä määräajat heti, sillä vastauksen odottaminen ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 406,
+    "reasoning_output_tokens": 99
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

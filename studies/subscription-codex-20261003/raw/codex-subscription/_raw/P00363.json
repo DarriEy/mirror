@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10173-efc9-7091-9d7c-1c8c1753feff"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: Unknown—these facts do not support a defensible numerical estimate.\n\nAn all-women panel is not, by itself, evidence of sex bias. Your stronger publication record and completed PhD warrant asking how the criteria were applied, but industry experience, teaching quality, and departmental needs may legitimately carry weight.\n\nFollow up on your written request. Ask for the selection criteria, their weighting, feedback on your assessment, and any available review procedure. Check whether a completed PhD was mandatory and whether complaint deadlines apply; don’t assume awaiting a response pauses them.\n\nRaise sex discrimination if concrete evidence emerges—such as sex-based comments or inconsistent application of criteria—not simply because the panel and successful candidate were women."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5921,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 300,
+    "reasoning_output_tokens": 138
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

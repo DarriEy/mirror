@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100ee-c804-7c31-b2e1-5e77ee5b1090"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nEingöngu karlskipuð nefnd getur gefið tilefni til að spyrja hvort reglum um kynjahlutföll í opinberum nefndum hafi verið fylgt; það fer eftir stöðu og skipan ráðningarnefndarinnar. Það sannar þó ekki kynjamismunun við ráðninguna. Þú og ráðni umsækjandinn eruð báðir karlar og ekkert annað sem þú nefnir bendir sérstaklega til kynbundins vals.\n\nÍtrekaðu nú rökstuðningsbeiðnina skriflega: rökstuðning á almennt að veita innan 14 daga frá móttöku beiðni. Óskaðu eftir ráðandi hæfnissjónarmiðum og samanburði á menntun og reynslu. Fleiri próf eða lengri starfsreynsla tryggja ekki ráðningu. Taktu nefndarskipanina upp sem sjálfstæða fyrirspurn um lögmæti málsmeðferðar, ekki sem ásökun um mismunun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6032,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 459,
+    "reasoning_output_tokens": 185
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

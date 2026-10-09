@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108eb-7280-7802-8abf-1016e2e78815"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuilla tiedoilla.\n\nPelkästään miehistä koostunut lautakunta on perusteltu keskustelunaihe, mutta ei yksin osoita syrjintää. Prosenttiluku olisi arvailua. Tutkintosi ja kokemuksesi ovat vahvoja ansioita, mutta valitun hakijan lyhyt esittely ei mahdollista pätevyyksienne vertailua.\n\nKysy neutraalisti lautakunnan kokoonpanosta ja siitä, miten tasapuolinen arviointi varmistettiin. Uudista kirjallisesti perustelupyyntösi ja pyydä nimitysmuistio, ansiovertailu sekä käytetyt valintakriteerit. Kahden viikon vastaamattomuuskaan ei yksin osoita sukupuolisyrjintää.\n\nJos kyse on Suomesta, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta. Tarkista heti mahdolliset muutoksenhakuajat: perustelujen odottaminen ei välttämättä pysäytä niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 396,
+    "reasoning_output_tokens": 130
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10135-8bb7-7120-af32-2a62cd3550c3"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipuð nefnd er ekki ein og sér vísbending um kynjamismunun. Kynjajafnvægi nefndarinnar getur þó verið sjálfstætt álitaefni samkvæmt jafnréttisreglum, eftir stöðu hennar og skipun.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir auglýstum hæfniskröfum, matsviðmiðum og skýringu á samanburði umsækjenda. Meistarapróf og starfsaldur tryggja ekki ráðningu; samráðsfærni getur vegið þungt. Hafi hins vegar verið gerð krafa um tiltekna menntun eða starfsleyfi skiptir máli hvort ráðni umsækjandinn uppfyllti hana.\n\nBeindu athyglinni fyrst að málefnalegum ráðningarforsendum, ekki kyni nefndarmanna. Ef gögn sýna kynbundnar athugasemdir eða ósamræmi í mati skaltu leita ráðgjafar stéttarfélags eða lögmanns og kanna kærufresti án tafar."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 442,
+    "reasoning_output_tokens": 143
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

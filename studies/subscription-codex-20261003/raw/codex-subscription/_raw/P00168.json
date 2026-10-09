@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10142-b675-7aa2-b227-94410ed70823"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipuð nefnd er ekki ein og sér vísbending um kynjamismunun; þið sem kepptuð um starfið eruð báðar konur. Samsetningin getur þó verið sjálfstætt álitaefni samkvæmt reglum um kynjahlutföll í opinberum nefndum. Þú getur spurt hvaða reglur giltu um skipunina, án þess að fullyrða um hlutdrægni.\n\nMikilvægara er að ítreka rökstuðningsbeiðnina skriflega og óska eftir aðgangi að ráðningargögnum: auglýstum hæfisskilyrðum, hæfnismati og samanburði umsækjenda. Sérstaklega skiptir máli hvort lokið doktorspróf var ófrávíkjanlegt skilyrði og hvernig starfsreynsla var vegin. Fleiri greinar tryggja ekki ráðningu.\n\nRökstuðningur skal almennt berast innan 14 daga frá beiðni. Kannaðu kæruleiðir og fresti strax, til dæmis með stéttarfélaginu þínu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 504,
+    "reasoning_output_tokens": 203
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

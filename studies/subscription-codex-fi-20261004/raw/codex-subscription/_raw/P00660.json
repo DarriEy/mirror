@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108cb-4543-7692-b7b9-558512c003ed"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta.** En nostaisi sitä tässä vaiheessa pääasiaksi. Olennaisempaa on selvittää, millä perusteilla hakijoita vertailtiin ja noudatettiinko ilmoitettuja kelpoisuusvaatimuksia.\n\nOn ymmärrettävää, että valinta herättää kysymyksiä: sinulla on valmis tohtorintutkinto, enemmän julkaisuja ja yliopisto-opetuskokemusta. Nämä ovat merkittäviä ansioita, mutta niiden perusteella ei vielä voi ratkaista, oliko valinta asianmukainen. Myös julkaisujen laatu, opetustaito, tehtävän painotukset ja elinkeinoelämän kokemus voivat vaikuttaa.\n\nSelvittäisin erityisesti:\n- **Oliko valmis tohtorintutkinto ehdoton kelpoisuusvaatimus**, ja mihin ajankohtaan mennessä sen piti olla suoritettu?\n- Miten tutkimus-, opetus- ja elinkeinoelämän kokemusta painotettiin ilmoituksessa ja lopullisessa vertailussa?\n- Mitä valitun ansioista ja soveltuvuudesta todettiin suhteessa sinun ansioihisi?\n\nVoit lähettää nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja lehtorin tehtävän valinnalle. Pyydän tietoa pyyntöni käsittelytilanteesta sekä valintapäätöksen, saatavilla olevan ansiovertailun ja tiedon siitä, miten kelpoisuusvaatimuksia ja valintakriteerejä sovellettiin. Pyydän myös mahdolliset muutoksenhakuohjeet ja tiedon sovellettavista määräajoista.\n\n**Älä oleta, että perustelujen odottaminen pysäyttää mahdollisen muutoksenhakuajan.** Menettely, asiakirjojen saatavuus ja lautakunnan kokoonpanoa koskevat säännöt riippuvat maasta ja yliopiston asemasta. Missä maassa yliopisto sijaitsee?\n\nLautakunnan sukupuolijakauman voi tarvittaessa selvittää erillisenä sääntöjen noudattamista koskevana kysymyksenä, mutta sen perusteella ei kannata päätellä jäsenten motiiveja. Myöskään se, että sekä sinä että valittu olette naisia, ei yksin todista eikä sulje pois syrjintää."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5940,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 563,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f1-a641-7dd1-8989-9ef0633f74ed"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér bendir ekki til kynjamismununar. Þú getur þó spurt hvort viðeigandi reglum um kynjahlutföll í nefndum hafi verið fylgt; það er annað álitaefni en hvort ráðningin hafi verið málefnaleg.\n\nDoktorspróf tryggir ekki forgang ef stjórnunarhæfni og önnur auglýst viðmið vógu þyngra. „Víðtæk stjórnunarreynsla“ segir heldur ekki nægilega mikið til samanburðar.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna og óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og samanburð umsækjenda. Sé þetta opinbert sjúkrahús geta stjórnsýslureglur um rökstuðning og aðgang að gögnum átt við.\n\nLeitaðu fljótt til stéttarfélags eða lögmanns um kæruleiðir og fresti, sérstaklega ef gögnin sýna ósamræmi eða kynbundin sjónarmið."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6046,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 406,
+    "reasoning_output_tokens": 112
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

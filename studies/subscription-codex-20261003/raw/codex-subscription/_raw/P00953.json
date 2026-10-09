@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f1-39af-7e63-a2ce-9a6b6a90530c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, nefndarskipanin er málefnalegt athugunarefni, en sannar ekki að kyn hafi ráðið niðurstöðunni. Reglur um kynjahlutföll í nefndum sveitarfélaga kunna að eiga við; það fer eftir stöðu og skipun ráðningarnefndarinnar.\n\nMeiri formleg menntun þín sannar heldur ekki að ráðningin hafi verið ómálefnaleg: auglýstar hæfniskröfur og vægi reynslu skipta máli.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir samanburði á hæfni, matsviðmiðum og vægi þeirra, ásamt upplýsingum um skipun nefndarinnar og hvernig kynjajafnvægi var tryggt eða frávik rökstutt.\n\nLeitaðu fljótlega ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og mögulega kærufresti. Ekki láta bið eftir svari tefja það."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6029,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 442,
+    "reasoning_output_tokens": 159
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

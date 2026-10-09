@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10166-172b-7803-9d3f-7a56448a8e20"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er ástæða til að spyrja um skipun hennar og kynjajafnvægi, en sannar ekki kynjamismunun við ráðninguna. Reglur jafnréttislaga um kynjahlutföll í nefndum sveitarfélaga kunna að eiga við.\n\nMeiri menntun og reynsla tryggja ekki ráðningu; bera þarf saman auglýstar hæfniskröfur, vægi þeirra og málefnalegt mat á umsækjendum.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna og óskaðu eftir upplýsingum um hæfnismatið og skipun nefndarinnar. Rökstuðning á almennt að veita innan 14 daga frá beiðni.\n\nEf svörin vekja áfram grun skaltu leita leiðbeininga hjá Jafnréttisstofu, meðal annars um kæruleiðir og fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6017,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 425,
+    "reasoning_output_tokens": 169
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

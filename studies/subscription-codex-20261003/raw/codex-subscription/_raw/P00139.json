@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10157-81e2-7103-9cd5-3b73b090aba1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-male panel is worth noting, but it is not, by itself, evidence that the decision was discriminatory.** It can raise questions about the municipality’s recruitment practices, especially if its policies call for balanced panels. It does not establish how the panel assessed you.\n\nYou have strong relevant qualifications, so it is reasonable to seek a clear explanation. But the announcement is not a full account of the successful candidate’s qualifications: consultation experience, leadership and interview performance may have carried substantial weight. Equally, if a master’s degree or professional licence was an **essential requirement**, whether he met that requirement is an important question.\n\nI would focus on the decision-making process rather than start with an allegation:\n- Keep the job advertisement, selection criteria, announcement and correspondence.\n- Follow up your unanswered request, asking for the criteria and weightings, your scores and feedback, and the reasons for preferring the successful candidate, subject to applicable privacy rules.\n- Ask whether the panel’s composition complied with recruitment and equality policies.\n\nMore telling indicators would include inconsistent application of requirements, criteria changed during the process, sex-related comments or questions, or an explanation that conflicts with the documented assessment. The two-week silence merits a follow-up, but is not itself proof of bias.\n\n**What country or jurisdiction is the municipality in?** That determines whether panel-balance rules apply, what explanation you are entitled to, and any complaint deadlines. If you are considering a formal challenge, check those deadlines promptly rather than assuming they pause while you wait for a reply."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5857,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 314,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

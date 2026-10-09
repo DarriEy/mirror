@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014d-765d-7923-9448-d8527529d1c1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um að hún hafi mismunað þér. Þú getur þó spurt hlutlaust hvort skipanin samræmist gildandi reglum um kynjahlutföll í opinberum nefndum.\n\nSterkara er að óska eftir samanburði á hæfni samkvæmt auglýstum viðmiðum: Var lokið doktorspróf skilyrði? Hvernig voru rannsóknir, kennsla og atvinnulífsreynsla vegin? Fleiri greinar tryggja ekki sjálfkrafa meiri hæfni, en upplýsingarnar réttlæta nánari skoðun.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna og óskaðu eftir aðgangi að ráðningargögnum sem þú átt rétt á. Kannaðu kæruleiðir og fresti án tafar; ekki gera ráð fyrir að bið eftir svari stöðvi þá. Byggðu hugsanlega kvörtun á gögnum, ekki kyni nefndarmanna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 506,
+    "reasoning_output_tokens": 228
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

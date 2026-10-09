@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e8-40af-76f1-9038-6d9610a5339f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei luotettavasti arvioitavissa annetuista tiedoista\n\nPelkästään miehistä koostuva lautakunta ei osoita sukupuolisyrjintää, mutta kokoonpanon asianmukaisuutta voi kysyä neutraalisti. Prosenttiluku olisi näillä tiedoilla keksitty.\n\nJos kyse on Suomesta, kunnallisiin toimielimiin voi soveltua sukupuolikiintiö; haastatteluryhmän asema täytyy selvittää erikseen.\n\nKeskeisempää on pyytää valintapäätös, kelpoisuusvaatimukset, ansiovertailu ja tasa-arvolain mukainen kirjallinen selvitys valinnan perusteista. Korkeampi tutkintosi ja kokemuksesi ovat merkityksellisiä, mutta julkinen kuvaus valitusta ei välttämättä kerro hänen kaikkia ansioitaan.\n\nLähetä muistutus kirjaamoon. Tarkista heti muutoksenhakuohjeet: selvityspyyntö ei yleensä pysäytä määräaikaa. Jos vertailu viittaa siihen, että ansioituneempana sinut sivuutettiin sukupuolesi vuoksi, ota yhteyttä tasa-arvovaltuutettuun tai liittosi juristiin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 458,
+    "reasoning_output_tokens": 155
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

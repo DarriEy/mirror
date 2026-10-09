@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1014c-c9a3-7681-915f-91d9774cedfa"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér bendir ekki til þess að kyn hafi ráðið niðurstöðunni. Bæði þú og ráðna konan eruð konur. Ef þetta er opinber nefnd geta reglur um kynjahlutföll þó átt við; það er aðskilið álitaefni frá mismunun við ráðninguna.\n\nÍtrekaðu skriflega beiðni þína um rökstuðning og óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og samanburð umsækjenda. Doktorspróf og átta ára stjórnunarreynsla eru mikilvægir kostir en tryggja ekki sjálfkrafa ráðningu.\n\nEf stjórnsýslulög eiga við á almennt að veita rökstuðning innan 14 daga frá beiðni. Leitaðu til stéttarfélags eða lögmanns ef svar berst ekki eða rökstuðningurinn vekur efasemdir."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6045,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 467,
+    "reasoning_output_tokens": 203
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

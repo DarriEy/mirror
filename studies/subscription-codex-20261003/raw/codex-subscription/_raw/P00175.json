@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013f-2fba-7691-ad30-c77ce0998156"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa rökstudda tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér bendir ekki til kynjamismununar. Bæði þú og ráðna konan eruð konur; ekkert framkomið sýnir að kyn hafi ráðið niðurstöðunni.\n\nSé þetta opinber framhaldsskóli gætu reglur um kynjahlutföll í opinberum nefndum átt við. Réttmæti skipunar nefndarinnar er þó annað álitaefni en mismunun við ráðninguna.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Samkvæmt stjórnsýslulögum skal almennt svara henni innan 14 daga. Óskaðu sérstaklega eftir ráðningarforsendum og samanburði á menntun, stjórnunarreynslu og viðtalsmati. Upplýsingarnar réttlæta spurningar um hæfnismatið, en sanna ekki ólögmæta ráðningu. Kannaðu kæruleiðir og fresti án þess að bíða endalaust eftir svari."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 543,
+    "reasoning_output_tokens": 272
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

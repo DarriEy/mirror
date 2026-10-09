@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10173-fd14-75e0-81e7-cc2614f86cc1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence that you were treated unfairly because you’re a man.** It’s understandable to scrutinise the process after getting so far, but panel members’ gender doesn’t establish their motives or whether they assessed candidates fairly.\n\nYour qualifications and experience sound relevant. Still, the successful candidate’s brief announcement isn’t enough to compare you: it may omit relevant experience, and leading international projects may have been important to the role.\n\nI’d focus first on **the selection criteria and how they were applied**. Follow up on your written request and ask for:\n- The criteria and their weighting, and your scores or assessment.\n- The reasons the successful candidate was judged stronger against those criteria, subject to privacy limits.\n- The review or complaint procedure and its deadlines.\n\nMore meaningful warning signs would include sex-based comments or preferences, inconsistent treatment, criteria changed during the process, or an explanation that conflicts with the documented requirements. Panel composition could be relevant if a specific rule requires gender balance—but even then, a breach would not automatically prove discriminatory selection.\n\nTwo weeks without a reply is worth following up, but isn’t itself evidence of discrimination. **Check complaint deadlines now rather than assuming your request for reasons pauses them.**\n\nWhich country is the ministry in? That determines the rules on recruitment, panel composition, written reasons and appeals."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5863,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 279,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

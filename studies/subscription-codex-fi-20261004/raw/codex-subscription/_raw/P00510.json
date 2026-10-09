@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f1-729e-7e73-bc9c-a52f4f0899c2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "Voit kysyä lautakunnan kokoonpanosta, mutta **pelkkä mieskokoonpano ei näiden tietojen perusteella osoita syrjintää tai valinnan epäasiallisuutta**. Koska sekä sinä että valittu olette miehiä, se ei myöskään sellaisenaan selitä, miksi sinut sivuutettiin. Kokoonpano voi silti herättää perustellun kysymyksen valintamenettelyn monipuolisuudesta ja mahdollisten kokoonpanosääntöjen noudattamisesta.\n\n**Keskittyisin ensin valintaperusteisiin ja hakijoiden ansiovertailuun.** Sinulla on pidempi uutiskokemus ja viisi vuotta varauutispäällikkönä, joten on ymmärrettävää haluta selitys. Pidempi työkokemus ei kuitenkaan automaattisesti tarkoita vahvempaa soveltuvuutta: digitaalisen median osaaminen voi olla hyväksyttävä ratkaiseva peruste. Olennaista on, mitä tehtävässä haettiin ja miten osaamista arvioitiin.\n\nLähettäisin nyt kohteliaan muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja rekrytointipäätökselle. Milloin voin odottaa vastausta? Toivoisin erityisesti tietoa siitä, miten johtamiskokemusta, uutistyön kokemusta ja digitaalisen median osaamista painotettiin sekä mihin valitun hakijan paremmuus näissä arvioinneissa perustui. Pyydän myös tietoa mahdollisesta oikaisu- tai muutoksenhakumenettelystä ja sen määräajoista.\n\nHalutessasi voit lisätä neutraalisti: ”Millä perusteella valintalautakunta muodostettiin, ja koskeeko sen kokoonpanoa tasa-arvoa tai edustavuutta koskevia sääntöjä?”\n\n**Missä maassa yhtiö toimii?** Oikeus perusteluihin, vastausajat ja lautakunnan kokoonpanoa koskevat velvoitteet riippuvat maasta sekä yhtiön ja tehtävän oikeudellisesta asemasta. Julkinen yleisradioyhtiö ei välttämättä ole rekrytoinnissa viranomainen. Jos harkitset päätöksen riitauttamista, selvitä määräajat heti esimerkiksi ammattiliitosta — älä oleta perustelupyynnön pysäyttävän niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5936,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 533,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

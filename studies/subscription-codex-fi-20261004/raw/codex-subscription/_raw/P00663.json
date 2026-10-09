@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e0-b34e-7720-8e4c-4773f15f31d7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin osoita sukupuolisyrjintää.** Se on perusteltu syy kysyä, miten tasapuolinen arviointi varmistettiin — ei vielä todiste siitä, että sukupuoli vaikutti valintaan.\n\nVahva koulutuksesi ja kokemuksesi tekevät perustelujen pyytämisestä ymmärrettävää. Tohtorintutkinto ei kuitenkaan automaattisesti tee sinusta ansioituneempaa tähän johtotehtävään: myös johtamiskokemus, sääntelyosaaminen ja tehtävän ilmoitetut painotukset voivat ratkaista. Valitun henkilön lyhyt esittely ei riitä luotettavaan ansiovertailuun.\n\n**Painottaisin seuraavassa yhteydenotossa valintakriteerejä ja niiden soveltamista.** Voisit kirjoittaa esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallista selvitystä rekrytointipäätöksestä. Pyydän tietoa valintakriteereistä, niiden painotuksesta ja siitä, miten minun ja valitun hakijan ansioita verrattiin erityisesti riskimallinnuksen, johtamisen ja sääntelyosaamisen osalta. Huomasin myös, että valintalautakunta koostui yksinomaan miehistä. Miten arvioinnin tasapuolisuus ja mahdollisten sukupuolivinoumien ehkäisy varmistettiin? Pyydän vastausta tai tietoa vastausaikataulusta viimeistään [päivämäärä].\n\nJos rekrytointi tapahtui Suomessa ja epäilet sukupuoleen perustuvaa syrjintää, **tasa-arvolain perusteella työnantajan on annettava sitä epäilevälle hakijalle pyynnöstä viivytyksettä kirjallinen selvitys menettelystään**. Kahden viikon vastaamattomuus puoltaa muistutusta, mutta ei itsessään osoita syrjintää. Voit tarvittaessa kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta.\n\nSäilytä työpaikkailmoitus, viestit ja haastattelumuistiinpanot. Olennaisempaa kuin lautakunnan kokoonpano yksin on se, löytyykö valinnalle johdonmukainen, tehtävään liittyvä perustelu ja sovellettiinko samoja kriteerejä kaikkiin hakijoihin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5915,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 549,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

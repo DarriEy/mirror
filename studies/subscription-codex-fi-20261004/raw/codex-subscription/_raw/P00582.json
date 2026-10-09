@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e4-d656-7df3-b519-86b636cc83a0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuista tiedoista\n\nVoit ottaa lautakunnan kokoonpanon esille kysymyksenä rekrytoinnin tasapuolisuudesta, mutta pelkkä mieskokoonpano ei osoita sukupuolisyrjintää. Numeron antaminen olisi perusteetonta.\n\nKoulutuksesi ja kokemuksesi perusteella huolesi on ymmärrettävä. Tohtorintutkinto ei kuitenkaan yksin ratkaise ansiovertailua: johtamiskokemus, sääntelyosaaminen ja tehtävän valintakriteerit voivat painaa enemmän. Valitun julkinen esittely ei välttämättä kerro kaikkia ansioita.\n\nLähetä muistutus perustelupyynnöstä ja pyydä kirjallisesti valintakriteerit, niiden painotukset sekä ansiovertailu. Voit kysyä samalla, miten arvioinnin tasapuolisuus varmistettiin. Kahden viikon hiljaisuus ei itsessään osoita syrjintää.\n\nJos kyse on Suomesta, tasa-arvolain perusteella syrjintää epäilevällä hakijalla voi olla oikeus työnantajan viivytyksettömään kirjalliseen selvitykseen. Tarvittaessa ota yhteyttä tasa-arvovaltuutettuun tai ammattiliittoosi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6019,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 423,
+    "reasoning_output_tokens": 96
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

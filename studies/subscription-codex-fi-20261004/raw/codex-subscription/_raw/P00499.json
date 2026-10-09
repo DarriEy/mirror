@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ec-8a82-77b3-8edd-a66a8e09388d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta se ei yksin ole merkki sukupuolisyrjinnästä.** Neljä naista voi arvioida hakijat puolueettomasti aivan kuten muunlainen lautakunta. Myöskään naisen valitseminen tehtävään ei itsessään osoita syrjintää.\n\nSinulla on vahva koulutus- ja johtamistausta, joten on ymmärrettävää haluta tietää, mikä ratkaisi valinnan. Toisaalta korkeampi tutkinto ei automaattisesti tee hakijasta ansioituneinta johtajan tehtävään. Ratkaisevia voivat olla esimerkiksi johtamiskokemuksen laajuus, toiminnan kehittämisen näytöt ja haastattelussa arvioitu soveltuvuus. Valitun henkilön lyhyt esittely ei välttämättä kerro hänen koko taustaansa.\n\n**Keskittyisin nyt valintaperusteisiin ja niiden johdonmukaiseen soveltamiseen**, en lautakunnan jäsenten sukupuoleen. Lähettäisin esimerkiksi tällaisen muistutuksen:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja laboratorion johtajan valinnalle. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan vastausaikataulun. Haluaisin saada tiedon käytetyistä valintakriteereistä ja niiden painotuksesta, hakijoiden ansiovertailusta sekä siitä, mitkä seikat ratkaisivat valinnan. Pyydän myös mahdolliset muutoksenhakuohjeet ja määräajat.\n\nJos haluat kysyä kokoonpanosta, neutraali muotoilu on: ”Millä perusteilla valintalautakunta muodostettiin ja miten arvioinnin puolueettomuus varmistettiin?”\n\nHuolta vahvistaisivat pikemminkin sukupuoleen liittyvät kommentit, hakijoille asetetut erilaiset vaatimukset tai ilmoitettujen kelpoisuusehtojen sivuuttaminen. Kahden viikon vastaamattomuus ei yksin osoita syrjintää, mutta muistuttaminen on perusteltua.\n\n**Missä maassa tehtävä on, ja onko sairaala julkinen vai yksityinen?** Tämä vaikuttaa tiedonsaantioikeuksiin ja mahdollisiin lautakunnan kokoonpanosääntöihin. Tarkista muutoksenhakuajat heti: perustelupyynnön vastausta ei välttämättä kannata odottaa, sillä pyyntö ei yleensä pysäytä määräaikoja."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5932,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 549,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

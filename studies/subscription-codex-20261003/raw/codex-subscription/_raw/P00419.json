@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013a-8801-7143-bd25-7b0ec3426dc1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: Cannot be responsibly quantified from the information provided.\n\nAn all-women panel is not, by itself, evidence that sex influenced the decision. Neither is another woman’s appointment.\n\nYour stronger apparent academic credentials justify requesting clarification, but publication counts and PhD status may not capture all advertised criteria. Industry experience, teaching performance, and interview assessments could legitimately matter.\n\nFollow up now on your unanswered request. Ask for the selection criteria, their weighting, feedback on your assessment, and how the appointee met essential requirements—especially whether a completed PhD was required. Check review or appeal deadlines immediately.\n\nRaise sex discrimination if specific evidence emerges, such as sex-based remarks or inconsistent treatment—not simply because of the panel’s composition."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7482,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 321,
+    "reasoning_output_tokens": 155
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

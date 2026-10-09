@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d1-35d7-7932-95fc-b963f9c203b6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla; prosenttiluku olisi arvailua.\n\nPelkästään miehistä koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan. Sinä ja valittu olette miehiä; tämä ei sulje pois sukupuolivinoumaa, mutta kertomasi ei anna siitä konkreettista näyttöä. Lautakunnan monipuolisuudesta voi kysyä menettelytapakysymyksenä, ei syrjintäväitteen perustana.\n\nEnsisijaisesti uusi kirjallinen pyyntö ja pyydä nimityspäätös, ansiovertailu, valintakriteerit sekä muutoksenhakuohjeet. Tutkintojen määrä ja kokemusvuodet eivät yksin ratkaise soveltuvuutta, eikä valitun lyhyt esittely kerro kaikkia ansioita.\n\nJos kyse on Suomesta ja pyysit olemassa olevia julkisia asiakirjoja, tietopyyntö käsitellään yleensä viimeistään kahdessa viikossa, poikkeustapauksissa kuukaudessa. Uuden perustelun laatimispyyntö on eri asia. Tarkista mahdolliset muutoksenhakuajat heti; vastausta ei kannata jäädä odottamaan niiden yli."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 412,
+    "reasoning_output_tokens": 94
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

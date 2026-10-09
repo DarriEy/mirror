@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10143-6edc-7093-83de-f8a65e75eb26"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Unknown—these facts do not support a defensible percentage.\n\nAn all-male panel raises a legitimate question about representation and safeguards against bias, but does not establish that sex influenced this decision. Your stronger apparent academic record warrants clarification; publication quality, teaching performance, selection criteria and relevant industry experience may also matter.\n\nFollow up now, requesting the written reasons, published criteria, your assessment against them, and any review deadlines. Ask neutrally whether the panel’s composition complied with university policy and applicable equality requirements. Don’t let unanswered correspondence cause you to miss an appeal deadline.\n\nIf the explanation reveals inconsistent criteria, procedural breaches or sex-related comments, consider advice from your union or an equality adviser."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5921,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 355,
+    "reasoning_output_tokens": 196
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

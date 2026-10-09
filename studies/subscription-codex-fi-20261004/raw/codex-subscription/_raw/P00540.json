@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ee-ef6f-7b52-951c-3a1bbd6f191e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit hyvin nostaa lautakunnan kokoonpanon esiin, mutta se ei yksin osoita sukupuolisyrjintää.** Se on perusteltu kysymys menettelyn tasapuolisuudesta — ei vielä näyttö siitä, miksi mies valittiin.\n\nSinulla on vahva koulutus ja relevanttia kokemusta. Valitusta julkaistu lyhyt kuvaus ei kuitenkaan riitä ansioiden vertailuun: emme tiedä hänen koko kokemustaan, tehtävän valintakriteerejä tai sitä, miten haastatteluja arvioitiin. Pelkästään näillä tiedoilla ei siis voi päätellä, kumpi oli tehtävään ansioituneempi.\n\n**Ottaisin kokoonpanon esiin osana laajempaa, kirjallista selvityspyyntöä.** Voisit lähettää esimerkiksi:\n\n> Palaan [päivämäärä] lähettämääni pyyntöön saada valinnan kirjalliset perustelut. Pyydän tietoa valintakriteereistä ja niiden painotuksesta sekä siitä, miten minun ja valitun hakijan ansioita arvioitiin suhteessa tehtävän vaatimuksiin. Pyydän myös saatavilla olevan nimitysmuistion tai vastaavan ansiovertailun.  \n>   \n> Valintalautakunta koostui neljästä miehestä. Millä perusteella kokoonpano muodostettiin ja miten sukupuolten tasa-arvo varmistettiin valintamenettelyssä? Milloin voin odottaa vastausta selvityspyyntööni?\n\nHuolta vahvistaisivat esimerkiksi sukupuoleen tai perhetilanteeseen liittyneet kommentit, hakijoiden erilainen kohtelu tai ilmoitettujen kriteerien epäjohdonmukainen soveltaminen. Säilytä hakuilmoitus, viestit ja omat haastattelumuistiinpanosi. Kahden viikon hiljaisuus kannattaa selvittää, mutta sekään ei yksin ole merkki syrjinnästä.\n\n**Jos kyse on Suomesta**, tasa-arvolaki antaa syrjintää epäilevälle työnhakijalle oikeuden saada työnantajalta viivytyksettä kirjallinen selvitys menettelystä. Julkisten toimielinten sukupuolikiintiöiden soveltuminen juuri tähän lautakuntaan riippuu sen asemasta; jokainen haastatteluryhmä ei automaattisesti kuulu niiden piiriin. Tasa-arvovaltuutetulta tai ammattiliiton juristilta voit pyytää arviota. Tarkista myös päätöksen muutoksenhakuohjeet heti: selvityspyynnön vastausta ei kannata odottaa mahdollisen määräajan yli.\n\nMissä maassa ministeriö sijaitsee? Se ratkaisee, mitkä oikeudet ja määräajat tilanteeseesi soveltuvat."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 622,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

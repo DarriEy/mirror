@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f4-fd99-7343-9fed-5aeb507b5ac3"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei luotettavasti arvioitavissa annetuilla tiedoilla\n\nPelkästään miehistä koostuva lautakunta on perusteltu keskustelunaihe, mutta ei yksin osoita sukupuolisyrjintää. Prosenttiluku olisi näillä tiedoilla keksitty. Pidempi kokemuksesi ja hankkeiden johtaminen puoltavat ansioitasi, mutta asiakassuhteet ja tehtäväkohtainen soveltuvuus voivat olla hyväksyttäviä valintaperusteita.\n\nLähetä nyt kirjallinen muistutus perustelupyynnöstäsi. Pyydä valintakriteerit, niiden painotukset ja selvitys siitä, miten ansioitanne verrattiin. Voit kysyä neutraalisti: ”Miten valintaprosessissa varmistettiin sukupuolten tasapuolinen kohtelu, kun lautakunta koostui yksinomaan miehistä?”\n\nSäilytä ilmoitus ja viestit. Vastaamattomuuskaan ei yksin osoita syrjintää. Jos perustelut jäävät epäselviksi ja epäilet sukupuolesi vaikuttaneen, kysy neuvoa ammattiliitosta tai Suomessa tasa-arvovaltuutetulta. Tarkista mahdolliset määräajat viipymättä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6044,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 439,
+    "reasoning_output_tokens": 126
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

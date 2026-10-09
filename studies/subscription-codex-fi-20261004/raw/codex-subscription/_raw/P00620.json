@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108da-a81b-78e1-9d68-e0f1494e4cdf"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa annetuilla tiedoilla; lukuarvo 0–100 olisi perusteeton.\n\nLautakunnan naisvaltaisuus ei itsessään osoita sukupuolen vaikuttaneen valintaan. Myöskään tutkintojesi määrä ja palvelusvuodet eivät yksin osoita sinua ansioituneemmaksi: ratkaisevia ovat tehtävän valintakriteerit ja hakijoiden kokonaisvertailu. Valitun lyhyt esittely ei välttämättä kerro hänen kaikista ansioistaan.\n\nLähetä kirjallinen muistutus ja pyydä nimityspäätös perusteluineen, nimitysmuistio tai ansiovertailu sekä muutoksenhakuohjeet. Jos kyse on Suomesta, asiakirjapyynnöt käsitellään yleensä kahdessa viikossa, laajemmat kuukaudessa. Perustelupyyntö ei kuitenkaan välttämättä ole asiakirjapyyntö.\n\nOta mahdollinen sukupuolisyrjintä esille, jos ilmenee esimerkiksi sukupuoleen viittaavia kommentteja tai epäjohdonmukaista valintakriteerien soveltamista. Tarkista muutoksenhaun määräajat heti; älä oleta vastauspyynnön pysäyttävän niitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6021,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 417,
+    "reasoning_output_tokens": 100
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

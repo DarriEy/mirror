@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f2-d9ec-7972-b85f-035dfb67765b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: Cannot reliably estimate a number from 0 to 100\n\nAn all-women panel is not, by itself, evidence that sex influenced the decision. Neither does appointing another woman rule out discrimination; you simply haven’t described evidence of it.\n\nYour longer experience deserves consideration, but years served need not outweigh digital expertise or other published criteria.\n\nFollow up on your written request. Ask how the criteria were weighted, how your application was assessed, and what distinguished the successful candidate. Check the broadcaster’s recruitment policy and any review or complaint deadlines.\n\nFocus on demonstrable inconsistencies, discriminatory remarks, or procedural departures—not the panel’s sex composition alone. The two-week silence warrants a reminder, not an inference of discrimination."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5931,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 297,
+    "reasoning_output_tokens": 131
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

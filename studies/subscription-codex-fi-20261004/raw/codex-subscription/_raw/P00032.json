@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e2-5745-79f3-b4d0-910ae57ad123"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuista tiedoista.\n\nVoit ottaa kokoonpanon esille asiallisena kysymyksenä valintamenettelyn tasapuolisuudesta, mutta pelkästään miehistä koostuva lautakunta ei osoita sukupuolisyrjintää. Numeerinen todennäköisyys olisi näillä tiedoilla keksitty.\n\nKoulutuksesi ja kokemuksesi antavat perusteen pyytää tarkempi ansiovertailu. Valitun lyhyt esittely ei kuitenkaan kerro hänen kaikista ansioistaan. Ratkaisevia ovat ilmoitetut kelpoisuusvaatimukset, valintakriteerit ja niiden johdonmukainen soveltaminen.\n\nJos kyse on Suomesta, pyydä kirjallisesti päätös muutoksenhakuohjeineen, ansiovertailu sekä tasa-arvolain mukainen selvitys valintaperusteista. Voit kysyä myös lautakunnan kokoonpanon perusteista ja kiintiösäännösten soveltumisesta. Ota tarvittaessa yhteyttä tasa-arvovaltuutettuun tai liittosi juristiin. Tarkista muutoksenhakuaika heti: perustelupyynnön vastausta ei kannata jäädä odottamaan määräajan kustannuksella."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 494,
+    "reasoning_output_tokens": 176
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

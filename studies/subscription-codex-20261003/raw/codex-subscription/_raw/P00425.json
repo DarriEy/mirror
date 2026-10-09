@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10124-55e9-7ee0-8dc4-6f76dcb66801"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Karlaskipanin gefur tilefni til að kanna málsmeðferðina, en sannar ekki kynjamismunun. Hjá opinberum aðilum geta reglur um kynjahlutföll í nefndum átt við; óskaðu eftir upplýsingum um skipun nefndarinnar og lagagrundvöll hennar.\n\nÞú virðist standa sterkar samkvæmt upptöldum rannsóknar- og kennsluviðmiðum, en auglýstar hæfniskröfur og vægi atvinnulífsreynslu skipta máli. Kanna þarf sérstaklega hvort lokið doktorspróf hafi verið skilyrði.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Óskaðu eftir samanburði umsækjenda, matsviðmiðum og aðgangi að gögnum málsins, með lögbundnum takmörkunum. Varðveittu auglýsinguna og samskipti. Leitaðu ráðgjafar hjá Jafnréttisstofu eða stéttarfélagi um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 517,
+    "reasoning_output_tokens": 231
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

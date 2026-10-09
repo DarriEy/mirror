@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d1-b99c-7db0-8994-5b8322f7a34b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä mieskokoonpano ei osoita, että valinta olisi ollut syrjivä tai epäasiallinen.** Koska sekä sinä että valittu olette miehiä, tiedoista ei sellaisenaan ilmene sukupuoleen perustuvaa erilaista kohtelua. Kokoonpano voi silti herättää erillisen kysymyksen siitä, onko lautakunta asetettu sääntöjen mukaisesti.\n\nJos kyse on Suomessa olevasta tehtävästä:\n\n- **Kokoonpanon lainmukaisuus riippuu toimielimestä.** Tasa-arvolain mukaan kunnallisissa toimielimissä tulee yleensä olla vähintään 40 prosenttia kumpaakin sukupuolta, jollei erityisestä syystä muuta johdu. Kaikki haastattelu- tai valmisteluryhmät eivät kuitenkaan kuulu tämän säännön piiriin. Voit kysyä, mikä lautakunnan muodollinen asema oli ja millä perusteella sen kokoonpano määräytyi.\n- **Olennaisempi kysymys on kelpoisuus ja ansiovertailu.** Koulutusjohtamisen maisterintutkintosi ja viiden vuoden vararehtorikokemuksesi ovat selvästi relevantteja ansioita. Ne eivät kuitenkaan automaattisesti ratkaise valintaa: myös tehtävän vaatimukset ja perusteltu soveltuvuusarvio vaikuttavat. Valitusta julkaistu lyhyt kuvaus ei riitä osoittamaan, täyttikö hän rehtorin kelpoisuusvaatimukset.\n- **Älä odota perusteluvastausta muutoksenhakuajan kustannuksella.** Jos kyse on kunnan virasta, oikaisuvaatimusaika on yleensä 14 päivää päätöksen tiedoksisaannista. Perustelupyyntö ei yleensä pidennä määräaikaa. Tarkista päätös ja sen muutoksenhakuohje heti; tarvittaessa ota yhteys ammattiliittosi juristiin.\n\nVoisit lähettää kirjaamoon esimerkiksi tämän:\n\n> Pyydän toimittamaan valintapäätöksen perusteluineen ja muutoksenhakuohjeineen sekä hakijoiden ansiovertailun ja muut valinnan perusteena olleet asiakirjat julkisilta osin. Pyydän myös selvitystä siitä, miten valitun rehtorin kelpoisuusvaatimusten täyttyminen todettiin. Lisäksi pyydän tietoa valintalautakunnan muodollisesta asemasta ja siitä, sovellettiinko sen kokoonpanoon tasa-arvolain kiintiösäännöstä.\n\n**Nostaisin siis kokoonpanon esiin neutraalina sääntökysymyksenä, en näyttönä suosimisesta.** Näillä tiedoilla tärkeintä on saada näkyviin valinnan todelliset perusteet ja turvata mahdollisuus muutoksenhakuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5926,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 650,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

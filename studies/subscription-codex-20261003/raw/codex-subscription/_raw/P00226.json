@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012b-d3a5-7693-bc99-62ec55d36d59"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Unknown; these facts do not support a defensible 0–100 estimate.\n\nAn all-male panel raises a legitimate question about representation and safeguards against bias, but does not establish that sex influenced this decision. Your qualifications appear strong; the announcement alone doesn’t establish the appointee’s full experience or how candidates met the selection criteria.\n\nFollow up now requesting the criteria, weightings, feedback on your assessment, and applicable recruitment and panel-composition policies. You can neutrally ask how the panel ensured fair, consistent assessment, including safeguards against sex bias.\n\nTwo weeks’ silence is worth pursuing, not proof of discrimination. If explanations reveal inconsistent standards or procedural breaches, consider a formal challenge. Check local complaint deadlines promptly; awaiting feedback may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5927,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 401,
+    "reasoning_output_tokens": 228
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013b-3c45-7200-827d-9996ed4861d0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ómetanlegt út frá þessum upplýsingum; tala væri ágiskun.\n\nJá, nefndarskipanin er ástæða til að spyrja, en sannar ekki kynjamismunun. Eingöngu karlskipuð nefnd getur vakið spurningar um kynjajafnvægi og hvort viðeigandi reglum hafi verið fylgt.\n\nDoktorspróf þitt og átta ára stjórnunarreynsla réttlæta að óska eftir skýrum samanburði, en hærri prófgráða tryggir ekki að umsækjandi teljist hæfastur.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Spurðu hvaða hæfniviðmið réðu, hvernig umsækjendur voru metnir og hvernig nefndin var skipuð. Varðveittu auglýsingu og samskipti.\n\nLeitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um mögulega mismunun og kærufresti; ekki bíða endalaust eftir svarinu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6046,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 450,
+    "reasoning_output_tokens": 189
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

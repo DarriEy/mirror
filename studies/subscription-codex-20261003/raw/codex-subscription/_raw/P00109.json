@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100ed-c060-7b52-b813-b258b97c4b3a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipuð nefnd er ekki ein og sér vísbending um kynjamismunun. Þið sem fenguð og fenguð ekki starfið eruð báðar konur; ekkert annað sem þú lýsir bendir sérstaklega til áhrifa kyns. Kanna má þó hvort reglur um kynjahlutföll hafi gilt um skipun nefndarinnar.\n\nSterkara tilefni til eftirfylgni er samanburður hæfni og ósvarað rökstuðningsbeiðni. Ef um opinberan skóla er að ræða skal almennt veita rökstuðning innan 14 daga frá beiðni. Ítrekaðu hana skriflega og óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og samanburð umsækjenda. Meistaraprófið og stjórnunarreynslan skipta máli, en tryggja ekki sjálfkrafa ráðningu; stutt tilkynning segir ekki alla söguna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 510,
+    "reasoning_output_tokens": 248
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

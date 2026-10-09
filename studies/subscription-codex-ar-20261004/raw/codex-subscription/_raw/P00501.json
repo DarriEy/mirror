@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10868-bb2a-7f33-b72e-82ff292e71aa"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "التوصية: اطرح الأمر\nالاحتمال: لا يمكن إعطاء رقم موثوق من 0 إلى 100 بالمعطيات المتاحة\n\nكون اللجنة كلها رجالًا يستحق السؤال عن تنوعها وضمانات حيادها، لكنه لا يثبت أن الجنس أثّر في القرار. مؤهلاتك وخبرتك تجعلان طلب تفسير موضوعي وجيهًا، لكننا لا نعرف مؤهلات المرشح المختار أو تقييم المقابلات؛ والدكتوراه لا تحسم المفاضلة وحدها.\n\nتابعي طلبك كتابيًا، واطلبي معايير المفاضلة وأوزانها وتقييمك وأسباب الاختيار، مع سؤال محايد عن إجراءات منع التحيز وتشكيل اللجنة. تأخر الرد أسبوعين لا يثبت التمييز. احتفظي بالإعلان والمراسلات، وتحققي سريعًا من مهل التظلم المحلية؛ فلا تفترضي أن انتظار الرد يوقفها."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5977,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 356,
+    "reasoning_output_tokens": 150
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

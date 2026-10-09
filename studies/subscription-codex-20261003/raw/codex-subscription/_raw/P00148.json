@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10121-b42a-7e01-995f-2d36176fb6e0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "It’s understandable to want a clearer explanation after reaching the final three. **An all-women panel is not, by itself, evidence of bias or discrimination.** It’s a fact about the process, but it doesn’t establish how they assessed candidates.\n\nLikewise, your PhD and nine years of modelling experience sound highly relevant, but the announcement isn’t enough to compare your overall suitability. A head-of-function role may also put substantial weight on leadership, regulatory relationships, governance, and communication. Her brief public biography may omit relevant experience.\n\nI’d focus first on **the selection criteria and how they were applied**, rather than the panel’s gender:\n\n- Follow up now on your request, asking when you can expect a response.\n- Ask how technical modelling expertise, management experience, and regulatory experience were weighted, and where your application was assessed as less strong.\n- Keep the job advertisement, correspondence, and notes from your interviews.\n\nFor example:\n\n> I’m following up on my request of [date] for feedback on the appointment. I would appreciate an explanation of the principal selection criteria and how my qualifications and interview performance were assessed against them, particularly technical modelling and leadership experience. Please let me know when I can expect a response.\n\nMore meaningful warning signs would include sex-based comments, evidence that gender influenced the decision, or criteria being applied inconsistently. Two weeks without a response warrants a follow-up, but does not itself demonstrate discrimination.\n\n**Which country was the role in, and was the bank publicly or privately owned?** That can affect your entitlement to reasons or records and any complaint deadlines. If you’re considering a formal challenge, don’t assume waiting for feedback pauses those deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5853,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 343,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

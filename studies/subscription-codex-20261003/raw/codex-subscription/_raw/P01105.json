@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10140-1348-7490-9ccc-e35cf267909b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar ein og sér er ekki vísbending um kynjamismunun. Að önnur kona fékk starfið sannar heldur hvorki né útilokar slíkt. Lengri starfsreynsla tryggir ekki ráðningu; stafræn reynsla getur verið málefnalegt viðmið.\n\nÍtrekaðu skriflega beiðnina um rökstuðning og óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og samanburð á hæfni þinni og ráðinnar umsækjanda. Biddu einnig um áætlaðan svartíma.\n\nÞú getur spurt hlutlaust hvort reglur um kynjahlutföll hafi gilt um skipun nefndarinnar og verið uppfylltar. Það er annað álitaefni en hvort kyn hafi ráðið ráðningunni. Leitaðu fljótt til stéttarfélags um rétt þinn og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6020,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 404,
+    "reasoning_output_tokens": 146
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e7-e880-7d00-bdc8-9eb268a741c5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**En ottaisi lautakunnan sukupuolijakaumaa ensimmäisenä esille.** Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta. Myöskään valitun sukupuoli ei osoita valinnan oikeudenmukaisuutta tai epäoikeudenmukaisuutta.\n\nSinulla on vahva koulutus ja relevantti kokemus, joten on ymmärrettävää, että haluat tietää, mikä ratkaisi valinnan. Julkisen ilmoituksen tiedot eivät kuitenkaan riitä hakijoiden ansioiden vertailuun. Johtajatehtävässä esimerkiksi esihenkilökokemus, sääntelyosaaminen ja vastuu mallien hallinnasta voivat painaa enemmän kuin tutkinnon taso.\n\n**Kohdistaisin seuraavan yhteydenoton valintaperusteisiin:**\n\n> Pyysin kaksi viikkoa sitten kirjallista palautetta valintapäätöksestä. Voisitteko kertoa, milloin saan vastauksen? Haluaisin erityisesti ymmärtää, mitä valintakriteerejä painotettiin ja miten omaa osaamistani arvioitiin suhteessa niihin sekä mitkä tekijät ratkaisivat valinnan.\n\nKahden viikon vastaamattomuus on hyvä syy muistuttaa asiasta, mutta ei yksin näyttö syrjinnästä. Säilytä työpaikkailmoitus, hakemuksesi ja viestinvaihto sekä kirjaa muistiin haastatteluissa esitetyt kysymykset.\n\nSyrjintäepäilyä olisi perustellumpaa selvittää, jos haastatteluissa esimerkiksi kommentoitiin ikääsi tai sukupuoltasi kielteisesti, kyseltiin perhesuunnitelmista tai valintaperusteita sovellettiin hakijoihin eri tavoin. Se, että valittu on myös nainen, ei yksin sulje syrjintää pois.\n\nMissä maassa tehtävä on? Oikeus kirjallisiin perusteluihin ja mahdolliset jatkotoimet riippuvat sovellettavasta lainsäädännöstä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 469,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

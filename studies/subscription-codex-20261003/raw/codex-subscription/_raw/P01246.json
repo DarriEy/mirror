@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015d-6b60-7da1-a7b8-ca364906b30f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably quantifiable from these facts\n\nAn all-male panel is worth raising as a procedural question, but it does not establish that sex influenced the decision. Neither the announcement nor your qualifications alone shows how the candidates compared against the selection criteria.\n\nFollow up now on your written request. Ask for the criteria, comparative assessment, and applicable rules on panel composition and sex equality. Frame this neutrally: “Did the panel’s composition comply with the applicable recruitment and equality requirements?”\n\nYour jurisdiction matters: some require balanced representation; others do not. Check complaint deadlines promptly with your union or the relevant oversight body—waiting for an explanation may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5923,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 233,
+    "reasoning_output_tokens": 82
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10142-0428-7501-a403-12a17fc35e84"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin er tilefni til athugunar, en sannar ekki kynjamismunun. Sé þetta opinber skóli geta reglur um kynjahlutföll í nefndum átt við; það ræðst meðal annars af stöðu og skipun nefndarinnar.\n\nMenntun þín og stjórnunarreynsla gefa líka tilefni til að óska skýringa á samanburði umsækjenda. Stutt ráðningartilkynning sýnir þó ekki endilega öll hæfnissjónarmið.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu jafnframt upplýsinga um matsviðmið, samanburð á hæfni og hvernig kynjasamsetning nefndarinnar samræmdist gildandi reglum. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um möguleg næstu skref og kærufresti; ekki bíða ótímabundið eftir svarinu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6022,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 451,
+    "reasoning_output_tokens": 183
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

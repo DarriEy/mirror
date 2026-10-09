@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10150-1758-76e2-b571-69fd525436c6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Karlaskipaða nefndin er ástæða til að spyrja um skipan hennar og jafnréttissjónarmið, en sannar ekki kynjamismunun. Hvort kynjahlutfallið brjóti reglur fer eftir réttarstöðu vinnuveitandans og nefndarinnar.\n\nLengri starfsreynsla þín og stjórnunarreynsla kalla á skýran samanburð, en stafræn hæfni getur verið málefnalegt ráðningarviðmið, sérstaklega hafi hún komið fram í auglýsingu.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra, samanburði á hæfni og skýringu á nefndarskipaninni. Tveggja vikna þögn sannar ekki mismunun.\n\nGeymdu auglýsingu og samskipti. Leitaðu fljótt til stéttarfélags eða Jafnréttisstofu um rétt þinn og mögulega kærufresti; ekki gera ráð fyrir að bið eftir rökstuðningi stöðvi þá."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 431,
+    "reasoning_output_tokens": 133
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e7-a093-7d21-abb1-65a6276e566f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla; prosenttiluku olisi perusteeton.\n\nVoit nostaa lautakunnan kokoonpanon esiin kysymyksenä menettelyn tasapuolisuudesta, mutta pelkkä mieskokoonpano ei osoita sukupuolisyrjintää. Sukupuoltasapainoa koskevien sääntöjen soveltuminen riippuu maasta ja toimielimestä.\n\nTutkintosi, julkaisusi ja opetuskokemuksesi antavat aihetta pyytää tarkkaa ansiovertailua. Ne eivät yksin ratkaise paremmuutta: tehtävän ilmoitetut valintaperusteet ja esimerkiksi elinkeinoelämäkokemuksen merkitys ovat olennaisia.\n\nLähetä kirjallinen muistutus ja pyydä valintaperusteet, niiden painotukset, ansiovertailu sekä tieto siitä, edellytettiinkö valmiiksi suoritettua tohtorintutkintoa. Kahden viikon hiljaisuus ei itsessään osoita syrjintää. Selvitä mahdolliset muutoksenhakuajat heti, sillä perustelujen odottaminen ei välttämättä pysäytä niitä. Jos kyse on Suomesta, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitoltasi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6028,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 464,
+    "reasoning_output_tokens": 149
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

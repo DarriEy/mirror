@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e4-8012-76a2-ae36-6b0e7fb184c9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "Voit pyytää selvitystä valinnan tasapuolisuudesta, mutta **lautakunnan koostuminen pelkästään naisista ei yksin ole merkki sukupuolisyrjinnästä**. Myöskään valitun sukupuoli ei osoita, että se olisi vaikuttanut ratkaisuun. On silti ymmärrettävää, että haluat tietää, miten ansioitanne vertailtiin.\n\nKertomasi perusteella koulutusjohtamisen tutkintosi ja viiden vuoden vararehtorikokemuksesi antavat **hyvän syyn pyytää tarkempia perusteluja**. Ne eivät automaattisesti tee sinusta ansioituneinta: arvioinnissa voivat painaa myös opetuskokemus, tehtävän valintakriteerit ja perustellusti arvioitu soveltuvuus. Valitusta julkaistu lyhyt kuvaus ei välttämättä kerro hänen kaikkia ansioitaan tai kelpoisuutensa perusteita.\n\nJos kyse on Suomessa olevasta kunnallisesta lukiosta, etenisin näin:\n\n- **Pyydä kirjaamosta valintapäätös, muutoksenhakuohjeet ja ansiovertailu** sekä julkiset hakemus- ja valmisteluasiakirjat. Kysy erityisesti, miten johtamiskoulutus ja johtamiskokemus painotettiin ja miten valitun rehtorikelpoisuus todettiin. Pelkkä maininta johtamiskursseista ei ratkaise kelpoisuutta kumpaankaan suuntaan.\n- **Uusi kirjallinen pyyntösi nyt.** Julkisia asiakirjoja koskeva pyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, laajempi tai vaikeampi kuukaudessa. Uuden perustelun laatimista koskeva pyyntö ei kuitenkaan ole sama asia kuin asiakirjapyyntö.\n- **Tarkista muutoksenhakuaika heti.** Kunnallisen päätöksen oikaisuvaatimusaika on yleensä 14 päivää tiedoksisaannista. Perustelujen tai asiakirjojen odottaminen ei yleensä pysäytä määräaikaa. Ammattiliiton juristi voi auttaa.\n- Jos epäilet sukupuolen vaikuttaneen valintaan, voit pyytää työnantajalta **tasa-arvolain mukaista kirjallista selvitystä valinnan perusteista** ja kysyä neuvoa tasa-arvovaltuutetulta. Syrjintäepäilyn arvioinnissa olennaista on ansiovertailu ja muu näyttö, ei lautakunnan sukupuolijakauma yksin.\n\nVoisit kirjoittaa esimerkiksi:\n\n> Uusin [päivämäärä] lähettämäni pyynnön. Pyydän valintapäätöksen muutoksenhakuohjeineen, hakijoiden ansiovertailun sekä tiedon siitä, miten johtamiskoulutusta, johtamiskokemusta ja soveltuvuutta arvioitiin ja miten valitun kelpoisuus todettiin. Pyydän ilmoittamaan, milloin saan vastauksen.\n\n**Keskittyisin siis ensin valinnan perusteisiin, en lautakunnan jäsenten sukupuoleen.** Se antaa vahvimman pohjan arvioida, oliko valinta asianmukainen."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5922,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 795,
+    "reasoning_output_tokens": 69
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

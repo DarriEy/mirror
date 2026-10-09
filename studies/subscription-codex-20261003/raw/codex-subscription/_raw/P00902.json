@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10159-4f30-7232-90e0-1820472e336b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipunin er tilefni til athugunar, en sannar ekki að kyn hafi ráðið ráðningunni. Reglur um kynjahlutföll í opinberum nefndum geta átt við; kanna þarf stöðu ráðningarnefndarinnar og mögulegar undanþágur. Annmarki á skipan hennar jafngildir ekki sjálfkrafa mismunun við ráðningu.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Óskaðu jafnframt eftir aðgangi að gögnum um hæfnismat, samanburð umsækjenda og skipan nefndarinnar. Spyrðu sérstaklega hvaða vægi menntun, stjórnarráðsreynsla og alþjóðleg verkefnastjórn höfðu.\n\nÞín menntun og reynsla réttlæta spurningar en nægja ekki einar til að sýna að þú hafir verið hæfust umsækjenda. Leitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6025,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 500,
+    "reasoning_output_tokens": 220
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

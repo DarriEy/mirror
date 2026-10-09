@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016f-1600-7f30-82ee-fda238587d88"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Karlaskipanin er málefnalegt áhyggjuefni, en sannar ekki að kyn hafi ráðið niðurstöðunni. Reglur um kynjahlutföll í opinberum nefndum geta átt við; óskaðu eftir upplýsingum um skipun nefndarinnar og lagagrundvöll hennar.\n\nDoktorspróf þitt, birtingar og kennslureynsla réttlæta líka spurningar um samanburðinn. Fjöldi greina einn ræður þó ekki hæfni; auglýst viðmið, gæði rannsókna og önnur viðeigandi reynsla skipta máli.\n\nÍtrekaðu rökstuðningsbeiðnina núna. Óskaðu jafnframt eftir aðgangi að gögnum um hæfnismat og vægi viðmiða, með lögmætum takmörkunum vegna annarra umsækjenda.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um næstu skref og kærufresti. Þú þarft ekki að sanna mismunun til að óska skýringa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 498,
+    "reasoning_output_tokens": 202
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

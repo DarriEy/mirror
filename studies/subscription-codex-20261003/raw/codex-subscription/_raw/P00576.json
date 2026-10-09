@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10164-e390-7e33-b7a0-718d7852c9a5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd sannar ekki kynjamismunun. Þú og ráðni umsækjandinn eruð báðir karlar; ekkert hér bendir sérstaklega til að kyn hafi ráðið niðurstöðunni.\n\nSé þetta opinber nefnd geta reglur um kynjahlutföll átt við. Málefnalegt er að spyrja hvernig skipun hennar samræmdist þeim. Brot á skipunarreglum jafngildir þó ekki sönnun um mismunun við ráðninguna.\n\nSterkara tilefni til eftirfylgni er samanburður hæfni ykkar. Námskeið jafngilda ekki sjálfkrafa meistaraprófi, en prófgráða tryggir heldur ekki ráðningu. Ítrekaðu rökstuðningsbeiðnina nú og óskaðu eftir ráðningarviðmiðum, vægi þeirra og samanburði á menntun, stjórnunarreynslu og frammistöðu í viðtölum. Við opinbera ráðningu á almennt að veita rökstuðning innan 14 daga frá beiðni."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6035,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 662,
+    "reasoning_output_tokens": 374
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

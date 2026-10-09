@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10153-13b2-7b10-83b5-09fe7f546dd5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of bias against you.** It’s understandable to wonder after a disappointing outcome, but neither the panel’s composition nor the successful candidate’s sex establishes that gender influenced the decision.\n\nYour completed PhD, publications and teaching experience give you reasonable grounds to ask how the criteria were applied. They don’t necessarily establish that you were the stronger candidate overall: research quality and fit, teaching assessments, interview performance and relevant industry experience may legitimately matter. The announcement may also omit some of her qualifications.\n\nThe most useful next steps are to focus on **the criteria and process**, rather than the panel’s sex:\n\n- Check whether a completed PhD was required at application, by the start date, or merely preferred—and how industry experience was weighted.\n- Follow up on your request now, asking for the assessment against the advertised criteria, any available scoring or selection report, and the review or appeal procedure.\n- Check deadlines promptly. Waiting for an explanation may not extend a complaint deadline.\n\nPanel composition becomes more relevant if the university requires gender-balanced panels, or if there is additional evidence such as sex-based remarks, inconsistent treatment, or departures from the published criteria. Even a breach of a panel-composition rule would not automatically prove discriminatory selection.\n\nYou could write:\n\n> I’m following up on my request of [date] for written feedback on the appointment. Please let me know when I can expect a response, how my application was assessed against the advertised criteria, and what review procedures and deadlines apply.\n\n**Which country is the university in?** Rules about public-university appointments, access to reasons and panel composition vary substantially."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5857,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 338,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

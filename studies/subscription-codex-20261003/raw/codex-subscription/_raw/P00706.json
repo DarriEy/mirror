@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012c-f25c-7052-9d54-189f79ab3424"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er málefnalegt umræðuefni en sannar ekki kynjamismunun. Samsetningin getur gefið tilefni til að skoða ráðningarferlið nánar, sérstaklega ásamt reynslumuninum. Lengri starfsreynsla tryggir þó ekki að þú teljist hæfust; viðskiptatengsl og stjórnunarhæfni geta verið lögmæt matsatriði.\n\nÍtrekaðu beiðnina skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringu á mati á reynslu þinni og verkefnastjórnun. Spurðu hlutlægt hvernig jafnræði hafi verið tryggt í ferlinu, fremur en að fullyrða um mismunun.\n\nLeitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og mögulega kærufresti. Réttur til rökstuðnings getur ráðist af því hvort vinnuveitandinn er einkaaðili eða opinber aðili."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6022,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 430,
+    "reasoning_output_tokens": 150
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

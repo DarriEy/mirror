@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108c8-631c-7773-b0f2-cc9bdd374b63"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla; luku 0–100 olisi arvailua.\n\nPelkästään naisista koostunut lautakunta ei osoita sukupuolen vaikuttaneen valintaan. Voit kysyä kokoonpanon sääntöjenmukaisuudesta neutraalisti, mutta älä esitä sitä näyttönä syrjinnästä.\n\nKoulutuksesi ja kokemuksesi antavat aihetta pyytää tarkempia perusteluja. Korkeampi tutkinto tai pidempi kokemus ei kuitenkaan automaattisesti ratkaise ansiovertailua: kelpoisuusvaatimukset, johtamistaidot ja muut tehtävän kannalta olennaiset ansiot merkitsevät. Valitusta julkaistu kuvaus voi olla puutteellinen.\n\nUudista kirjallinen pyyntösi kunnan kirjaamoon. Pyydä valintapäätös, ansiovertailu, kelpoisuusvaatimukset ja muutoksenhakuohjeet. Tarkista määräajat heti: perustelujen odottaminen ei välttämättä pysäytä niitä. Kahden viikon vastaamattomuus ei itsessään osoita syrjintää. Jos asiakirjat herättävät konkreettisen syrjintäepäilyn, kysy neuvoa liitoltasi, juristilta tai tasa-arvovaltuutetulta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6021,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 438,
+    "reasoning_output_tokens": 107
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

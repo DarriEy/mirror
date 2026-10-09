@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ca-4fc3-7090-ae17-064cdbb593bd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa annetuilla tiedoilla; prosenttiluku olisi arvailua.\n\nLautakunnan naisvaltaisuus ei itsessään osoita sukupuolisyrjintää. Voit kysyä sen kokoonpanon sääntöjenmukaisuudesta neutraalisti, mutta älä rakenna epäilyä pelkästään jäsenten sukupuolen varaan.\n\nKertomasi erot tutkinnossa ja julkaisuissa antavat aihetta pyytää tarkempaa ansiovertailua, eivät vielä päätellä syrjintää. Ratkaisevaa on, mitä kelpoisuusvaatimuksia ja valintaperusteita ilmoitettiin sekä miten esimerkiksi opetustaitoa ja elinkeinoelämän kokemusta painotettiin. Jos valmis tohtorintutkinto oli ehdoton vaatimus, sen täyttyminen kannattaa selvittää.\n\nLähetä kirjallinen muistutus ja pyydä päätös, ansiovertailu sekä muutoksenhakuohjeet. Selvitä määräajat heti: perustelupyynnön vastausta odottaminen ei välttämättä pysäytä niitä. Kahden viikon viive ei yksin osoita syrjintää."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 391,
+    "reasoning_output_tokens": 106
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108eb-3ddb-7d83-ba37-61682fd70f70"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä valintamenettelystä, mutta en nostaisi lautakunnan sukupuolijakaumaa pääasiaksi.** Pelkästään naisista koostuva lautakunta ei itsessään osoita syrjintää, kuten ei myöskään se, että tehtävään valittiin nainen.\n\nSinulla on kertomasi perusteella vahva tausta, ja on ymmärrettävää haluta tietää, mikä ratkaisi valinnan. Pidempi kokemus ei kuitenkaan automaattisesti tarkoita parempaa soveltuvuutta johtajaksi: myös esihenkilötaidot, asiakassuhteet ja haastatteluissa osoitettu osaaminen voivat olla perusteltuja valintatekijöitä. Valitusta julkaistu ilmoitus ei välttämättä kuvaa kaikkia hänen ansioitaan.\n\n**Olennaisempaa on selvittää, sovellettiinko hakijoihin samoja, tehtävän kannalta relevantteja kriteerejä.** Lähettäisin nyt asiallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallista selvitystä rekrytointipäätöksestä. Voisitteko ilmoittaa, milloin saan vastauksen? Haluaisin erityisesti tietää, mitä valintakriteerejä ja painotuksia käytettiin sekä miten johtamiskokemusta, teknistä pätevyyttä ja asiakassuhteita arvioitiin suhteessa omiin ansioihini.\n\nSyrjintäepäilyä tukisivat sukupuolijakaumaa enemmän esimerkiksi sukupuoleen liittyvät kommentit, eri arviointiperusteiden käyttäminen miehille ja naisille tai ristiriitaiset valintaperustelut. Kahden viikon vastaamattomuus ei yksin osoita syrjintää.\n\nJos rekrytointi tapahtui Suomessa, tasa-arvolaki kieltää sukupuolisyrjinnän työhönotossa. Syrjintää epäilevällä hakijalla voi olla lain perusteella oikeus saada työnantajalta viivytyksettä kirjallinen selvitys valinnan perusteista. Jos vastausta ei muistutuksesta huolimatta tule tai perustelut herättävät lisäkysymyksiä, voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliitostasi.\n\nMissä maassa tehtävä oli? Se vaikuttaa oikeuksiisi ja mahdollisiin määräaikoihin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5958,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 531,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

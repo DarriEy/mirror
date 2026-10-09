@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10155-2433-7be1-a1a7-c9b01ad8eca9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipuð nefnd er tilefni til að kanna skipunarreglur og kynjajafnvægi, en sannar ekki kynjamismunun. Samanlagt réttlæta nefndarskipanin og munurinn á sýnilegum akademískum verðleikum ykkar nánari skoðun. Atvinnulífsreynsla getur þó verið málefnalegt viðmið, sérstaklega samkvæmt auglýsingunni.\n\nÍtrekaðu skriflega beiðnina um rökstuðning núna. Óskaðu jafnframt eftir auglýstum hæfisskilyrðum, vægi matsþátta, samanburði umsækjenda og upplýsingum um skipun nefndarinnar. Spurðu sérstaklega hvernig ólokið doktorspróf samræmdist hæfisskilyrðum.\n\nLeitaðu ráðgjafar hjá Jafnréttisstofu eða stéttarfélagi um mögulegt brot og kærufresti. Ekki bíða ótímabundið eftir svarinu. Aldur þinn einn segir ekki heldur til um hvort mismunun hafi átt sér stað."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6024,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 488,
+    "reasoning_output_tokens": 196
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

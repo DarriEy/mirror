@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f3-9bab-7271-a024-cb06eb2d27e3"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostunut lautakunta ei yksin osoita syrjintää.** On silti ymmärrettävää, että se herättää kysymyksiä etenkin, kun et ole saanut valinnan perusteluja.\n\nKuvauksesi perusteella olet varteenotettava hakija. Tohtorintutkinto ja kahdeksan vuoden johtamiskokemus eivät kuitenkaan automaattisesti osoita, että olisit tehtävään ansioituneempi: ratkaisevia ovat ilmoitetut kelpoisuusvaatimukset, valintakriteerit ja hakijoiden tehtävään liittyvien ansioiden kokonaisvertailu. Valitun henkilön ”laaja johtamiskokemus” jää julkisen kuvauksen perusteella liian epämääräiseksi arvioida.\n\n**Nostaisin ensin esille valinnan perusteet ja niiden rinnalla kokoonpanon.** Voisit lähettää esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja valintapäätökselle. Pyydän vahvistamaan pyynnön vastaanoton ja ilmoittamaan vastausajankohdan. Pyydän selvitystä käytetyistä valintakriteereistä, niiden painotuksesta sekä siitä, miten koulutustani ja johtamiskokemustani verrattiin valitun hakijan ansioihin. Haluaisin lisäksi tietää, miten valintalautakunnan kokoonpano määräytyi ja miten arvioinnin tasapuolisuus varmistettiin.\n\nKahden viikon vastaamattomuus ei itsessään ole merkki syrjinnästä, mutta muistutus on aiheellinen. Säilytä työpaikkailmoitus, viestit ja haastattelumuistiinpanot.\n\nJos kyse on Suomesta:\n- Jos epäilet sukupuoleen perustuvaa syrjintää, tasa-arvolain nojalla voi olla oikeus saada työnantajalta viivytyksettä kirjallinen selvitys valintaperusteista ja valitun ansioista. Tasa-arvovaltuutettu tai ammattiliittosi voi auttaa asian arvioinnissa.\n- Julkisten toimielinten sukupuolikiintiösäännökset voivat olla merkityksellisiä, mutta ne eivät automaattisesti koske jokaista haastattelu- tai rekrytointiryhmää.\n- **Tarkista mahdolliset muutoksenhakuajat heti**: perustelujen odottaminen ei yleensä pysäytä määräaikaa.\n\nMissä maassa sairaala on, ja onko työnantaja julkinen vai yksityinen? Se vaikuttaa oikeuksiisi ja seuraaviin askeliin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5928,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 594,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

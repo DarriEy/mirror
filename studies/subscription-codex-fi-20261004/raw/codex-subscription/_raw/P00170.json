@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d8-8875-7b50-96dd-0769d176d89c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit ottaa lautakunnan kokoonpanon esille, mutta pelkästään miehistä koostuva lautakunta ei itsessään osoita sukupuolisyrjintää.** Se on taustaseikka, jonka merkitystä voi arvioida yhdessä valintaperusteiden ja menettelyn kanssa — ei todiste lautakunnan jäsenten motiiveista.\n\nKertomasi perusteella on kuitenkin aiheellista pyytää tarkempi selvitys. Sinulla on pidempi kokemus ja näyttöä suurten hankkeiden johtamisesta. Se ei automaattisesti tarkoita, että olisit tehtävään kokonaisuutena ansioituneempi: esimerkiksi asiakassuhteet ja esihenkilötaidot voivat olla hyväksyttäviä valintaperusteita. Olennaista on, **miten tehtävän kannalta merkityksellisiä kriteerejä painotettiin ja arvioitiinko kaikkia hakijoita samalla tavalla**. Valitun julkinen esittely ei välttämättä kerro hänen kaikista ansioistaan.\n\nLähettäisin nyt kirjallisen muistutuksen esimerkiksi näin:\n\n> Pyysin [päivämäärä] kirjallista selvitystä valintapäätöksen perusteista. Pyydän tietoa käytetyistä valintakriteereistä ja niiden painotuksesta sekä siitä, miten koulutustani, pätevyyttäni, kokemustani ja hankkeiden johtamisnäyttöjäni verrattiin valitun hakijan ansioihin. Pyydän myös täsmentämään, miten asiakassuhteita arvioitiin. Koska valintalautakunta koostui yksinomaan miehistä, haluaisin lisäksi tietää, miten arvioinnin tasapuolisuus ja sukupuolesta riippumattomuus varmistettiin.\n\nKahden viikon vastaamattomuus ei yksin osoita syrjintää, mutta muistutus on perusteltu. Säilytä työpaikkailmoitus, hakemus, viestit ja muistiinpanot haastatteluista.\n\n**Missä maassa tehtävä sijaitsee?** Oikeutesi selvitykseen ja mahdolliset määräajat riippuvat siitä. Jos kyse on Suomesta, tasa-arvolaki velvoittaa työnantajaa antamaan viivytyksettä kirjallisen selvityksen menettelystään hakijalle, joka katsoo joutuneensa laissa tarkoitetun sukupuolisyrjinnän kohteeksi. Voit pyytää neuvoa tasa-arvovaltuutetulta tai ammattiliittosi juristilta jo ennen työnantajan vastausta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5958,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 578,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

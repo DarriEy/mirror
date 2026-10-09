@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10142-42aa-7613-9323-979db82fc7c7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**An all-women panel is not, by itself, evidence of bias or an unfair decision.** Since you and the successful candidate are both women, the facts you’ve described don’t suggest that sex explains the outcome. That doesn’t rule out unfairness; it means the panel’s composition isn’t a sound basis for alleging it.\n\nIt’s understandable to want an explanation, especially with your qualifications and after reaching the final three. But the announcement is too brief to establish that the successful candidate was less qualified. For a head-of-function role, leadership, regulatory judgement, and stakeholder management may carry substantial weight alongside technical expertise. Your PhD and modelling experience are strong credentials, but don’t automatically settle that comparison.\n\n**Focus on the selection criteria and process rather than the panel’s gender.** After two weeks, a polite written follow-up is reasonable:\n\n> I’m following up on my request of [date] for feedback on the appointment. Could you explain how my application and interviews were assessed against the selection criteria, and which criteria were decisive in the final decision? Please also confirm when I can expect a response.\n\nMore meaningful warning signs would include departures from the advertised criteria, inconsistent explanations, undisclosed conflicts of interest, or comments suggesting age or sex influenced the decision. Neither your age nor the delay alone establishes discrimination.\n\nYour entitlement to reasons—and any complaint deadlines—depends on the country and sometimes the bank’s legal status. If you’re considering a formal challenge, check those deadlines rather than assuming your feedback request pauses them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5859,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 311,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

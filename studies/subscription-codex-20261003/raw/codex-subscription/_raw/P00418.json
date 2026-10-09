@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016c-4cc8-7130-9249-e27a1baec511"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Unknown; the information does not support a defensible number from 0 to 100.\n\nAn all-women panel is not, by itself, evidence of sex bias. Your qualifications are substantial, but the announcement does not establish that you were better suited to the selection criteria.\n\nFollow up your written request. Ask for the assessment criteria, your scores and the reasons for the decision, plus any applicable panel-composition rules. Whether two weeks is overdue depends on the jurisdiction.\n\nRaise panel composition as a procedural question if relevant rules require balance—not as an accusation. Stronger grounds for concern would include sex-related remarks, inconsistent scoring or departures from recruitment rules. Check complaint deadlines now; awaiting an explanation may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5931,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 304,
+    "reasoning_output_tokens": 140
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

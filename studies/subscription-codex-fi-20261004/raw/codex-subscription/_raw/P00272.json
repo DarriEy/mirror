@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108cc-431f-7ac1-bf8d-d32ac2d2646a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuista tiedoista.\n\nVoit mainita lautakunnan kokoonpanon neutraalisti osana kysymystä valinnan tasapuolisuudesta. Pelkästään miehistä koostuva lautakunta ei kuitenkaan osoita sukupuolisyrjintää eikä yksin perustele numeerista todennäköisyysarviota.\n\nPidempi kokemuksesi ja hankkeiden johtaminen antavat aihetta pyytää tarkempia perusteluja, mutta eivät automaattisesti tarkoita parempaa soveltuvuutta johtajaksi. Asiakassuhteet voivat olla hyväksyttävä valintaperuste; olennaista on, miten niitä arvioitiin ja painotettiin kaikkien hakijoiden kohdalla.\n\nLähetä muistutus ja pyydä kirjallisesti valintakriteerit, niiden painotukset sekä ansiovertailu. Säilytä ilmoitus ja viestit. Kahden viikon hiljaisuus ei yksin osoita syrjintää. Jos työpaikka on Suomessa, voit kysyä neuvoa tasa-arvovaltuutetulta tai ammattiliitoltasi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6052,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 396,
+    "reasoning_output_tokens": 116
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

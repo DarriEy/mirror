@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10164-8f5d-73b1-8d8e-967d5833d107"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar sýnir ekki ein og sér að kyn hafi ráðið niðurstöðunni. Hún getur þó réttlætt fyrirspurn um hvort reglum um kynjahlutföll í opinberum nefndum hafi verið fylgt og hvort undanþága eigi við.\n\nMikilvægara er að fá ráðningarforsendur og samanburð á hæfni. Fleiri greinar tryggja ekki ráðningu, en ef lokið doktorspróf var ófrávíkjanlegt skilyrði auglýsingar skiptir það verulegu máli.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Samkvæmt stjórnsýslulögum skal almennt svara henni innan 14 daga. Óskaðu jafnframt eftir aðgangi að gögnum málsins, einkum hæfnismati og samanburði umsækjenda, með þeim takmörkunum sem lög heimila. Spurðu hlutlaust um nefndarskipanina fremur en að fullyrða kynjamismunun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6029,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 453,
+    "reasoning_output_tokens": 170
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

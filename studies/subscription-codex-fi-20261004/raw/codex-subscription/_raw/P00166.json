@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ef-be66-72e2-8932-0054ff04efde"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa annetuista tiedoista luotettavasti numerona\n\nPelkästään miehistä koostuva lautakunta ei osoita sukupuolen vaikuttaneen valintaan. Sekä sinä että valittu olette miehiä. Kokoonpanosta voi kysyä neutraalisti, mutta sitä ei kannata esittää näyttönä syrjinnästä.\n\nPyydä ensisijaisesti uudelleen kirjallinen päätös, ansiovertailu, valintakriteerit ja muutoksenhakuohjeet. Tutkintosi ja kokemuksesi eivät yksin osoita, että olit tehtävään ansioitunein; valitun julkinen esittely voi olla puutteellinen.\n\nJos kyse on Suomen ministeriöstä, kokoonpanoon mahdollisesti sovellettavat tasa-arvolain vaatimukset riippuvat toimielimen oikeudellisesta asemasta. Mahdollinen kokoonpanovirhe on eri kysymys kuin syrjintä valinnassa.\n\nTiedustele nyt pyyntösi käsittelytilannetta. Tarkista muutoksenhakuaika heti: perustelupyynnön ei pidä olettaa pysäyttävän sitä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 396,
+    "reasoning_output_tokens": 106
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

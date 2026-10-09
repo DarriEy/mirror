@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1012e-8eaf-7e51-8daa-f3d7ecca0630"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki er hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá. Kynjasamsetning nefndarinnar er málefnalegt athugunarefni, en sannar ekki að kyn hafi ráðið ráðningunni. Við skipun opinberra nefnda gildir almennt krafa um að hlutfall hvors kyns sé að minnsta kosti 40%, með undantekningum. Athuga þarf hvort reglan eigi við hér.\n\nMenntun þín og stjórnunarreynsla gefa tilefni til að óska skýringa á samanburðinum, en tilkynningin ein sýnir ekki heildarhæfni umsækjenda.\n\nÍtrekaðu rökstuðningsbeiðnina nú; samkvæmt stjórnsýslulögum á almennt að svara henni innan 14 daga. Óskaðu jafnframt eftir hæfnismati, vægi viðmiða og upplýsingum um skipun nefndarinnar. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um mögulegt framhald og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6022,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 506,
+    "reasoning_output_tokens": 231
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

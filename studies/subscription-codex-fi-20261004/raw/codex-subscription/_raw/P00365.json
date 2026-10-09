@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ee-353e-7af0-81b1-5c77c422f560"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, mihin valinta perustui, etenkin päästyäsi loppusuoralle.\n\n**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Sen perusteella ei voi päätellä jäsenten motiiveja. Se, että sekä sinä että valittu olette naisia, ei myöskään yksin todista menettelyä syrjimättömäksi. Olennaista on, miten hakijoita arvioitiin ja sovellettiinko samoja, tehtävään liittyviä kriteerejä.\n\nSinulla on vahva koulutus ja pitkä kokemus, mutta valitusta julkaistu lyhyt kuvaus ei riitä ansioiden vertailuun. Kansainvälisten hankkeiden johtaminen on voinut painaa arvioinnissa, jos se liittyy tehtävän vaatimuksiin.\n\n**Ottaisin nyt ensisijaisesti esille valinnan perusteet, en lautakunnan sukupuolijakaumaa.** Jos kyse on Suomen ministeriöstä, lähettäisin kirjaamoon esimerkiksi tämän:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja tehtävän [nimi] valinnasta. Pyydän jäljennökset nimityspäätöksestä, nimitysmuistiosta tai muusta hakijoiden ansiovertailusta sekä mahdollisista muutoksenhakuohjeista. Pyydän myös saatavilla olevat tiedot arviointikriteereistä ja niiden painotuksesta sekä vahvistuksen pyyntöni vastaanottamisesta.\n\nSuomessa julkisia asiakirjoja koskeva tietopyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, tavallista työläämpi kuukaudessa. Tämä määräaika ei kuitenkaan sellaisenaan koske pyyntöä laatia uusi perusteluselvitys. **Tarkista mahdollinen muutoksenhakuaika heti**, sillä perustelujen odottaminen ei yleensä pysäytä sitä.\n\nLautakunnan kokoonpanosta voit kysyä neutraalisti, miten se muodostettiin ja mitä kokoonpanosääntöjä siihen sovelletaan. Mahdollisten sukupuolikiintiöiden soveltuminen riippuu toimielimestä. Kokoonpanosääntöjen noudattaminen ja hakijoiden tasapuolinen arviointi ovat eri kysymyksiä; kumpaakaan ei ratkaista pelkästään laskemalla jäsenten sukupuolet."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5937,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 559,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

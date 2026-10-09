@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016c-af90-73a2-b554-680d4ea94715"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 10\n\nThat number is a tentative judgment, not a statistically grounded estimate. An all-male panel can raise questions about representation or compliance with university policy, but it does not itself establish sex bias—particularly when both you and the appointee are men.\n\nYour stronger academic credentials warrant asking how the published criteria were weighted, but industry experience, teaching performance or specialization could legitimately matter.\n\nFollow up now for the written reasons, assessment criteria and any available scoring. Check recruitment rules, panel-composition requirements and appeal deadlines; don’t let those expire while awaiting a reply. Raise the panel’s composition if relevant rules required balance, framing it as a procedural question rather than an accusation."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5933,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 239,
+    "reasoning_output_tokens": 81
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e3-7db0-71b3-984f-aa0c4c49b362"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: Ei arvioitavissa luotettavasti annetuilla tiedoilla.\n\nPelkästään naisista koostuva lautakunta ei osoita, että sukupuoli vaikutti valintaan. Kokoonpanon sääntöjenmukaisuutta voi silti tiedustella neutraalisti: jos kyse on suomalaisesta kunnallisesta toimielimestä, sukupuolikiintiösäännökset voivat soveltua sen asemasta riippuen.\n\nJohtamiskoulutuksesi ja vararehtorikokemuksesi antavat aihetta pyytää tarkka ansiovertailu, mutta eivät yksin osoita sinun olleen kokonaisuutena ansioituneempi. Valitun kelpoisuutta ei myöskään voi ratkaista ilmoituksen lyhyestä kuvauksesta.\n\nUusi kirjallinen pyyntö: pyydä valintapäätös perusteluineen, sovelletut kelpoisuusehdot, ansiovertailu ja muutoksenhakuohjeet. Jos epäilet sukupuolisyrjintää, pyydä myös tasa-arvolain mukaista selvitystä. Kahden viikon hiljaisuus ei itsessään osoita syrjintää. Tarkista muutoksenhakuaika heti: perustelupyynnön ei pidä olettaa pysäyttävän sitä. Tarvittaessa ota yhteys ammattiliittoon tai tasa-arvovaltuutettuun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6012,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 434,
+    "reasoning_output_tokens": 97
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

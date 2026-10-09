@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108eb-4640-7ac2-9080-32d4f0ff7c8e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkästään miehistä koostuva lautakunta ei itsessään osoita syrjintää tai epäasianmukaista valintaa.** Se voi herättää kysymyksen siitä, miten jäsenten valinta ja mahdolliset tasapuolista edustusta koskevat säännöt on huomioitu. Näiden sääntöjen soveltuminen riippuu maasta ja lautakunnan asemasta.\n\nKoska sekä sinä että valittu hakija olette miehiä, antamasi tiedot eivät sellaisinaan viittaa siihen, että sinut olisi sivuutettu sukupuolesi vuoksi. Ne eivät myöskään kerro ikäsyrjinnästä. Tutkintosi ja kokemuksesi ovat vahvoja ansioita, mutta valitun hakijan lyhyt esittely ei riitä osoittamaan, kumpi vastasi paremmin tehtävän valintaperusteita.\n\n**Keskittyisin nyt ensisijaisesti valinnan perusteluihin ja ansiovertailuun.** Lähettäisin alkuperäisen pyynnön perään viestin ministeriön kirjaamoon ja pyytäisin:\n- nimityspäätöksen ja mahdollisen nimitysmuistion tai ansiovertailun\n- tiedon käytetyistä valintaperusteista ja niiden soveltamisesta sinuun ja valittuun\n- muutoksenhakuohjeet sekä arvion siitä, milloin asiakirjapyyntöön vastataan.\n\nLautakunnasta voit kysyä neutraalisti: ”Millä perusteilla valintalautakunta koottiin, ja sovellettiinko sen kokoonpanoon sukupuolten edustusta koskevia vaatimuksia?”\n\nJos kyse on Suomesta ja pyyntösi koski olemassa olevia julkisia asiakirjoja, ne on yleensä annettava viimeistään kahdessa viikossa, laajemmissa tai tavallista työläämmissä tapauksissa kuukaudessa. Uuden kirjallisen perustelun laatimista koskeva pyyntö on eri asia. **Älä oleta perustelujen odottamisen pysäyttävän mahdollista muutoksenhakuaikaa.**\n\nMissä maassa ministeriö on, ja saitko nimityspäätöksen mukana muutoksenhakuohjeet?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 517,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

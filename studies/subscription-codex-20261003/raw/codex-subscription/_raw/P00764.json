@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10176-e2f0-7c23-9b91-b413f59b1d3f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ómetanlegt út frá þessum upplýsingum; tala frá 0 til 100 væri ágiskun.\n\nJá, spurðu hvort skipan nefndarinnar samræmdist gildandi jafnréttisreglum. Eingöngu karlskipuð nefnd getur verið sjálfstætt álitaefni um málsmeðferð, en sýnir ekki ein og sér að kyn hafi ráðið niðurstöðunni. Þið sem hlutuð og misstuð af starfinu eruð báðir karlar; upplýsingarnar styðja því ekki sérstaka ályktun um kynjamismunun.\n\nSterkara athugunarefni er samanburður hæfni við auglýstar kröfur, sérstaklega hvort lokið doktorspróf hafi verið skilyrði. Fleiri greinar tryggja þó ekki ráðningu.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir hæfnismati, vægi viðmiða, aðgangi að gögnum málsins og upplýsingum um kæruleiðir og fresti. Athugaðu frestina strax, þótt rökstuðningur hafi ekki borist."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6029,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 446,
+    "reasoning_output_tokens": 166
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

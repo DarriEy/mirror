@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e6-c0a2-7532-be12-dbf6214886c2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: OTA ASIA ESILLE\nTODENNÄKÖISYYS: Ei luotettavasti arvioitavissa annetuista tiedoista.\n\nVoit kysyä lautakunnan kokoonpanosta neutraalisti. Pelkästään miehistä koostuva lautakunta ei itsessään osoita syrjintää, mutta sen kokoonpanon sääntöjenmukaisuus kannattaa selvittää.\n\nKuvaamasi koulutus- ja kokemuserot antavat aiheen pyytää tarkempi ansiovertailu. Julkinen esittely ei kuitenkaan välttämättä kerro valitun kaikkia ansioita, ja johtamisosaamisella voi olla merkitystä.\n\nJos kyse on Suomesta, uudista kirjallisesti pyyntösi ja pyydä valintapäätös, muutoksenhakuohjeet, kelpoisuusvaatimukset sekä tasa-arvolain mukainen selvitys valinnan perusteista. Kahden viikon hiljaisuus ei yksin osoita syrjintää.\n\nTarkista muutoksenhakuaika heti: perustelupyynnön vastausta ei kannata odottaa määräajan yli. Tasa-arvovaltuutettu tai ammattiliiton juristi voi auttaa arvioimaan mahdollista syrjintäolettamaa."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 435,
+    "reasoning_output_tokens": 153
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

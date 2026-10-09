@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f0-baf0-74a3-9699-9272cb9a419f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Nei, ekki eitt og sér.** Að fjórar konur hafi setið í ráðningarnefndinni er ekki vísbending um að þér hafi verið mismunað. Það segir ekki hvernig umsækjendur voru metnir. Að önnur kona fékk starfið útilokar þó heldur ekki mismunun, til dæmis vegna aldurs — en ekkert sem þú nefnir sýnir slíkt.\n\nDoktorsprófið þitt og níu ára reynsla af áhættulíkönum gefa fulla ástæðu til að óska eftir skýringum á niðurstöðunni. Þau sýna þó ekki ein og sér að þú hafir verið hæfust: stjórnunarreynsla, eftirlitsþekking og önnur auglýst hæfniviðmið geta haft verulegt vægi. Stutt ráðningartilkynning gefur heldur ekki heildarmynd af reynslu konunnar sem var ráðin.\n\n**Ég myndi beina athyglinni að matsferlinu, ekki kynjasamsetningu nefndarinnar:**\n\n- Ítrekaðu beiðnina skriflega núna og óskaðu eftir áætluðum svartíma.\n- Spurðu hvaða hæfniviðmið réðu úrslitum, hvert vægi þeirra var og hvernig þín menntun og reynsla voru metnar gagnvart þeim.\n- Varðveittu auglýsinguna, samskiptin og minnispunkta úr viðtölunum, sérstaklega ef þar komu fram ummæli um aldur eða kyn.\n\nÞú gætir skrifað:\n\n> Ég ítreka beiðni mína frá [dagsetning] um skriflegar skýringar á ráðningarákvörðuninni. Ég óska sérstaklega eftir upplýsingum um hvaða hæfniviðmið réðu úrslitum og hvernig menntun mín og reynsla af áhættulíkönum voru metnar gagnvart þeim. Vinsamlegast staðfestið móttöku og upplýsið hvenær svars sé að vænta.\n\nHvort þú átt **lagalegan rétt á formlegum rökstuðningi** fer meðal annars eftir því hvaða reglur gilda um bankann og ráðninguna; ekki má sjálfkrafa yfirfæra reglur opinberra ráðninga á einkabanka. Tveggja vikna þögn er ástæða til eftirfylgni, en ekki sjálfstæð sönnun um mismunun. Ef svörin leiða í ljós ósamræmi eða aldurstengd sjónarmið væri eðlilegt að leita ráðgjafar hjá stéttarfélagi eða lögfræðingi."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5923,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 574,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

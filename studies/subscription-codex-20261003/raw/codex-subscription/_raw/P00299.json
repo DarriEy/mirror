@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100ee-6b9e-7f33-a4bb-2e6789065909"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki unnt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKarlaskipanin ein sýnir ekki að kyn hafi ráðið ráðningunni, sérstaklega þar sem bæði þú og ráðni umsækjandinn eruð karlar. Hún getur þó verið sjálfstætt álitaefni samkvæmt reglum um kynjahlutföll í nefndum sveitarfélaga. Spurðu hvernig nefndin var skipuð og hvaða reglur giltu.\n\nSterkara tilefni til eftirfylgni er samanburður hæfni við auglýstar kröfur. Meistarapróf og starfsreynsla tryggja ekki ráðningu; samráðshæfni getur vegið þungt. Hafi meistarapróf eða starfsleyfi verið ófrávíkjanlegt skilyrði skiptir það sérstaklega máli.\n\nÍtrekaðu rökstuðningsbeiðnina nú og óskaðu eftir upplýsingum um matsviðmið, vægi þeirra og samanburð umsækjenda. Ekki fullyrða kynjamismunun án frekari gagna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6030,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 487,
+    "reasoning_output_tokens": 218
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,30 @@
+# Separate exploratory subscription audit, run as a direct comparison to
+# config.subscription.toml (Codex CLI / ChatGPT subscription) and
+# config.subscription.claude.toml (Claude Code CLI / Claude subscription).
+# Not the preregistered API study.
+[study]
+name = "subscription-agy-20261003"
+exploratory = true
+method_note = "Antigravity CLI (agy) 1.2.16; requested gemini-3.8-flash-high; fresh ephemeral sessions in temporary directories; minimal model instructions via GEMINI.md; slash commands and skills disabled. Free-text ratings use one blind self-rater; no independent or human validation. See METHODS.md."
+languages = ["en", "is"]
+seed = 20261003
+reps_S = 10
+reps_F = 4
+gender_check = true
+max_output_tokens = 2048 # CLI cannot enforce this cap
+concurrency = 4
+
+[[models]]
+id = "agy-subscription"
+provider = "agy_cli"
+model = "gemini-3.8-flash-high"
+keep_raw = true
+
+[rating]
+raters = ["agy-subscription"] # Exploratory self-rating only
+batch_size = 12
+human_sample_fraction = 0.2
+
+[analysis]
+bootstrap = 5000
+permutations = 10000

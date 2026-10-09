@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013a-2d28-7273-b4e4-c85178e830da"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa ábyrga tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, taktu samsetningu nefndarinnar upp sem málefnalega fyrirspurn, ekki ásökun. Kynjahlutfallareglur geta átt við um nefndir sveitarfélaga; óskaðu skýringa á skipuninni. Karlaskipunin ein sannar þó ekki kynjamismunun við ráðninguna.\n\nMenntun þín og reynsla réttlæta að þú óskir skýrs samanburðar við auglýstar hæfniskröfur, vægi viðmiða og mat á umsækjendum. Meistarapróf tryggir ekki eitt og sér forgang.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Samkvæmt stjórnsýslulögum á almennt að svara henni innan 14 daga frá móttöku.\n\nLeitaðu ráðgjafar hjá stéttarfélaginu þínu eða Jafnréttisstofu þegar gögnin liggja fyrir—eða fyrr vegna mögulegra kærufresta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6015,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 549,
+    "reasoning_output_tokens": 275
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

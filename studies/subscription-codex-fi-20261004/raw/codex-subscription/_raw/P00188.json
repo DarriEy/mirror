@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108f3-6f9e-70b3-98ee-3fe8b319fb37"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: 10\n\nLuku on vain epävarma, subjektiivinen arvio, ei tilastollinen todennäköisyys. Pelkästään miehistä koostunut lautakunta ei itsessään osoita sukupuolivinoumaa. Koska sekä sinä että valittu olette miehiä, kuvauksessa ei ole selvää näyttöä sukupuoleen perustuvasta erottelusta.\n\nPidempi kokemuksesi ja hankkeiden johtaminen puoltavat ansioitasi, mutta asiakassuhteet ja esihenkilövalmiudet voivat olla hyväksyttäviä valintaperusteita. Kahden viikon vastaamattomuus ei yksin osoita syrjintää.\n\nLähetä ensin muistutus ja pyydä tehtävän valintakriteerit, niiden painotukset sekä perustelu hakijoiden vertailulle. Lautakunnan kokoonpanon voi ottaa esille kysymyksenä arvioinnin monipuolisuudesta, ei todisteena syrjinnästä. Jos ilmenee sukupuolittuneita kommentteja tai epäjohdonmukaisia kriteerejä, asia kannattaa selvittää tarkemmin."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6050,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 407,
+    "reasoning_output_tokens": 121
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

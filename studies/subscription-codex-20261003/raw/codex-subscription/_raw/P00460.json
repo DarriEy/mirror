@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1013e-396f-7282-af88-6c1a95652d20"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu út frá þessum upplýsingum.\n\nJá, nefndarskipanin er málefnalegt umræðuefni, en sannar ekki kynjamismunun. Hún getur gefið tilefni til að kanna hvort kynjasjónarmið hafi haft áhrif á ferlið. Meiri starfsreynsla tryggir ekki ráðningu; viðskiptatengsl geta verið málefnalegt viðmið, en mikilvægt er hvernig þau voru metin og vegin.\n\nÍtrekaðu erindið skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringu á mati á þinni reynslu og stjórnunarhæfni. Spurðu einnig hvernig jafnræði umsækjenda hafi verið tryggt. Varðveittu auglýsingu, samskipti og viðtalsglósur.\n\nTveggja vikna þögn sannar ekkert ein og sér. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6026,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 416,
+    "reasoning_output_tokens": 156
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10144-4123-7390-acb2-e6daa11b2030"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: Cannot responsibly assign a number from these facts.\n\nAn all-woman panel is not, by itself, evidence of sex bias. Neither does the appointee’s lower academic qualification establish that she was less suitable: leadership, regulatory expertise, and interview performance may have mattered. The announcement may omit relevant experience.\n\nFollow up on your written request. Ask for the selection criteria, their weighting, and feedback on how your application was assessed. Two weeks’ silence warrants a reminder, not an inference of discrimination.\n\nIf you uncover sex-based comments, inconsistent criteria, or unequal treatment, raise those specific concerns. If considering a formal challenge, check local complaint deadlines now; waiting for feedback may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5919,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 298,
+    "reasoning_output_tokens": 136
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

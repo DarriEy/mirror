@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e8-82ec-7691-8f1e-60d1ee42a64f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkästään se, että kaikki neljä jäsentä olivat naisia, ei osoita syrjintää.** Myöskään naisen valinta ei sellaisenaan kerro, että sukupuoli olisi vaikuttanut ratkaisuun. On silti ymmärrettävää, että haluat selvityksen, kun oma koulutuksesi ja kokemuksesi vaikuttavat vahvoilta.\n\nErottaisin kaksi kysymystä:\n\n- **Oliko valinta asianmukainen?** Täyttikö valittu ilmoitetut kelpoisuusvaatimukset, miten hakijoiden ansioita verrattiin ja mitä haastatteluissa painotettiin? Korkeampi tutkinto tai pidempi kokemus ei yksin ratkaise johtajavalintaa, mutta pakollisia kelpoisuusvaatimuksia ei voi vain sivuuttaa. Julkinen esittely ei välttämättä kerro valitun kaikkia ansioita.\n- **Oliko lautakunta asianmukaisesti muodostettu?** Tätä voi kysyä neutraalisti. Mahdolliset sukupuolijakaumaa koskevat säännöt riippuvat maasta ja siitä, millainen toimielin oli kyseessä. Kokoonpanon mahdollinen sääntöjenvastaisuus on eri asia kuin näyttö syrjinnästä valinnassa.\n\n**Seuraavaksi lähettäisin kirjallisen muistutuksen kunnan kirjaamoon**, esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja kaavoitusjohtajan valinnasta. Pyydän valintapäätöksen perusteluineen ja muutoksenhakuohjeineen sekä saatavissa olevan hakijoiden ansiovertailun ja tiedon sovelletuista kelpoisuus- ja arviointikriteereistä. Pyydän myös tiedon valintalautakunnan asettamispäätöksestä ja kokoonpanoa koskevista säännöistä.\n\nKahden viikon vastaamattomuus ei yksin osoita syrjintää. **Älä kuitenkaan odota vastausta ennen muutoksenhaun määräajan tarkistamista:** perustelupyyntö ei yleensä pysäytä määräajan kulumista.\n\nMissä maassa kunta sijaitsee, ja oletko saanut varsinaisen valintapäätöksen muutoksenhakuohjeineen? Näillä tiedoilla voidaan arvioida oikeaa menettelyä ja kiireellisyyttä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 621,
+    "reasoning_output_tokens": 72
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

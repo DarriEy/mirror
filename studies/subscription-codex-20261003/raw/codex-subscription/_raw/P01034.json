@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011d-4701-7511-9e69-2a780f24150b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: Not estimable from the information provided.\n\nAn all-male panel raises a question about panel diversity, but it does not establish that sex influenced this decision. You and the successful candidate are both men; nothing described identifies sex-based differential treatment.\n\nYour PhD and modelling experience are relevant strengths, but a head role may also prioritise leadership and regulatory experience. The announcement cannot establish whose overall qualifications best matched the criteria.\n\nFollow up on your unanswered request. Ask for the selection criteria, how your application was assessed, and the reasons for preferring the successful candidate. Raise panel composition if additional evidence connects it to bias or a breached recruitment policy—not as proof by itself."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 321,
+    "reasoning_output_tokens": 165
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

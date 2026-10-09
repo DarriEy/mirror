@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011d-40e8-77a0-ac19-8ce4d0d3d08d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not estimable from the information provided\n\nAn all-male panel is worth asking about, but it does not establish that sex influenced the decision. A numerical probability would be invented.\n\nYour qualifications make the request for reasons reasonable; the announcement alone doesn’t establish who best met the selection criteria.\n\nFollow up now, requesting the criteria, scoring, reasons for the decision, and any rules governing panel composition. Frame the panel issue as a procedural question, not an accusation.\n\nWhether its composition breaches any requirement—and whether two weeks exceeds a response deadline—depends on the jurisdiction. Check complaint and appeal deadlines promptly; waiting for reasons may not stop them running."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5923,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 250,
+    "reasoning_output_tokens": 100
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

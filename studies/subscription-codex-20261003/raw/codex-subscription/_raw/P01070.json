@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100ed-cf3c-7243-9c3c-5fe71e1a55bf"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Nei, ekki út frá kynjasamsetningu nefndarinnar einni saman.** Að fjórar konur hafi ráðið konu er ekki í sjálfu sér vísbending um mismunun eða ómálefnalega ráðningu. Það útilokar heldur ekki mismunun, til dæmis vegna aldurs, en til þess þyrfti eitthvað meira að koma fram í ráðningarferlinu.\n\n**Það er hins vegar full ástæða til að fylgja rökstuðningsbeiðninni eftir.** Menntun þín, starfsleyfi og tólf ára reynsla eru veigamikil atriði. Við ráðningu hjá sveitarfélagi á að byggja á málefnalegum sjónarmiðum og velja hæfasta umsækjandann út frá heildstæðu mati. Meistarapróf tryggir þó ekki forgang; reynsla af íbúasamráði, stjórnunarhæfni og önnur viðeigandi hæfni geta vegið þungt. Stutt ráðningartilkynning segir heldur ekki endilega allt um hæfni konunnar sem var ráðin.\n\nÉg myndi beina athyglinni að:\n- **Auglýstum hæfiskröfum:** Uppfyllti sú ráðna kröfur um menntun og starfsleyfi, ef slíkar kröfur voru gerðar?\n- **Samanburðinum:** Hvernig voru menntun, starfsreynsla, samráð og stjórnunarhæfni metin og vegin?\n- **Aldurstengdum vísbendingum:** Komu fram athugasemdir um aldur, „yngri krafta“ eða sambærilegt? Aldur þinn einn sýnir ekki mismunun.\n\nÞar sem tvær vikur eru liðnar geturðu sent þessa eftirfylgni:\n\n> Ég ítreka beiðni mína frá [dagsetning] um skriflegan rökstuðning fyrir ráðningunni. Ég óska sérstaklega eftir upplýsingum um þau sjónarmið sem réðu niðurstöðunni og hvernig hæfni mín var metin í samanburði við hæfni þess umsækjanda sem var ráðinn. Jafnframt óska ég eftir aðgangi að gögnum ráðningarmálsins sem ég á rétt á sem aðili þess, þar á meðal fyrirliggjandi matsviðmiðum og samanburðarmati. Vinsamlegast staðfestið móttöku og upplýsið hvenær svars er að vænta.\n\n**Leggðu því áherslu á hæfnismatið og málsmeðferðina, ekki kyn nefndarmanna.** Ef rökstuðningurinn leiðir í ljós ósamræmi eða svar heldur áfram að berast ekki, getur stéttarfélagið þitt eða lögmaður hjálpað þér að meta næstu skref og viðeigandi kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5930,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 712,
+    "reasoning_output_tokens": 85
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

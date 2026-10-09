@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108d9-b06b-7290-ba7e-4eda8fee4d1c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "On ymmärrettävää, että haluat tietää, mihin valinta perustui. **Pelkästään naisista koostuva lautakunta ei kuitenkaan itsessään osoita sukupuolisyrjintää.** Myöskään valitun sukupuolesta tai lyhyestä koulutus- ja kokemuskuvauksesta ei voi päätellä, että hän olisi ollut sinua vähemmän ansioitunut. Oma taustasi vaikuttaa vahvalta, mutta vertailu riippuu tehtävän valintaperusteista ja molempien hakijoiden koko kokemuksesta.\n\n**Keskittyisin ensin valinnan perusteisiin, en lautakunnan sukupuolijakaumaan.** Jos kyse on Suomen ministeriöstä, lähettäisin nyt kirjallisen muistutuksen ministeriön kirjaamoon ja pyytäisin:\n- nimityspäätöksen ja sen muutoksenhakuohjeet\n- nimitysmuistion tai muun hakijoiden ansiovertailun\n- käytetyt valintakriteerit ja tiedon siitä, miten niitä sovellettiin sinuun ja valittuun hakijaan.\n\nVoit kirjoittaa esimerkiksi:\n\n> Pyysin [päivämäärä] kirjallisia perusteluja tehtävän täyttämisestä. Pyydän edellä mainitut asiakirjat sekä tiedon pyyntöni käsittelytilanteesta. Haluaisin erityisesti ymmärtää, mitkä tehtävän kannalta olennaiset ansiot ratkaisivat valinnan.\n\nSuomessa julkista asiakirjaa koskeva tietopyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, tavallista työläämpi kuukaudessa. Pelkkä pyyntö laatia erilliset perustelut ei välttämättä ole sama asia kuin asiakirjapyyntö. **Tarkista mahdollinen muutoksenhakuaika heti:** perustelujen odottaminen ei yleensä pysäytä sitä.\n\nLautakunnan kokoonpanon voi ottaa esiin neutraalina kysymyksenä esimerkiksi sen asettamisperusteista. Suomen tasa-arvolain kokoonpanosäännösten soveltuminen riippuu siitä, millaisesta toimielimestä on kyse; ne eivät automaattisesti koske jokaista haastatteluryhmää. Mahdollinen kokoonpanovirhe olisi myös eri kysymys kuin se, syrjittiinkö sinua valinnassa.\n\nJos asiakirjoista ilmenee esimerkiksi sukupuoleen vetoamista, valintakriteerien epäjohdonmukaista soveltamista tai olennaisten ansioidesi sivuuttamista, asia kannattaa arvioida ammattiliiton juristin tai tasa-arvovaltuutetun kanssa. Nykyisillä tiedoilla on peruste pyytää läpinäkyvää selvitystä, mutta ei vielä päätellä sukupuolisyrjintää."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5933,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 629,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

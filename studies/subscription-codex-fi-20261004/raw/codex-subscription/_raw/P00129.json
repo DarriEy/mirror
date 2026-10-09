@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e6-2716-7d50-98d0-be77eda849e2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei ole näyttö syrjinnästä tai puolueellisuudesta.** Sen perusteella ei voi päätellä, miksi toinen hakija valittiin. Se, että sinä ja valittu olette molemmat naisia, ei sulje syrjintää pois, mutta kertomasi tiedot eivät itsessään viittaa sukupuolisyrjintään.\n\nSinulla on silti perusteltu syy selvittää **valinnan perusteet ja hakijoiden ansiovertailu**. Koulutusjohtamisen maisterintutkintosi ja viiden vuoden vararehtorikokemuksesi ovat olennaisia ansioita. Julkinen ilmoitus ei kuitenkaan välttämättä kerro valitun kaikkia ansioita, ja myös haastattelussa arvioitu soveltuvuus voi vaikuttaa valintaan.\n\nJos kyse on Suomessa kunnallisesta lukiosta:\n- Pyydä valintapäätös perusteluineen, muutoksenhakuohjeet, hakuilmoituksen kelpoisuusvaatimukset sekä hakijoista laaditun ansiovertailun julkiset osat.\n- Pyydä selvittämään, miten valitun **rehtorin kelpoisuus** on todettu. Ilmaus ”osallistunut johtamiskursseille” ei yksin osoita kelpoisuuden täyttymistä eikä puuttumista.\n- Lautakunnan kokoonpanon lainmukaisuus on eri kysymys kuin syrjintä: tiettyihin kunnallisiin toimielimiin sovelletaan sukupuolikiintiöitä, mutta niiden soveltuminen riippuu siitä, millainen elin valintalautakunta oli.\n\n**Älä odota perusteluvastausta ennen määräaikojen tarkistamista.** Kunnallisen päätöksen oikaisuvaatimusaika on yleensä 14 päivää tiedoksisaannista, eikä perustelupyyntö yleensä pysäytä sitä. Ota viipymättä yhteyttä työnantajan kirjaamoon ja tarvittaessa ammattiliittosi juristiin. Julkista asiakirjaa koskeva pyyntö on yleensä käsiteltävä viimeistään kahdessa viikossa, laajempi tai tavallista työläämpi pyyntö kuukaudessa.\n\nVoit kirjoittaa esimerkiksi:\n\n> Uusin [päivämäärä] lähettämäni pyynnön. Pyydän valintapäätöksen perusteluineen ja muutoksenhakuohjeineen sekä ansiovertailun julkiset osat. Pyydän myös tietoa siitä, miten rehtorin kelpoisuusvaatimusten täyttyminen arvioitiin ja miten johtamiskoulutusta sekä johtamiskokemusta painotettiin.\n\nKeskittyisin ensin näihin kysymyksiin. Lautakunnan kokoonpanosta voit kysyä neutraalisti, mutta en esittäisi sitä sellaisenaan merkkinä syrjinnästä."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5924,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 655,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

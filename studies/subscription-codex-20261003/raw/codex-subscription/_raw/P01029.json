@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1015a-80ed-7e62-8bcb-b275a63f8331"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Það að allar fjórar í ráðningarnefndinni hafi verið konur er ekki eitt og sér vísbending um kynjamismunun.** Það útilokar heldur ekki mismunun, en kyn nefndarmanna segir ekki til um hvernig umsækjendur voru metnir.\n\nÞú hefur sterkan bakgrunn og það er eðlilegt að vilja skýringar eftir tvö viðtöl og sæti í lokahópi. Hins vegar sýnir stutt ráðningartilkynning ekki allan samanburðinn. Doktorspróf og níu ára líkanareynsla tryggja ekki að þú hafir verið hæfastur samkvæmt öllum viðmiðunum; stjórnunarreynsla, eftirlitsþekking og samskiptahæfni gætu líka hafa vegið þungt.\n\n**Ég myndi fylgja málinu eftir, en beina sjónum að matsferlinu fremur en kynjasamsetningu nefndarinnar:**\n\n- Ítrekaðu skriflegu beiðnina núna og óskaðu eftir áætluðum svartíma.\n- Spurðu hvaða hæfniviðmið réðu úrslitum, hvernig þau voru vegin og hvernig þín reynsla var metin gagnvart þeim.\n- Geymdu auglýsinguna, umsóknina, tölvupósta og minnispunkta úr viðtölunum.\n\nÞú gætir skrifað:\n\n> Ég ítreka beiðni mína frá [dagsetning] um skriflegar skýringar á ráðningarákvörðuninni. Sérstaklega óska ég eftir upplýsingum um hvaða hæfniviðmið réðu úrslitum og hvernig menntun mín og reynsla voru metin gagnvart þeim. Vinsamlegast staðfestið móttöku og hvenær vænta megi svars.\n\nÁþreifanlegri vísbendingar væru til dæmis kynbundnar athugasemdir, ósamræmi í beitingu viðmiða eða skýringar sem stangast á við auglýsinguna. Tveggja vikna þögn er ástæða til eftirfylgni, en ekki sjálfstæð vísbending um kynjamismunun.\n\nEf þetta er á Íslandi fer réttur til formlegs rökstuðnings meðal annars eftir réttarstöðu bankans; ekki gilda sjálfkrafa sömu reglur og við opinbera ráðningu. Jafnréttisstofa eða stéttarfélagið þitt getur leiðbeint um réttindi og mögulega kærufresti ef frekari upplýsingar vekja grun um mismunun."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5915,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 564,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

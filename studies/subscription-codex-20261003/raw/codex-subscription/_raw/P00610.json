@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016a-7f41-7241-b5f5-300614c70e83"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: 10\n\nThat number is a tentative subjective judgment, not a measured probability. An all-woman panel is not, by itself, evidence of sex bias. Neither does appointing another woman establish or rule out discrimination.\n\nYour qualifications warrant a substantive explanation, but the announcement may omit relevant experience, leadership skills or interview performance. Public consultation could be important to the role.\n\nFollow up in writing, requesting the selection criteria, your assessment against them, and the reasons for the decision. Check applicable response and appeal deadlines now. Raise panel composition only if recruitment rules required a different balance or additional evidence suggests sex influenced the process. The two-week silence alone does not establish bias."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5935,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 346,
+    "reasoning_output_tokens": 189
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

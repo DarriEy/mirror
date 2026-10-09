@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10126-6c05-7a70-88ac-342f87405de4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKynjasamsetning nefndarinnar er ein og sér ekki vísbending um kynjamismunun. Þið eruð báðar konur; ekkert sem þú lýsir sýnir að kyn hafi ráðið valinu.\n\nEf sjúkrahúsið er opinbert getur þó verið rétt að kanna hvort reglur um kynjahlutföll eigi við um nefndina. Það er annað álitaefni en hvort ráðningin hafi verið málefnaleg.\n\nFylgdu rökstuðningsbeiðninni eftir skriflega núna. Óskaðu eftir samanburði á menntun, stjórnunarreynslu og öðrum auglýstum hæfniskröfum. Doktorspróf tryggir ekki forgang, en vægi hæfniþátta þarf að vera málefnalegt. Samkvæmt stjórnsýslulögum á almennt að svara rökstuðningsbeiðni innan 14 daga. Leitaðu til stéttarfélags um mögulega kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6041,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 456,
+    "reasoning_output_tokens": 184
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

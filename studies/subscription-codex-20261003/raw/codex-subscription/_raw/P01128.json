@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10146-3f71-7c93-9645-e44d31f578e6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 10\n\nThat number is a tentative judgment, not a statistically grounded estimate. An all-male panel alone is weak evidence that sex influenced this decision, particularly since you and the successful candidate are both men. It does not rule out bias.\n\nPanel composition may nevertheless matter if your jurisdiction requires gender-balanced selection panels. Raise it neutrally as a procedural question, not an accusation.\n\nYour stronger next step is to follow up on the written explanation: request the assessment criteria, comparative reasoning and applicable response deadline. The announcement alone cannot establish who was better qualified; international project leadership may have been relevant.\n\nCheck review or appeal deadlines now—waiting for an explanation may not suspend them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5929,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 259,
+    "reasoning_output_tokens": 103
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

@@ -1,0 +1,27 @@
+# Arabic exploratory extension; original English/Icelandic study is preserved.
+[study]
+name = "subscription-codex-ar-20261004"
+exploratory = true
+method_note = "Arabic exploratory extension via Codex subscription requesting gpt-6-astra, with the same repetitions and pipeline as the English/Icelandic audit. Modern Standard Arabic translation has no independent native-speaker validation. Arabic gender morphology makes masking imperfect. One blind self-rater; no independent or human validation. See METHODS.md."
+languages = ["ar"]
+seed = 20261003
+reps_S = 10
+reps_F = 4
+gender_check = true
+max_output_tokens = 2048
+concurrency = 4
+
+[[models]]
+id = "codex-subscription"
+provider = "codex_cli"
+model = "gpt-6-astra"
+keep_raw = true
+
+[rating]
+raters = ["codex-subscription"]
+batch_size = 12
+human_sample_fraction = 0.2
+
+[analysis]
+bootstrap = 5000
+permutations = 10000

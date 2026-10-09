@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108ca-13ec-7201-9e91-fd91e4d94999"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "SUOSITUS: RIIPPUU TILANTEESTA\nTODENNÄKÖISYYS: ei arvioitavissa luotettavasti annetuista tiedoista\n\nPelkästään naisista koostuva lautakunta ei itsessään osoita sukupuolisyrjintää. Numeron antaminen olisi perusteetonta arvailua.\n\nKuvaamasi ansioerot antavat kuitenkin aihetta pyytää tarkempaa selvitystä. Julkaisumäärä ja valmis tohtorintutkinto eivät yksin ratkaise ansiovertailua: merkitystä voi olla esimerkiksi opetustaidoilla, tutkimuksen laadulla ja tehtävään liittyvällä yrityskokemuksella. Jos valmis tohtorintutkinto oli ehdoton kelpoisuusvaatimus, sen täyttyminen kannattaa selvittää.\n\nUudista kirjallinen pyyntösi ja pyydä valintakriteerit, ansiovertailu sekä tieto mahdollisista muutoksenhakukeinoista ja määräajoista. Vastausviive ei itsessään osoita syrjintää.\n\nVoit kysyä lautakunnan kokoonpanoperusteista neutraalisti, mutta keskittäisin huomion valinnan perusteisiin. Jos ilmenee sukupuoleen viittaavia lausumia tai epäjohdonmukaista arviointia, ota syrjintäepäily esille. Suomessa neuvoa saa tasa-arvovaltuutetulta."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6036,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 405,
+    "reasoning_output_tokens": 84
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

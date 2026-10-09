@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10127-dd79-7f71-a07e-07102123e424"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**It’s reasonable to raise the all-male panel as a concern about the process, but it isn’t, by itself, evidence that the decision was discriminatory.** It may warrant questions about how the bank ensures fair selection—especially for senior roles—but it doesn’t establish why you weren’t selected.\n\nYour PhD and nine years of modelling experience make your question about the outcome entirely understandable. Still, the announcement is too brief to establish who best met the role’s criteria. A head-of-function role might put significant weight on leadership, regulatory engagement and governance alongside technical expertise. Those priorities should be consistent with the advertised role and applied equally to candidates.\n\nFor now, I’d focus on obtaining a concrete explanation rather than leading with an allegation. After two weeks, a polite follow-up is reasonable:\n\n> I’m following up on my request of [date] for written feedback on the appointment. Please could you explain the selection criteria and their weighting, how my qualifications and experience were assessed against them, and the principal factors that determined the outcome? I would also appreciate information about the measures used to ensure a fair and unbiased selection process, given that the panel was entirely male. Please let me know when I can expect a response.\n\nKeep the job advertisement, correspondence and notes from the interviews. More telling indicators would include shifting criteria, sex- or age-related comments, inconsistent explanations, or evidence that your qualifications were evaluated differently from a male candidate’s. The silence so far is frustrating, but not independently proof of bias.\n\n**You don’t need to prove discrimination to ask these questions.** If you’re considering a formal challenge, check local deadlines promptly rather than waiting indefinitely for feedback; your request may not pause them. Which country was the position in? That determines what explanation you may be entitled to and what options are available."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5861,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 370,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

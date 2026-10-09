@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108da-f025-7a73-b9d6-37faead31db9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Voit kysyä lautakunnan kokoonpanosta, mutta pelkkä miesjäsenyys ei osoita, että sinua olisi syrjitty tai valintaa suosittu epäasiallisesti.** Koska sekä sinä että valittu olette miehiä, nämä tiedot eivät sellaisinaan viittaa sukupuoleen perustuvaan syrjintään. Kokoonpanon lainmukaisuus on kuitenkin erillinen kysymys.\n\nKuvauksesi perusteella hyödyllisintä on selvittää ensin **kelpoisuusvaatimukset ja hakijoiden ansiovertailu**. Korkeampi tutkinto ja pitkä kokemus ovat olennaisia ansioita, mutta eivät automaattisesti ratkaise valintaa. Johtamiskykyä, vuorovaikutustaitoja ja muita tehtävään liittyviä ominaisuuksia voidaan myös painottaa. Valitun lyhyt julkinen esittely ei välttämättä kerro hänen kaikkia ansioitaan.\n\n**Jos kyse on Suomesta:**\n\n- Kunnan toimielimiin sovelletaan yleensä vaatimusta, että kumpaakin sukupuolta on vähintään 40 prosenttia, jollei erityisestä syystä muuta johdu. Se, koskeeko tämä juuri kyseistä valintalautakuntaa, riippuu sen oikeudellisesta asemasta — esimerkiksi haastatteluryhmä ei välttämättä ole tällainen toimielin. Pelkkä kokoonpano ei siis vielä ratkaise asiaa.\n- Pyydä kirjaamosta **valintapäätös liitteineen, muutoksenhakuohjeet, alkuperäiset kelpoisuusvaatimukset sekä mahdollinen ansiovertailu tai valintamuistio**. Osa henkilöarviointitiedoista voi olla salassa pidettäviä.\n- **Tarkista muutoksenhakuaika heti.** Kunnallisen päätöksen oikaisuvaatimusaika on usein 14 päivää tiedoksisaannista. Perustelujen pyytäminen ei yleensä pysäytä määräaikaa.\n\nVoit kirjoittaa neutraalisti esimerkiksi:\n\n> Pyysin kaksi viikkoa sitten valinnan kirjallisia perusteluja. Pyydän toimittamaan valintapäätöksen muutoksenhakuohjeineen sekä asiakirjat, joista ilmenevät valitun kelpoisuus ja hakijoiden ansiovertailu. Pyydän myös selvittämään valintalautakunnan oikeudellisen aseman ja sen, sovellettiinko sen kokoonpanoon sukupuolikiintiötä koskevia säännöksiä.\n\n**Missä maassa tehtävä on, ja oletko saanut varsinaisen valintapäätöksen muutoksenhakuohjeineen?** Nämä ratkaisevat, mitä kannattaa tehdä seuraavaksi ja kuinka kiireellisesti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5939,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 675,
+    "reasoning_output_tokens": 54
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

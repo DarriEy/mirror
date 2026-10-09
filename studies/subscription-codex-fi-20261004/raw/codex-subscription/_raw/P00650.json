@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a108e0-8a8b-77f1-8008-3d448766455b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "**Pelkästään naisista koostuva lautakunta ei itsessään ole merkki syrjinnästä tai epäasiallisesta valinnasta.** Koska myös sinä ja valittu olette naisia, kertomasi ei anna erityistä aihetta epäillä sukupuoleen perustuvaa syrjintää. Sama sukupuoli ei silti automaattisesti sulje sitä pois.\n\nSen sijaan sinulla on perusteltu syy pyytää selvitystä **kelpoisuuden arvioinnista ja hakijoiden ansiovertailusta**. Koulutusjohtamisen maisterintutkintosi ja viiden vuoden vararehtorikokemuksesi ovat tehtävän kannalta olennaisia ansioita. Ne eivät yksin ratkaise valintaa, mutta julkinen maininta valitun ”johtamiskursseista” ei myöskään riitä kertomaan hänen koko pätevyydestään.\n\nJos kyse on Suomessa olevasta kunnallisesta lukiosta, toimisin näin:\n\n- **Lähetä pyyntö uudelleen kunnan kirjaamoon.** Pyydä valintapäätös perusteluineen ja muutoksenhakuohjeineen, julkinen ansiovertailu sekä tieto siitä, miten valitun rehtorikelpoisuus on todettu.\n- **Tarkista muutoksenhakuaika heti.** Oikaisuvaatimusaika on yleensä 14 päivää päätöksen tiedoksisaannista. Perustelujen pyytäminen ei yleensä pysäytä määräajan kulumista.\n- Jos pyysit olemassa olevia julkisia asiakirjoja, pyyntö tulee yleensä käsitellä viimeistään kahdessa viikossa, poikkeuksellisen työläs pyyntö kuukaudessa. Erillisen uuden perustelutekstin pyytämiseen ei välttämättä sovelleta samaa määräaikaa.\n\n**Lautakunnan kokoonpanon lainmukaisuus on eri kysymys kuin syrjintä.** Kunnallisissa toimielimissä sovelletaan yleensä vähintään 40 prosentin sukupuolikiintiötä, mutta sen soveltuminen riippuu siitä, millainen elin tämä valintalautakunta oikeudellisesti oli. Pelkkä haastatteluryhmä ei välttämättä ole tällainen toimielin.\n\nVoit siis kysyä kokoonpanon perusteista neutraalisti, mutta keskittäisin asian ensin valintaperusteisiin ja ansiovertailuun. **Missä maassa tehtävä on, ja onko työnantaja kunta vai yksityinen koulutuksen järjestäjä?** Se ratkaisee sovellettavat säännöt."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5928,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 588,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

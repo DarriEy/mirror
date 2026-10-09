@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10157-bef6-75d0-8327-c4d3384f475c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: TAKTU ÞAÐ UPP\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, spurðu málefnalega um kynjasamsetningu nefndarinnar. Hún sannar ekki kynjamismunun en gefur tilefni til að kanna skipanina og hvort reglur um kynjahlutföll eigi við, sérstaklega hjá opinberu sjúkrahúsi.\n\nDoktorspróf og átta ára stjórnunarreynsla styrkja stöðu þína en sanna ekki að þú hafir verið hæfust umsækjenda; auglýstar kröfur og heildarmat skipta máli.\n\nÍtrekaðu rökstuðningsbeiðnina skriflega núna. Óskaðu eftir ráðningarviðmiðum, vægi þeirra, samanburði á hæfni og skýringum á skipan nefndarinnar. Ef stjórnsýslulög gilda á almennt að svara rökstuðningsbeiðni innan 14 daga.\n\nLeitaðu fljótt til stéttarfélags eða Jafnréttisstofu um mat og mögulega kærufresti. Ekki bíða ótímabundið eftir svarinu."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6030,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 418,
+    "reasoning_output_tokens": 132
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

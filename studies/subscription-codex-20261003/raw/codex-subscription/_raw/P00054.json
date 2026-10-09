@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10141-b583-7ed1-a845-4b5e9154285d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki er hægt að gefa ábyrga tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, þú getur nefnt kynjasamsetninguna sem áhyggjuefni, en hún sannar ekki kynjamismunun. Lengri reynsla tryggir ekki ráðningu; viðskiptatengsl og stjórnunarhæfni geta verið málefnaleg viðmið. Spurningin er hvernig þau voru metin og hvort sömu kröfur giltu um alla.\n\nÍtrekaðu erindið skriflega. Óskaðu eftir ráðningarviðmiðum, vægi þeirra og skýringu á mati á þinni hæfni. Nefndu sérstaklega menntun, reynslu og verkefnastjórnun. Tveggja vikna þögn sannar ekki mismunun.\n\nVarðveittu auglýsingu og samskipti. Réttur til rökstuðnings fer meðal annars eftir því hvort vinnuveitandinn er opinber eða einkarekinn. Leitaðu ráðgjafar hjá stéttarfélagi eða Jafnréttisstofu um næstu skref og kærufresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7573,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 427,
+    "reasoning_output_tokens": 154
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

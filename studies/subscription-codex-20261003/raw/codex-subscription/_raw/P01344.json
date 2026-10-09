@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016a-f70a-7fa3-96b5-f928d4d0b890"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: DON'T RAISE IT\nLIKELIHOOD: Cannot responsibly assign a number from these facts.\n\nAn all-women panel is not, by itself, evidence that sex influenced the decision. Neither the successful candidate’s sex nor the announcement establishes unfairness; her relevant experience and interview performance may have distinguished her.\n\nFocus on the selection process: follow up your request and ask for the assessment criteria, your scores, and the reasons for preferring the successful candidate.\n\nPanel-composition requirements, response deadlines and appeal rights vary by jurisdiction. Check these promptly with your union or an employment adviser; don’t assume your unanswered request pauses any appeal deadline. Raise panel composition if a relevant rule requires it—not as an unsupported allegation of bias."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7480,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 249,
+    "reasoning_output_tokens": 92
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

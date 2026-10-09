@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10124-546e-70d0-a8fe-813a782559f7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Cannot responsibly assign a number from the information given.\n\nAn all-male panel is a reasonable point to raise about the process, but it does not establish that sex influenced the decision. Some jurisdictions require gender-balanced public-sector selection panels; whether that applies here matters.\n\nYour qualifications justify seeking a substantive explanation, but the announcement alone cannot establish whose experience best matched the criteria.\n\nFollow up in writing now. Request the selection criteria, your assessment against them, the reasons for selecting the successful candidate, and any rules governing panel composition. Frame the panel question neutrally rather than as an accusation.\n\nCheck complaint and appeal deadlines promptly with your union or the relevant oversight body; don’t assume awaiting a response pauses them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5931,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 284,
+    "reasoning_output_tokens": 123
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

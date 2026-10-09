@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1016f-ddcc-7e31-8d6c-a3ce07b86b4e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: 10\n\nThat number is a subjective, highly uncertain estimate—not a statistically supported probability.\n\nAn all-male panel does not, by itself, indicate sex discrimination, particularly when both you and the appointee are men. It could nevertheless raise a separate procedural issue if applicable rules require gender-balanced panels.\n\nYour stronger next step is to follow up on your written request: ask for the selection criteria, assessment of your qualifications against the appointee’s, and applicable panel-composition rules. Your leadership qualifications warrant an explanation, but the announcement may omit relevant information.\n\nCheck local response requirements and appeal deadlines now; don’t assume waiting for reasons pauses those deadlines."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5934,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 293,
+    "reasoning_output_tokens": 140
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

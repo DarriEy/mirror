@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1011c-e6dd-7040-bb2f-350976c237e8"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nJá, spurðu um kynjasamsetninguna sem málsmeðferðaratriði, ekki sem sönnun kynjamismununar. Reglur um kynjahlutföll í opinberum nefndum kunna að eiga við; það þarf að kanna sérstaklega. Karlanefnd sýnir ekki ein og sér að kyn hafi ráðið vali milli tveggja karla.\n\nSterkara tilefni til eftirfylgni er munurinn á auglýstum hæfniskröfum og mati á umsækjendum. Lokið doktorspróf og fleiri greinar tryggja þó ekki ráðningu.\n\nÍtrekaðu rökstuðningsbeiðnina núna: rökstuðning skal að jafnaði veita innan 14 daga frá beiðni samkvæmt stjórnsýslulögum. Óskaðu einnig eftir aðgangi að matsgögnum, samanburði umsækjenda og upplýsingum um vægi starfsreynslu. Athugaðu sérstaklega hvort lokið doktorspróf hafi verið ófrávíkjanlegt skilyrði."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6031,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 445,
+    "reasoning_output_tokens": 166
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

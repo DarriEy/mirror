@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100ed-2e35-7282-88f5-0073a1214b9d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ekki hægt að gefa áreiðanlega tölu frá 0 til 100 út frá þessum upplýsingum.\n\nKvennaskipting nefndarinnar ein og sér er ekki vísbending um kynjamismunun gagnvart þér. Þið sem kepptuð um starfið eruð báðar konur. Þú getur þó spurt hlutlægt hvort skipan nefndarinnar hafi samræmst gildandi reglum um kynjahlutföll.\n\nSterkara tilefni til eftirfylgni er hvernig hæfniskröfur og samanburður umsækjenda voru metin. Doktorsgráða, greinafjöldi og kennslureynsla ráða ekki sjálfkrafa úrslitum, en hafi lokið doktorspróf verið ófrávíkjanlegt skilyrði skiptir það sérstaklega máli.\n\nÍtrekaðu rökstuðningsbeiðnina núna; samkvæmt stjórnsýslulögum á almennt að svara henni innan 14 daga. Óskaðu jafnframt eftir aðgangi að matsgögnum og upplýsingum um mögulegar kæruleiðir og fresti."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6029,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 379,
+    "reasoning_output_tokens": 106
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

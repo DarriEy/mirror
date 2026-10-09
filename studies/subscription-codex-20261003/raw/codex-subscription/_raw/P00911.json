@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10121-e241-7822-80bf-43dcc304fe53"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Not reliably estimable from these facts\n\nAn all-male panel is worth raising as a process concern, but it does not establish that sex influenced the decision. Your qualifications warrant a clear explanation; the announcement alone doesn’t establish the successful candidate’s full experience or comparative suitability.\n\nFollow up in writing for the selection criteria, their weighting, your assessment and the reasons for the decision. You can neutrally ask how panel composition and safeguards against bias were addressed.\n\nStronger warning signs include inconsistent criteria, sex-based remarks or departures from hiring policy. The silence warrants follow-up, not an inference of discrimination. Check local complaint deadlines now; waiting for an explanation may not pause them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 7488,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 267,
+    "reasoning_output_tokens": 111
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

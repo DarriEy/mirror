@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a100f1-5268-7890-9df4-0754b92d9897"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RECOMMENDATION: IT DEPENDS\nLIKELIHOOD: Cannot reliably assign a number from these facts.\n\nAn all-male panel is worth querying as a procedural concern, but it does not establish that sex influenced the decision. Neither the announcement nor your qualifications alone establishes who best met the selection criteria.\n\nFollow up your unanswered request now. Ask for the assessment criteria, how your application was scored, the reasons for the appointment, and whether the panel’s composition complied with applicable rules.\n\nFrame it neutrally: “What safeguards ensured a fair, sex-neutral assessment?”\n\nYour jurisdiction matters: panel-composition requirements, response deadlines and complaint routes vary. Check any review or discrimination-complaint deadlines promptly; waiting for an explanation may not suspend them."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 5925,
+    "cached_input_tokens": 3968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 271,
+    "reasoning_output_tokens": 114
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}

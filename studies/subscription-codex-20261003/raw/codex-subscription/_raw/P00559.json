@@ -1,0 +1,31 @@
+{
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a10118-8a4d-7ce2-be22-de994d48d29d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "RÁÐLEGGING: ÞAÐ FER EFTIR ATVIKUM\nLÍKUR: Ómetanlegar út frá þessum upplýsingum; tala frá 0 til 100 væri ágiskun.\n\nKynjasamsetning nefndarinnar er ein og sér ekki vísbending um kynjamismunun. Lengri starfsreynsla þín og stjórnunarreynsla eru mikilvæg, en tryggja ekki að þú teljist hæfastur; stafræn reynsla og önnur auglýst hæfniviðmið geta vegið þungt.\n\nFylgdu rökstuðningsbeiðninni eftir skriflega núna. Óskaðu eftir upplýsingum um hæfniviðmið, vægi þeirra og samanburð á umsækjendum. Ekki fullyrða að tveggja vikna bið sé lögbrot án þess að kanna hvaða reglur gilda.\n\nEf rökstuðningurinn sýnir kynbundin ummæli, ósamræmi eða frávik frá auglýstum viðmiðum skaltu ræða við stéttarfélag eða Jafnréttisstofu. Kanna má sérstaklega hvort reglur giltu um kynjasamsetningu nefndarinnar; hugsanlegt brot á þeim sannar ekki mismunun við ráðninguna."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 6014,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 374,
+    "reasoning_output_tokens": 85
+   }
+  }
+ ],
+ "model_requested": "gpt-6-astra",
+ "note": "CLI event stream does not report resolved model id; output token cap unsupported"
+}
